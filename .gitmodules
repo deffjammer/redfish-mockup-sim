@@ -1,0 +1,6 @@
+[submodule "Redfish-Mockup-Server"]
+	path = Redfish-Mockup-Server
+	url = https://github.com/DMTF/Redfish-Mockup-Server.git
+[submodule "Redfish-Mockup-Creator"]
+	path = Redfish-Mockup-Creator
+	url = https://github.com/DMTF/Redfish-Mockup-Creator.git
