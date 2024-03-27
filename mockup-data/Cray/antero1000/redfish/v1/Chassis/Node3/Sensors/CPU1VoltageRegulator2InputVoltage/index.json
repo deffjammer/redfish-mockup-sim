@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1698350680\"",
+    "@odata.id": "/redfish/v1/Chassis/Node3/Sensors/CPU1VoltageRegulator2InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU1VoltageRegulator2InputVoltage",
+    "Name": "CPU1 VDDCR_VDDIO",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U4002"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

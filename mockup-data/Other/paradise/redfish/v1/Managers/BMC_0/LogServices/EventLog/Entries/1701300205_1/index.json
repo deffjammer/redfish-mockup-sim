@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1701300205_1",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2023-11-29T23:23:25+00:00",
+    "EntryType": "Event",
+    "EventId": "3332960a-19d3-4b38-8fbe-ea01ae552696",
+    "Id": "1701300205_1",
+    "Message": "The requested resource of type #Manager.v1_11_0.Manager named 'Self' was not found.",
+    "MessageArgs": [
+        "#Manager.v1_11_0.Manager",
+        "Self"
+    ],
+    "MessageId": "Base.1.11.ResourceNotFound",
+    "Name": "Log Entry 1701300205_1",
+    "Severity": "Critical"
+}

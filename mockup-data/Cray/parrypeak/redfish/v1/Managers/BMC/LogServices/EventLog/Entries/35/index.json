@@ -1,0 +1,24 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/35",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2000-01-04T11:38:51+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2000-01-04T11:38:51+00:00",
+    "Id": "35",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2VoltageRegulator8Temperature"
+        }
+    },
+    "Message": "Sensor 'VDD_12V0_A2 Temperature' reading of 78 (Cel) is above the 78 upper caution threshold.",
+    "MessageArgs": [
+        "VDD_12V0_A2 Temperature",
+        "78",
+        "Cel",
+        "78"
+    ],
+    "MessageId": "SensorEvent.ReadingAboveUpperCautionThreshold",
+    "Name": "Log entry 35",
+    "Severity": "Warning"
+}

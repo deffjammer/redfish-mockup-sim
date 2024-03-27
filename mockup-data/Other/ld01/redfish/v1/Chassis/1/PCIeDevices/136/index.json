@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/136",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Id": "136",
+    "FirmwareVersion": "3.53",
+    "Manufacturer": "",
+    "Model": "869103-002",
+    "Name": "HPE Smart Array P408i-a SR Gen10",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/136/PCIeFunctions"
+    },
+    "PartNumber": "869103-002",
+    "SKU": "871040-002",
+    "SerialNumber": "PWXLK0CRHER1JK ",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator1OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator3VoltageRegulator1OutputCurrent",
+    "Name": "VDD_1V1_E32",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14067"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 20,
+    "ReadingTime": "2000-01-09T09:59:01.222936960Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 48
+        }
+    }
+}

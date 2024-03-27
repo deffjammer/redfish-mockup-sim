@@ -1,0 +1,42 @@
+{
+    "@odata.etag": "W/\"1646685786\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1",
+    "@odata.type": "#Chassis.v1_5_1.Chassis",
+    "AssetTag": "",
+    "ChassisType": "Blade",
+    "Id": "Node1",
+    "Manufacturer": "HPE",
+    "Name": "Node1",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/Node1/NetworkAdapters"
+    },
+    "Oem": {
+        "CrayVoltageMargins": {
+            "@odata.id": "/redfish/v1/Chassis/Node1/Oem/CrayVoltageMargins"
+        }
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/Node1/Power"
+    },
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/Node1/Sensors"
+    },
+    "Status": {
+        "Conditions": [
+            {
+                "LogEntry": {
+                    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/2"
+                },
+                "Message": "Multiple sensors have been found with the same id/definition.",
+                "MessageId": "HPEFirmwareValidation.1.0.RedefinedSensorDefinitionDetected",
+                "Severity": "Warning",
+                "Timestamp": "2022-03-07T20:43:25+00:00"
+            }
+        ],
+        "Health": "Warning",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/Node1/Thermal"
+    }
+}

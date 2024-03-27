@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_PWR_IN",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "PSU1_PWR_IN",
+    "Name": "PSU1 PWR IN",
+    "Reading": 720.0,
+    "ReadingRangeMax": 3000.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

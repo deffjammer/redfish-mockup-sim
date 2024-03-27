@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Controls/SetCDUTemp",
+    "@odata.type": "#Control.v1_0_0.Control",
+    "ControlMode": "Automatic",
+    "ControlType": "Temperature",
+    "Id": "SetCDUTemp",
+    "Name": "CDU Temperature Set Point",
+    "PhysicalContext": "LiquidOutlet",
+    "Sensor": {
+        "DataSourceUri": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet1SecondaryTemperature",
+        "Reading": 21.9
+    },
+    "SetPoint": 22,
+    "SetPointUnits": "Cel",
+    "SettingRangeMax": 40,
+    "SettingRangeMin": 15,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

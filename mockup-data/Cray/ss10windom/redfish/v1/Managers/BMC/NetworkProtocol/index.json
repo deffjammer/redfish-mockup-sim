@@ -1,0 +1,46 @@
+{
+    "@odata.etag": "W/\"946641780\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol",
+    "@odata.type": "#ManagerNetworkProtocol.v1_2_0.ManagerNetworkProtocol",
+    "Description": "Network Protocol Details",
+    "Id": "NetworkProtocol",
+    "NTP": {
+        "NTPServers": [
+            "10.254.1.14"
+        ],
+        "Port": 123,
+        "ProtocolEnabled": true
+    },
+    "Name": "Manager Network Protocol",
+    "Oem": {
+        "HTTPS": {
+            "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS"
+        },
+        "Resolv": {
+            "NameServers": [],
+            "ProtocolEnabled": false,
+            "SearchList": []
+        },
+        "SSHAdmin": {
+            "AuthorizedKeys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQClKrELVyc/PSA+V+Dx1i+T/MpiJBBMKXy+8+d+K3vKD/smShtUx9U3+fHJSbz3WxNsHtiRNNMeDdGhD0nMwiL4mKr//PME3yAbbST9cTZlqXsusAL/YC9kzULYNd/jKLzQvGrqSbL3tblowr3VP7MnHiGt+U+SFoGAonws1HnFY6/sDF5K6QZCoSAyuCgWmaNXMH4Ck767NrgeQObGpCaUf5SxMO1lcqkKqOuGQ44SNw/WnEhZWqnZyIIetyO1gWIPPXT9SubZFrAQ0WW/bkI9zDimtrdWHUcgRYL6QB8Z97iGPxw+wLURZVTA8TqJ+5Swv3CJpApoaXqdnXkS2H5Rs6DrfrNEnNPI70Fl2fGtM0uD/vggU719HHFLVbi99e82pC148JwGU/pWxvt3rXAHcCYQcvXN4WNSnYtofPEoGh/CZ0HIMg9+RWneNr+oCvCUv2t6G1YeCHptB/Lt8OKoVl+wxB9VhMJdfsXp0BYEQeP2X6qCP20TTmijZMD1vyc= root@buroak-adm\n"
+        },
+        "SSHConsole": {
+            "AuthorizedKeys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQClKrELVyc/PSA+V+Dx1i+T/MpiJBBMKXy+8+d+K3vKD/smShtUx9U3+fHJSbz3WxNsHtiRNNMeDdGhD0nMwiL4mKr//PME3yAbbST9cTZlqXsusAL/YC9kzULYNd/jKLzQvGrqSbL3tblowr3VP7MnHiGt+U+SFoGAonws1HnFY6/sDF5K6QZCoSAyuCgWmaNXMH4Ck767NrgeQObGpCaUf5SxMO1lcqkKqOuGQ44SNw/WnEhZWqnZyIIetyO1gWIPPXT9SubZFrAQ0WW/bkI9zDimtrdWHUcgRYL6QB8Z97iGPxw+wLURZVTA8TqJ+5Swv3CJpApoaXqdnXkS2H5Rs6DrfrNEnNPI70Fl2fGtM0uD/vggU719HHFLVbi99e82pC148JwGU/pWxvt3rXAHcCYQcvXN4WNSnYtofPEoGh/CZ0HIMg9+RWneNr+oCvCUv2t6G1YeCHptB/Lt8OKoVl+wxB9VhMJdfsXp0BYEQeP2X6qCP20TTmijZMD1vyc= root@buroak-adm\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDtoiRTwDqOX3fvavUb/KwK9kXAkHP6serCZBLzOTYunA8pxftLSqYutbGIJ9q4OXroYD2TmtP0r1r7uU6jPsmgoiYCaQ4wZt1502Maqmsqe/OApv1sLXHqcSLsCo5oAO1lq9OulDqm9uwQUWByxrDPCFt0cZj1ySF48Hl/8igztdgzE/v8yL8xwdDKkVZNUIeocNjzJy6uMdZcC23xoKuKyipLPVMsNXFA+VM9Q4lwgJ/MpTKlaEZswgx92bdfEF9aJwlihTjLaHwOo727c2Wn55Qo4ii5Ie+HuwCfPCePBmQjyAn9eVrdijO/CJooKO5ijldytUHUuy3LKw9xPRH7 smc zone: leader node\n"
+        },
+        "Syslog": {
+            "Port": 514,
+            "ProtocolEnabled": true,
+            "SyslogServers": [
+                "172.23.0.1"
+            ],
+            "Transport": "udp"
+        }
+    },
+    "SSH": {
+        "Port": 22,
+        "ProtocolEnabled": true
+    },
+    "Status": {
+        "State": "Enabled"
+    }
+}

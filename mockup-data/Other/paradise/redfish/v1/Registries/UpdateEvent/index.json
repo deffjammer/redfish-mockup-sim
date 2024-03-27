@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Registries/UpdateEvent",
+    "@odata.type": "#MessageRegistryFile.v1_1_3.MessageRegistryFile",
+    "Description": "DMTF UpdateEvent Message Registry File Location",
+    "Id": "UpdateEvent",
+    "Languages": [
+        "en"
+    ],
+    "Languages@odata.count": 1,
+    "Location": [
+        {
+            "Language": "en",
+            "PublicationUri": "https://redfish.dmtf.org/registries/Update.1.0.0.json",
+            "Uri": "/redfish/v1/Registries/UpdateEvent/UpdateEvent"
+        }
+    ],
+    "Location@odata.count": 1,
+    "Name": "UpdateEvent Message Registry File",
+    "Registry": "Update.1.0.0"
+}

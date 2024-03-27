@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/44",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-07-01T14:10:02+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-07-01T14:10:02+00:00",
+    "Id": "44",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "All hardware reported faults have been cleared for CPU0 VDR EFGH Power.",
+    "MessageArgs": [
+        "CPU0 VDR EFGH Power"
+    ],
+    "MessageId": "CrayAlerts.HardwareFaultsCleared",
+    "Name": "Log entry 44",
+    "Severity": "OK"
+}

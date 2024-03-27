@@ -1,0 +1,62 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
+    "@odata.etag": "W/\"117397FD\"",
+    "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+    "@odata.type": "#HpeiLOLicense.v2_3_0.HpeiLOLicense",
+    "Id": "1",
+    "Confirmation": {
+        "Code": "",
+        "Message": "",
+        "Service": "reserved for liconf URI",
+        "Status": false
+    },
+    "ConfirmationRequest": {
+        "EON": {
+            "License": "iLO Standard",
+            "LicenseKey": "",
+            "Quantity": 1,
+            "State": "unlicensed"
+        },
+        "Signer": "iLO 5",
+        "System": {
+            "ChipId": "2A4801C4002E8B2E",
+            "Product": "ProLiant XL225n Gen10 Plus",
+            "SerialNumber": "T001PP0165"
+        }
+    },
+    "Description": "iLO License View",
+    "License": "iLO Standard",
+    "LicenseClass": null,
+    "LicenseErr": "",
+    "LicenseExpire": "",
+    "LicenseFeatures": {
+        "DirectoryAuth": false,
+        "DowngradePolicy": false,
+        "EmailAlert": false,
+        "FWScan": false,
+        "Federation": false,
+        "Jitter": false,
+        "KD": true,
+        "KeyMgr": false,
+        "MURC": false,
+        "ODIM": false,
+        "PowerReg": false,
+        "RC": false,
+        "Recovery": false,
+        "RemoteSyslog": false,
+        "Scrncap": false,
+        "SecureErase": false,
+        "SmartCard": false,
+        "SuiteB": false,
+        "TextCons": false,
+        "VM": false,
+        "VMScript": false,
+        "VSPLogging": false
+    },
+    "LicenseInstallDate": "",
+    "LicenseKey": "",
+    "LicenseSeats": 0,
+    "LicenseTier": "STD",
+    "LicenseType": "Unlicensed",
+    "Name": "iLO License"
+}

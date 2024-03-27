@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1701363701",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2023-11-30T17:01:41+00:00",
+    "EntryType": "Event",
+    "EventId": "280e48a2-4e48-4260-a75a-777a7656c616",
+    "Id": "1701363701",
+    "Message": "The requested resource of type #Manager.v1_11_0.Manager named '1' was not found.",
+    "MessageArgs": [
+        "#Manager.v1_11_0.Manager",
+        "1"
+    ],
+    "MessageId": "Base.1.11.ResourceNotFound",
+    "Name": "Log Entry 1701363701",
+    "Severity": "Critical"
+}

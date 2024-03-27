@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor2Rotational",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemMotor2Rotational",
+    "Name": "VFD2 Pump Speed",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Motor",
+    "Reading": 3481,
+    "ReadingTime": "2022-03-11T21:43:42.012304569Z",
+    "ReadingType": "Rotational",
+    "ReadingUnits": "RPM"
+}

@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemRoom1DewPointTemperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "DewPoint",
+    "Id": "CoolingSubsystemRoom1DewPointTemperature",
+    "Name": "Room Dew Point Temperature 1",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Room",
+    "Reading": 4.7,
+    "ReadingTime": "2022-03-11T21:43:41.247430996Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1647264578\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU0VoltageRegulator5InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator5InputVoltage",
+    "Name": "CPU0 VCCFA S0",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3016"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 11.875,
+    "ReadingTime": "2022-03-14T13:29:40.098726257Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

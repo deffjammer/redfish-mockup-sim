@@ -1,0 +1,25 @@
+{
+    "@odata.etag": "W/\"946642670\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Memory/DIMM0",
+    "@odata.type": "#Memory.v1_5_0.Memory",
+    "BaseModuleType": "Other",
+    "BusWidthBits": 1152,
+    "CapacityMiB": 131072,
+    "DataWidthBits": 1024,
+    "ErrorCorrection": "Multi-bit ECC",
+    "Id": "DIMM0",
+    "Manufacturer": "Unknown",
+    "MemoryDeviceType": "Other",
+    "MemoryLocation": {
+        "Slot": 0,
+        "Socket": 0
+    },
+    "MemoryType": "DRAM",
+    "Name": "DIMM 0",
+    "OperatingSpeedMhz": 2800,
+    "RankCount": 1,
+    "SerialNumber": "FC8B55EC",
+    "Status": {
+        "State": "Absent"
+    }
+}

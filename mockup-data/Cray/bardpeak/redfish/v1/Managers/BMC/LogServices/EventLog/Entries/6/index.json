@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1698352518\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/6",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-06-04T23:20:28+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-06-04T23:20:28+00:00",
+    "Id": "6",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The CPU0 VDR EFGH Power resource has detected a critical fault indicating that it is far above normal operating conditions.",
+    "MessageArgs": [
+        "above",
+        "CPU0 VDR EFGH Power"
+    ],
+    "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+    "Name": "Log entry 6",
+    "Severity": "Critical"
+}

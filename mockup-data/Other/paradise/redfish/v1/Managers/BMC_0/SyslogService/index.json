@@ -1,0 +1,43 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/SyslogService",
+    "@odata.type": "#SyslogService.v1_0_0.SyslogService",
+    "Id": "Syslog Service",
+    "Name": "Syslog Service",
+    "ServiceEnabled": true,
+    "Status": {
+        "State": "Enabled"
+    },
+    "SyslogServers": [
+        {
+            "Address": "127.0.0.1",
+            "Enabled": true,
+            "FilterFacilities": [
+                "User"
+            ],
+            "FilterSeverity": "Error",
+            "Port": "514",
+            "Protocol": "UDP"
+        },
+        {
+            "Address": "127.0.0.1",
+            "Enabled": true,
+            "FilterFacilities": [
+                "Local1"
+            ],
+            "FilterSeverity": "Debug",
+            "Port": "618",
+            "Protocol": "TCP"
+        },
+        {
+            "Address": "127.0.0.1",
+            "Enabled": true,
+            "FilterFacilities": [
+                "Local0",
+                "User"
+            ],
+            "FilterSeverity": "Alert",
+            "Port": "6514",
+            "Protocol": "TLS"
+        }
+    ]
+}

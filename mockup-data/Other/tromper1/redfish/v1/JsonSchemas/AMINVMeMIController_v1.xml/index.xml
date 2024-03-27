@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish Schema:  AMINVMeMIController  v1.0.0                                              -->
+<!--#                                                                                      -->
+<!--# Copyright American Megatrends, Inc. (AMI).                                           -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+    <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+  </edmx:Reference>
+  <edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="AMINVMeMIController">
+      <Annotation Term="Redfish.OwningEntity" String="AMI"/>
+
+      <ComplexType Name="AMINVMeMIController" Abstract="true">
+        <Annotation Term="OData.Description" String="This schemas defines the properties and actions which is used in the NVMe."/>
+        <Annotation Term="OData.LongDescription" String="This schemas defines the properties and actions which is used in the NVMe."/>
+        <Annotation Term="Capabilities.InsertRestrictions">
+          <Record>
+            <PropertyValue Property="Insertable" Bool="false"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.UpdateRestrictions">
+          <Record>
+            <PropertyValue Property="Updatable" Bool="true"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.DeleteRestrictions">
+          <Record>
+            <PropertyValue Property="Deletable" Bool="false"/>
+          </Record>
+        </Annotation>
+      </ComplexType>
+      <Action Name="ClearFlags" IsBound="true">
+        <Parameter Name="AMINVMeMIController" Type="AMINVMeMIController.v1_0_0.Actions"/>
+        <Parameter Name="ClearAll" Type="Edm.Boolean">
+          <Annotation Term="OData.Description" String="The type of reset to be performed."/>
+          <Annotation Term="OData.LongDescription" String="This parameter shall define the Flags to clear."/>
+        </Parameter>
+		<Parameter Name="HealthStatus" Type="AMINVMeMIController.v1_0_0.HealthStatus">
+          <Annotation Term="OData.Description" String="The type of reset to be performed."/>
+          <Annotation Term="OData.LongDescription" String="This parameter shall define the type of reset to be performed."/>
+        </Parameter>
+        <Annotation Term="OData.Description" String="This action is used to clear the CompositeControllerStatus Flags ."/>
+        <Annotation Term="OData.LongDescription" String="This action shall clear the CompositeControllerStatus Flags. All Flags will be cleared if ClearAll is true."/>
+      </Action>
+    </Schema>
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="AMINVMeMIController.v1_0_0">
+        <Annotation Term="Redfish.OwningEntity" String="AMI"/>
+        <ComplexType Name="AMINVMeMIController" BaseType="AMINVMeMIController.AMINVMeMIController">
+	<Annotation Term="OData.Description" String="This is the schema definition for the AMINVMeMIController."/>
+            <Property Name="NVMeMISubSystemInformation"  Type="AMINVMeMIController.v1_0_0.NVMeMISubSystemInformation"  Nullable="false">
+                <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                <Annotation Term="OData.Description" String="Indicates the properties related to NVMeMISubSystemInformation"/>
+                <Annotation Term="OData.LongDescription" String="Indicates the properties related to NVMeMISubSystemInformation"/>
+	    </Property>
+            <Property Name="VitalProductData"  Type="AMINVMeMIController.v1_0_0.VitalProductData"  Nullable="false">
+                <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                <Annotation Term="OData.Description" String="Indicates the properties related to VitalProductData"/>
+                <Annotation Term="OData.LongDescription" String="Indicates the properties related to VitalProductData"/>
+            </Property>
+        </ComplexType>
+	<ComplexType Name="NVMeMISubSystemInformation" Abstract="true">
+        <Property Name="SubSystemInformation" Type="AMINVMeMIController.v1_0_0.SubSystemInformation" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the SubSystemInformation properties."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the SubSystemInformation properties."/>
+          </Property>
+		<Property Name="SubsystemHealthStatusPoll" Type="AMINVMeMIController.v1_0_0.SubsystemHealthStatusPoll" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the SubsystemHealthStatusPoll properties."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the SubsystemHealthStatusPoll properties."/>
+          </Property>
+        </ComplexType>
+	<ComplexType Name="SubSystemInformation" >
+		<Property Name="MajorVersion" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the major version of the NVMe-MI Subsystem."/>
+          </Property>
+          <Property Name="MinorVersion" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the minor version of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="NoOfPorts" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify number of ports required for NVMe-MI Subsystem."/>
+          </Property>
+	</ComplexType>
+	<ComplexType Name="SubsystemHealthStatusPoll" Nullable="false">
+        <Property Name="CompositeControllerStatus" Type="AMINVMeMIController.v1_0_0.CompositeControllerStatus"  Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the CompositeControllerStatus of the NVMe-MI Subsystem"/>
+          </Property>
+          <Property Name="SmartWarnings" Type="AMINVMeMIController.v1_0_0.SmartWarnings"  Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify SmartWarnings for NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="CompositeTemperature" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the CompositeTemperature of the NVMe-MI Subsystem"/>
+          </Property>
+          <Property Name="DriveFunctional" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the DriveFunctional of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="PDLU" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the PDLU of the NVMe-MI Subsystem."/>
+          </Property>
+          <Property Name="Port0PCIeLinkActive" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the Port0PCIeLinkActive of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="Port1PCIeLinkActive" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the Port1PCIeLinkActive of the NVMe-MI Subsystem."/>
+          </Property>
+          <Property Name="ResetNotRequired" Type="Edm.Int64" Nullable="false">
+          <Annotation Term="OData.Description" String="This property shall specify the ResetNotRequired of the NVMe-MI Subsystem."/>
+          </Property>
+    </ComplexType>
+	<ComplexType Name="CompositeControllerStatus">
+        <Property Name="AvailableSpare" Type="Edm.Int64" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the AvailableSpare of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the AvailableSpare of the NVMe-MI Subsystem"/>
+          </Property>
+		 <Property Name="CompositeTemperatureChange" Type="Edm.Int64" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the CompositeTemperatureChangeof the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the CompositeTemperatureChangeof the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="ControllerEnableChangeOccured" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the ControllerEnableChangeOccured of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the ControllerEnableChangeOccured of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="ControllerFatalStatus" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the ControllerFatalStatus of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the ControllerFatalStatus of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="ControllerStatusChange" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the ControllerStatusChange of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the ControllerStatusChange of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="CriticalWarnings" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the CriticalWarnings of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the CriticalWarnings of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="FirmwareActivated" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the FirmwareActivated status of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the FirmwareActivated status of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="NVMSubSystemResetOccured" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the NVMSubSystemResetOccured status of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the NVMSubSystemResetOccured status of the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="NameSpaceAttributeChange" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the NameSpaceAttributeChange status of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the NameSpaceAttributeChange status of the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="PercentageUsed" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the Percentage Used of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the Percentage Used of the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="Ready" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the Ready status of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the Ready the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="ShutDownStatus" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the ShutDownStatus of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the ShutDownStatus of the NVMe-MI Subsystem"/>
+          </Property>
+		</ComplexType>
+    <ComplexType Name="SmartWarnings" Abstract="true">
+		  <Property Name="UnderThresh" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the UnderThresh status of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the UnderThresh status of the NVMe-MI Subsystem"/>
+          </Property>
+        </ComplexType>
+	<ComplexType Name="VitalProductData" Abstract="true">
+        <Property Name="MultiRecordInformation" Type="AMINVMeMIController.v1_0_0.MultiRecordInformation" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MultiRecordInformation properties."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MultiRecordInformation properties."/>
+          </Property>
+		<Property Name="ProductInformation" Type="AMINVMeMIController.v1_0_0.ProductInformation" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the ProductInformation properties."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the ProductInformation properties."/>
+          </Property>
+        </ComplexType>
+	<ComplexType Name="MultiRecordInformation" Abstract="true">
+        <Property Name="NVMeMultiRecord" Type="AMINVMeMIController.v1_0_0.NVMeMultiRecord" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the NVMeMultiRecord properties."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the NVMeMultiRecord properties."/>
+          </Property>
+		<Property Name="NVMePCIePortMultiRecord" Type="AMINVMeMIController.v1_0_0.NVMePCIePortMultiRecord" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the NVMePCIePortMultiRecord properties."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the NVMePCIePortMultiRecord properties."/>
+          </Property>
+        </ComplexType>
+	<ComplexType Name="ProductInformation" Abstract="true">
+		<Property Name="IPMIVersion" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the IPMIVersion of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the IPMIVersion of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="ProductVersion" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the ProductVersion of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the ProductVersion of the NVMe-MI Subsystem."/>
+        </Property>
+        </ComplexType>
+		<ComplexType Name="NVMeMultiRecord" Abstract="true">
+		<Property Name="EPTFactor" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the EPTFactor of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the EPTFactor of the NVMe-MI Subsystem."/>
+          </Property>
+        <Property Name="InitialPowerSupplyReq1.8V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the InitialPowerSupplyReq1_8V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the InitialPowerSupplyReq1_8V of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="InitialPowerSupplyReq12V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the InitialPowerSupplyReq12V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the InitialPowerSupplyReq12V of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="InitialPowerSupplyReq3.3V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the InitialPowerSupplyReq3_3V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the InitialPowerSupplyReq3_3V of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="InitialPowerSupplyReq5V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the InitialPowerSupplyReq5V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the InitialPowerSupplyReq5V of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="MaxAuxPowerSupplyReq3.3V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MaxAuxPowerSupplyReq3_3V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MaxAuxPowerSupplyReq3_3V of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="MaxPowerSupplyReq1.8V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MaxPowerSupplyReq1_8V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MaxPowerSupplyReq1_8V of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="MaxPowerSupplyReq12V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MaxPowerSupplyReq12V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MaxPowerSupplyReq12V of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="MaxPowerSupplyReq3.3V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MaxPowerSupplyReq3_3V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MaxPowerSupplyReq3_3V of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="MaxPowerSupplyReq5V" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MaxPowerSupplyReq5V of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MaxPowerSupplyReq5V of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="MaxThermalLoad" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MaxThermalLoad of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MaxThermalLoad of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="RecordAreaVersion" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the RecordAreaVersion of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the RecordAreaVersion of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="TotalNVMCapacity" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the TotalNVMCapacity of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the TotalNVMCapacity of the NVMe-MI Subsystem."/>
+          </Property>
+        </ComplexType>
+	<ComplexType Name="NVMePCIePortMultiRecord" Abstract="true">
+        <Property Name="MCTPSupport" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the MCTPSupport of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the MCTPSupport of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="PCIeMaximumLinkWidth" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the PCIeMaximumLinkWidth of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the PCIeMaximumLinkWidth of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="PCIePortInformation" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the PCIePortInformation of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the PCIePortInformation of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="PCIePortNumber" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the PCIePortNumber of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the PCIePortNumber of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="PCIeRecordVersion" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the PCIeRecordVersion of the NVMe-MI Subsystem.."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the PCIeRecordVersion of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="PCIeSupportedLinkSpeeds" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the PCIeSupportedLinkSpeeds of the NVMe-MI Subsystem."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the PCIeSupportedLinkSpeeds of the NVMe-MI Subsystem."/>
+          </Property>
+		  <Property Name="RefClockCapability" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="This property shall specify the RefClockCapability of the NVMe-MI Subsystem.."/>
+          <Annotation Term="OData.LongDescription" String="This property shall specify the RefClockCapability of the NVMe-MI Subsystem."/>
+          </Property>		  
+        </ComplexType>
+	<EnumType Name="HealthStatus">
+        <Member Name="AvailableSpare">
+          <Annotation Term="OData.Description" String="Clear AvailableSpare flag of the CompositeControllerStatus."/>
+        </Member>
+        <Member Name="CompositeTemperatureChange">
+          <Annotation Term="OData.Description" String="Clear CompositeTemperatureChange flag of the CompositeControllerStatus."/>
+        </Member>
+        <Member Name="ControllerEnableChangeOccured">
+          <Annotation Term="OData.Description" String="Clear ControllerEnableChangeOccured flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="ControllerFatalStatus">
+          <Annotation Term="OData.Description" String="Clear ControllerFatalStatus flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="ControllerStatusChange">
+          <Annotation Term="OData.Description" String="Clear ControllerStatusChange flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="CriticalWarnings">
+          <Annotation Term="OData.Description" String="Clear CriticalWarnings flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="FirmwareActivated">
+          <Annotation Term="OData.Description" String="Clear FirmwareActivated flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="NVMSubSystemResetOccured">
+          <Annotation Term="OData.Description" String="Clear NVMSubSystemResetOccured flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="NameSpaceAttributeChange">
+          <Annotation Term="OData.Description" String="Clear NameSpaceAttributeChange flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="PercentageUsed">
+          <Annotation Term="OData.Description" String="Clear PercentageUsed flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="Ready">
+          <Annotation Term="OData.Description" String="Clear Ready flag of the CompositeControllerStatus."/>
+        </Member>
+		<Member Name="ShutDownStatus">
+          <Annotation Term="OData.Description" String="Clear ShutDownStatus flag of the CompositeControllerStatus."/>
+        </Member>
+      </EnumType>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

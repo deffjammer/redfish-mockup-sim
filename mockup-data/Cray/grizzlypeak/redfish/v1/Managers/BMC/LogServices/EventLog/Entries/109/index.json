@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"947221113\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/109",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2000-01-01T15:40:08+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2000-01-01T15:40:08+00:00",
+    "Id": "109",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The resource property gpubrd2 Temperature has corrected errors of type SensorReadError.",
+    "MessageArgs": [
+        "SensorReadError",
+        "gpubrd2 Temperature"
+    ],
+    "MessageId": "ResourceEvent.ResourceErrorsCorrected",
+    "Name": "Log entry 109",
+    "Severity": "OK"
+}

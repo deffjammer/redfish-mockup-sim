@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator1InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator0VoltageRegulator1InputPower",
+    "Name": "VDD_1V1_E32",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2067"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 145,
+    "ReadingTime": "2000-01-09T09:57:56.548789360Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

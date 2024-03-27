@@ -1,0 +1,33 @@
+{
+    "@odata.etag": "W/\"1698352627\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU0VoltageRegulator4OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator4OutputCurrent",
+    "Name": "CPU0 SOC_S0",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3007"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 22.4,
+    "ReadingTime": "2023-10-26T20:37:05.128641604Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 85.6
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 88
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 92
+        }
+    }
+}

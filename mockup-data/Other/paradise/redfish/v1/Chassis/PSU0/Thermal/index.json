@@ -1,0 +1,63 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU0/Thermal",
+    "@odata.type": "#Thermal.v1_7_1.Thermal",
+    "Fans": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU0/Thermal#/Fans/0",
+            "@odata.type": "#Thermal.v1_7_1.Fan",
+            "MaxReadingRange": 100,
+            "MemberId": "0",
+            "MinReadingRange": 0,
+            "Name": "Pwm PSU0 Fan 1",
+            "Reading": 0,
+            "ReadingUnits": "Percent",
+            "Status": {
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Id": "Thermal",
+    "Name": "Thermal",
+    "Redundancy": [],
+    "Temperatures": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU0/Thermal#/Temperatures/0",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "0",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU0 INLET TEMP",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 36.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU0/Thermal#/Temperatures/1",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "1",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU0 TEMP 1",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 48.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU0/Thermal#/Temperatures/2",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "2",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU0 TEMP 2",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 49.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        }
+    ]
+}

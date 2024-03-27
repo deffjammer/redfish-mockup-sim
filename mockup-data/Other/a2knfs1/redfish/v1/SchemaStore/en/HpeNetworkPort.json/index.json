@@ -1,0 +1,190 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeNetworkPort",
+    "actions": {
+        "actions": {
+            "NetworkPort.DiagnosticsReset": {
+                "additionalProperties": false,
+                "properties": {
+                    "Action": {
+                        "enum": [
+                            "NetworkPort.DiagnosticsReset"
+                        ],
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "Action"
+                ],
+                "type": "object"
+            }
+        }
+    },
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "description": "The HpeNetworkPort resource describes the The HpeNetworkPort resource describes the Hewlett Packard Enterprise property extensions for Network Ports",
+    "etag": true,
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Actions": {
+            "additionalProperties": false,
+            "properties": {
+                "#NetworkPort.DiagnosticsReset": {
+                    "additionalProperties": false,
+                    "description": "Invoking this action will reset all diagnostic capabilities on this port to an inactive state.",
+                    "properties": {
+                        "target": {
+                            "description": "Link to invoke action",
+                            "type": "string"
+                        },
+                        "title": {
+                            "description": "Friendly action name",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "AutoNegotiationCapable": {
+            "description": "Indicates the ability of this network port to autonegotiate link speed.",
+            "etag": true,
+            "readonly": true,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "Evb": {
+            "description": "Edge Virtual Bridging (EVB) information for this port.",
+            "etag": false,
+            "properties": {
+                "@odata.id": {
+                    "format": "uri-reference",
+                    "longDescription": "The unique resource identifier for EVB information on this port.  When null, the resource is not available.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "Lldp": {
+            "description": "Link-Layer Discovery Protocol (LLDP) information for this port.",
+            "etag": false,
+            "properties": {
+                "@odata.id": {
+                    "format": "uri-reference",
+                    "longDescription": "The unique resource identifier for LLDP information on this port.  When null, the resource is not available.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "PortDiagnosticEnableLocalLoopback": {
+            "description": "When true, local loopback is active on this port.  PortDiagnosticsEnabled must first be true in order to set this property to true.",
+            "etag": true,
+            "readonly": false,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "PortDiagnosticEnableRemoteLoopback": {
+            "description": "When true, remote loopback is active on this port. PortDiagnosticsEnabled must first be true in order to set this property to true.",
+            "etag": true,
+            "readonly": false,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "PortDiagnosticLocalLoopbackCapable": {
+            "description": "When true, the port has local loopback capability.",
+            "etag": true,
+            "readonly": true,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "PortDiagnosticRemoteLoopbackCapable": {
+            "description": "When true, the port has remote loopback capability.",
+            "etag": true,
+            "readonly": true,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "PortDiagnosticsEnabled": {
+            "description": "When true, diagnostic features are enabled on this port.",
+            "etag": true,
+            "readonly": false,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "VirtualFunctionAllocations": {
+            "description": "Indicates the maximum number of virtual functions that may be allocated per logical device function on this port.",
+            "etag": true,
+            "items": {
+                "additionalProperties": false,
+                "etag": true,
+                "properties": {
+                    "NetworkDeviceFunction": {
+                        "description": "The logical network device function to which this virtual function allocation applies.",
+                        "etag": true,
+                        "properties": {
+                            "@odata.id": {
+                                "format": "uri-reference",
+                                "longDescription": "A unique resource identifer for the network device function this allocation pertains to.  When null, the function assignment is not available.",
+                                "readonly": true,
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        },
+                        "readonly": true,
+                        "type": "object"
+                    },
+                    "VirtualFunctionsAllocated": {
+                        "description": "The number of virtual functions allocated to this logical network device function instance.",
+                        "etag": true,
+                        "readonly": false,
+                        "type": [
+                            "number",
+                            "null"
+                        ]
+                    }
+                },
+                "type": "object"
+            },
+            "readonly": false,
+            "type": "array"
+        }
+    },
+    "title": "#HpeNetworkPort.v1_1_0.HpeNetworkPort",
+    "type": "object"
+}

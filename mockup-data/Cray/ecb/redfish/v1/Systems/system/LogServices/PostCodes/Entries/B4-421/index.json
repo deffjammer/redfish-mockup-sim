@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/PostCodes/Entries",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Description": "Collection of POST Code Log Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/PostCodes/Entries/B4-421",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:22:32+00:00",
+            "EntryType": "Event",
+            "Id": "B4-421",
+            "Message": "Boot Count: 4: TS Offset: 5718.4329; POST Code: 0x84",
+            "MessageArgs": [
+                "4",
+                "5718.4329",
+                "0x84"
+            ],
+            "MessageId": "OpenBMC.0.1.BIOSPOSTCode",
+            "Name": "POST Code Log Entry",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "BIOS POST Code Log Entries"
+}

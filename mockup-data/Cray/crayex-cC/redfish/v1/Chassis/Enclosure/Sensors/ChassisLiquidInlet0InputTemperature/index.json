@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisLiquidInlet0InputTemperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisLiquidInlet0InputTemperature",
+    "Name": "cabinet_supply_water",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis"
+    },
+    "PhysicalContext": "LiquidInlet",
+    "PhysicalSubContext": "Input",
+    "Reading": 25.17,
+    "ReadingTime": "2022-03-11T21:43:42.224495614Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

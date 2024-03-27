@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/RT_NVME",
+    "@odata.type": "#SoftwareInventory.v1_2_3.SoftwareInventory",
+    "Id": "RT_NVME",
+    "Name": "RT_NVME",
+    "Updateable": true,
+    "Version": "02.07.0000"
+}

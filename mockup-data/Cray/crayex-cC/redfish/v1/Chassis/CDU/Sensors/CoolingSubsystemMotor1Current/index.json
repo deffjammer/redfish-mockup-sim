@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor1Current",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemMotor1Current",
+    "Name": "VFD1 Current",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Motor",
+    "Reading": 5.8,
+    "ReadingTime": "2022-03-11T21:43:40.080215672Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A"
+}

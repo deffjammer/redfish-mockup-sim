@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_419",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-23T16:19:51+00:00",
+    "EntryType": "Oem",
+    "Id": "1_419",
+    "Message": "[172.24.0.1][root][RCM][expired]Session (aqjYd6k) expired",
+    "Name": "Log Entry 1_419",
+    "Severity": null
+}

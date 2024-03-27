@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643229365",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-26T20:36:05+00:00",
+    "EntryType": "Event",
+    "Id": "1643229365",
+    "Message": "Service xyz.openbmc_project.cpuinfo.service has exited unsuccessfully.",
+    "MessageArgs": [
+        "xyz.openbmc_project.cpuinfo.service"
+    ],
+    "MessageId": "OpenBMC.0.1.ServiceFailure",
+    "Name": "System Event Log Entry",
+    "Severity": "Warning"
+}

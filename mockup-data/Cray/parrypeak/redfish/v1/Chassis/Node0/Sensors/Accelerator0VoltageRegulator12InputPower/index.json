@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator12InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator0VoltageRegulator12InputPower",
+    "Name": "VDDCR_1V1_HBM_D",
+    "Oem": {
+        "Index": 12,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2072"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 756,
+    "ReadingTime": "2000-01-09T09:57:46.757682080Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

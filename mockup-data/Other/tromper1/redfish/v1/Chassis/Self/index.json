@@ -1,0 +1,116 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "\"1697465491\"",
+    "@odata.id": "/redfish/v1/Chassis/Self",
+    "@odata.type": "#Chassis.v1_14_0.Chassis",
+    "Actions": {
+        "#Chassis.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Chassis/Self/ResetActionInfo",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_2_2.OperationApplyTimeSupport",
+                "MaintenanceWindowDurationInSeconds": 600,
+                "MaintenanceWindowResource": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                },
+                "SupportedValues": [
+                    "Immediate",
+                    "AtMaintenanceWindowStart"
+                ]
+            },
+            "target": "/redfish/v1/Chassis/Self/Actions/Chassis.Reset"
+        }
+    },
+    "AssetTag": "",
+    "ChassisType": "Main Server Chassis",
+    "Description": "Chassis Self",
+    "Id": "Self",
+    "IndicatorLED": "Off",
+    "IndicatorLED@Redfish.AllowableValues": [
+        "Lit",
+        "Blinking",
+        "Off"
+    ],
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self"
+            }
+        ],
+        "ComputerSystems@odata.count": 1,
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/NVMe_Device0_NSID1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device1_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device2_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device3_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device4_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device5_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device6_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device7_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device8_Port0"
+            }
+        ],
+        "Drives@odata.count": 9,
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/Self"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Chassis/Self/LogServices"
+    },
+    "Manufacturer": "HPE",
+    "MediaControllers": {
+        "@odata.id": "/redfish/v1/Chassis/Self/MediaControllers"
+    },
+    "Model": "Cray XD665 CTO Server ",
+    "Name": "Computer System Chassis",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters"
+    },
+    "Oem": {
+        "@odata.id": "/redfish/v1/Chassis/Self/Oem"
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/Self/PCIeSlots"
+    },
+    "PartNumber": "P52377-B21",
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/Self/Power"
+    },
+    "PowerState": "On",
+    "SKU": "Default string",
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/Self/Sensors"
+    },
+    "SerialNumber": "0000000000",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+    }
+}

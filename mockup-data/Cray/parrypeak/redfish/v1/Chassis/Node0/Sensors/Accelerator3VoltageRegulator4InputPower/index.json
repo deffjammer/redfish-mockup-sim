@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator4InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator3VoltageRegulator4InputPower",
+    "Name": "VDDCR_VDD3",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14070"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 754,
+    "ReadingTime": "2000-01-09T09:59:03.620693360Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

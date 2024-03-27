@@ -1,0 +1,24 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "A Collection of SecureBoot certificate.",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Certificates/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Certificates/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Certificates/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Certificates/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Certificates/5"
+        }
+    ],
+    "Members@odata.count": 5,
+    "Name": "SecureBoot Database Certificates Collection"
+}

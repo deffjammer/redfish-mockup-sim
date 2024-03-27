@@ -1,0 +1,38 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports",
+    "@odata.type": "#PortCollection.PortCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/Ports/ProcessorModule_0_PCIeBus_1_PCIeLink_9"
+        }
+    ],
+    "Members@odata.count": 0,
+    "Name": "NVLink Port Collection"
+}

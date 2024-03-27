@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish OEM Schema:  NvidiaPortMetrics  v1.0.0                                       -->
+<!--#                                                                                      -->
+<!--# Copyright 2021-2022 NVIDIA.                                                          -->
+<!--# For the full NVIDIA copyright policy, see LICENSE.md                                 -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/RedfishExtensions_v1.xml">
+    <edmx:Include Namespace="RedfishExtensions.v1_0_0" Alias="Redfish"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Resource_v1.xml">
+    <edmx:Include Namespace="Resource"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Measures.V1.xml">
+    <edmx:Include Namespace="Org.OData.Measures.V1" Alias="Measures"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/schemas/v1/NvidiaNVLinkMetrics_v1.xml">
+    <edmx:Include Namespace="NvidiaNVLinkMetrics"/>
+  </edmx:Reference>
+
+  <edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="NvidiaPortMetrics">
+      <Annotation Term="Redfish.OwningEntity" String="NVIDIA"/>
+    </Schema>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="NvidiaPortMetrics.v1_0_0">
+      <Annotation Term="Redfish.OwningEntity" String="NVIDIA"/>
+
+      <ComplexType Name="NvidiaPortMetrics">
+        <Property Name="TXNoProtocolBytes" Type="Edm.Int64">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="The transmitted NVLink data throughput without the protocol overhead."/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain the transmitted NVLink data throughput without the protocol overhead."/>
+          <Annotation Term="Measures.Unit" String="By"/>
+        </Property>
+        <Property Name="RXNoProtocolBytes" Type="Edm.Int64">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="The received NVLink data throughput without the protocol overhead."/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain the received NVLink data throughput without the protocol overhead."/>
+          <Annotation Term="Measures.Unit" String="By"/>
+        </Property>
+        <Property Name="NVLinkErrors" Type="NvidiaNVLinkMetrics.NVLinkErrors" Nullable="false">
+          <Annotation Term="OData.Description" String="The NVLink errors associated with this port. "/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain properties that describe the NVLink errors associated with this port."/>
+        </Property>
+      </ComplexType>
+
+    </Schema>
+
+  </edmx:DataServices>
+</edmx:Edmx>

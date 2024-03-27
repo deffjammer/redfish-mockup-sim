@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/ProcessorMetrics",
+    "@odata.type": "#ProcessorMetrics.v1_6_2.ProcessorMetrics",
+    "Id": "ProcessorMetrics",
+    "Name": "CPU_1 Processor Metrics",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaProcessorMetrics.v1_1_0.NvidiaProcessorMetrics",
+            "EDPViolationState": "Normal",
+            "MemoryPageRetirementCount": 0,
+            "MemorySpareChannelPresence": true,
+            "PerformanceState": "Normal",
+            "PowerBreakPerformanceState": "Normal",
+            "ThrottleReasons": []
+        }
+    }
+}

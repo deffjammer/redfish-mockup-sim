@@ -1,0 +1,162 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SignatureCollection.SignatureCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures",
+    "@odata.type": "#SignatureCollection.SignatureCollection",
+    "Description": "Signature Collection for SecureBoot Database dbxDefault",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/144"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/145"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/146"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/147"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/148"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/149"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/15"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/150"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/151"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/152"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/153"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/154"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/155"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/156"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/157"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/158"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/159"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/16"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/160"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/161"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/162"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/163"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/164"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/165"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/166"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/167"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/168"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/169"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/17"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/170"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/171"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/172"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/173"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/174"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/175"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/176"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/177"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/178"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/179"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/18"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/180"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/181"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/182"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/183"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/184"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/185"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/186"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/187"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/188"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/189"
+        }
+    ],
+    "Members@odata.count": 211,
+    "Members@odata.nextLink": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbxDefault/Signatures?$skip=100",
+    "Name": "Signature Collection for SecureBoot Database dbxDefault"
+}

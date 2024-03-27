@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/Rectifier0InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Rectifier0InputPower",
+    "Name": "Rectifier",
+    "Oem": {
+        "Index": 0
+    },
+    "PhysicalContext": "Rectifier",
+    "PhysicalSubContext": "Input",
+    "Reading": 1438,
+    "ReadingTime": "2022-03-11T21:43:42.607961461Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator0Temperature",
+    "Name": "SIVOC",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 32,
+    "ReadingTime": "2000-01-09T09:59:10.184792320Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 90
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 99
+        }
+    }
+}

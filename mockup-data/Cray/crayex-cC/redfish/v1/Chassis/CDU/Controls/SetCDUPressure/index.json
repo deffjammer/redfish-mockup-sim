@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Controls/SetCDUPressure",
+    "@odata.type": "#Control.v1_0_0.Control",
+    "ControlMode": "Automatic",
+    "ControlType": "Pressure",
+    "Id": "SetCDUPressure",
+    "Name": "CDU Pressure Set Point",
+    "PhysicalContext": "LiquidOutlet",
+    "Sensor": {
+        "DataSourceUri": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemSystemSecondaryPressure",
+        "Reading": 17
+    },
+    "SetPoint": 17,
+    "SetPointUnits": "PSI",
+    "SettingRangeMax": 27,
+    "SettingRangeMin": 10,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

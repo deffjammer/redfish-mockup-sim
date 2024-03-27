@@ -1,0 +1,64 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU",
+    "@odata.type": "#Chassis.v1_5_1.Chassis",
+    "AssetTag": "",
+    "ChassisType": "Expansion",
+    "Controls": {
+        "@odata.id": "/redfish/v1/Chassis/CDU/Controls"
+    },
+    "Description": "Cooling Distribution Unit",
+    "Id": "CDU",
+    "Manufacturer": "Motivair",
+    "Model": "4105",
+    "Name": "CDU",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/CDU/NetworkAdapters"
+    },
+    "Oem": {
+        "ActiveConditions": [],
+        "SupportedConditions": [
+            "UnitStatusReg",
+            "GeneralAlarm",
+            "UnitOffByDigitalInput",
+            "VFD1AlarmMB",
+            "VFD2AlarmMB",
+            "LowFlowP1Alarm",
+            "LowFlowP2Alarm",
+            "HighDewPointWarning",
+            "HighDewPointAlarm",
+            "DualHighDewPointAlarm",
+            "LowSuctionPressureAlarm",
+            "HighFilterDpAlarm",
+            "WaterDetectionAlarm",
+            "HighHxsTemperatureAlarm",
+            "ExpBoardAlarm",
+            "ExpBoardProbeAlarm",
+            "ActuatorDeviationWarning",
+            "HighPressureShutdownAlarm",
+            "LowHxsTemperatureAlarm",
+            "RhTemperatureProbe1Alarm",
+            "RhHumidityProbe1Alarm",
+            "RhTemperatureProbe2Alarm",
+            "RhHumidityProbe2Alarm",
+            "U1SPS1PressureProbeAlarm",
+            "U2SSP1PressureProbeAlarm",
+            "U3SST1TemperatureProbeAlarm",
+            "U6SSFPressureProbeAlarm",
+            "U9SPS2PressureProbeAlarm",
+            "U10SSP2PressureProbeAlarm",
+            "WDS1SensorAlarm",
+            "WDS2SensorAlarm",
+            "RTCClockBoardAlarm"
+        ]
+    },
+    "PowerState": "On",
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/CDU/Sensors"
+    },
+    "SerialNumber": "201048101",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

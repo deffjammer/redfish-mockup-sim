@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1704473888",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-05T16:58:08+00:00",
+    "EntryType": "Event",
+    "EventId": "c56b5948-442f-470e-b418-79aca7746491",
+    "Id": "1704473888",
+    "Message": "The request completed successfully.",
+    "MessageArgs": [],
+    "MessageId": "Base.1.11.Success",
+    "Name": "Log Entry 1704473888",
+    "Severity": "OK"
+}

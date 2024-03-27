@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunctionCollection.PCIeFunctionCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_86_00/PCIeFunctions",
+    "@odata.type": "#PCIeFunctionCollection.PCIeFunctionCollection",
+    "Description": "The Collection of PCIeFunctions",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_86_00/PCIeFunctions/DevType3__DevIndex66"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "PCIeFunction Collection"
+}

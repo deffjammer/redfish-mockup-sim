@@ -1,0 +1,38 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ManagerAccount.ManagerAccount",
+    "@odata.etag": "W/\"1698258478\"",
+    "@odata.id": "/redfish/v1/AccountService/Accounts/1",
+    "@odata.type": "#ManagerAccount.v1_5_0.ManagerAccount",
+    "AccountTypes": [
+        "Redfish",
+        "SNMP"
+    ],
+    "Description": "Default Account",
+    "Enabled": true,
+    "Id": "1",
+    "Links": {
+        "Role": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Administrator"
+        }
+    },
+    "Locked": false,
+    "Name": "admin",
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMIManagerAccount.v1_0_0.AMIManagerAccount",
+            "SNMP": {
+                "Access": "ReadOnly",
+                "AuthenticationProtocol": "SHA256",
+                "EncryptionProtocol": "DES"
+            }
+        }
+    },
+    "Password": "",
+    "PasswordChangeRequired": false,
+    "RoleId": "Administrator",
+    "SNMP": {
+        "AuthenticationKeySet": false,
+        "EncryptionKeySet": false
+    },
+    "UserName": "admin"
+}

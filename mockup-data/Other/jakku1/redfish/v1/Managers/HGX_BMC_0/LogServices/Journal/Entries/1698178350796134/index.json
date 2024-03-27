@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/Journal/Entries/1698178350796134",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "Created": "2023-10-24T20:12:30+00:00",
+    "EntryType": "Oem",
+    "Id": "1698178350796134",
+    "Message": "systemd-journald: Forwarding to syslog missed 10 messages.",
+    "Name": "BMC Journal Entry",
+    "OemRecordFormat": "BMC Journal Entry",
+    "Severity": "OK"
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Ports.Ports",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Systems/Self/USBControllers/DevTypeC_USB_0/Ports/DevTypeE_USBE_PortD",
+    "@odata.type": "#Port.v1_5_0.Port",
+    "Id": "DevTypeE_USBE_PortD",
+    "Name": "DevTypeE_USBE_PortD",
+    "PortId": "0",
+    "PortProtocol": "USB",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

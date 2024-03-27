@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_TEMP_1",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "PSU1_TEMP_1",
+    "Name": "PSU1 TEMP 1",
+    "Reading": 44.0,
+    "ReadingRangeMax": 127.0,
+    "ReadingRangeMin": -128.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

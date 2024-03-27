@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1698350713\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU1Memory9Power",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU1Memory9Power",
+    "Name": "CPU1dimm9",
+    "Oem": {
+        "Index": 9,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 1
+    },
+    "PhysicalContext": "Memory",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

@@ -1,0 +1,42 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board00Voltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Board00Voltage",
+    "Name": "5.0 FET DRV",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Board",
+        "ParentalIndex": 0
+    },
+    "Reading": 5.005,
+    "ReadingTime": "2000-01-09T09:59:12.511631120Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 4.75
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 4.5
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 4
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 5.25
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 5.5
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 6
+        }
+    }
+}

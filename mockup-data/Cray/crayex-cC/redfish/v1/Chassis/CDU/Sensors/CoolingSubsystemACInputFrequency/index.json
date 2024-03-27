@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputFrequency",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemACInputFrequency",
+    "Name": "CDU Power Frequency",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "ACInput",
+    "Reading": 60,
+    "ReadingTime": "2022-03-11T21:43:43.009994984Z",
+    "ReadingType": "Frequency",
+    "ReadingUnits": "Hz"
+}

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish Schema:  GBTGPUManager  v1.0.0-->
+<!--#                                                                                      -->
+<!--# For a detailed change log, see the README file contained in the DSP8010 bundle,      -->
+<!--# available at http://www.dmtf.org/standards/redfish                                   -->
+<!--# Copyright 2014-2017 Distributed Management Task Force, Inc. (DMTF).                  -->
+<!--# For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+        <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+    </edmx:Reference>
+    
+    <edmx:DataServices>
+
+        <Schema Namespace="GbtGPUManagerCapabilities" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <EntityType Name="GbtGPUManagerCapabilities" BaseType="Resource.v1_0_0.Resource">
+                <Annotation Term="OData.Description" String="This is the schema definition for GbtGPUManagerCapabilities Information."/>
+                <Annotation Term="OData.LongDescription" String="This is the schema definition for GbtGPUManagerCapabilities."/>
+                <Annotation Term="Capabilities.InsertRestrictions">
+                    <Record>
+                        <PropertyValue Property="Insertable" Bool="false"/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="Capabilities.UpdateRestrictions">
+                <Record>
+                    <PropertyValue Property="Updatable" Bool="false"/>
+                </Record>
+                </Annotation>
+                <Annotation Term="Capabilities.DeleteRestrictions">
+                <Record>
+                    <PropertyValue Property="Deletable" Bool="false"/>
+                </Record>
+                </Annotation>
+            </EntityType>
+        </Schema>
+
+        <Schema Namespace="GbtGPUManagerCapabilities.v1_0_0" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <Annotation Term="Redfish.OwningEntity" String="AMI"/>
+            <EntityType Name="GbtGPUManagerCapabilities" BaseType="GbtGPUManagerCapabilities.GbtGPUManagerCapabilities">
+                <Annotation Term="OData.Description" String="This is the schema definition for GbtGPUManagerCapabilities Information and Status of the Systems connected to this Manager."/>
+                <Annotation Term="OData.LongDescription" String="This is the schema definition for GbtGPUManagerCapabilities Information and Status of the Systems connected to this Manager."/>
+                <Property Name="AssertDeassertPCIeFundamentalReset" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the AssertDeassertPCIeFundamentalReset informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the AssertDeassertPCIeFundamentalReset informations."/>
+                </Property>
+                <Property Name="BoardPartNumberV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the BoardPartNumberV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the BoardPartNumberV1 informations."/>
+                </Property>
+                <Property Name="BuildDateV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the BuildDateV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the BuildDateV1 informations."/>
+                </Property>
+                <Property Name="ECCEnabledState" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ECCEnabledState informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ECCEnabledState informations."/>
+                </Property>
+                <Property Name="ECCStatisticsDataV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ECCStatisticsDataV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ECCStatisticsDataV1 informations."/>
+                </Property>
+                <Property Name="ECCStatisticsDataV2" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ECCStatisticsDataV2 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ECCStatisticsDataV2 informations."/>
+                </Property>
+                <Property Name="ECCStatisticsDataV3" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ECCStatisticsDataV3 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ECCStatisticsDataV3 informations."/>
+                </Property>
+                <Property Name="ECCStatisticsDataV4" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ECCStatisticsDataV4 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ECCStatisticsDataV4 informations."/>
+                </Property>
+                <Property Name="ECCStatisticsDataV5" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ECCStatisticsDataV5 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ECCStatisticsDataV5 informations."/>
+                </Property>
+                <Property Name="EnableDisablePowerSupply" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the EnableDisablePowerSupply informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the EnableDisablePowerSupply informations."/>
+                </Property>
+                <Property Name="FanQueriesV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the FanQueriesV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the FanQueriesV1 informations."/>
+                </Property>
+                <Property Name="FirmwareVersionV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the FirmwareVersionV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the FirmwareVersionV1 informations."/>
+                </Property>
+                <Property Name="GPUAccumulatedSMUtilization" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GPUAccumulatedSMUtilization informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GPUAccumulatedSMUtilization informations."/>
+                </Property>
+                <Property Name="GPUGUIDV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GPUGUIDV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GPUGUIDV1 informations."/>
+                </Property>
+                <Property Name="GPUResetRequiredStateFlag" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GPUResetRequiredStateFlag informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GPUResetRequiredStateFlag informations."/>
+                </Property>
+                <Property Name="GPUSiliconRevisionV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GPUSiliconRevisionV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GPUSiliconRevisionV1 informations."/>
+                </Property>
+                <Property Name="GetBoardPowerSupplyStatus" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GetBoardPowerSupplyStatus informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GetBoardPowerSupplyStatus informations."/>
+                </Property>
+                <Property Name="GetCurrentSMMEMUtilizationValue" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GetCurrentSMMEMUtilizationValue informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GetCurrentSMMEMUtilizationValue informations."/>
+                </Property>
+                <Property Name="GetPCIeFundamentalReset" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GetPCIeFundamentalReset informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GetPCIeFundamentalReset informations."/>
+                </Property>
+                <Property Name="GetPowerSupplyStatus" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GetPowerSupplyStatus informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GetPowerSupplyStatus informations."/>
+                </Property>
+                <Property Name="GetPowerBrake" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GetPowerBrake informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GetPowerBrake informations."/>
+                </Property>
+                <Property Name="GetSetMCUFWWriteProtect" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GetSetMCUFWWriteProtect informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GetSetMCUFWWriteProtect informations."/>
+                </Property>
+                <Property Name="GetThermalAlertState" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the GetThermalAlertState informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the GetThermalAlertState informations."/>
+                </Property>
+                <Property Name="InfoROMVersionV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the InfoROMVersionV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the InfoROMVersionV1 informations."/>
+                </Property>
+                <Property Name="MarketingNameV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the MarketingNameV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the MarketingNameV1 informations."/>
+                </Property>
+                <Property Name="MemoryPartNumberV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the MemoryPartNumberV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the MemoryPartNumberV1 informations."/>
+                </Property>
+                <Property Name="MemoryVendorV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the MemoryVendorV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the MemoryVendorV1 informations."/>
+                </Property>
+                <Property Name="NvidiaGPUDriverNotLoaded" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the NvidiaGPUDriverNotLoaded informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the NvidiaGPUDriverNotLoaded informations."/>
+                </Property>
+                <Property Name="OEMInformationV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the OEMInformationV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the OEMInformationV1 informations."/>
+                </Property>
+                <Property Name="PCIConfigurationDeviceIDV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the PCIConfigurationDeviceIDV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the PCIConfigurationDeviceIDV1 informations."/>
+                </Property>
+                <Property Name="PCIConfigurationSubsystemDeviceIDV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the PCIConfigurationSubsystemDeviceIDV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the PCIConfigurationSubsystemDeviceIDV1 informations."/>
+                </Property>
+                <Property Name="PCIConfigurationSubsystemVendorIDV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the PCIConfigurationSubsystemVendorIDV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the PCIConfigurationSubsystemVendorIDV1 informations."/>
+                </Property>
+                <Property Name="PCIConfigurationVendorIDV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the PCIConfigurationVendorIDV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the PCIConfigurationVendorIDV1 informations."/>
+                </Property>
+                <Property Name="PCIeLinkSpeedV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the PCIeLinkSpeedV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the PCIeLinkSpeedV1 informations."/>
+                </Property>
+                <Property Name="PCIeLinkWidthV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the PCIeLinkWidthV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the PCIeLinkWidthV1 informations."/>
+                </Property>
+                <Property Name="QueryClockFrequencyInformation" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the QueryClockFrequencyInformation informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the QueryClockFrequencyInformation informations."/>
+                </Property>
+                <Property Name="QueryNVLinkInformation" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the QueryNVLinkInformation informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the QueryNVLinkInformation informations."/>
+                </Property>
+                <Property Name="QueryNVLinkInformationErrorCounts" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the QueryNVLinkInformationErrorCounts informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the QueryNVLinkInformationErrorCounts informations."/>
+                </Property>
+                <Property Name="RequestBundling" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the RequestBundling informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the RequestBundling informations."/>
+                </Property>
+                <Property Name="RetiredPageCountQuery" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the RetiredPageCountQuery informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the RetiredPageCountQuery informations."/>
+                </Property>
+                <Property Name="ScratchSpaceBankSize" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ScratchSpaceBankSize informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ScratchSpaceBankSize informations."/>
+                </Property>
+                <Property Name="ScratchSpaceSize" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the ScratchSpaceSize informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the ScratchSpaceSize informations."/>
+                </Property>
+                <Property Name="SensorMonitoringBoard" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the SensorMonitoringBoard informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the SensorMonitoringBoard informations."/>
+                </Property>
+                <Property Name="SensorMonitoringMemory" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the SensorMonitoringMemory informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the SensorMonitoringMemory informations."/>
+                </Property>
+                <Property Name="SerialNumberV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the SerialNumberV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the SerialNumberV1 informations."/>
+                </Property>
+                <Property Name="SetErrorLEDState" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the SetErrorLEDState informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the SetErrorLEDState informations."/>
+                </Property>
+                <Property Name="SetReleasePowerBrake" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the SetReleasePowerBrake informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the SetReleasePowerBrake informations."/>
+                </Property>
+                <Property Name="SetThermalAlert" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the SetThermalAlert informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the SetThermalAlert informations."/>
+                </Property>
+                <Property Name="TGPLimitV1" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the TGPLimitV1 informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the TGPLimitV1 informations."/>
+                </Property>
+                <Property Name="TotalBoardPowerConsumption" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the TotalBoardPowerConsumption informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the TotalBoardPowerConsumption informations."/>
+                </Property>
+                <Property Name="WriteProtectMode" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="This object contains the WriteProtectMode informations."/>
+                    <Annotation Term="OData.LongDescription" String="This object contains the WriteProtectMode informations."/>
+                </Property>
+                <Property Name="GetViolationTimeValues" Type="GbtGPUManagerCapabilities.1.0.0.GetViolationTimeValues" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permissions/Read"/>
+                    <Annotation Term="OData.Description" String="The value of this property shall contain information about the GetViolationTimeValues of this system."/>
+                </Property>
+                <Property Name="ReadingTemperature" Type="GbtGPUManagerCapabilities.1.0.0.ReadingTemperature" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permissions/Read"/>
+                    <Annotation Term="OData.Description" String="The value of this property shall contain information about the ReadingTemperature of this system."/>
+                </Property>
+                <Property Name="SensorsMeasuringTemperature" Type="GbtGPUManagerCapabilities.1.0.0.SensorsMeasuringTemperature" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permissions/Read"/>
+                    <Annotation Term="OData.Description" String="The value of this property shall contain information about the PCIeConfig of this system."/>
+                </Property>
+                <Property Name="Product" Type="GbtGPUManagerCapabilities.1.0.0.Product" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permissions/Read"/>
+                    <Annotation Term="OData.Description" String="The value of this property shall contain information about the Product of this system."/>
+                </Property>
+            </EntityType>
+
+            <ComplexType Name="GetViolationTimeValues">
+                <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+                <Annotation Term="OData.Description" String="This property shall specify a valid odata or Redfish property."/>
+                <Annotation Term="OData.LongDescription" String="This property shall specify a valid odata or Redfish property."/>
+                <Property Name="GlobalSW" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="HW" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="PowerPolicy" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="ThermalPolicy" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+            </ComplexType>
+            <ComplexType Name="ReadingTemperature">
+                <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+                <Annotation Term="OData.Description" String="This property shall specify a valid odata or Redfish property."/>
+                <Annotation Term="OData.LongDescription" String="This property shall specify a valid odata or Redfish property."/>
+                <Property Name="GPUMaximumOperating" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="GPUShutdown" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="GPUSlowdown" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="GPUTarget" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="MemoryTarget" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+            </ComplexType>
+            <ComplexType Name="Product">
+                <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+                <Annotation Term="OData.Description" String="This property shall specify a valid odata or Redfish property."/>
+                <Annotation Term="OData.LongDescription" String="This property shall specify a valid odata or Redfish property."/>
+                <Property Name="Height" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="Length" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="Width" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+            </ComplexType>
+            <ComplexType Name="SensorsMeasuringTemperature">
+                <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+                <Annotation Term="OData.Description" String="This property shall specify a valid odata or Redfish property."/>
+                <Annotation Term="OData.LongDescription" String="This property shall specify a valid odata or Redfish property."/>
+                <Property Name="PrimaryGPU" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="SecondaryGPU" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+            </ComplexType>
+        </Schema>
+        
+    </edmx:DataServices>
+
+</edmx:Edmx>

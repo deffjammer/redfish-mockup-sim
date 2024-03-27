@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1699022245\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/GPUMemory0Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "GPUMemory0Temperature",
+    "Name": "gpumemory0",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "GPU"
+    },
+    "PhysicalContext": "Memory",
+    "Reading": 29,
+    "ReadingTime": "2023-11-03T14:37:35.146599581Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

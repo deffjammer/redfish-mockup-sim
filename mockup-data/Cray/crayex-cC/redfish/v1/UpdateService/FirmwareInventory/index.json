@@ -1,0 +1,40 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory",
+    "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "Description": "Collection of Firmware Inventory resources available to the UpdateService",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Rectifier0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/FPGA0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Rectifier1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CEC"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Bootloader"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Rectifier2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CDU"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Recovery"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Rectifier3"
+        }
+    ],
+    "Members@odata.count": 10,
+    "Name": "Firmware Inventory Collection"
+}

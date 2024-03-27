@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/10",
+    "@odata.type": "#SoftwareInventory.v1_0_0.SoftwareInventory",
+    "Id": "10",
+    "Description": "8086152100000000",
+    "Name": "Intel(R) I350 Gigabit Network Connection",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "Embedded LOM",
+            "DeviceInstance": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)",
+            "Targets": [
+                "a6b1a447-382a-5a4f-8086-152100000000"
+            ]
+        }
+    },
+    "Version": "1.2529.0"
+}

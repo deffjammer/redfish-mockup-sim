@@ -1,0 +1,45 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HostInterface.HostInterface",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Managers/Self/HostInterfaces/Self",
+    "@odata.type": "#HostInterface.v1_3_0.HostInterface",
+    "AuthNoneRoleId": "HostInterfaceAdministrator",
+    "AuthenticationModes": [
+        "AuthNone"
+    ],
+    "CredentialBootstrapping": {
+        "EnableAfterReset": false,
+        "Enabled": true,
+        "RoleId": "HostInterfaceAdministrator"
+    },
+    "Description": "Host Interface",
+    "ExternallyAccessible": false,
+    "HostEthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Managers/Self/HostInterfaces/Self/HostEthernetInterfaces"
+    },
+    "HostInterfaceType": "NetworkHostInterface",
+    "Id": "Self",
+    "InterfaceEnabled": true,
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self"
+            }
+        ],
+        "ComputerSystems@odata.count": 1,
+        "CredentialBootstrappingRole": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/HostInterfaceAdministrator"
+        }
+    },
+    "ManagerEthernetInterface": {
+        "@odata.id": "/redfish/v1/Managers/Self/EthernetInterfaces/usb0"
+    },
+    "Name": "Host Interface",
+    "NetworkProtocol": {
+        "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

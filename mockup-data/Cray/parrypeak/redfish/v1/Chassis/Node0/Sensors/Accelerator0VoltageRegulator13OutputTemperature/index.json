@@ -1,0 +1,29 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator13OutputTemperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator0VoltageRegulator13OutputTemperature",
+    "Name": "VDD_3V3_S5",
+    "Oem": {
+        "Index": 12,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2072"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 36,
+    "ReadingTime": "2000-01-09T09:57:49.223922560Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 110
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 140
+        }
+    }
+}

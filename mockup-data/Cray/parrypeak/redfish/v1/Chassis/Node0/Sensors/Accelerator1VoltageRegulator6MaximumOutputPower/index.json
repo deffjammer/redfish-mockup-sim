@@ -1,0 +1,20 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1VoltageRegulator6MaximumOutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Maximum",
+    "Id": "Accelerator1VoltageRegulator6MaximumOutputPower",
+    "Name": "VDDCR_1V1_HBM_B",
+    "Oem": {
+        "Index": 6,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U6073"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 10,
+    "ReadingTime": "2000-01-09T09:58:24.657487920Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

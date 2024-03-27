@@ -1,0 +1,79 @@
+{
+    "@odata.id": "/redfish/v1",
+    "@odata.type": "#ServiceRoot.v1_16_0.ServiceRoot",
+    "AccountService": {
+        "@odata.id": "/redfish/v1/AccountService"
+    },
+    "Cables": {
+        "@odata.id": "/redfish/v1/Cables"
+    },
+    "CertificateService": {
+        "@odata.id": "/redfish/v1/CertificateService"
+    },
+    "Chassis": {
+        "@odata.id": "/redfish/v1/Chassis"
+    },
+    "ComponentIntegrity": {
+        "@odata.id": "/redfish/v1/ComponentIntegrity"
+    },
+    "EventService": {
+        "@odata.id": "/redfish/v1/EventService"
+    },
+    "Fabrics": {
+        "@odata.id": "/redfish/v1/Fabrics"
+    },
+    "Id": "RootService",
+    "JsonSchemas": {
+        "@odata.id": "/redfish/v1/JsonSchemas"
+    },
+    "Links": {
+        "Sessions": {
+            "@odata.id": "/redfish/v1/SessionService/Sessions"
+        }
+    },
+    "Managers": {
+        "@odata.id": "/redfish/v1/Managers"
+    },
+    "Name": "Root Service",
+    "Product": "P4352/P4353",
+    "ProtocolFeaturesSupported": {
+        "ExcerptQuery": false,
+        "ExpandQuery": {
+            "ExpandAll": false,
+            "Levels": false,
+            "Links": false,
+            "MaxLevels": 1,
+            "NoLinks": false
+        },
+        "FilterQuery": true,
+        "OnlyMemberQuery": false,
+        "SelectQuery": true
+    },
+    "RedfishVersion": "1.9.0",
+    "Registries": {
+        "@odata.id": "/redfish/v1/Registries"
+    },
+    "ServiceConditions": {
+        "@odata.id": "/redfish/v1/ServiceConditions"
+    },
+    "SessionService": {
+        "@odata.id": "/redfish/v1/SessionService"
+    },
+    "StorageServices": {
+        "@odata.id": "/redfish/v1/StorageServices"
+    },
+    "Systems": {
+        "@odata.id": "/redfish/v1/Systems"
+    },
+    "Tasks": {
+        "@odata.id": "/redfish/v1/TaskService"
+    },
+    "TelemetryService": {
+        "@odata.id": "/redfish/v1/TelemetryService"
+    },
+    "UUID": "ad95d1d9-6a6f-444d-bb29-a797650e00fd",
+    "UpdateService": {
+        "@odata.id": "/redfish/v1/UpdateService"
+    },
+    "Vendor": "NVIDIA"
+}

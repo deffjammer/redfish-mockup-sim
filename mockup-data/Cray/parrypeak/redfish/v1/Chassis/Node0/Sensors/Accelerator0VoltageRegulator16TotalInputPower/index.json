@@ -1,0 +1,20 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator16TotalInputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Total",
+    "Id": "Accelerator0VoltageRegulator16TotalInputPower",
+    "Name": "VDDCR_SOC",
+    "Oem": {
+        "Index": 16,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2071"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 754,
+    "ReadingTime": "2000-01-09T09:57:52.834185040Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

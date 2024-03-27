@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1647264578\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU1VoltageRegulator2OutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU1VoltageRegulator2OutputPower",
+    "Name": "CPU1 FIVRA S0",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U4010"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/KEK/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "A Collection of SecureBoot certificate.",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/KEK/Certificates/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/KEK/Certificates/2"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "SecureBoot Database Certificates Collection"
+}

@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StorageCollection.StorageCollection",
+    "@odata.id": "/redfish/v1/Systems/system/Storage",
+    "@odata.type": "#StorageCollection.StorageCollection",
+    "Name": "Storage Collection",
+    "Description": "The StorageCollection schema contains a collection of storage instances.",
+    "Members@odata.count": 2,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Storage/SystemDisk1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Storage/1"
+        }
+    ]
+}

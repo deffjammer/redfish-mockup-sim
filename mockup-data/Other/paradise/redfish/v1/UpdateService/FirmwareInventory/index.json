@@ -1,0 +1,53 @@
+{
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory",
+    "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Cpld0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/ERoT_CPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/ERoT_CPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/FW_FPGA_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/UEFI"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/bios_active"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/bmc_active"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/erot_active"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/fpga_active"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/pld_active"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/powersupply0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/powersupply1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/psu_active"
+        }
+    ],
+    "Members@odata.count": 15,
+    "Name": "Software Inventory Collection"
+}

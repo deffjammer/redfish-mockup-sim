@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_3/Ports/NVLink_5",
+    "@odata.type": "#Port.v1_4_0.Port",
+    "CurrentSpeedGbps": 0,
+    "Id": "NVLink_5",
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkDown",
+    "Links": {
+        "AssociatedEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_SXM_2"
+            }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_2/Ports/NVLink_15"
+            }
+        ]
+    },
+    "MaxSpeedGbps": 0,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_3/Ports/NVLink_5/Metrics"
+    },
+    "Name": "NVLink_5 Resource",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPort.v1_0_0.NvidiaPort",
+            "RXWidth": 0,
+            "TXWidth": 0
+        }
+    },
+    "PortProtocol": "NVLink",
+    "PortType": "DownstreamPort",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

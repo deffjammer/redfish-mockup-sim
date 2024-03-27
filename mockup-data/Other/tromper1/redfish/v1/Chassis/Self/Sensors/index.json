@@ -1,0 +1,116 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SensorCollection.SensorCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Resource Collection of Sensor instances",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/111"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/112"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/113"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/114"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/241"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/70"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/71"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/72"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/73"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/74"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/75"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/76"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/77"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/78"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/79"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/80"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/81"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/82"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/83"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/84"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/85"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/86"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/87"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/88"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/89"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/90"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/91"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/92"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/93"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/94"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/95"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/96"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/97"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/98"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/99"
+        }
+    ],
+    "Members@odata.count": 35,
+    "Name": "Sensor Collection"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish Schema:  GBTGPUManager  v1.0.0-->
+<!--#                                                                                      -->
+<!--# For a detailed change log, see the README file contained in the DSP8010 bundle,      -->
+<!--# available at http://www.dmtf.org/standards/redfish                                   -->
+<!--# Copyright 2014-2017 Distributed Management Task Force, Inc. (DMTF).                  -->
+<!--# For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+        <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+    </edmx:Reference>
+    
+    <edmx:DataServices>
+
+        <Schema Namespace="GbtGPUManagerTemperture" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <EntityType Name="GbtGPUManagerTemperture" BaseType="Resource.v1_0_0.Resource">
+                <Annotation Term="OData.Description" String="This is the schema definition for GbtGPUManagerTemperture Information."/>
+                <Annotation Term="OData.LongDescription" String="This is the schema definition for GbtGPUManagerTemperture."/>
+                <Annotation Term="Capabilities.InsertRestrictions">
+                    <Record>
+                        <PropertyValue Property="Insertable" Bool="false"/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="Capabilities.UpdateRestrictions">
+                <Record>
+                    <PropertyValue Property="Updatable" Bool="false"/>
+                </Record>
+                </Annotation>
+                <Annotation Term="Capabilities.DeleteRestrictions">
+                <Record>
+                    <PropertyValue Property="Deletable" Bool="false"/>
+                </Record>
+                </Annotation>
+            </EntityType>
+        </Schema>
+
+        <Schema Namespace="GbtGPUManagerTemperture.v1_0_0" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <Annotation Term="Redfish.OwningEntity" String="AMI"/>
+            <EntityType Name="GbtGPUManagerTemperture" BaseType="GbtGPUManagerTemperture.GbtGPUManagerTemperture">
+                <Annotation Term="OData.Description" String="This is the schema definition for GbtGPUManagerTemperture Information and Status of the Systems connected to this Manager."/>
+                <Annotation Term="OData.LongDescription" String="This is the schema definition for GbtGPUManagerTemperture Information and Status of the Systems connected to this Manager."/>
+
+                <Property Name="ExtendedPrecisionGpuTemperature" Type="GbtGPUManagerTemperture.1.0.0.ExtendedPrecisionGpuTemperature" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permissions/Read"/>
+                    <Annotation Term="OData.Description" String="The value of this property shall contain information about the ExtendedPrecisionGpuTemperature of this system."/>
+                </Property>
+                <Property Name="Temperature" Type="GbtGPUManagerTemperture.1.0.0.Temperature" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permissions/Read"/>
+                    <Annotation Term="OData.Description" String="The value of this property shall contain information about the Temperature of this system."/>
+                </Property>
+            </EntityType>
+
+            <ComplexType Name="Temperature">
+                <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+                <Annotation Term="OData.Description" String="This property shall specify a valid odata or Redfish property."/>
+                <Annotation Term="OData.LongDescription" String="This property shall specify a valid odata or Redfish property."/>
+                <Property Name="PrimaryGPU" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="SecondaryGPU" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="SensorMonitoringBoard" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="SensorMonitoringMemory" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+            </ComplexType>
+            <ComplexType Name="ExtendedPrecisionGpuTemperature">
+                <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+                <Annotation Term="OData.Description" String="This property shall specify a valid odata or Redfish property."/>
+                <Annotation Term="OData.LongDescription" String="This property shall specify a valid odata or Redfish property."/>
+                <Property Name="PrimaryGPU" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="SecondaryGPU" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="SensorMonitoringBoard" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+                <Property Name="SensorMonitoringMemory" Type="Edm.String" Nullable="false">
+                    <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                    <Annotation Term="OData.Description" String="Specifies the status of inventory file processing."/>
+                    <Annotation Term="OData.LongDescription" String="The value of this property shall indicate the status of inventory file processing."/>
+                </Property>
+            </ComplexType>
+        </Schema>
+        
+    </edmx:DataServices>
+
+</edmx:Edmx>

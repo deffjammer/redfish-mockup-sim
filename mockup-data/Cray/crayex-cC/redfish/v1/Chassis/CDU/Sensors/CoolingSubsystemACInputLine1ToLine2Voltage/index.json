@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine1ToLine2Voltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Line1ToLine2",
+    "Id": "CoolingSubsystemACInputLine1ToLine2Voltage",
+    "Name": "CDU Voltage Phase 1-2",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "ACInput",
+    "Reading": 209.9,
+    "ReadingTime": "2022-03-11T21:43:40.058688751Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

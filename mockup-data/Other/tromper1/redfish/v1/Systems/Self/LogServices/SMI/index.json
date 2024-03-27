@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Systems/Self/LogServices/SMI",
+    "@odata.type": "#LogService.v1_1_3.LogService",
+    "Actions": {
+        "#LogService.ClearLog": {
+            "target": "/redfish/v1/Systems/Self/LogServices/SMI/Actions/LogService.ClearLog"
+        }
+    },
+    "DateTime": "2023-10-26T20:22:02+00:00",
+    "DateTimeLocalOffset": "+00:00",
+    "Description": "SMI SEL events for this manager",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Systems/Self/LogServices/SMI/Entries"
+    },
+    "Id": "SMI",
+    "LogEntryType": "SEL",
+    "MaxNumberOfRecords": 150,
+    "Name": "SMI Log Service",
+    "OverWritePolicy": "WrapsWhenFull",
+    "ServiceEnabled": true,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

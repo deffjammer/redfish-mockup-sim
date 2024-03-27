@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/3002",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/3002/attachment",
+    "Created": "2023-09-27T20:09:21+00:00",
+    "EntryType": "Event",
+    "Id": "3002",
+    "Message": "The resource property PCIeSwitch_0 PCIe has detected errors of type 'Abnormal Speed Change'.",
+    "MessageArgs": [
+        "PCIeSwitch_0 PCIe",
+        "Abnormal Speed Change"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "Reset the link. If problem persists, isolate the server for RMA evaluation.",
+    "Resolved": false,
+    "Severity": "Critical"
+}

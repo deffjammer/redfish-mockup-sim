@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ManagerAccount.ManagerAccount",
+    "@odata.etag": "\"1640995210\"",
+    "@odata.id": "/redfish/v1/AccountService/Accounts/5",
+    "@odata.type": "#ManagerAccount.v1_5_0.ManagerAccount",
+    "AccountTypes": [
+        "Redfish"
+    ],
+    "Certificates": {
+        "@odata.id": "/redfish/v1/AccountService/Accounts/5/Certificates"
+    },
+    "Description": "User Account sync from IPMI",
+    "Enabled": true,
+    "Id": "5",
+    "Links": {
+        "Role": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Administrator"
+        }
+    },
+    "Locked": false,
+    "Name": "Shanghai",
+    "Password": null,
+    "PasswordChangeRequired": false,
+    "RoleId": "Administrator",
+    "UserName": "Shanghai"
+}

@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2VoltageRegulator1MaximumOutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Maximum",
+    "Id": "Accelerator2VoltageRegulator1MaximumOutputVoltage",
+    "Name": "VDD_1V1_E32",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 2,
+        "ReferenceDesignator": "U10067"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 1.1275,
+    "ReadingTime": "2000-01-09T09:58:39.139856080Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 1.6
+        }
+    }
+}

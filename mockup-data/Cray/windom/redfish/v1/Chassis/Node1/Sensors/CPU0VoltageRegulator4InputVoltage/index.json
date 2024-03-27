@@ -1,0 +1,45 @@
+{
+    "@odata.etag": "W/\"1698352627\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU0VoltageRegulator4InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator4InputVoltage",
+    "Name": "CPU0 SOC_S0",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3007"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 11.813,
+    "ReadingTime": "2023-10-26T20:37:05.125995734Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 10.8
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 10.2
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 10
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 12.6
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 12.84
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 15.16
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1699022245\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/90",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-11-02T13:57:21+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-11-02T13:57:21+00:00",
+    "Id": "90",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/Node0"
+        }
+    },
+    "Message": "The hardware resource Node0 caused or will cause an emergency power off (EPO) to avoid damage. Hardware-specific information: Please contact HPE support for further assistance.",
+    "MessageArgs": [
+        "Node0",
+        "Please contact HPE support for further assistance"
+    ],
+    "MessageId": "CrayAlerts.HardwareEmergencyPowerOffDetected",
+    "Name": "Log entry 90",
+    "Severity": "Critical"
+}

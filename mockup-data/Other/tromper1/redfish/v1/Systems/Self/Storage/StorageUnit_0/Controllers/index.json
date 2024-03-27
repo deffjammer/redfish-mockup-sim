@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StorageControllerCollection.StorageControllerCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Controllers",
+    "@odata.type": "#StorageControllerCollection.StorageControllerCollection",
+    "Description": "Collection of storage controllers",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Controllers/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Controllers/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Controllers/2"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "Storage Controllers Collection"
+}

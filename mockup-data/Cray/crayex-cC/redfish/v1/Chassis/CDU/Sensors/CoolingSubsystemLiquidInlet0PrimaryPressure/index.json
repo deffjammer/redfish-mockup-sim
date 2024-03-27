@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet0PrimaryPressure",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Primary",
+    "Id": "CoolingSubsystemLiquidInlet0PrimaryPressure",
+    "Name": "Primary (Facility) Supply Pressure",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "LiquidInlet",
+    "Reading": 27.8,
+    "ReadingTime": "2022-03-11T21:43:43.067418784Z",
+    "ReadingType": "Pressure",
+    "ReadingUnits": "PSI"
+}

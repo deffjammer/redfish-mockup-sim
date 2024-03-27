@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "\"1697465671\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_66_00",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "DeviceType": "SingleFunction",
+    "Id": "00_66_00",
+    "Manufacturer": "ASPEED Technology, Inc.",
+    "Name": "00_66_00",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_66_00/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 1,
+        "MaxLanes": 1,
+        "MaxPCIeType": "Gen2",
+        "PCIeType": "Gen1"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemRoom1Humidity",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemRoom1Humidity",
+    "Name": "Relative Humidity 1",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Room",
+    "Reading": 32.6,
+    "ReadingTime": "2022-03-11T21:43:40.009038807Z",
+    "ReadingType": "Humidity",
+    "ReadingUnits": "%"
+}

@@ -1,0 +1,12 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Collection of Sensors for this Chassis",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/PDB_PWR_BK_TEMP"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "Sensors"
+}

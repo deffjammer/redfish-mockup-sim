@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2863",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2863/attachment",
+    "Created": "2023-08-09T01:41:54+00:00",
+    "EntryType": "Event",
+    "Id": "2863",
+    "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16515072][00] SXID 17 dNon-fatal'.",
+    "MessageArgs": [
+        "NVSwitch_2 Driver Event Message",
+        "[Sun Feb  1 05:23:19 UTC 1970][16515072][00] SXID 17 dNon-fatal",
+        "PRI WRITE PRT error",
+        "instance"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

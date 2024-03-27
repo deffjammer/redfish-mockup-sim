@@ -1,0 +1,67 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/EthernetInterfaces/eno0",
+    "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+    "DHCPv4": {
+        "DHCPEnabled": true,
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true
+    },
+    "DHCPv6": {
+        "OperatingMode": "Stateful",
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true
+    },
+    "Description": "Management Network Interface",
+    "FQDN": "x9000c3s0b0",
+    "HostName": "x9000c3s0b0",
+    "IPv4Addresses": [
+        {
+            "Address": "10.176.0.13",
+            "AddressOrigin": "DHCP",
+            "Gateway": "10.176.3.254",
+            "SubnetMask": "255.255.252.0"
+        },
+        {
+            "Address": "169.254.42.59",
+            "AddressOrigin": "IPv4LinkLocal",
+            "Gateway": "0.0.0.0",
+            "SubnetMask": "255.255.0.0"
+        }
+    ],
+    "IPv4StaticAddresses": [],
+    "IPv6AddressPolicyTable": [],
+    "IPv6Addresses": [
+        {
+            "Address": "fe80::23:28ff:fe03:3000",
+            "AddressOrigin": "LinkLocal",
+            "AddressState": null,
+            "PrefixLength": 0
+        },
+        {
+            "Address": "fd3f:cfa:6bef:3000:23:28ff:fe03:3000",
+            "AddressOrigin": "DHCPv6",
+            "AddressState": null,
+            "PrefixLength": 0
+        }
+    ],
+    "IPv6DefaultGateway": "fe80::8c85:c18b:b8ed:2480",
+    "IPv6StaticAddresses": [],
+    "Id": "eno0",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "02:23:28:03:30:00",
+    "Name": "Manager Ethernet Interface",
+    "NameServers": [],
+    "SpeedMbps": 1000,
+    "StaticNameServers": [],
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "VLANs": {
+        "@odata.id": "/redfish/v1/Managers/bmc/EthernetInterfaces/eno0/VLANs"
+    }
+}

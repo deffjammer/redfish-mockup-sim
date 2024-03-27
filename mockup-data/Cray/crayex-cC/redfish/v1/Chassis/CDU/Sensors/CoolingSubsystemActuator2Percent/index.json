@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemActuator2Percent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemActuator2Percent",
+    "Name": "Control Valve Actuator2 Feedback Position",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Actuator",
+    "Reading": 31,
+    "ReadingTime": "2022-03-11T21:43:42.009940261Z",
+    "ReadingType": "Percent",
+    "ReadingUnits": "%"
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"1699022245\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU2Power",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU2Power",
+    "Name": "CPU2",
+    "Oem": {
+        "Index": 2
+    },
+    "PhysicalContext": "CPU",
+    "ReadingTime": "2023-11-03T14:37:29.302745254Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

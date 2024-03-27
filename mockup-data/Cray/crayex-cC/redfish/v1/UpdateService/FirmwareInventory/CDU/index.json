@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CDU",
+    "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
+    "Description": "Cooling Distribution Unit Firmware",
+    "Id": "CDU",
+    "Name": "Motivair CDU",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": false,
+    "Version": "217"
+}

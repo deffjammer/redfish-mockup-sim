@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"946642670\"",
+    "@odata.id": "/redfish/v1/Chassis/Mezz2",
+    "@odata.type": "#Chassis.v1_5_1.Chassis",
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/Mezz2/Assembly"
+    },
+    "ChassisType": "Card",
+    "Description": "SS11 200Gb 2P NIC Mezz",
+    "Id": "Mezz2",
+    "Manufacturer": "HPE",
+    "Model": "R4K44A",
+    "Name": "Mezz2",
+    "PowerState": "On",
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/Mezz2/Sensors"
+    },
+    "SerialNumber": "JP22251581",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

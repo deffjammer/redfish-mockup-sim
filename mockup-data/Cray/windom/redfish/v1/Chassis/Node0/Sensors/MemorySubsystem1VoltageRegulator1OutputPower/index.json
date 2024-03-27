@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/MemorySubsystem1VoltageRegulator1OutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "MemorySubsystem1VoltageRegulator1OutputPower",
+    "Name": "CPU1 DIMM VDD_VPP_EFGH_S0",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "MemorySubsystem",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U2016"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0,
+    "ReadingTime": "2023-10-26T20:37:46.681545292Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

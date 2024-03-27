@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases",
+    "@odata.type": "#SecureBootDatabaseCollection.SecureBootDatabaseCollection",
+    "Description": "The collection of SecureBootDatabase resource instances.",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/PK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/KEK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/db"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbx"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/PKDefault"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/KEKDefault"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbxDefault"
+        }
+    ],
+    "Members@odata.count": 8,
+    "Name": "SecureBoot DataBase Collection"
+}

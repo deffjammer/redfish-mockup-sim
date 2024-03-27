@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1732",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1732/attachment",
+    "Created": "2023-10-24T05:47:23+00:00",
+    "EntryType": "Event",
+    "Id": "1732",
+    "Message": "xyz.openbmc_project.State.Host.Error.HostStopFailure",
+    "Modified": "2023-10-24T05:47:23+00:00",
+    "Name": "System Event Log Entry",
+    "Resolved": false,
+    "Severity": "Critical"
+}

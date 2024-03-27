@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet0PrimaryLiquidFlow",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Primary",
+    "Id": "CoolingSubsystemLiquidInlet0PrimaryLiquidFlow",
+    "Name": "Primary (Facility) Flow",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "LiquidInlet",
+    "Reading": 2.7,
+    "ReadingTime": "2022-03-11T21:43:41.021345132Z",
+    "ReadingType": "LiquidFlow",
+    "ReadingUnits": "GPM"
+}

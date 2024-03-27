@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StorageController.v1_0_0.StorageController",
+    "@odata.etag": "\"1697465673\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Controllers/1",
+    "@odata.type": "#StorageController.v1_0_0.StorageController",
+    "AssetTag": "(USB_Controller_1)",
+    "FirmwareVersion": "1.20",
+    "Id": "1",
+    "Model": "Not Available",
+    "Name": "USB_Controller1",
+    "SerialNumber": "Not Available",
+    "SpeedGbps": 3,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SupportedControllerProtocols": [
+        "USB",
+        "PCIe"
+    ],
+    "SupportedDeviceProtocols": [
+        "USB"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "W/\"2D5D8F80\"",
+    "@odata.id": "/redfish/v1/Chassis/enclosurechassis",
+    "@odata.type": "#Chassis.v1_6_0.Chassis",
+    "Id": "enclosurechassis",
+    "AssetTag": "",
+    "ChassisType": "Enclosure",
+    "Manufacturer": "HPE",
+    "Name": "Computer System Chassis",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
+            "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
+            "EnclosureCPLD": "7.7.0",
+            "TrayID": "0x04"
+        }
+    },
+    "PartNumber": "P17447-001",
+    "PowerState": "On",
+    "SerialNumber": "1234567890"
+}

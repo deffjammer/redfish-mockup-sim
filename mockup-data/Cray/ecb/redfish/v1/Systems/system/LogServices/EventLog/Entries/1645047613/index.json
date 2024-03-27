@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047613",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-02-16T21:40:13+00:00",
+    "EntryType": "Event",
+    "Id": "1645047613",
+    "Message": "Power supply PVCCD_HV_CPU1 failed.",
+    "MessageArgs": [
+        "PVCCD_HV_CPU1"
+    ],
+    "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+    "Name": "System Event Log Entry",
+    "Severity": "Warning"
+}

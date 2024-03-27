@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/MainCPLD",
+    "@odata.type": "#SoftwareInventory.v1_2_3.SoftwareInventory",
+    "Id": "MainCPLD",
+    "Name": "MainCPLD",
+    "Updateable": true,
+    "Version": "10.10.0000"
+}

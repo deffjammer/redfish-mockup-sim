@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"1698350713\"",
+    "@odata.id": "/redfish/v1/Systems/Node3/Memory/DIMM22",
+    "@odata.type": "#Memory.v1_5_0.Memory",
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 80,
+    "CapacityMiB": 65536,
+    "DataWidthBits": 64,
+    "ErrorCorrection": "Multi-bit ECC",
+    "Id": "DIMM22",
+    "Manufacturer": "SK Hynix",
+    "MemoryDeviceType": "Other",
+    "MemoryLocation": {
+        "Slot": 10,
+        "Socket": 1
+    },
+    "MemoryType": "DRAM",
+    "Name": "DIMM 22",
+    "OperatingSpeedMhz": 4800,
+    "PartNumber": "HMCG94AEBRA103N",
+    "RankCount": 2,
+    "SerialNumber": "13F465C6"
+}

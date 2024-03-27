@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/bios_active",
+    "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
+    "Description": "Host image",
+    "Id": "bios_active",
+    "Members@odata.count": 1,
+    "Name": "Software Inventory",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Bios"
+        }
+    ],
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "EGSDCRB1.DWR.0063.D35.2109020032"
+}

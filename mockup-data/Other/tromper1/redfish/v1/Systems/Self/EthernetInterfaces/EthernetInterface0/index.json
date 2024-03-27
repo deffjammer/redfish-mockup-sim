@@ -1,0 +1,48 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "\"1697465673\"",
+    "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces/EthernetInterface0",
+    "@odata.type": "#EthernetInterface.v1_6_2.EthernetInterface",
+    "DHCPv4": {
+        "DHCPEnabled": false
+    },
+    "EthernetInterfaceType": "Physical",
+    "IPv4Addresses": [
+        {
+            "Address": "0.0.0.0",
+            "AddressOrigin": "Static",
+            "SubnetMask": "0.0.0.0"
+        }
+    ],
+    "IPv6Addresses": [
+        {
+            "Address": "FE80::B67A:F1FF:FEB4:7400",
+            "AddressOrigin": "DHCPv6",
+            "PrefixLength": 64
+        }
+    ],
+    "IPv6DefaultGateway": "::",
+    "Id": "EthernetInterface0",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/Self"
+        },
+        "NetworkDeviceFunction": {
+            "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC2/NetworkDeviceFunctions/NetworkDeviceFunction2"
+        }
+    },
+    "MACAddress": "B4:7A:F1:B4:74:00",
+    "MTUSize": 1500,
+    "Name": "EthernetInterface0",
+    "PermanentMACAddress": "B4:7A:F1:B4:74:00",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x5,0x3)/Pci(0x0,0x0)",
+    "VLANs": {
+        "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces/EthernetInterface0/VLANs"
+    }
+}

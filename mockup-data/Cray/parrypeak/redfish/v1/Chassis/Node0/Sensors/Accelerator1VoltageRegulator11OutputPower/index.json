@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1VoltageRegulator11OutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator1VoltageRegulator11OutputPower",
+    "Name": "VDD_1V8_S0",
+    "Oem": {
+        "Index": 10,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U6068"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 14,
+    "ReadingTime": "2000-01-09T09:58:08.732005680Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

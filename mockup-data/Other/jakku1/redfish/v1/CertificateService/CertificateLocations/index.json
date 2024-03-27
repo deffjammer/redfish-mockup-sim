@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#CertificateLocations.CertificateLocations",
+    "@odata.etag": "W/\"1698351295\"",
+    "@odata.id": "/redfish/v1/CertificateService/CertificateLocations",
+    "@odata.type": "#CertificateLocations.v1_0_2.CertificateLocations",
+    "Description": "Certificate Locations",
+    "Id": "CertificateLocations",
+    "Links": {
+        "Certificates": [
+            {
+                "@odata.id": "/redfish/v1/Managers/Self/Certificates/ASD"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol/HTTPS/Certificates/1"
+            }
+        ],
+        "Certificates@odata.count": 2
+    },
+    "Name": "Certificate Locations"
+}

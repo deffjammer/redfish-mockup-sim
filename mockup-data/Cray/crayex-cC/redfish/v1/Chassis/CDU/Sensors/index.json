@@ -1,0 +1,139 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Sensor Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemPump1SecondaryInputPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemSystemSecondaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputPower"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemDCBus2Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine1ToLine2Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemActuator2Percent"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor1Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemPumpSecondaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine3Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor2Energy"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemRoom1DewPointTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet2SecondaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemDCBus1Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet0PrimaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet1SecondaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemPump2SecondaryInputPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet0PrimaryLiquidFlow"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor2Rotational"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemRoom1Humidity"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet1SecondaryTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotorInputVoltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine3ToLine1Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemSystemBoardTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet1SecondaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet0PrimaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor2Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemFilter1SecondaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet0PrimaryTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet2SecondaryTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine2Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemActuatorInputVoltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemRoom1Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet0PrimaryTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet2SecondaryPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet1SecondaryTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputPowerFactor"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine1Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor1Rotational"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor1Energy"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine2ToLine3Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet0SecondaryLiquidFlow"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet2SecondaryTemperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputFrequency"
+        }
+    ],
+    "Members@odata.count": 43,
+    "Name": "Sensor Collection"
+}

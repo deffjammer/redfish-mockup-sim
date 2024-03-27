@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet1SecondaryTemperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Secondary",
+    "Id": "CoolingSubsystemLiquidInlet1SecondaryTemperature",
+    "Name": "Secondary (Cabinet) Return Temperature Probe 1",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "LiquidInlet",
+    "Reading": 24.6,
+    "ReadingTime": "2022-03-11T21:43:41.229113190Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

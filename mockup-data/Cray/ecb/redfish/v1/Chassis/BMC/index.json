@@ -1,0 +1,69 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC",
+    "@odata.type": "#Chassis.v1_14_0.Chassis",
+    "Actions": {
+        "#Chassis.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Chassis/BMC/ResetActionInfo",
+            "target": "/redfish/v1/Chassis/BMC/Actions/Chassis.Reset"
+        }
+    },
+    "ChassisType": "RackMount",
+    "Id": "BMC",
+    "IndicatorLED": "Off",
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/system"
+            }
+        ],
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/bmc"
+            }
+        ]
+    },
+    "LocationIndicatorActive": false,
+    "Manufacturer": "Intel Corporation",
+    "Model": "AURMGMTBRD",
+    "Name": "BMC",
+    "Oem": {
+        "Intel": {
+            "BiosIdString": "HAVLCRB0.X64.0020.D24.2109282354",
+            "BiosVersion": "0020.D24-SPS 1.1",
+            "BoardCustomInfo1": "Custom Info 1",
+            "BoardCustomInfo2": "Custom Info 2",
+            "Ethernet": {
+                "@odata.id": "/redfish/v1/Chassis/BMC/Oem/Intel/Ethernet"
+            },
+            "Memory": {
+                "@odata.id": "/redfish/v1/Chassis/BMC/Oem/Intel/Memory"
+            },
+            "Processors": {
+                "@odata.id": "/redfish/v1/Chassis/BMC/Oem/Intel/Processors"
+            },
+            "eMMC": {
+                "@odata.id": "/redfish/v1/Chassis/BMC/Oem/Intel/eMMC"
+            }
+        }
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Systems/system/PCIeDevices"
+    },
+    "PartNumber": "K66986-200",
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/BMC/Power"
+    },
+    "PowerState": "On",
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/BMC/Sensors"
+    },
+    "SerialNumber": "NRAY10200047",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/BMC/Thermal"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_2_2.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkDeviceFunctions/NetworkDeviceFunction0/SD"
+        }
+    },
+    "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunction.NetworkDeviceFunction",
+    "@odata.etag": "\"1697465670\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkDeviceFunctions/NetworkDeviceFunction0",
+    "@odata.type": "#NetworkDeviceFunction.v1_5_0.NetworkDeviceFunction",
+    "AssignablePhysicalNetworkPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/Ports/DevTypeE_Slot1_Instance0_PORT0"
+        }
+    ],
+    "AssignablePhysicalNetworkPorts@odata.count": 1,
+    "AssignablePhysicalPorts@odata.count": 0,
+    "BootMode@Redfish.AllowableValues": [
+        "Disabled",
+        "PXE"
+    ],
+    "Ethernet": {
+        "VLANs": {
+            "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkDeviceFunctions/NetworkDeviceFunction0/Ethernet/VLANs"
+        }
+    },
+    "Id": "NetworkDeviceFunction0",
+    "Links": {
+        "Endpoints@odata.count": 0,
+        "PCIeFunction": {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_03_00/PCIeFunctions/DevType3__DevIndex3"
+        },
+        "PhysicalNetworkPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/Ports/DevTypeE_Slot1_Instance0_PORT0"
+        }
+    },
+    "Name": "NetworkDeviceFunction0",
+    "NetDevFuncCapabilities": [
+        "Ethernet"
+    ],
+    "NetDevFuncType": "Ethernet",
+    "NetDevFuncType@Redfish.AllowableValues": [
+        "Disabled",
+        "Ethernet"
+    ]
+}

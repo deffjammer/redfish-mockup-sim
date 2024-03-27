@@ -1,0 +1,162 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ProcessorCollection.ProcessorCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors",
+    "@odata.type": "#ProcessorCollection.ProcessorCollection",
+    "Description": "Collection of processors",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core24_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core24_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core25"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core25_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core25_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core26"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core26_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core26_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core27"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core27_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core27_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core28"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core28_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core28_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core29"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core29_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core29_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core2_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core2_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core30"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core30_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core30_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core31"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core31_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core31_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core32"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core32_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core32_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core33"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core33_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core33_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core34"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core34_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core34_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core35"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core35_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core35_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core36"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core36_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core36_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core37"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core37_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core37_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core38"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core38_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core38_Thread1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core39"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core39_Thread0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors/DevType1_CPU0_Core39_Thread1"
+        }
+    ],
+    "Members@odata.count": 144,
+    "Members@odata.nextLink": "/redfish/v1/Systems/Self/Processors/DevType1_CPU0/SubProcessors?$skip=100",
+    "Name": "Processors Collection"
+}

@@ -1,0 +1,8 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/KEK/Signatures",
+    "@odata.type": "#SignatureCollection.SignatureCollection",
+    "Description": "A Collection of SecureBoot Signature instances",
+    "Members": [],
+    "Members@odata.count": 0,
+    "Name": "Signature Collection"
+}

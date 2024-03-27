@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/37",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-06-28T08:46:28+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-06-28T08:46:28+00:00",
+    "Id": "37",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The 12V_HSS ECB Temperature resource has detected a fatal fault indicating that it went above its allowed operating conditions.",
+    "MessageArgs": [
+        "above",
+        "12V_HSS ECB Temperature"
+    ],
+    "MessageId": "CrayAlerts.HardwareFatalFaultDetected",
+    "Name": "Log entry 37",
+    "Severity": "Critical"
+}

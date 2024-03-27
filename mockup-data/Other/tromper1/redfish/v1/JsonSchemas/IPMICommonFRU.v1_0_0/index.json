@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/IPMICommonFRU.v1_0_0",
+    "@odata.type": "#JsonSchemaFile.v1_1_4.JsonSchemaFile",
+    "Description": "IPMICommonFRU.v1_0_0 schema",
+    "Id": "IPMICommonFRU.v1_0_0",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/JsonSchemas/IPMICommonFRU.v1_0_0.json"
+        }
+    ],
+    "Name": "IPMICommonFRU.v1_0_0 schema",
+    "Schema": "IPMICommonFRU.v1_0_0.IPMICommonFRU"
+}

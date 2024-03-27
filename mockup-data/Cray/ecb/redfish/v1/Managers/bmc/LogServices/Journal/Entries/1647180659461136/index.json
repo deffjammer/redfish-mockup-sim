@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/LogServices/Journal/Entries/1647180659461136",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-03-13T14:10:59+00:00",
+    "EntryType": "Oem",
+    "Id": "1647180659461136",
+    "Message": "phosphor-network-manager: Invalid Mask",
+    "Name": "BMC Journal Entry",
+    "OemRecordFormat": "BMC Journal Entry",
+    "Severity": "Warning"
+}

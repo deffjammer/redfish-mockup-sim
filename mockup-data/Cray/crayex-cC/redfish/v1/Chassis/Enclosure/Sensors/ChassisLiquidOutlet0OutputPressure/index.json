@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisLiquidOutlet0OutputPressure",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisLiquidOutlet0OutputPressure",
+    "Name": "cabinet_return_water",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis"
+    },
+    "PhysicalContext": "LiquidOutlet",
+    "PhysicalSubContext": "Output",
+    "Reading": 19.95,
+    "ReadingTime": "2022-03-11T21:43:41.018319650Z",
+    "ReadingType": "Pressure",
+    "ReadingUnits": "PSI"
+}

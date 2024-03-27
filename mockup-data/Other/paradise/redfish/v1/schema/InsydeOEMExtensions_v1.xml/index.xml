@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# InsydeOem Schema:  InsydeOEMExtensions  v1.0.0                                       -->
+<!--#                                                                                      -->
+<!--#  @section LICENSE                                                                    -->
+<!--#                                                                                      -->
+<!--# Copyright (c) 2003-2019, Insyde Software Corp. All Rights Reserved.                  -->
+<!--#                                                                                      -->
+<!--# You may not reproduce, distribute, publish, display, perform, modify, adapt,         -->
+<!--# transmit, broadcast, present, recite, release, license or otherwise exploit          -->
+<!--# any part of this publication in any form, by any means, without the prior            -->
+<!--# written permission of Insyde Software Corp.                                          -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+    <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Resource_v1.xml">
+    <edmx:Include Namespace="Resource"/>
+    <edmx:Include Namespace="Resource.v1_0_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/UpdateService_v1.xml">
+    <edmx:Include Namespace="UpdateService"/>
+    <edmx:Include Namespace="UpdateService.v1_0_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/ManagerNetworkProtocol_v1.xml">
+    <edmx:Include Namespace="ManagerNetworkProtocol.v1_0_0"/>
+    <edmx:Include Namespace="ManagerNetworkProtocol.v1_2_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydeSMBIOS_v1.xml">
+    <edmx:Include Namespace="InsydeSMBIOS"/>
+    <edmx:Include Namespace="InsydeSMBIOS.v1_0_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydePCIeFunctions_v1.xml">
+    <edmx:Include Namespace="InsydePCIeFunctions"/>
+    <edmx:Include Namespace="InsydePCIeFunctions.v1_0_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydeNcsiCollection_v1.xml">
+    <edmx:Include Namespace="InsydeNcsiCollection"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/CertificateCollection_v1.xml">
+    <edmx:Include Namespace="CertificateCollection"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/AttributeRegistry_v1.xml">
+    <edmx:Include Namespace="AttributeRegistry"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydeStorageControllerTTYLog_v1.xml">
+    <edmx:Include Namespace="InsydeStorageControllerTTYLog"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydeStorageControllerEventCollection_v1.xml">
+    <edmx:Include Namespace="InsydeStorageControllerEventCollection"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydeACDLogCollection_v1.xml">
+    <edmx:Include Namespace="InsydeACDLogCollection"/>
+    <edmx:Include Namespace="InsydeACDLogCollection.v1_0_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydeDataIntegration_v1.xml">
+    <edmx:Include Namespace="InsydeDataIntegration"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydeIPAccessCollection_v1.xml">
+    <edmx:Include Namespace="InsydeIPAccessCollection"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="/redfish/v1/schema/InsydePostCodeCollection_v1.xml">
+    <edmx:Include Namespace="InsydePostCodeCollection"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Processor_v1.xml">
+    <edmx:Include Namespace="Processor"/>
+    <edmx:Include Namespace="Processor.v1_4_0"/>
+  </edmx:Reference>
+    <edmx:DataServices>
+      <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="InsydeOEMExtensions">
+        <Annotation Term="Redfish.OwningEntity" String="Insyde"/>
+      </Schema>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="InsydeOEMExtensions.v1_0_0">
+          <Action Name="PushUpdate" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to push update software components."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform a push update of installed software component(s) as contained within a software image file located at a URI referenced by the ImageURI parameter."/>
+            <Parameter Name="UpdateService" Type="UpdateService.v1_0_0.OemActions"/>
+            <Parameter Name="HttpPushUriTargets" Type="Edm.String" Nullable="false"/>
+          </Action>
+          <Action Name="OSdeployment" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to trigger OS deployment."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform an OS deployment within a software image file located at a URI referenced by the ImageURI parameter."/>
+            <Parameter Name="UpdateService" Type="UpdateService.v1_0_0.OemActions"/>
+            <Parameter Name="ImageURI" Type="Edm.String" Nullable="false"/>
+            <Parameter Name="TransferProtocol" Type="UpdateService.v1_0_0.TransferProtocolType"/>
+          </Action>
+
+          <ComplexType Name="SMBIOS">
+            <Annotation Term="OData.Description" String="This type contains SMBIOS settings."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe SMBIOS settings."/>
+            <NavigationProperty Name="SMBIOS" Type="InsydeSMBIOS.InsydeSMBIOS" Nullable="false">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="A reference to the BIOS settings associated with this system."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a link to a resource of type Bios that lists the BIOS settings for this system."/>
+              <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <Property Name="NodeLocation" Nullable="false">
+            <Annotation Term="OData.Description" String="Used to calculate the number of NodeLocations."/>
+            <Annotation Term="OData.LongDescription" String="This is used to calculate the number of NodeLocations."/>
+            <Property Name ="NodeLocation" Type = "Edm.Int64">
+              <Annotation Term="OData.Description" String="Used to calculate the number of NodeLocations."/>
+              <Annotation Term="OData.LongDescription" String="This is used to calculate the number of NodeLocations."/>
+            </Property>
+          </Property>
+
+          <ComplexType Name="MemorySummary">
+            <Property Name="MemorySummary" Type="InsydeOEMExtensions.v1_0_0.SubMemorySummary"/>
+          </ComplexType>
+          <ComplexType Name="SubMemorySummary">
+            <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+            <Annotation Term="OData.Description" String="The memory of the system in general detail."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties that describe the central memory for a system."/>
+            <Property Name="TotalSystemMemoryGiB" Type="Edm.Decimal">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The total configured operating system-accessible memory (RAM), measured in GiB."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the amount of configured system general purpose volatile (RAM) memory as     measured in gibibytes."/>
+              <Annotation Term="Validation.Minimum" Int="0"/>
+              <Annotation Term="Measures.Unit" String="GiBy"/>
+            </Property>
+            <Property Name="HealthScoreAverage" Type="Edm.Int64">
+              <Annotation Term="OData.Description" String="The HealthScoreAverage for this memory"/>
+              <Annotation Term="OData.LongDescription" String="The HealthScoreAverage for this memory."/>
+            </Property>
+            <Property Name="HealthScoreMax" Type="Edm.Int64">
+              <Annotation Term="OData.Description" String="The HealthScoreMax for this memory"/>
+              <Annotation Term="OData.LongDescription" String="The HealthScoreMax for this memory."/>
+            </Property>
+            <Property Name="HealthScoreMin" Type="Edm.Int64">
+              <Annotation Term="OData.Description" String="The  HealthScoreMin for this memory"/>
+              <Annotation Term="OData.LongDescription" String="The  HealthScoreMin for this memory."/>
+            </Property>
+            <Property Name="Status" Type="Resource.Status" Nullable="false">
+              <Annotation Term="OData.Description" String="The status and health of the Resource and its subordinate or dependent Resources."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain any status or health properties of the Resource."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="PCIeFunctions">
+            <Annotation Term="OData.Description" String="This type contains PCIe Functions information"/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain property shall be a link to a resource of type PCIe Functions that lists the all PCIe functions for this system"/>
+            <NavigationProperty Name="PCIeFunctions" Type="InsydePCIeFunctions.InsydePCIeFunctions" Nullable="false">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="A reference to the PCIe Functions associated with this syste"/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a link to a resource of PCIe Functions that lists the all PCIe Functions for this system."/>
+              <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <ComplexType Name="ExtraSettings" Nullable="false">
+            <Annotation Term="OData.Description" String="This type contains Extra Settings of Account Provider."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Extra Settings of Account Provider."/>
+            <Property Name ="SSLEnable" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether this connect over SSL is enabled."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether this connect over SSL is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="Port" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="This indicates which port is used."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall contain the port assigned for the protocol."/>
+            </Property>
+            <Property Name ="AuthTimeout" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="This indicates which timeout during auth."/>
+              <Annotation Term="OData.LongDescription" String="This property shall reference the threshold of time in seconds during authentication."/>
+            </Property>
+            <Property Name ="VerifyServerCertificate" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="To verify or not is determine by the client."/>
+              <Annotation Term="OData.LongDescription" String="To verify or not is determine by the client. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="VerifyClientCertificate" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="To verify or not is determine by the LDAP server."/>
+              <Annotation Term="OData.LongDescription" String="To verify or not is determine by the LDAP server. The value shall be true if enabled and false if disabled."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="OSDeployment">
+            <Annotation Term="OData.Description" String="This type contains Insyde OS Deployment information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Insyde OS Deployment information."/>
+            <Property Name ="OSDeploymentID" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The ID of OS deployment."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the ID of OS deployment."/>
+            </Property>
+            <Property Name ="OSDeployment" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="Indicates if OS deployment is enabled."/>
+              <Annotation Term="OData.LongDescription" String="Indicates if OS deployment is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="DevPortNum" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The device port number."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the device port number."/>
+            </Property>
+            <Property Name ="VMSlot" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The inserted virtual media slot."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the inserted virtual media slot."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="SSHDBG" BaseType="ManagerNetworkProtocol.v1_0_0.Protocol" Nullable="false"/>
+          <ComplexType Name="SystemDebugLog" Nullable="false">
+          <Annotation Term="OData.Description" String="This type contains Genetate System Debug Log information."/>
+          <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Genetate System Debug Log information."/>
+            <Property Name ="Status" Type="InsydeOEMExtensions.v1_0_0.SystemDebugLogStatus">
+              <Annotation Term="OData.Description" String="Generate system debug log status."/>
+              <Annotation Term="OData.LongDescription" String="This indicates generate system debug log status."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="WEBUI" BaseType="ManagerNetworkProtocol.v1_0_0.Protocol" Nullable="false"/>
+
+          <ComplexType Name="Port">
+            <Property Name="MaxWidth" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="The number of lanes, phys, or other physical transport links that this port contains."/>
+            <Annotation Term="OData.LongDescription" String="This property shall contain the number of physical transport links that this port contains."/>
+            </Property>
+          </ComplexType>
+
+          <EnumType Name="SystemDebugLogStatus">
+            <Member Name="Idle">
+              <Annotation Term="OData.Description" String="Indicates generate system debug log status is idle."/>
+            </Member>
+            <Member Name="Enter">
+              <Annotation Term="OData.Description" String="Indicates generate system debug log status is enterd."/>
+            </Member>
+            <Member Name="Run">
+              <Annotation Term="OData.Description" String="Indicates generate system debug log status is running."/>
+            </Member>
+            <Member Name="Done">
+              <Annotation Term="OData.Description" String="Indicates generate system debug log status is done."/>
+            </Member>
+            <Member Name="Read">
+              <Annotation Term="OData.Description" String="Indicates generate system debug log status is reading."/>
+            </Member>
+            <Member Name="Unknown">
+              <Annotation Term="OData.Description" String="Indicates generate system debug log status is unknown."/>
+            </Member>
+          </EnumType>
+
+          <ComplexType Name="SolLog" Nullable="false">
+            <Annotation Term="OData.Description" String="This type contains SOL log status."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe SOL log status."/>
+            <Property Name ="SolLogEnabled" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="Indicates if the service is enabled or disabled."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall contain the enabled status of the service. The value shall be true if enabled and false if disabled."/>
+            </Property>
+          </ComplexType>
+
+          <Action Name="GenSystemDebugLog" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to generate system debug log."/>
+            <Annotation Term="OData.LongDescription" String="This action shall generate system debug log. Generate complete when status in SystemDebugLog become Done."/>
+          </Action>
+
+          <Action Name="GenSolLog" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to generate Sol log file."/>
+            <Annotation Term="OData.LongDescription" String="This action shall generate sol log file if SolLogEnabled is enabled."/>
+          </Action>
+
+          <Action Name="BackupBMCSettings" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to backup BMC settings."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform BMC settings backup."/>
+          </Action>
+
+          <Action Name="ClientCertificate" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to generate client certificate."/>
+            <Annotation Term="OData.LongDescription" String="This action shall generate client certificate that will show in certificate collection."/>
+          </Action>
+
+          <Action Name="RestoreClientCertificate" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to restore all client certificate."/>
+            <Annotation Term="OData.LongDescription" String="This action shall restore all client certificate."/>
+          </Action>
+
+          <Action Name="DownloadIntelASDCertFile" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to download Intel ASD Cert related file."/>
+            <Annotation Term="OData.LongDescription" String="This action shall download Intel ASD Cert related file."/>
+          </Action>
+
+          <Action Name="ClearVNCSession" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to clear all of VNC's session."/>
+            <Annotation Term="OData.LongDescription" String="This action shall clear all of VNC's session."/>
+          </Action>
+
+          <Action Name="GenSSLCertificate" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to generate SSL Certificate."/>
+            <Annotation Term="OData.LongDescription" String="This action shall generate SSL Certificate."/>
+          </Action>
+
+          <ComplexType Name="Ncsi" Nullable="false">
+            <Annotation Term="OData.Description" String="A Collection of NS-SI resource instances."/>
+            <Annotation Term="OData.LongDescription" String="This resource shall be used to represent a Resource Collection of NC-SI instances."/>
+            <NavigationProperty Name="Ncsi" Type="InsydeNcsiCollection.InsydeNcsiCollection" Nullable="false">
+              <Annotation Term="OData.Description" String="This is a reference to a Oem Ncsi."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a reference to a resource of type Oem Ncsi."/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <ComplexType Name="ACDLog" Nullable="false">
+            <Annotation Term="OData.Description" String="A Collection of ACD Log resource instances."/>
+            <Annotation Term="OData.LongDescription" String="This resource shall be used to represent a Resource Collection of ACD Log instances."/>
+            <NavigationProperty Name="ACDLog" Type="InsydeACDLogCollection.InsydeACDLogCollection" Nullable="false">
+              <Annotation Term="OData.Description" String="This is a reference to a Oem ACD Log."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a reference to a resource of type Oem ACD Log."/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <ComplexType Name="DataIntegration" Nullable="false">
+            <Annotation Term="OData.Description" String="The InsydeDataIntegration resource instances."/>
+            <Annotation Term="OData.LongDescription" String="This resource shall be used to represent a Resource InsydeDataIntegration instances."/>
+            <NavigationProperty Name="DataIntegration" Type="InsydeDataIntegration.InsydeDataIntegration" Nullable="false">
+              <Annotation Term="OData.Description" String="This is a reference to a Oem DataIntegration."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a reference to a resource of type Oem DataIntegration."/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <ComplexType Name="IPAccessControl" Nullable="false">
+            <Annotation Term="OData.Description" String="A Collection of IPAccessControl resource instances."/>
+            <Annotation Term="OData.LongDescription" String="This resource shall be used to represent a Resource Collection of IPAccessControl instances."/>
+            <NavigationProperty Name="IPv4AccessControl" Type="InsydeIPAccessCollection.InsydeIPAccessCollection" Nullable="false">
+              <Annotation Term="OData.Description" String="This is a reference to a IPv4 AccessControl."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a reference to a resource of type IPv4 AccessControl."/>
+            </NavigationProperty>
+            <NavigationProperty Name="IPv6AccessControl" Type="InsydeIPAccessCollection.InsydeIPAccessCollection" Nullable="false">
+              <Annotation Term="OData.Description" String="This is a reference to a IPv6 AccessControl."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a reference to a resource of type IPv6 AccessControl."/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <ComplexType Name="PostCode" Nullable="false">
+            <Annotation Term="OData.Description" String="A Collection of Post Code resource instances."/>
+            <Annotation Term="OData.LongDescription" String="This resource shall be used to represent a Resource Collection of Post Code instances."/>
+            <NavigationProperty Name="PostCode" Type="InsydePostCodeCollection.InsydePostCodeCollection" Nullable="false">
+              <Annotation Term="OData.Description" String="This is a reference to a Post Code."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be a reference to a resource of type Oem ACD Log."/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <ComplexType Name="NVMeState">
+            <Annotation Term="OData.Description" String="This type contains NVMe State."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe NVMe State."/>
+            <Property Name ="PCIeVendorID" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe Vendor ID."/>
+              <Annotation Term="OData.LongDescription" String="This indicates PCIe Vendor ID."/>
+            </Property>
+            <Property Name ="PCIeDeviceID" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe Device ID."/>
+              <Annotation Term="OData.LongDescription" String="This indicates PCIe Device ID."/>
+            </Property>
+            <Property Name ="PCIeSubsystemVendorID" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe Subsystem Vendor ID."/>
+              <Annotation Term="OData.LongDescription" String="This is PCIe Subsystem Vendor ID."/>
+            </Property>
+            <Property Name ="PCIeSubsystemDeviceID" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe Subsystem Device ID."/>
+              <Annotation Term="OData.LongDescription" String="This indicates PCIe Subsystem Device ID."/>
+            </Property>
+            <Property Name ="PCIeBusNumber" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe Bus Number."/>
+              <Annotation Term="OData.LongDescription" String="This indicates PCIe Bus Number."/>
+            </Property>
+            <Property Name ="PCIe0LinkSpeed" Type = "Edm.Decimal">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe 0 Link Speed."/>
+              <Annotation Term="OData.LongDescription" String="Indicates link speeds supported by the PCIe port."/>
+            </Property>
+            <Property Name ="PCIe0LinkWidth" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe 0 Link Width."/>
+              <Annotation Term="OData.LongDescription" String="Indicates PCIe link width for this NVM Subsystem port."/>
+            </Property>
+            <Property Name ="PCIe1LinkSpeed" Type = "Edm.Decimal">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe 1 Link Speed."/>
+              <Annotation Term="OData.LongDescription" String="Indicates link speeds supported by the PCIe port."/>
+            </Property>
+            <Property Name ="PCIe1LinkWidth" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe 1 Link Width."/>
+              <Annotation Term="OData.LongDescription" String="Indicates PCIe link width for this NVM Subsystem port."/>
+            </Property>
+            <Property Name ="PCIeLinkActive" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="PCIe Link Active."/>
+              <Annotation Term="OData.LongDescription" String="Indicate the PCIe link is up."/>
+            </Property>
+            <Property Name ="Powered" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicate an NVM Subsystem is fully powered."/>
+              <Annotation Term="OData.LongDescription" String="Indicate an NVM Subsystemis is fully powered. The value shall be true if powered and false if not."/>
+            </Property>
+            <Property Name ="Functional" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicate an NVM Subsystemis functional."/>
+              <Annotation Term="OData.LongDescription" String="Indicate an NVM Subsystemis functional. The value shall be true if functional and false if not."/>
+            </Property>
+            <Property Name ="ResetRequired" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicate the NVM Subsystemdoes not need a reset to resume normal operation."/>
+              <Annotation Term="OData.LongDescription" String="Indicate the NVM Subsystemdoes not need a reset to resume normal operation. The value shall be true if reset is required and false if not."/>
+            </Property>
+            <Property Name ="CompositeTemperature" Type = "Edm.Decimal">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="This field indicates the current temperature in degrees Celsius."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be the current value of the temperature."/>
+            </Property>
+            <Property Name ="SmartWarning" Type="InsydeOEMExtensions.v1_0_0.SmartWarning">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Oem NVMeState SmartWarning extension object."/>
+              <Annotation Term="OData.LongDescription" String="This object represents the Oem NVMeState SmartWarning property."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="SmartWarning">
+            <Annotation Term="OData.Description" String="This type contains Smart Warning of NVMe."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Smart Warning of NVMe."/>
+            <Property Name ="AvailableSpareThreshold" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="This indicates if Available Spare Threshold is triggled."/>
+              <Annotation Term="OData.LongDescription" String="This value is set to true when the available spare has fallen below the available spare threshold."/>
+            </Property>
+            <Property Name ="TemperatureThreshold" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="This indicates if Temperature Threshold is triggled."/>
+              <Annotation Term="OData.LongDescription" String="This value is set to true when a temperature is above an over temperature threshold or below an under temperature threshold."/>
+            </Property>
+            <Property Name ="ReliabilityDegraded" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="This indicates if Reliability Degraded Threshold is triggled."/>
+              <Annotation Term="OData.LongDescription" String="This value is set to true when NVM Subsystem reliability has been degraded due to significant media related errors or an internal error."/>
+            </Property>
+            <Property Name ="MediaReadOnly" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="This indicates if Media Read Only Threshold is triggled."/>
+              <Annotation Term="OData.LongDescription" String="This value is set to true when the media has been placed in read only mode."/>
+            </Property>
+            <Property Name ="VolatileMemoryBackupFailed" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates if Volatile Memory Backup is failed."/>
+              <Annotation Term="OData.LongDescription" String="This value is set to true when the volatile memory backup device has failed."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="PCIeFunction">
+            <Annotation Term="OData.Description" String="This type contains PCIe Function information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe PCIe Function information."/>
+            <Property Name ="Component" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The Component of this PCIe function."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Component of this PCIe function."/>
+            </Property>
+            <Property Name ="SubClass" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The SubClass of this PCIe function."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the SubClass of this PCIe function."/>
+            </Property>
+            <Property Name ="Subsystem" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The Subsystem of this PCIe function."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Subsystem of this PCIe function."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Memory">
+            <Annotation Term="OData.Description" String="This type contains Memory oem information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Memory oem information."/>
+            <Property Name ="AssetTag" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The asset tag for this memory."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be an identifying string used to track the memory for inventory purposes."/>
+            </Property>
+            <Property Name ="HealthScore" Type = "Edm.Int64">
+              <Annotation Term="OData.Description" String="The HealthScore for this memory."/>
+              <Annotation Term="OData.LongDescription" String="The HealthScore for this memory by index."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Processor">
+            <Annotation Term="OData.Description" String="This type contains Get Link Status command response."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe from Get Link Status command response."/>
+            <Property Name ="CurrentSpeedMHz" Type = "Edm.Int64" Nullable="true">
+              <Annotation Term="OData.Description" String="Current processor speed in MHz."/>
+              <Annotation Term="OData.LongDescription" String="This indicates current processor speed in MHz."/>
+            </Property>
+            <Property Name ="VoltageVolt" Type = "Edm.Decimal" Nullable="true">
+              <Annotation Term="OData.Description" String="The voltage for this processor."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the voltage for this processor."/>
+            </Property>
+            <Property Name ="SocketType" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The socket type for this processor."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the socket type for this processor."/>
+            </Property>
+            <Property Name ="AssetTag" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The asset tag for this processor."/>
+              <Annotation Term="OData.LongDescription" String="The value of this property shall be an identifying string used to track the processor for inventory purposes."/>
+            </Property>
+            <Property Name ="ProcessorStatus" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The status for this processor."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status for this processor."/>
+            </Property>
+            <Property Name="ProcessorMemory" Type="Collection(InsydeOEMExtensions.v1_0_0.ProcessorMemory)" Nullable="false">
+              <Annotation Term="OData.Description" String="The memory directly attached or integrated within this Procesor."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the memory directly attached or integrated within this Processor."/>
+            </Property>
+            <Property Name="PPIN" Type="Edm.String" Nullable="false">
+              <Annotation Term="OData.Description" String="The Procesor unique identifier."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain a unique identifier to indicate the processor."/>
+            </Property>
+          </ComplexType>
+          <ComplexType Name="ProcessorMemory">
+            <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+            <Annotation Term="OData.Description" String="This type describes the memory directly attached or integrated within a processor."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain information about memory directly attached or integrated within a processor."/>
+            <Property Name="IntegratedMemory" Type="Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="An indication of whether this memory is integrated within the processor."/>
+              <Annotation Term="OData.LongDescription" String="This property shall indicate whether this memory is integrated within the processor.  Otherwise, it is discrete memory attached to the processor."/>
+            </Property>
+            <Property Name="MemoryType" Type="Processor.v1_4_0.ProcessorMemoryType">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The type of memory used by this processor."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain a type of the processor memory type."/>
+            </Property>
+            <Property Name="CapacityKB" Type="Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The memory capacity in KB."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the memory capacity in KB."/>
+              <Annotation Term="Measures.Unit" String="KBy"/>
+            </Property>
+          </ComplexType>
+          <ComplexType Name="Chassis">
+            <Annotation Term="OData.Description" String="This type contains Chassis oem information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Chassis oem information."/>
+            <Property Name ="Language" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The Language of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Language of the chassis."/>
+            </Property>
+            <Property Name ="FRUFileId" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The FRU File ID of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the FRU File ID of the chassis."/>
+            </Property>
+            <Property Name ="PartNumber" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The product number of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the product version of the chassis."/>
+            </Property>
+            <Property Name ="Serial" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The serial number of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the asset tag of the chassis."/>
+            </Property>
+            <Property Name ="Extra" Type = "Collection(Edm.String)" Nullable="true">
+              <Annotation Term="OData.Description" String="The extra infomation of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the extra infomation of the chassis."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="FRUData">
+            <Annotation Term="OData.Description" String="This type contains Fru Data."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Chassis oem Data."/>
+             <Property Name="FRUInfo" Type="Collection(InsydeOEMExtensions.v1_0_0.FRUInfo)">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="An array of FruInfo to this chassis contains."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain FruInfo to this chassis"/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="FRUInfo">
+            <Annotation Term="OData.Description" String="This type contains Fru information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Chassis oem information."/>
+            <Property Name ="Language" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The Language of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Language of the chassis."/>
+            </Property>
+            <Property Name ="Name" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The Name of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Name of the chassis."/>
+            </Property>
+            <Property Name ="Board" Type = "InsydeOEMExtensions.v1_0_0.FruInfoArea" Nullable="true">
+              <Annotation Term="OData.Description" String="The extra infomation of the board."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the extra infomation of the board."/>
+            </Property>
+            <Property Name ="Chassis" Type = "InsydeOEMExtensions.v1_0_0.FruInfoArea" Nullable="true">
+              <Annotation Term="OData.Description" String="The extra infomation of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the extra infomation of the chassis."/>
+            </Property>
+            <Property Name ="Product" Type = "InsydeOEMExtensions.v1_0_0.FruInfoArea" Nullable="true">
+              <Annotation Term="OData.Description" String="The extra infomation of the product."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the extra infomation of the product."/>
+            </Property>
+            <Property Name ="FRUDeviceID" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The FRU device ID."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the FRU device ID."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="FruInfoArea">
+            <Annotation Term="OData.Description" String="This type contains Fru information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Fru information."/>
+            <Property Name ="Type" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information type."/>
+              <Annotation Term="OData.LongDescription" String="This indicates FRU information type."/>
+            </Property>
+            <Property Name ="FRUFileId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information FRU File Id."/>
+              <Annotation Term="OData.LongDescription" String="This indicates The FFRU information FRU File Id."/>
+            </Property>
+            <Property Name ="Manufacturer" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information Manufacturer."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the FRU information Manufacturer."/>
+            </Property>
+            <Property Name ="Name" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information Name."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the FRU information Name"/>
+            </Property>
+            <Property Name ="PartNumber" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information Part Number."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the FRU information Part Number."/>
+            </Property>
+            <Property Name ="Version" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information Version"/>
+              <Annotation Term="OData.LongDescription" String="This indicates The FRU information Version."/>
+            </Property>
+            <Property Name ="Serial" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information Serial."/>
+              <Annotation Term="OData.LongDescription" String="This indicates The FRU information Serial."/>
+            </Property>
+            <Property Name ="AssetTag" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The FRU information Asset Tag."/>
+              <Annotation Term="OData.LongDescription" String="This indicates The FRU information Asset Tag."/>
+            </Property>
+            <Property Name ="Extra" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Description" String="The FRU information collection extra info."/>
+              <Annotation Term="OData.LongDescription" String="This indicates The FRU information collection extra info."/>
+            </Property>
+            <Property Name ="ManufacturerDateTime" Type = "Edm.DateTimeOffset" Nullable="true">
+              <Annotation Term="OData.Description" String="The manufacturer date time of the chassis."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the manufacturer date time of the chassis."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="EthernetInterface">
+            <Annotation Term="OData.Description" String="This type contains Ethernet Interfaces Oem information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Ethernet Interfaces Oem information."/>
+            <Property Name ="LANFailover" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="Whether Lan failover is enabled or not."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether Lan failover is enabled or not."/>
+            </Property>
+            <Property Name="IPv6NameServers" Type="Collection(Edm.String)" Nullable="false">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The DNS servers in use on this interface."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the DNS servers in use on this interface."/>
+            </Property>
+            <Property Name="IPv6StaticNameServers" Type="Collection(Edm.String)">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+              <Annotation Term="OData.Description" String="The statically-defined set of DNS server IPv4 and IPv6 addresses."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the statically-defined set of DNS server IP addresses to use when DHCP provisioning is not enabled for name server configuration.  As an implementation option, they may also be used in addition to DHCP-provided addresses, or in cases where the DHCP server provides no DNS assigments."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Drive">
+            <Annotation Term="OData.Description" String="This type contains Drives Oem information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe from Get Link Status command response."/>
+            <Property Name ="Port" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The port of SATA Drives."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the port of SATA Drives."/>
+            </Property>
+            <Property Name ="Controller" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The controller of SATA Drives."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the port of SATA Drives."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Manager">
+            <Annotation Term="OData.Description" String="This type contains Manager Oem information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Manager Oem information."/>
+            <Property Name ="BMCUptime" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="BMC up time."/>
+              <Annotation Term="OData.LongDescription" String="The current uptime of BMC for the current power cycle in seconds."/>
+            </Property>
+            <Property Name ="BMCFirmwareBuildTime" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="BMC firmware build time."/>
+              <Annotation Term="OData.LongDescription" String="This indicates BMC firmware build time."/>
+            </Property>
+            <Property Name ="BackupFirmwareVersion" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="Backup firmware version."/>
+              <Annotation Term="OData.LongDescription" String="This indicates backup firmware version."/>
+            </Property>
+            <Property Name ="BMCBuildId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="BMC build id."/>
+              <Annotation Term="OData.LongDescription" String="This indicates BMC build id."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="EventServiceCACertificate">
+            <Annotation Term="OData.Description" String="This type contains Event Service CA Certificate."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Event Service CA Certificate."/>
+            <NavigationProperty Name="Certificates" Type="CertificateCollection.CertificateCollection" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This is a reference to a collection of certificates used for HTTPS by this manager."/>
+            <Annotation Term="OData.LongDescription" String="The value of this property shall be a link to a collection of type CertificateCollection."/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+          </ComplexType>
+
+          <ComplexType Name="DCPMM">
+            <Annotation Term="OData.Description" String="This type contains DCPMM information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe DCPMM information."/>
+            <Property Name ="IdentifyInfo" Type="InsydeOEMExtensions.v1_0_0.IdentifyInfo">
+              <Annotation Term="OData.Description" String="Oem DCPMM information extension object."/>
+              <Annotation Term="OData.LongDescription" String="This object represents the Oem DCPMM information property."/>
+            </Property>
+            <Property Name ="BPS" Type="InsydeOEMExtensions.v1_0_0.AepInfo">
+              <Annotation Term="OData.Description" String="Oem DCPMM BPS extension object from BIOS."/>
+              <Annotation Term="OData.LongDescription" String="This object represents the Oem DCPMM BPS property."/>
+            </Property>
+            <Property Name ="Characteristics" Type="InsydeOEMExtensions.v1_0_0.Characteristics">
+              <Annotation Term="OData.Description" String="Oem DCPMM Characteristics extension object."/>
+              <Annotation Term="OData.LongDescription" String="This object represents the Oem DCPMM Characteristics property."/>
+            </Property>
+            <Property Name ="SmartAndHealth" Type="InsydeOEMExtensions.v1_0_0.SmartAndHealth">
+              <Annotation Term="OData.Description" String="Oem DCPMM SmartAndHealth extension object."/>
+              <Annotation Term="OData.LongDescription" String="This object represents the Oem DCPMM SmartAndHealth property."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="AepInfo">
+            <Annotation Term="OData.Description" String="This type contains BPS information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe DCPMM BPS information."/>
+            <Property Name ="DIMMId" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="UID of the DIMM."/>
+              <Annotation Term="OData.LongDescription" String="This indicates UID of the DIMM."/>
+            </Property>
+            <Property Name ="DIMMPhysicalId" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Handle specific to the DIMM."/>
+              <Annotation Term="OData.LongDescription" String="This indicates Handle specific to the DIMM."/>
+            </Property>
+            <Property Name ="DIMMUid" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Equivalent to SMBIOS Type 17 Handle (To be given as input for above commands if needed for specified DIMM)."/>
+              <Annotation Term="OData.LongDescription" String="This indicates SMBIOS Type 17 Handle."/>
+            </Property>
+            <Property Name ="HealthState" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="HealthState allowable Enums are:- Healthy, Non-Critical Failure, Critical Failure, Fatal Failure, Unmanageable, Non-Functional, Unknown."/>
+              <Annotation Term="OData.LongDescription" String="This indicates BPS HealthState."/>
+            </Property>
+            <Property Name ="ManageabilityState" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Provides ManageabilityState of Memory."/>
+              <Annotation Term="OData.LongDescription" String="This indicates ManageabilityState of Memory."/>
+            </Property>
+            <Property Name ="ViralPolicyEnable" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicates if ViralPolicyEnable is enabled or not."/>
+              <Annotation Term="OData.LongDescription" String="This indicates ViralPolicyEnable is enabled or not."/>
+            </Property>
+            <Property Name ="ViralState" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicates if ViralState is enabled or not."/>
+              <Annotation Term="OData.LongDescription" String="This indicates ViralState is enabled or not."/>
+            </Property>
+            <Property Name ="SecurityCapabilities" Type="InsydeOEMExtensions.v1_0_0.SecurityCapabilities">
+              <Annotation Term="OData.Description" String="Provides Security State value."/>
+              <Annotation Term="OData.LongDescription" String="This object represents Security State value."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="SecurityCapabilities">
+            <Annotation Term="OData.Description" String="This type contains AEP SecurityCapabilities."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Aep SecurityCapabilities."/>
+            <Property Name ="PassphraseCapable" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Provides the Security of PassPhrase Capable."/>
+              <Annotation Term="OData.LongDescription" String="This indicates Security of PassPhrase Capable."/>
+            </Property>
+            <Property Name ="SecurityStates" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Provides Security State for DIMM presented Memory Instance."/>
+              <Annotation Term="OData.LongDescription" String="This indicates Security State for DIMM presented Memory Instance."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="IdentifyInfo">
+            <Annotation Term="OData.Description" String="This type contains DCPMM Identify information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe DCPMM Identify information."/>
+            <Property Name ="ChipsetRevisionID" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The revision of this chipset."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the revision of this chipset."/>
+            </Property>
+            <Property Name ="FirmwareRevision" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The FirmwareRevision ID of this drive."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the FirmwareRevision ID of this drive."/>
+            </Property>
+            <Property Name ="ManufacturerID" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The manufacturer ID of this drive."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the manufacturer ID of this drive."/>
+            </Property>
+            <Property Name ="InterfaceFormatCode" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Interface format code."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the interface format code."/>
+            </Property>
+            <Property Name ="ManufacturingDate" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The manufacturing date assigned by the vendor."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the manufacturing date assigned by the vendor."/>
+            </Property>
+            <Property Name ="ManufacturingLocation" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The manufacturing location assigned by the vendor."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the manufacturing location assigned by the vendor."/>
+            </Property>
+            <Property Name ="MemoryModeEnabled" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicates if memory mode is enabled."/>
+              <Annotation Term="OData.LongDescription" String="Indicates if memory mode is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="AppDirectModeEnabled" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicates if app direct mode is enabled."/>
+              <Annotation Term="OData.LongDescription" String="Indicates if app direct mode is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="PackageSparingCapable" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicates if package sparing is supported."/>
+              <Annotation Term="OData.LongDescription" String="Indicates if package sparing is supported. The value shall be true if supported and false if disabled."/>
+            </Property>
+            <Property Name ="EncryptionEnabled" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicates if encryption is enabled."/>
+              <Annotation Term="OData.LongDescription" String="Indicates if encryption is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Characteristics">
+            <Annotation Term="OData.Description" String="This type contains DCPMM Characteristics information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe DCPMM Characteristics information."/>
+            <Property Name ="ControllerTemperatureShutdownThreshold" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Controller Temperature shutdown threshold."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the controller temperature shutdown threshold."/>
+            </Property>
+            <Property Name ="ControllerThrottlingStartThreshold" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Controller throttling start threshold."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the controller throttling start threshold."/>
+            </Property>
+            <Property Name ="ControllerThrottlingStopThreshold" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Controller throttling stop threshold."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the controller throttling stop threshold."/>
+            </Property>
+            <Property Name ="OptaneMediaTemperatureShutdownThreshold" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Optane media temperature shutdown threshold."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the optane media temperature shutdown threshold."/>
+            </Property>
+            <Property Name ="OptaneMediaThrottlingStartThreshold" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Optane media throttling start threshold."/>
+              <Annotation Term="OData.LongDescription" String="This indicates optane media throttling start threshold."/>
+            </Property>
+            <Property Name ="OptaneMediaThrottlingStopThreshold" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Optane media throttling stop threshold."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the optane media throttling stop threshold."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="SmartAndHealth">
+            <Annotation Term="OData.Description" String="This type contains DCPMM Smart And Health information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe DCPMM Smart And Health information."/>
+            <Property Name ="PercentageRemainingTrip" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Percentage remaining crossing alarm trip."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the percentage remaining crossing alarm trip."/>
+            </Property>
+            <Property Name ="LatchedDirtyShutdownCount" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The number of shutdowns without notification over the lifetime of the DCPMM."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the number of shutdowns without notification over the lifetime of the DCPMM."/>
+            </Property>
+            <Property Name ="UnlatchedDirtyShutdownCount" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The number of shutdowns without notification over the lifetime of the DCPMM."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the number of shutdowns without notification over the lifetime of the DCPMM."/>
+            </Property>
+            <Property Name ="MediaTemperatureTrip" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Media temperature crossing alarm trip."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the media temperature crossing alarm trip."/>
+            </Property>
+            <Property Name ="MaxMediaTemperature" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Maximum media temperature."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the maximum media temperature."/>
+            </Property>
+            <Property Name ="ControllerTemperatureTrip" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Controller temperature crossing alarm trip."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the controller temperature crossing alarm trip."/>
+            </Property>
+            <Property Name ="MaxControllerTemperature" Type = "Edm.Int64">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Maximum controller temperature."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the maximum controller temperature."/>
+            </Property>
+            <Property Name ="AITDRAMEnabled" Type = "Edm.Boolean">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="Indicates if the AIT DRAM is enabled."/>
+              <Annotation Term="OData.LongDescription" String="Indicates if the AIT DRAM is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="LastShutdownTime" Type = "Edm.String">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The time the system was last shutdown."/>
+              <Annotation Term="OData.LongDescription" String="This indicates The time the system was last shutdown."/>
+            </Property>
+            <Property Name ="HealthStatusReason" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The reason of Health Status."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the reason of Health Status."/>
+            </Property>
+            <Property Name ="LatchedLastShutdownStatusDetails" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The status of the last shutdown of the DCPMM."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of the last shutdown of the DCPMM."/>
+            </Property>
+            <Property Name ="UnlatchedLastShutdownStatusDetails" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="The status of the last shutdown of the DCPMM."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of the last shutdown of the DCPMM."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="UpdateTag">
+            <Annotation Term="OData.Description" String="This type contains Update Tag status."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Update Tag status."/>
+            <Property Name ="BIOSSetup" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of bios setup."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of bios setup."/>
+            </Property>
+            <Property Name ="BIOSRegistries" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of bios Registries."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of bios Registries."/>
+            </Property>
+            <Property Name ="SMBIOS" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of smbios."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of smbios."/>
+            </Property>
+            <Property Name ="PCIE" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of pcie."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of pcie."/>
+            </Property>
+            <Property Name ="BOOTOption" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of boot option."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of boot option."/>
+            </Property>
+            <Property Name ="BOOTOrder" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of boot order."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of boot order."/>
+            </Property>
+            <Property Name ="OSDeployment" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of os deployment."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of os deployment."/>
+            </Property>
+            <Property Name ="SATA" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of sata."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of sata."/>
+            </Property>
+            <Property Name ="BIOSFEATUREVER" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The version of bios feature."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the version of bios feature."/>
+            </Property>
+            <Property Name ="BMCFEATUREVER" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The version of bmc feature."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the version of bmc feature."/>
+            </Property>
+            <Property Name ="PCIECRC" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The crc of pcie information."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the crc of pcie information."/>
+            </Property>
+            <Property Name ="SATACRC" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The crc of sata information."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the crc of sata information."/>
+            </Property>
+            <Property Name ="AEP" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of AEP."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of AEP."/>
+            </Property>
+            <Property Name ="NetworkAdapter" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The status of NetworkAdapter."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the status of NetworkAdapter."/>
+            </Property>
+            <Property Name ="ResetBiosToDefaultsPending" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="An indication of whether there is a pending request to reset the BIOS attributes to default values (Same as the property in Bios schema except it's a String type). Here set empty string as default value, and allow to patch true or false string that provide for Bios to use"/>
+              <Annotation Term="OData.LongDescription" String="This property shall indicate whether there is a pending request to reset the BIOS attributes to default values."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="BusInfo">
+            <Annotation Term="OData.Description" String="This type contains bus info."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe device bus info."/>
+            <Property Name ="PhysicalAddress" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="This type contains physical address."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the physical address."/>
+            </Property>
+            <Property Name ="DeviceType" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="This type contains device type."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the device type."/>
+            </Property>
+            <Property Name ="I2CPhysicalChannel" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="This type contains i2c physical channel."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the i2c physical channel."/>
+            </Property>
+            <Property Name ="I2CLogicalChannel" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="This type contains i2c logical channel."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the i2c logical channel."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Registry">
+            <Annotation Term="OData.Description" String="This type contains Insyde Registry Information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain Insyde Bios Attribute Registry Information."/>
+            <Property Name ="Registry" Type="Collection(Edm.String)">
+              <Annotation Term="OData.Description" String="This type contains Insyde Registry uri."/>
+              <Annotation Term="OData.LongDescription" String="This indicates Insyde Bios Attribute Registry uri."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="IKVM">
+            <Annotation Term="OData.Description" String="This type contains Insyde IKVM Information."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain IKVM Information."/>
+            <Property Name ="Target" Type="Edm.String">
+              <Annotation Term="OData.Description" String="This type indicates Insyde IKVM uri."/>
+              <Annotation Term="OData.LongDescription" String="This indicates Insyde IKVM Lanuch uri."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="RaidDrive">
+            <Property Name ="Temperature" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The temperature of drive."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the temperature of drive."/>
+            </Property>
+            <Property Name ="SlotNumber" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The slot number of drive."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the slot number of drive."/>
+            </Property>
+            <Property Name ="PatrolReadProgressPercent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The patrol read progress percent."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the patrol read progress percent."/>
+            </Property>
+            <Property Name ="CopyBackProgressPercent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The copy back progress percent."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the copy back progress percent."/>
+            </Property>
+            <Property Name ="DriveState" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The state of standbyoffline drive."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the state of standbyoffline drive."/>
+            </Property>
+            <Property Name ="StorageControllerReference" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The reference storagecontroller index."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the reference storagecontroller index."/>
+            </Property>
+            <Property Name ="RawId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The drive index."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the drive index."/>
+            </Property>
+            <Property Name ="AddtionalState" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The additional state of drive."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the additional state of drive."/>
+            </Property>
+            <Property Name="SMART" Type = "InsydeOEMExtensions.v1_0_0.RaidDriveSMART"/>
+          </ComplexType>
+
+          <ComplexType Name="RaidDriveSMART">
+            <Property Name ="ModelName" Type = "Edm.String"/>
+            <Property Name ="SerialNumber" Type = "Edm.String"/>
+            <Property Name ="FWVer" Type = "Edm.String"/>
+            <Property Name ="Available" Type = "Edm.String"/>
+            <Property Name ="Awake" Type = "Edm.String"/>
+            <Property Name ="HealthGood" Type = "Edm.String"/>
+            <Property Name ="OfflineDataCollectionStatus" Type = "Edm.String"/>
+            <Property Name ="TotalOfflineDataCollectionSeconds" Type = "Edm.String"/>
+            <Property Name ="SelfTestExecutionStatus" Type = "Edm.String"/>
+            <Property Name ="SelfTestExecutionPercentRemaining" Type = "Edm.String"/>
+            <Property Name ="ConveyanceTestAvailable" Type = "Edm.String"/>
+            <Property Name ="ShortAndExtendedTestAvailable" Type = "Edm.String"/>
+            <Property Name ="StartTestAvailable" Type = "Edm.String"/>
+            <Property Name ="AbortTestAvailable" Type = "Edm.String"/>
+            <Property Name ="ShortTestPollingMinutes" Type = "Edm.String"/>
+            <Property Name ="ExtendedTestPollingMinutes" Type = "Edm.String"/>
+            <Property Name ="ConveyanceTestPollingMinutes" Type = "Edm.String"/>
+            <Property Name ="BadSectors" Type = "Edm.String"/>
+            <Property Name ="PowerOn" Type = "Edm.String"/>
+            <Property Name ="PowerCycle" Type = "Edm.String"/>
+            <Property Name ="Temperature" Type = "Edm.String"/>
+            <Property Name ="AttributeVerificationBad" Type = "Edm.String"/>
+            <Property Name ="RPM" Type = "Edm.String"/>
+            <Property Name ="OverallHealth" Type = "Edm.String"/>
+            <Property Name ="Attribute" Type = "InsydeOEMExtensions.v1_0_0.SmartAttribute"/>
+          </ComplexType>
+
+          <ComplexType Name="SmartAttribute">
+            <Annotation Term="Redfish.DynamicPropertyPatterns">
+              <Collection>
+                <Record>
+                  <PropertyValue Property="Pattern" String="^SmartAttributes[0-9]+$"/>
+                  <PropertyValue Property="Type" String="Collection(Edm.String)"/>
+                </Record>
+              </Collection>
+            </Annotation>
+          </ComplexType>
+
+
+          <ComplexType Name="RaidVolume">
+            <Property Name ="RaidLevel" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The raid level of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the raid level of the volume."/>
+            </Property>
+            <Property Name ="State" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The state of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the state of the volume."/>
+            </Property>
+            <Property Name ="ReadPolicy" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The read policy of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the read policy of the volume."/>
+            </Property>
+            <Property Name ="WritePolicy" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The write policy of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the write policy of the volume."/>
+            </Property>
+            <Property Name ="IoPolicy" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The IO policy of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the IO policy of the volume."/>
+            </Property>
+            <Property Name ="AccessPolicy" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The access policy of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the access policy of the volume."/>
+            </Property>
+            <Property Name ="DiskCachePolicy" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The disk cache policy of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the disk cache policy of the volume."/>
+            </Property>
+            <Property Name ="StripSize" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The strip size of the volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the strip size of the volume."/>
+            </Property>
+            <Property Name ="BadBlocks" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether the volume has bad blocks."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether the volume has bad blocks."/>
+            </Property>
+            <Property Name ="StorageControllerReference" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The reference storagecontroller index."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the reference storagecontroller index."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="RaidControllers">
+            <Property Name ="JunctionTemperature" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The temperature of Storage Controller."/>
+              <Annotation Term="OData.LongDescription" String="The temperature of Storage Controller. If there is no temperature of Storage Controller, the property will not be displayed. "/>
+            </Property>
+            <Property Name ="Memory" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The memory capacity.."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the memory capacity."/>
+            </Property>
+            <Property Name ="PatrolReadProgressPercent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The patrol read progress percent."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the patrol read progress percent."/>
+            </Property>
+            <Property Name ="SeqNumNewestEvent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The newest sequential number of event."/>
+              <Annotation Term="OData.LongDescription" String="The newest sequential number of event. If there is no event function, the property will not be displayed."/>
+            </Property>
+            <Property Name ="SeqNumOldestEvent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The oldest sequential number of event."/>
+              <Annotation Term="OData.LongDescription" String="The oldest sequential number of event. If there is no event function, the property will not be displayed."/>
+            </Property>
+            <Property Name ="SeqNumLastClearEvent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The last clear sequential number of event."/>
+              <Annotation Term="OData.LongDescription" String="The last clear sequential number of event. If there is no event function, the property will not be displayed."/>
+            </Property>
+            <Property Name ="SeqNumLastCleanShutdownEvent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The last clear shutdown sequential number of event."/>
+              <Annotation Term="OData.LongDescription" String="The last clear shutdown sequential number of event. If there is no event function, the property will not be displayed."/>
+            </Property>
+            <Property Name ="SeqNumThisSessionBootEvent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="This session boot sequential number of event."/>
+              <Annotation Term="OData.LongDescription" String="This session boot sequential number of event. If there is no event function, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUStatus" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The status of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The status of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUTemperatureCelsius" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The temperature of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The temperature of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUVoltageMilliVolts" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The Voltage of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The Voltage(mV) of BBU module. The temperature of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUCurrentMilliAmps" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The Current of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The Current(mA) of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUSerialNumber" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The serial number of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The serial number of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUHealthPercent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The health percentage of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The health percentage of BBU module. If there is no BBU module, the property will not be displayed. "/>
+            </Property>
+            <Property Name ="BBURemainingBatteryPercent" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The Remaining Battery percentage of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The Remaining Battery percentage of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="PackageVersion" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The package version."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the package version."/>
+            </Property>
+            <Property Name ="BBUType" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The type of BBU type."/>
+              <Annotation Term="OData.LongDescription" String="The type of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUPresent" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="The present of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The present of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="BBUName" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The name of BBU module."/>
+              <Annotation Term="OData.LongDescription" String="The name of BBU module. If there is no BBU module, the property will not be displayed."/>
+            </Property>
+            <Property Name ="PCIVendorID" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The pci verder ID."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the PCI vendor ID of the controller."/>
+            </Property>
+            <Property Name ="PCIDeviceID" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The pci device ID."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the PCI device ID of the controller."/>
+            </Property>
+            <Property Name ="PCISubVersionID" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The pci sub version ID."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the PCI sub version ID of the controller."/>
+            </Property>
+            <Property Name ="PCISubSystemID" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The pci sub system ID."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the PCI Sub SystemID of the controller."/>
+            </Property>
+            <Property Name ="IoPolicySupport" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="The Io Policy Support."/>
+              <Annotation Term="OData.LongDescription" String="This property if IO policy is supported."/>
+            </Property>
+            <Property Name ="BIOSVersion" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The BIOS version."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the BIOS version of the controller."/>
+            </Property>
+            <Property Name ="UEFIVersion" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The UEFI version."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the UEFI version of the controller."/>
+            </Property>
+            <Property Name ="ExpanderFWVersion" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The expander firmware version."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the expander firmware version of the controller."/>
+            </Property>
+            <Property Name ="SEEPROM" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The SEEPROM data of the controller."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the SEEPROM of the controller."/>
+            </Property>
+            <Property Name ="MemoryChangeable" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="This indicates memory changeable."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the memory changeable of the controller."/>
+            </Property>
+            <Property Name ="MemoryCorrectErrCount" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="This indicates memory correct error count."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the memory correct error count of the controller."/>
+            </Property>
+            <Property Name ="MemoryUnCorrectErrCount" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="This indicates memory encorrect error count."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the memory uncorrect error count of the controller."/>
+            </Property>
+            <Property Name ="Chip" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The chip data of the controller."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the chip of the controller."/>
+            </Property>
+            <Property Name ="ExpanderTemp" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The expander temperature of the controller."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the expander temperature of the controller."/>
+            </Property>
+            <Property Name ="HostInterface" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The host interface of the controller.."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the host interface of the controller."/>
+            </Property>
+            <Property Name ="PortCount" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The port count of the controller."/>
+              <Annotation Term="OData.LongDescription" String="This property shall contain the port count of the controller."/>
+            </Property>
+            <Property Name = "CreateRaidVolume" Type = "InsydeOEMExtensions.v1_0_0.CreateRaidVolume"/>
+            <Property Name = "ForeignConfiguration" Type = "InsydeOEMExtensions.v1_0_0.ForeignConfiguration"/>
+            <NavigationProperty Name="TTYLog" Type="InsydeStorageControllerTTYLog.InsydeStorageControllerTTYLog" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Description" String=""/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+            <NavigationProperty Name="Events" Type="InsydeStorageControllerEventCollection.InsydeStorageControllerEventCollection" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Description" String=""/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+            <Property Name = "PDList" Type = "Collection(InsydeOEMExtensions.v1_0_0.PDList)"/>
+            <Property Name = "LDList" Type = "Collection(InsydeOEMExtensions.v1_0_0.LDList)"/>
+          </ComplexType>
+
+          <ComplexType Name="CreateRaidVolume">
+            <Property Name ="MaxSize" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The max size to create raid volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the max size to create raid volume."/>
+            </Property>
+            <Property Name ="PossibleRaidLevel" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Description" String="The Possible Raid Level to create raid volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Raid Level to create raid volume."/>
+            </Property>
+            <Property Name ="FreeDriveIds" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Description" String="The Free Drive Ids to create raid volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Free Drive Ids to create raid volume."/>
+            </Property>
+            <Property Name ="StripeSize" Type = "Collection(Edm.Decimal)">
+              <Annotation Term="OData.Description" String="The Stripe Size to create raid volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Stripe Size to create raid volume."/>
+            </Property>
+            <Property Name ="AccessPolicy" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Description" String="The Access Policy to create raid volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Access Policy to create raid volume."/>
+            </Property>
+            <Property Name ="DiskCachePolicy" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Description" String="The Disk Cache Policy to create raid volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Disk Cache Policy to create raid volume."/>
+            </Property>
+            <Property Name ="InitState" Type = "Collection(Edm.String)">
+              <Annotation Term="OData.Description" String="The Init State to create raid volume."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Init State to create raid volume."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="ForeignConfiguration">
+            <Property Name ="TargetId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The Target Id of foreign configuration."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Target Id of foreign configuration."/>
+            </Property>
+            <Property Name ="RaidLevel" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The Raid Level of foreign configuration."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Raid Level of foreign configuration."/>
+            </Property>
+            <Property Name ="Size" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The Size of foreign configuration."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the Size of foreign configuration."/>
+            </Property>
+            <Property Name ="State" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The State of foreign configuration."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the State of foreign configuration."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="PDList">
+            <Property Name ="DeviceId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The device Id of physical disk."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the device Id of physical disk."/>
+            </Property>
+            <Property Name ="EnclosureDeviceId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The enclosure device Id of physical disk."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the enclosure device Id of physical disk."/>
+            </Property>
+            <Property Name ="SlotNumber" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The SlotNumber of physical disk."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the SlotNumber of physical disk."/>
+            </Property>
+            <Property Name ="ConnectedPortBitmap" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The connected port bitmap of physical disk."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the connected port bitmap of physical disk."/>
+            </Property>
+            <Property Name ="SASAddress" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The SAS address of foreign configuration."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the SAS address of foreign configuration."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="LDList">
+            <Property Name ="TargetId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The target Id of logical disk."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the target Id of logical disk."/>
+            </Property>
+            <Property Name ="State" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The state of logical disk."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the state of logical disk."/>
+            </Property>
+            <Property Name ="Size" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The size of logical disk."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the size of logical disk."/>
+            </Property>
+          </ComplexType>
+
+          <Action Name="IKVMLanuch" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to generate IKVM token."/>
+            <Annotation Term="OData.LongDescription" String="This action shall generate IKVM token."/>
+          </Action>
+
+          <Action Name="VMInstance" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to set VM Instance."/>
+            <Annotation Term="OData.LongDescription" String="This action shall generate allowable VM Instance."/>
+          </Action>
+
+          <Action Name="DeleteVolume" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to delete a volume."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform delete volume."/>
+          </Action>
+
+            <Action Name="GetFreeRaidResource" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to get free raid resouce."/>
+            <Annotation Term="OData.LongDescription" String="This action shall get free raid resouce."/>
+          </Action>
+
+          <Action Name="CreateVolumeBasicData" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to active the first stage to create RAID."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform active the first stage to create RAID."/>
+          </Action>
+
+          <Action Name="CreateVolumeParameters" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to pcreate volume parameters."/>
+            <Annotation Term="OData.LongDescription" String="This action shall create volume parameters."/>
+          </Action>
+
+          <Action Name="SaveTTYLog" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to save TTY Log."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform save TTY Log."/>
+          </Action>
+
+          <Action Name="ScanForeignConfiguration" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to scan foreign configuration."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform a scan foreign configuration."/>
+          </Action>
+
+          <Action Name="ImportForeignConfiguration" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to import foreign configuration"/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform import foreign configuration."/>
+          </Action>
+
+          <Action Name="ClearForeignConfiguration" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to clear foreign configuration."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform clear foreign configuration."/>
+          </Action>
+
+          <Action Name="ClearConfiguration" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to clear configuration."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform clear configuration."/>
+          </Action>
+
+          <Action Name="StartPatrolRead" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to start patrol read."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform start patrol read."/>
+          </Action>
+
+          <Action Name="StopPatrolRead" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to stop patrol read."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform stop patrol read."/>
+          </Action>
+
+          <Action Name="MakeDedicatedHotspare" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to make dedicated hotspare for specific volume."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform make dedicated hotspare for specific volume."/>
+          </Action>
+
+          <Action Name="MakeGlobalHotspare" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to make global hotspare for all system."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform make global hotspare for all system."/>
+          </Action>
+
+          <Action Name="RemoveHotspare" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to remove hotspare."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform remove hotspare."/>
+          </Action>
+
+          <Action Name="StartReplacePD" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to replace the drive."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform replace the drive."/>
+          </Action>
+
+          <Action Name="StopReplacePD" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to stop replacing the drive."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform stop replacing the drive."/>
+          </Action>
+
+          <Action Name="StartLocatePD" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to locate the drive."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform replace the drive."/>
+          </Action>
+
+          <Action Name="StopLocatePD" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to stop locating the drive."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform stop replacing the drive."/>
+          </Action>
+
+          <Action Name="CancelCheckConsistency" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to cancel consistency check for volume."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform cancel consistency check for volume."/>
+          </Action>
+
+          <Action Name="StartLocateLD" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to indicate LED of specific Logical Volume."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform indicate LED of specific Logical Volume."/>
+          </Action>
+
+          <Action Name="StopLocateLD" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to stop to indicate LED of specific Logical Volume."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform stop to indicate LED of specific Logical Volume."/>
+          </Action>
+
+          <Action Name="ChangeLDConfig" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to change a Virtual Drive Configuration."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform change a Virtual Drive Configuration."/>
+          </Action>
+
+          <Action Name="ClearEvents" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to clear all events."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform clear all events."/>
+          </Action>
+
+          <Action Name="DownloadFirmware" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to download bios firemare."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform download bios firemare."/>
+          </Action>
+
+          <Action Name="DeleteFirmware" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to delete bios firmware file."/>
+            <Annotation Term="OData.LongDescription" String="This action shall perform delete bios firmware file."/>
+          </Action>
+
+          <ComplexType Name="InsydeAccount" Nullable="false">
+            <Annotation Term="OData.Description" String="This type contains Account info."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Account info."/>
+            <Property Name ="PasswordAging" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether user's password aging function is enabled."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether user's password aging function is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="CreationTime" Type = "Edm.DateTimeOffset" Nullable="true">
+              <Annotation Term="OData.Description" String="This indicates the time which user be created."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the date time which user be created."/>
+            </Property>
+            <Property Name ="SNMPAccess" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether this user can access snmpv3"/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether this user can access snmpv3. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="SNMPAccessLevel" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="This indicates whether this user's access level on snmpv3"/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether this user's access level on snmpv3. The value shall contain the value when the user can access snmpv3."/>
+            </Property>
+            <Property Name ="SOLAccess" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether SOL standard payload is enabled."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether SOL standard payload is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="Email" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="This property shall contain the email address for a IPMI user to contact."/>
+              <Annotation Term="OData.LongDescription" String="A temporary login code will send to this email address when user forget password."/>
+            </Property>
+            <Property Name ="IPMIMessaging" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether available over every IPMI-specified interface."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether available over every IPMI-specified interface. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name="Privilege" Type = "Collection(InsydeOEMExtensions.v1_0_0.Channel)">
+              <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+              <Annotation Term="OData.Description" String="This collection indicate the user privilege level by channel."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Channel">
+            <Property Name ="ChannelId" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="This is Channel number."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the channel number."/>
+            </Property>
+            <Property Name ="MediumType" Type = "InsydeOEMExtensions.v1_0_0.ChannelMediumType">
+              <Annotation Term="OData.Description" String="The medium type of channel."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the medium type of channel."/>
+            </Property>
+            <Property Name ="PrivilegeLevel" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The user privilege level in the channel."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the user privilege level in the channel."/>
+            </Property>
+          </ComplexType>
+
+          <EnumType Name="ChannelMediumType">
+            <Member Name="IPMB(I2C)">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is IPMB(I2C)."/>
+            </Member>
+            <Member Name="ICMB v1.0">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is ICMB v1.0 ."/>
+            </Member>
+            <Member Name="ICMB v0.9">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is ICMB v0.9 ."/>
+            </Member>
+            <Member Name="802.3 LAN">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is IPMB(I2C)."/>
+            </Member>
+            <Member Name="Serial/Modem">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is Serial/Modem."/>
+            </Member>
+            <Member Name="Other LAN">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is Other LAN."/>
+            </Member>
+            <Member Name="PCI SMBus">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is PCI SMBus."/>
+            </Member>
+            <Member Name="SMBus v1.0/1.1">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is SMBus v1.0/1.1 ."/>
+            </Member>
+            <Member Name="SMBus v2.0">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is SMBus v2.0 ."/>
+            </Member>
+            <Member Name="USB 1.x">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is USB 1.x ."/>
+            </Member>
+            <Member Name="USB 2.x">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is USB 2.x )."/>
+            </Member>
+            <Member Name="System Interface">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is System Interface."/>
+            </Member>
+            <Member Name="Oem">
+              <Annotation Term="OData.Description" String="Indicates channel medium type is Oem."/>
+            </Member>
+          </EnumType>
+
+          <ComplexType Name="InsydeSMTP" Nullable="false">
+            <Annotation Term="OData.Description" String="This type contains SMTP info."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe SMTP info."/>
+            <Property Name ="TLSCertCheck" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether enabled TLS cert check."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether enabled TLS cert check. The value shall be true if enabled and false if disabled."/>
+            </Property>
+          </ComplexType>
+
+          <Action Name="ImportSMTPCert" IsBound="true">
+            <Annotation Term="OData.Description" String="This action is used to Import SMTP certificate."/>
+            <Annotation Term="OData.LongDescription" String="This action shall Import SMTP certificate."/>
+          </Action>
+
+          <EnumType Name="PAMModule">
+            <Member Name="AD">
+              <Annotation Term="OData.Description" String="Indicates pam module ACTIVE DIRECTORY."/>
+            </Member>
+            <Member Name="LDAP">
+              <Annotation Term="OData.Description" String="Indicates pam module LDAP."/>
+            </Member>
+            <Member Name="RADIUS">
+              <Annotation Term="OData.Description" String="Indicates pam module RADIUS."/>
+            </Member>
+            <Member Name="TACACS">
+              <Annotation Term="OData.Description" String="Indicates pam module TACACS+"/>
+            </Member>
+            <Member Name="IPMI">
+              <Annotation Term="OData.Description" String="Indicates pam module IPMI"/>
+            </Member>
+          </EnumType>
+
+           <ComplexType Name="InsydePAMSettings" Nullable="false">
+            <Property Name ="PAMOrder" Type = "Collection(InsydeOEMExtensions.v1_0_0.PAMModule)">
+              <Annotation Term="OData.Description" String="The PAM Module Order."/>
+              <Annotation Term="OData.LongDescription" String="This indicates PAM Module Order."/>
+            </Property>
+          </ComplexType>
+
+          <EnumType Name="NTPSettingType">
+            <Member Name="User">
+              <Annotation Term="OData.Description" String="Indicates NTP Server Setting from User."/>
+            </Member>
+            <Member Name="DHCP">
+              <Annotation Term="OData.Description" String="Indicates NTP Server Setting from DHCP."/>
+            </Member>
+          </EnumType>
+          <ComplexType Name="NTP" BaseType="ManagerNetworkProtocol.v1_2_0.NTPProtocol" Nullable="false">
+          <Annotation Term="OData.Description" String="This type contains NTP Network Protocol."/>
+          <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe NTP Network Protocol information."/>
+            <Property Name ="SettingType" Type="InsydeOEMExtensions.v1_0_0.NTPSettingType">
+              <Annotation Term="OData.Description" String="Indicates NTP Server Setting."/>
+              <Annotation Term="OData.LongDescription" String="Indicates NTP Server Setting."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="InsydeThermal" Nullable="false">
+            <Annotation Term="OData.Description" String="This type contains Thermal info."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe Thermal info."/>
+            <Property Name ="PWMAutoMode" Type = "Edm.Boolean">
+              <Annotation Term="OData.Description" String="This indicates whether PWM auto mode is enabled."/>
+              <Annotation Term="OData.LongDescription" String="This indicates whether PWM auto mode is enabled. The value shall be true if enabled and false if disabled."/>
+            </Property>
+            <Property Name ="PWM1" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 1 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 1 as percentage."/>
+            </Property>
+            <Property Name ="PWM2" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 2 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 2 as percentage."/>
+            </Property>
+            <Property Name ="PWM3" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 3 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 3 as percentage."/>
+            </Property>
+            <Property Name ="PWM4" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 4 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 4 as percentage."/>
+            </Property>
+            <Property Name ="PWM5" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 5 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 5 as percentage."/>
+            </Property>
+            <Property Name ="PWM6" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 6 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 6 as percentage."/>
+            </Property>
+            <Property Name ="PWM7" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 7 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 7 as percentage."/>
+            </Property>
+            <Property Name ="PWM0" Type = "Edm.Decimal">
+              <Annotation Term="OData.Description" String="The PWM 8 of fan."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates pwm 8 as percentage."/>
+            </Property>
+            <Property Name ="CPUTempProfile" Type = "Edm.String">
+              <Annotation Term="OData.Description" String="The Temperautre Profile 0 of CPU."/>
+              <Annotation Term="OData.LongDescription" String="This property indicates CPU Temperautre Profile 0 ."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="LogEntry">
+            <Annotation Term="OData.Description" String="This type contains LogEntry info."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain properties which describe LogEntry info."/>
+            <Property Name ="ManufacturerId" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The ID of manufacturer."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the ID of manufacturer."/>
+            </Property>
+            <Property Name ="RecordType" Type = "Edm.Int64"  Nullable="true">
+              <Annotation Term="OData.Description" String="The recoed type"/>
+              <Annotation Term="OData.LongDescription" String="This indicates the record type of the log"/>
+            </Property>
+            <Property Name ="OemFieldRaw" Type = "Collection(Edm.Int64)"  Nullable="true">
+              <Annotation Term="OData.Description" String="The raw data of the oem field"/>
+              <Annotation Term="OData.LongDescription" String="This indicates the raw date of the Oem Field"/>
+            </Property>
+            <Property Name="TotalCount" Type="Edm.Int64">
+              <Annotation Term="OData.Description" String="Calculate ALL This LogService has several LogEntry."/>
+              <Annotation Term="OData.LongDescription" String="This is the calculation ALL This LogService has several LogEntry."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="ConfigId">
+            <Annotation Term="OData.Description" String="This type contains configurable id"/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain configurable id."/>
+            <Property Name ="SystemId" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The ID of system."/>
+              <Annotation Term="OData.LongDescription" String="This indicates the ID of system."/>
+            </Property>
+            <Property Name ="ManagerId" Type = "Edm.String"  Nullable="true">
+              <Annotation Term="OData.Description" String="The ID of manager"/>
+              <Annotation Term="OData.LongDescription" String="This indicates the ID of manager."/>
+            </Property>
+            <Property Name ="ChassisId" Type = "Edm.String"  Nullable="true">
+              <Annotation Term="OData.Description" String="The ID of chassis"/>
+              <Annotation Term="OData.LongDescription" String="This indicates the ID of chassis."/>
+            </Property>
+          </ComplexType>
+
+          <ComplexType Name="Task">
+            <Annotation Term="OData.Description" String="This type contain task state."/>
+            <Annotation Term="OData.LongDescription" String="This type shall contain task state."/>
+            <Property Name ="StateDescription" Type = "Edm.String" Nullable="true">
+              <Annotation Term="OData.Description" String="The status of this task."/>
+              <Annotation Term="OData.LongDescription" String="The status of this task."/>
+            </Property>
+          </ComplexType>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

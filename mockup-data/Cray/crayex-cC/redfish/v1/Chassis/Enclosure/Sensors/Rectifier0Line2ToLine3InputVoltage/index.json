@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/Rectifier0Line2ToLine3InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Line2ToLine3",
+    "Id": "Rectifier0Line2ToLine3InputVoltage",
+    "Name": "Rectifier",
+    "Oem": {
+        "Index": 0
+    },
+    "PhysicalContext": "Rectifier",
+    "PhysicalSubContext": "Input",
+    "Reading": 486.31,
+    "ReadingTime": "2022-03-11T21:43:42.056494926Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

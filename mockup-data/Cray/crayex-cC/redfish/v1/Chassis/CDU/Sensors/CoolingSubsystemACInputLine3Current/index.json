@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputLine3Current",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Line3",
+    "Id": "CoolingSubsystemACInputLine3Current",
+    "Name": "CDU Current Phase 3",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "ACInput",
+    "Reading": 0,
+    "ReadingTime": "2022-03-11T21:43:40.083722415Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish OEM Schema:  NvidiaUpdateService  v1.0.0                                -->
+<!--#                                                                                      -->
+<!--# Copyright 2021-2022 NVIDIA.                                                          -->
+<!--# For the full NVIDIA copyright policy, see LICENSE.md                                 -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/RedfishExtensions_v1.xml">
+    <edmx:Include Namespace="RedfishExtensions.v1_0_0" Alias="Redfish"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Resource_v1.xml">
+    <edmx:Include Namespace="Resource"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Measures.V1.xml">
+    <edmx:Include Namespace="Org.OData.Measures.V1" Alias="Measures"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/UpdateService_v1.xml">
+    <edmx:Include Namespace="UpdateService.v1_0_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/SoftwareInventory_v1.xml">
+    <edmx:Include Namespace="SoftwareInventory"/>
+  </edmx:Reference>
+
+  <edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="NvidiaUpdateService">
+      <Annotation Term="Redfish.OwningEntity" String="NVIDIA"/>
+
+      <Action Name="CommitImage" IsBound="true">
+        <Annotation Term="OData.Description" String="This action is used to commit all applicable image components into a backup storage."/>
+        <Annotation Term="OData.LongDescription" String="This action shall commit all applicable image components into a backup storage.  This action cannot be executed when firmware update is in progress or automatic backup copy policy is enabled by ERoTs."/>
+        <Parameter Name="NvidiaUpdateService" Type="UpdateService.v1_0_0.OemActions"/>
+        <Parameter Name="Targets" Type="Collection(SoftwareInventory.SoftwareInventory)">
+          <Annotation Term="OData.Description" String="An array of URIs that indicate which image components to backup."/>
+          <Annotation Term="OData.LongDescription" String="This parameter shall contain zero or more URIs that indicate which image components to backup. These targets shall correspond to SoftwareInventory resources.  If this parameter is not present or contains no targets, the service shall apply to all applicable targets as determined by the service."/>
+          <Annotation Term="OData.IsURL"/>
+        </Parameter>
+      </Action>
+    </Schema>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="NvidiaUpdateService.v1_0_0">
+      <Annotation Term="Redfish.OwningEntity" String="NVIDIA"/>
+    </Schema>
+
+  </edmx:DataServices>
+</edmx:Edmx>

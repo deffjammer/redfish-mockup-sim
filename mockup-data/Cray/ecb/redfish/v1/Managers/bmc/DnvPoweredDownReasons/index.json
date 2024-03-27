@@ -1,0 +1,9 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/DnvPoweredDownReasons",
+    "BmcLastPoweredDownReasons": "0x400",
+    "Description": {
+        "Information": "BmcLastPoweredDownReasons mask indicates BMC's last powered-down reason(s).",
+        "bit[10]": "Slot on fail"
+    },
+    "Name": "Bmc last powered-down reason."
+}

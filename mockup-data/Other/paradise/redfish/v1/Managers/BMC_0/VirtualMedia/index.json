@@ -1,0 +1,23 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/VirtualMedia",
+    "@odata.type": "#VirtualMediaCollection.VirtualMediaCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC_0/VirtualMedia/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC_0/VirtualMedia/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC_0/VirtualMedia/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC_0/VirtualMedia/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC_0/VirtualMedia/5"
+        }
+    ],
+    "Members@odata.count": 5,
+    "Name": "Virtual Media Services"
+}

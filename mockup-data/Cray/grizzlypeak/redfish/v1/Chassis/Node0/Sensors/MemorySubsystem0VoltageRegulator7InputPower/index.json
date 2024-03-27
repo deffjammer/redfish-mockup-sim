@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"947221113\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/MemorySubsystem0VoltageRegulator7InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "MemorySubsystem0VoltageRegulator7InputPower",
+    "Name": "CPU0 VDR ABCD",
+    "Oem": {
+        "Index": 7,
+        "ParentalContext": "MemorySubsystem",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U1010"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 82,
+    "ReadingTime": "2000-01-07T04:58:41.833464960Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

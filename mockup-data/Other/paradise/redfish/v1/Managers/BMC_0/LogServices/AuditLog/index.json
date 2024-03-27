@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog",
+    "@odata.type": "#LogService.v1_3_0.LogService",
+    "Actions": {
+        "#LogService.ClearLog": {
+            "target": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Actions/LogService.ClearLog"
+        }
+    },
+    "DateTime": "2024-02-21T20:23:25+00:00",
+    "DateTimeLocalOffset": "+00:00",
+    "Description": "The LogService schema contains properties for monitoring and configuring a Log Service",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries"
+    },
+    "Id": "AuditLog",
+    "Name": "AuditLog Log Entry Collection",
+    "OverWritePolicy": "WrapsWhenFull"
+}

@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"947221095\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/GPUSubsystemGPU3Power",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "GPUSubsystemGPU3Power",
+    "Name": "gpu3",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "GPUSubsystem"
+    },
+    "PhysicalContext": "GPU",
+    "ReadingTime": "2000-01-07T04:43:22.305972320Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

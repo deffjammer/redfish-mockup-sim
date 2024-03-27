@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SessionService.SessionService",
+    "@odata.id": "/redfish/v1/SessionService",
+    "@odata.type": "#SessionService.v1_1_8.SessionService",
+    "Id": "SessionService",
+    "Name": "SessionService",
+    "Description": "The SessionService schema describes the Session Service and its properties, with links to the actual list of sessions.",
+    "Actions": {
+        "Oem": {
+            "#InsydeOEMExtensions.ClearVNCSession": {
+                "target": "/redfish/v1/SessionService/Actions/Oem/InsydeOEMExtensions.ClearVNCSession"
+            }
+        }
+    },
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "ServiceEnabled": true,
+    "SessionTimeout": 1800,
+    "Sessions": {
+        "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+}

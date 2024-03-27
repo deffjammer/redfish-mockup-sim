@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "\"1697465670\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_04_00",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "AssetTag": "",
+    "DeviceType": "SingleFunction",
+    "Id": "00_04_00",
+    "Manufacturer": "NVIDIA",
+    "Model": "NVIDIA HGX H100 4-GPU 80GB",
+    "Name": "00_04_00",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_04_00/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 16,
+        "MaxLanes": 16,
+        "MaxPCIeType": "Gen5",
+        "PCIeType": "Gen5"
+    },
+    "PartNumber": "675-23087-0011-QS1",
+    "SerialNumber": "1664922710033",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

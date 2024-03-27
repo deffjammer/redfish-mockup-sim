@@ -1,0 +1,30 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/VoltageRegulator0Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "VoltageRegulator0Temperature",
+    "Name": "STBY 3.3V",
+    "Oem": {
+        "Index": 0,
+        "ReferenceDesignator": "U10"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 40,
+    "ReadingTime": "2022-03-11T21:43:41.009663907Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 85
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 105
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 125
+        }
+    }
+}

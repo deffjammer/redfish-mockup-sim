@@ -1,0 +1,959 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_2_2.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/Self/SD"
+        }
+    },
+    "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+    "@odata.etag": "\"1697474077\"",
+    "@odata.id": "/redfish/v1/Systems/Self",
+    "@odata.type": "#ComputerSystem.v1_15_0.ComputerSystem",
+    "Actions": {
+        "#ComputerSystem.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/Self/ResetActionInfo",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_2_2.OperationApplyTimeSupport",
+                "MaintenanceWindowDurationInSeconds": 600,
+                "MaintenanceWindowResource": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                },
+                "SupportedValues": [
+                    "Immediate",
+                    "AtMaintenanceWindowStart"
+                ]
+            },
+            "target": "/redfish/v1/Systems/Self/Actions/ComputerSystem.Reset"
+        }
+    },
+    "AssetTag": "123456-123456       ",
+    "Bios": {
+        "@odata.id": "/redfish/v1/Systems/Self/Bios"
+    },
+    "BiosVersion": "CA65_5.27_v1.00",
+    "Boot": {
+        "BootNext": null,
+        "BootOptions": {
+            "@odata.id": "/redfish/v1/Systems/Self/BootOptions"
+        },
+        "BootOrder": [
+            "Boot0002",
+            "Boot0003",
+            "Boot0004",
+            "Boot0000"
+        ],
+        "BootOrderPropertySelection": "BootOrder",
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideMode": null,
+        "BootSourceOverrideTarget": "None",
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Systems/Self/Boot/Certificates"
+        },
+        "HttpBootUri": null,
+        "UefiTargetBootSourceOverride": null
+    },
+    "Description": "System Self",
+    "EthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces"
+    },
+    "GraphicsControllers": {
+        "@odata.id": "/redfish/v1/Systems/Self/GraphicsControllers"
+    },
+    "HostName": null,
+    "HostingRoles": [
+        "ApplicationServer"
+    ],
+    "Id": "Self",
+    "IndicatorLED": "Off",
+    "IndicatorLED@Redfish.AllowableValues": [
+        "Lit",
+        "Blinking",
+        "Off"
+    ],
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/Self"
+            }
+        ],
+        "Chassis@odata.count": 1,
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/Self"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Systems/Self/LogServices"
+    },
+    "Manufacturer": "Inventec     ",
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/Self/Memory"
+    },
+    "MemoryDomains": {
+        "@odata.id": "/redfish/v1/Systems/Self/MemoryDomains"
+    },
+    "MemorySummary": {
+        "MemoryMirroring": null,
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        },
+        "TotalSystemMemoryGiB": 128,
+        "TotalSystemPersistentMemoryGiB": null
+    },
+    "Model": "HPE Cray XD665",
+    "Name": "System",
+    "NetworkInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/Self/NetworkInterfaces"
+    },
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMIBIOSInventoryCRC.v1_0_0.AMIBIOSInventoryCRC",
+            "Bios": {
+                "BiosTable": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                },
+                "Inventory": {
+                    "Crc": {
+                        "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/Inventory/Crc",
+                        "GroupCrcList": [
+                            {
+                                "PCIE": 2147407994
+                            },
+                            {
+                                "CERTIFICATE": 2279264443
+                            },
+                            {
+                                "CPU": 472606073
+                            },
+                            {
+                                "DIMM": 794391454
+                            },
+                            {
+                                "SECUREBOOT": 1343837978
+                            }
+                        ]
+                    }
+                },
+                "RedfishVersion": "1.11.0",
+                "RtpVersion": "RB_1.0.16"
+            },
+            "ManagerBootConfiguration": {
+                "ManagerBootMode": null,
+                "ManagerBootMode@Redfish.AllowableValues": [
+                    "SoftReset",
+                    "ResetTimeout"
+                ]
+            }
+        }
+    },
+    "PCIeDevices": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_14"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_01_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_1F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_03_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_04_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_05_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_06_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_08_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_22_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_42_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_61_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_63_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_64_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_65_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_66_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_67_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_68_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_69_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_81_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_1F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_83_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_84_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_85_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_86_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_88_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A2_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C3_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_03"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_04"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_07"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E1_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_02"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E3_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E4_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E5_00"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E7_00"
+        }
+    ],
+    "PCIeDevices@odata.count": 102,
+    "PCIeFunctions": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_00/PCIeFunctions/DevType3_DMMY_DevIndex11"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_00/PCIeFunctions/DevType3_SLT9_DevIndexD"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_00/PCIeFunctions/DevType3_SLTA_DevIndexE"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_00/PCIeFunctions/DevType3_SLTB_DevIndexF"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_00/PCIeFunctions/DevType3_SLTC_DevIndex10"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_00/PCIeFunctions/DevType3_SLTD_DevIndexC"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_01/PCIeFunctions/DevType3_D2A0_DevIndex13"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_01/PCIeFunctions/DevType3_DMMY_DevIndex12"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_02/PCIeFunctions/DevType3_DMMY_DevIndex1A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_03/PCIeFunctions/DevType3_DMMY_DevIndex1B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_04/PCIeFunctions/DevType3_DMMY_DevIndex1C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_05/PCIeFunctions/DevType3_D2P4_DevIndex1E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_05/PCIeFunctions/DevType3_DMMY_DevIndex1D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_07/PCIeFunctions/DevType3_B020_DevIndex20"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_07/PCIeFunctions/DevType3_DMMY_DevIndex1F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_14/PCIeFunctions/DevType3_SBRG_DevIndex25"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_14/PCIeFunctions/DevType3_SMBR_DevIndex24"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex26"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex27"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex28"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex29"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex2A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex2B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex2C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_18/PCIeFunctions/DevType3_DMMY_DevIndex2D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex2E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex2F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex30"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex31"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex32"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex33"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex34"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex35"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_01_00/PCIeFunctions/DevType3__DevIndex14"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_00/PCIeFunctions/DevType3__DevIndex15"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_01/PCIeFunctions/DevType3__DevIndex16"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_02/PCIeFunctions/DevType3__DevIndex17"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_1F/PCIeFunctions/DevType3__DevIndex18"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_03_00/PCIeFunctions/DevType3__DevIndex3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_04_00/PCIeFunctions/DevType3__DevIndex4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_05_00/PCIeFunctions/DevType3__DevIndex5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_06_00/PCIeFunctions/DevType3__DevIndex19"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_08_00/PCIeFunctions/DevType3_XHC1_DevIndex22"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_08_00/PCIeFunctions/DevType3__DevIndex21"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_08_00/PCIeFunctions/DevType3__DevIndex23"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_00/PCIeFunctions/DevType3_DMMY_DevIndex36"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_01/PCIeFunctions/DevType3_D3B0_DevIndex38"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_01/PCIeFunctions/DevType3_DMMY_DevIndex37"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_02/PCIeFunctions/DevType3_DMMY_DevIndex39"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_03/PCIeFunctions/DevType3_DMMY_DevIndex3A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_04/PCIeFunctions/DevType3_DMMY_DevIndex3B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_05/PCIeFunctions/DevType3_DMMY_DevIndex3C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_07/PCIeFunctions/DevType3_B030_DevIndex3E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_20_07/PCIeFunctions/DevType3_DMMY_DevIndex3D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_22_00/PCIeFunctions/DevType3__DevIndex3F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_00/PCIeFunctions/DevType3_DMMY_DevIndex40"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_01/PCIeFunctions/DevType3_D1A0_DevIndex42"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_01/PCIeFunctions/DevType3_DMMY_DevIndex41"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_02/PCIeFunctions/DevType3_DMMY_DevIndex43"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_03/PCIeFunctions/DevType3_DMMY_DevIndex44"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_04/PCIeFunctions/DevType3_DMMY_DevIndex45"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_05/PCIeFunctions/DevType3_DMMY_DevIndex46"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_07/PCIeFunctions/DevType3_B010_DevIndex48"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_40_07/PCIeFunctions/DevType3_DMMY_DevIndex47"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_42_00/PCIeFunctions/DevType3__DevIndex49"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_00/PCIeFunctions/DevType3_DMMY_DevIndex4A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_01/PCIeFunctions/DevType3_D0A0_DevIndex4C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_01/PCIeFunctions/DevType3_DMMY_DevIndex4B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_02/PCIeFunctions/DevType3_DMMY_DevIndex51"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_03/PCIeFunctions/DevType3_DMMY_DevIndex52"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_04/PCIeFunctions/DevType3_DMMY_DevIndex53"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_05/PCIeFunctions/DevType3_DMMY_DevIndex54"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_05/PCIeFunctions/DevType3_WAF1_DevIndex55"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_05/PCIeFunctions/DevType3_WAF2_DevIndex58"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_07/PCIeFunctions/DevType3_B000_DevIndex5B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_07/PCIeFunctions/DevType3_DMMY_DevIndex5A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_61_00/PCIeFunctions/DevType3__DevIndex4D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_00/PCIeFunctions/DevType3__DevIndex4E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_01/PCIeFunctions/DevType3__DevIndex4F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_02/PCIeFunctions/DevType3__DevIndex50"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_63_00/PCIeFunctions/DevType3__DevIndex0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_64_00/PCIeFunctions/DevType3__DevIndex1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_65_00/PCIeFunctions/DevType3__DevIndex2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_66_00/PCIeFunctions/DevType3__DevIndex56"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_67_00/PCIeFunctions/DevType3_VGFX_DevIndex57"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_68_00/PCIeFunctions/DevType3__DevIndex59"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_69_00/PCIeFunctions/DevType3_XHC0_DevIndex5D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_69_00/PCIeFunctions/DevType3__DevIndex5C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_00/PCIeFunctions/DevType3_DMMY_DevIndex5E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_01/PCIeFunctions/DevType3_D6A0_DevIndex60"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_01/PCIeFunctions/DevType3_DMMY_DevIndex5F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_02/PCIeFunctions/DevType3_DMMY_DevIndex67"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_03/PCIeFunctions/DevType3_DMMY_DevIndex68"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_04/PCIeFunctions/DevType3_DMMY_DevIndex69"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_05/PCIeFunctions/DevType3_D6P4_DevIndex6B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_05/PCIeFunctions/DevType3_DMMY_DevIndex6A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_07/PCIeFunctions/DevType3_B120_DevIndex6D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_80_07/PCIeFunctions/DevType3_DMMY_DevIndex6C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_81_00/PCIeFunctions/DevType3__DevIndex61"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_00/PCIeFunctions/DevType3__DevIndex62"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_01/PCIeFunctions/DevType3__DevIndex63"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_02/PCIeFunctions/DevType3__DevIndex64"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_1F/PCIeFunctions/DevType3__DevIndex65"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_83_00/PCIeFunctions/DevType3__DevIndex9"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_84_00/PCIeFunctions/DevType3__DevIndexA"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_85_00/PCIeFunctions/DevType3__DevIndexB"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_86_00/PCIeFunctions/DevType3__DevIndex66"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_88_00/PCIeFunctions/DevType3__DevIndex6E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_88_00/PCIeFunctions/DevType3__DevIndex6F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_00/PCIeFunctions/DevType3_DMMY_DevIndex70"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_01/PCIeFunctions/DevType3_D7B0_DevIndex72"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_01/PCIeFunctions/DevType3_DMMY_DevIndex71"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_02/PCIeFunctions/DevType3_DMMY_DevIndex73"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_03/PCIeFunctions/DevType3_DMMY_DevIndex74"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_04/PCIeFunctions/DevType3_DMMY_DevIndex75"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_05/PCIeFunctions/DevType3_DMMY_DevIndex76"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_07/PCIeFunctions/DevType3_B130_DevIndex78"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A0_07/PCIeFunctions/DevType3_DMMY_DevIndex77"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_A2_00/PCIeFunctions/DevType3__DevIndex79"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_00/PCIeFunctions/DevType3_DMMY_DevIndex7A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_01/PCIeFunctions/DevType3_D5A0_DevIndex7C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_01/PCIeFunctions/DevType3_D5A1_DevIndex7D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_01/PCIeFunctions/DevType3_DMMY_DevIndex7B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_02/PCIeFunctions/DevType3_DMMY_DevIndex7E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_03/PCIeFunctions/DevType3_DMMY_DevIndex7F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_04/PCIeFunctions/DevType3_DMMY_DevIndex80"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_05/PCIeFunctions/DevType3_DMMY_DevIndex81"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_07/PCIeFunctions/DevType3_B110_DevIndex83"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C0_07/PCIeFunctions/DevType3_DMMY_DevIndex82"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C3_00/PCIeFunctions/DevType3__DevIndex84"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_00/PCIeFunctions/DevType3_DMMY_DevIndex85"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_01/PCIeFunctions/DevType3_D4A0_DevIndex87"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_01/PCIeFunctions/DevType3_DMMY_DevIndex86"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_02/PCIeFunctions/DevType3_DMMY_DevIndex8C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_03/PCIeFunctions/DevType3_DMMY_DevIndex8D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_04/PCIeFunctions/DevType3_DMMY_DevIndex8E"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_05/PCIeFunctions/DevType3_DMMY_DevIndex8F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_05/PCIeFunctions/DevType3_WAF5_DevIndex90"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_07/PCIeFunctions/DevType3_B100_DevIndex92"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E0_07/PCIeFunctions/DevType3_DMMY_DevIndex91"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E1_00/PCIeFunctions/DevType3__DevIndex88"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_00/PCIeFunctions/DevType3__DevIndex89"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_01/PCIeFunctions/DevType3__DevIndex8A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_02/PCIeFunctions/DevType3__DevIndex8B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E3_00/PCIeFunctions/DevType3__DevIndex6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E4_00/PCIeFunctions/DevType3__DevIndex7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E5_00/PCIeFunctions/DevType3__DevIndex8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E7_00/PCIeFunctions/DevType3__DevIndex93"
+        }
+    ],
+    "PCIeFunctions@odata.count": 148,
+    "PartNumber": "0000-0000   ",
+    "PowerRestorePolicy": "AlwaysOff",
+    "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "AMD EPYC 9474F 48-Core Processor",
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        }
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/Self/Processors"
+    },
+    "SKU": "HPE Cray XD665",
+    "SecureBoot": {
+        "@odata.id": "/redfish/v1/Systems/Self/SecureBoot"
+    },
+    "SerialNumber": "12345678   ",
+    "SimpleStorage": {
+        "@odata.id": "/redfish/v1/Systems/Self/SimpleStorage"
+    },
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Storage": {
+        "@odata.id": "/redfish/v1/Systems/Self/Storage"
+    },
+    "SubModel": null,
+    "SystemType": "Physical",
+    "TrustedModules": [
+        {
+            "FirmwareVersion": "1.512",
+            "FirmwareVersion2": "0.0",
+            "InterfaceType": "TPM2_0",
+            "InterfaceTypeSelection": "OemMethod",
+            "Status": {
+                "Health": null,
+                "HealthRollup": null,
+                "State": "Enabled"
+            }
+        }
+    ],
+    "USBControllers": {
+        "@odata.id": "/redfish/v1/Systems/Self/USBControllers"
+    },
+    "UUID": "674C96F6-BFDE-11D3-01B0-0174B4F17AB4"
+}

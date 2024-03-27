@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_368",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-04T21:34:46+00:00",
+    "EntryType": "Oem",
+    "Id": "1_368",
+    "Message": "[::1][root][RCM][authentication]Session open succeed.",
+    "Name": "Log Entry 1_368",
+    "Severity": null
+}

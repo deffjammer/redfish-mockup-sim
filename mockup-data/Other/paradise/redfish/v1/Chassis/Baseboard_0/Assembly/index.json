@@ -1,0 +1,53 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Assembly",
+    "@odata.type": "#Assembly.v1_3_0.Assembly",
+    "Assemblies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Assembly#/Assemblies/0",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "0",
+            "Model": "P4352",
+            "Name": "Board FRU Assembly",
+            "PartNumber": "753-24352-0000-000",
+            "PhysicalContext": "GPUSubsystem",
+            "ProductionDate": "2023-08-14T07:00:00Z",
+            "SerialNumber": "1234567890123",
+            "Vendor": "NVIDIA"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Assembly#/Assemblies/1",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "1",
+            "Model": "DGX Falcon 1U Node",
+            "Name": "Product FRU Assembly",
+            "PartNumber": "675-24352-2000-DVT",
+            "PhysicalContext": "GPUSubsystem",
+            "SerialNumber": "1234567890123",
+            "Vendor": "NVIDIA",
+            "Version": "B.1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Assembly#/Assemblies/2",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "2",
+            "Name": "Chassis FRU Assembly",
+            "PartNumber": "675-24352-2000-DVT",
+            "PhysicalContext": "GPUSubsystem",
+            "SerialNumber": "1234567890123"
+        }
+    ],
+    "Id": "Assembly",
+    "Name": "Assembly data for Baseboard_0"
+}

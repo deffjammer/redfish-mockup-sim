@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish Schema:  VendorServiceRoot  v1.0.0-->
+<!--#                                                                                      -->
+<!--# For a detailed change log, see the README file contained in the DSP8010 bundle,      -->
+<!--# available at http://www.dmtf.org/standards/redfish                                   -->
+<!--# Copyright 2014-2017 Distributed Management Task Force, Inc. (DMTF).                  -->
+<!--# For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+        <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/RedfishExtensions.xml">
+      <edmx:Include Namespace="RedfishExtensions.1.0.0" Alias="Redfish"/>
+      <edmx:Include Namespace="Validation.1.0.0" Alias="Validation"/>
+    </edmx:Reference>
+<edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="GBTSystemsOemProperty.v1_0_0">
+        <Annotation Term="Redfish.OwningEntity" String="DMTF"/>
+
+        <ComplexType Name="Oem">
+            <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+            <Annotation Term="OData.Description" String="This allows additional configuring of the Redfish service."/>
+            <Annotation Term="OData.LongDescription" String="This allows additional configuring of the Redfish service."/>
+            <Property Name="Gbt" Type="Collection(GBTSystemsOemProperty.v1_0_0.GBTSystemsOemProperty)" Nullable="false">
+                <Annotation Term="OData.Description" String="This allows additional configuring of the Redfish service."/>
+                <Annotation Term="OData.LongDescription" String="This allows additional configuring of the Redfish service."/>
+                <Annotation Term="Redfish.Required"/>
+            </Property>
+        </ComplexType>
+
+        <ComplexType Name="GBTSystemsOemProperty">
+            <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+            <Annotation Term="OData.Description" String="This allows additional configuring of the Redfish service."/>
+            <Annotation Term="OData.LongDescription" String="This allows additional configuring of the Redfish service."/>
+            <Property Name="GPUManager" Type="GBTSystemsOemProperty.v1_0_0.GPUManager" Nullable="false">
+                <Annotation Term="OData.Description" String="This allows additional configuring of the Redfish service."/>
+                <Annotation Term="OData.LongDescription" String="This allows additional configuring of the Redfish service."/>
+            </Property>
+            <Property Name="CUPS" Type="GBTSystemsOemProperty.v1_0_0.CUPS" Nullable="false">
+                <Annotation Term="OData.Description" String="This allows additional configuring of the Redfish service."/>
+                <Annotation Term="OData.LongDescription" String="This allows additional configuring of the Redfish service."/>
+            </Property>
+        </ComplexType>
+
+        <ComplexType Name="GPUManager">
+            <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+            <Annotation Term="OData.Description" String="shall specify a valid odata or Redfish property."/>
+            <Annotation Term="OData.LongDescription" String="shall specify a valid odata or Redfish property."/>
+        </ComplexType>
+        <ComplexType Name="CUPS">
+            <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+            <Annotation Term="OData.Description" String="shall specify a valid odata or Redfish property."/>
+            <Annotation Term="OData.LongDescription" String="shall specify a valid odata or Redfish property."/>
+            <Property Name="CPUCUPS" Type="Edm.Int64" Nullable="false">
+                <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                <Annotation Term="OData.Description" String="This property shall specify Rtp version."/>
+            </Property>
+            <Property Name="MemoryCUPS" Type="Edm.Int64" Nullable="false">
+                <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                <Annotation Term="OData.Description" String="This property shall specify Rtp version."/>
+            </Property>
+        </ComplexType>
+    </Schema>
+</edmx:DataServices>
+
+</edmx:Edmx>

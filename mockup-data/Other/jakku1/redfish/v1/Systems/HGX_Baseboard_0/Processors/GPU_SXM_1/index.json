@@ -1,0 +1,110 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_3.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_1/Settings"
+        }
+    },
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_1",
+    "@odata.type": "#Processor.v1_13_0.Processor",
+    "Actions": {
+        "#Processor.Reset": {
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart"
+            ],
+            "target": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_1/Actions/Processor.Reset"
+        }
+    },
+    "EnvironmentMetrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_1/EnvironmentMetrics"
+    },
+    "FirmwareVersion": "96.00.51.00.0B",
+    "Id": "GPU_SXM_1",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_1"
+        },
+        "Memory": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_SXM_1_DRAM_0"
+            }
+        ],
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_1/PCIeDevices/GPU_SXM_1"
+        },
+        "PCIeFunctions": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_1/PCIeDevices/GPU_SXM_1/PCIeFunctions/0"
+            }
+        ]
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Embedded",
+            "ServiceLabel": "SXM1"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "MaxSpeedMHz": 1980,
+    "MemorySummary": {
+        "ECCModeEnabled": true,
+        "Metrics": {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_1/MemorySummary/MemoryMetrics"
+        }
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_1/ProcessorMetrics"
+    },
+    "MinSpeedMHz": 345,
+    "Model": "H100 80GB HBM3",
+    "Name": "Processor",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaProcessor.v1_0_0.NvidiaProcessor",
+            "MIGModeEnabled": false
+        }
+    },
+    "OperatingSpeedMHz": 345,
+    "PartNumber": "2330-885-A1",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_SXM_1/Ports"
+    },
+    "ProcessorType": "GPU",
+    "SerialNumber": "1651023033423",
+    "SpeedLimitMHz": 65535,
+    "SpeedLocked": true,
+    "Status": {
+        "Conditions": [
+            {
+                "LogEntry": {
+                    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2946"
+                },
+                "Message": "The resource property GPU_SXM_1 Firmware has detected errors of type 'WriteProtected'.",
+                "MessageArgs": [
+                    "GPU_SXM_1 Firmware",
+                    "WriteProtected"
+                ],
+                "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_1"
+                },
+                "Severity": "Critical",
+                "Timestamp": "2023-09-19T16:27:06+00:00"
+            }
+        ],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SystemInterface": {
+        "InterfaceType": "PCIe",
+        "PCIe": {
+            "LanesInUse": 16,
+            "MaxLanes": 16,
+            "MaxPCIeType": "Gen5",
+            "PCIeType": "Gen5"
+        }
+    },
+    "UUID": "8618f6bb-3115-6329-48a2-694e3903851d",
+    "Version": "A1"
+}

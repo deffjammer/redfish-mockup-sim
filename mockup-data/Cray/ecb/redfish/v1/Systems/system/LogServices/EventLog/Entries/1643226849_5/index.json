@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643226849_5",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-26T19:54:09+00:00",
+    "EntryType": "Event",
+    "Id": "1643226849_5",
+    "Message": "AURMGMTBRD Board with serial number NRAY10200047 was installed.",
+    "MessageArgs": [
+        "AURMGMTBRD",
+        "Board",
+        "NRAY10200047"
+    ],
+    "MessageId": "OpenBMC.0.1.InventoryAdded",
+    "Name": "System Event Log Entry",
+    "Severity": "OK"
+}

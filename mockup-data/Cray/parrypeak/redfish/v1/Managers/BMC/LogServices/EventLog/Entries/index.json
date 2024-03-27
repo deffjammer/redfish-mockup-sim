@@ -1,0 +1,774 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:05:38+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:05:38+00:00",
+            "Id": "1",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "The power state of resource x9000c3s7b1 has changed to type On.",
+            "MessageArgs": [
+                "x9000c3s7b1",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 1",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/2",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:05:38+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:05:38+00:00",
+            "Id": "2",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+                }
+            },
+            "Message": "Successfully completed SimpleUpdate request",
+            "MessageId": "HPEFirmwareUpdate.SimpleUpdateSuccess",
+            "Name": "Log entry 2",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/3",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:05:48+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:05:48+00:00",
+            "Id": "3",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator12OutputVoltage"
+                }
+            },
+            "Message": "Sensor 'VDDCR_1V1_HBM_D Voltage' reading of 0 (V) is below the 0.1 lower fatal threshold.",
+            "MessageArgs": [
+                "VDDCR_1V1_HBM_D Voltage",
+                "0",
+                "V",
+                "0.1"
+            ],
+            "MessageId": "SensorEvent.ReadingBelowLowerFatalThreshold",
+            "Name": "Log entry 3",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/4",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:06:28+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:06:28+00:00",
+            "Id": "4",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 4",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/5",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:14:36+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:14:36+00:00",
+            "Id": "5",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 5",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/6",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:18:26+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:18:26+00:00",
+            "Id": "6",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 6",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/7",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:18:28+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:18:28+00:00",
+            "Id": "7",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 7",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/8",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:18:28+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:18:28+00:00",
+            "Id": "8",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 8",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/9",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:18:28+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:18:28+00:00",
+            "Id": "9",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 9",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/10",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:18:36+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:18:36+00:00",
+            "Id": "10",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 10",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/11",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:18:36+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:18:36+00:00",
+            "Id": "11",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 11",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/12",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "1999-12-31T12:18:36+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "1999-12-31T12:18:36+00:00",
+            "Id": "12",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 12",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/13",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-01T05:08:49+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T05:08:49+00:00",
+            "Id": "13",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The hardware resource Node0 caused or will cause an emergency power off (EPO) to avoid damage. Hardware-specific information: Please contact HPE support for further assistance.",
+            "MessageArgs": [
+                "Node0",
+                "Please contact HPE support for further assistance"
+            ],
+            "MessageId": "CrayAlerts.HardwareEmergencyPowerOffDetected",
+            "Name": "Log entry 13",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/14",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:57:48+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:57:48+00:00",
+            "Id": "14",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 14",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/15",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:58:36+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:58:36+00:00",
+            "Id": "15",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 15",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/16",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:58:38+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:58:38+00:00",
+            "Id": "16",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 16",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/17",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:58:38+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:58:38+00:00",
+            "Id": "17",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 17",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/18",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:58:38+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:58:38+00:00",
+            "Id": "18",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 18",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/19",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:58:46+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:58:46+00:00",
+            "Id": "19",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 19",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/20",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:58:46+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:58:46+00:00",
+            "Id": "20",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 20",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/21",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T09:58:46+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T09:58:46+00:00",
+            "Id": "21",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 21",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/22",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:31:41+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:31:41+00:00",
+            "Id": "22",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 22",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/23",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:32:45+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:32:45+00:00",
+            "Id": "23",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 23",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/24",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:32:47+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:32:47+00:00",
+            "Id": "24",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 24",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/25",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:32:47+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:32:47+00:00",
+            "Id": "25",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 25",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/26",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:32:47+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:32:47+00:00",
+            "Id": "26",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has failed.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorFailure",
+            "Name": "Log entry 26",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/27",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:32:55+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:32:55+00:00",
+            "Id": "27",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 27",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/28",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:32:55+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:32:55+00:00",
+            "Id": "28",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 28",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/29",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:32:56+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:32:56+00:00",
+            "Id": "29",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3ReportedPower"
+                }
+            },
+            "Message": "Sensor ' Power' has been restored.",
+            "MessageArgs": [
+                " Power"
+            ],
+            "MessageId": "SensorEvent.SensorRestored",
+            "Name": "Log entry 29",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/30",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-02T10:52:45+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-02T10:52:45+00:00",
+            "Id": "30",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 30",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/31",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-04T11:24:11+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-04T11:24:11+00:00",
+            "Id": "31",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0OutputCurrent"
+                }
+            },
+            "Message": "Sensor 'SIVOC Current' reading of 72.49 (A) is above the 72 upper caution threshold.",
+            "MessageArgs": [
+                "SIVOC Current",
+                "72.49",
+                "A",
+                "72"
+            ],
+            "MessageId": "SensorEvent.ReadingAboveUpperCautionThreshold",
+            "Name": "Log entry 31",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/32",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-04T11:24:19+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-04T11:24:19+00:00",
+            "Id": "32",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0OutputCurrent"
+                }
+            },
+            "Message": "Sensor 'SIVOC Current' reading of 70 (A) is within normal operating range.",
+            "MessageArgs": [
+                "SIVOC Current",
+                "70",
+                "A"
+            ],
+            "MessageId": "SensorEvent.SensorReadingNormalRange",
+            "Name": "Log entry 32",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/33",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-04T11:35:20+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-04T11:35:20+00:00",
+            "Id": "33",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0OutputCurrent"
+                }
+            },
+            "Message": "Sensor 'SIVOC Current' reading of 76.81 (A) is above the 72 upper caution threshold.",
+            "MessageArgs": [
+                "SIVOC Current",
+                "76.81",
+                "A",
+                "72"
+            ],
+            "MessageId": "SensorEvent.ReadingAboveUpperCautionThreshold",
+            "Name": "Log entry 33",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/34",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-04T11:35:57+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-04T11:35:57+00:00",
+            "Id": "34",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0OutputCurrent"
+                }
+            },
+            "Message": "Sensor 'SIVOC Current' reading of 66.68 (A) is within normal operating range.",
+            "MessageArgs": [
+                "SIVOC Current",
+                "66.68",
+                "A"
+            ],
+            "MessageId": "SensorEvent.SensorReadingNormalRange",
+            "Name": "Log entry 34",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/35",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-04T11:38:51+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-04T11:38:51+00:00",
+            "Id": "35",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2VoltageRegulator8Temperature"
+                }
+            },
+            "Message": "Sensor 'VDD_12V0_A2 Temperature' reading of 78 (Cel) is above the 78 upper caution threshold.",
+            "MessageArgs": [
+                "VDD_12V0_A2 Temperature",
+                "78",
+                "Cel",
+                "78"
+            ],
+            "MessageId": "SensorEvent.ReadingAboveUpperCautionThreshold",
+            "Name": "Log entry 35",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/36",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-04T11:39:01+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-04T11:39:01+00:00",
+            "Id": "36",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2VoltageRegulator8Temperature"
+                }
+            },
+            "Message": "Sensor 'VDD_12V0_A2 Temperature' reading of 60 (Cel) is within normal operating range.",
+            "MessageArgs": [
+                "VDD_12V0_A2 Temperature",
+                "60",
+                "Cel"
+            ],
+            "MessageId": "SensorEvent.SensorReadingNormalRange",
+            "Name": "Log entry 36",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/37",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2000-01-05T05:41:00+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-05T05:41:00+00:00",
+            "Id": "37",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 37",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 37
+}

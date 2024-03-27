@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/CPU_0/Sensors/ProcessorModule_0_CPU_0_TempAvg_0",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "ProcessorModule_0_CPU_0_TempAvg_0",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "ProcessorModule 0 CPU 0 TempAvg 0",
+    "PhysicalContext": "CPU",
+    "Reading": 37.937,
+    "ReadingRangeMax": 150.0,
+    "ReadingRangeMin": -100.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 0.0
+        },
+        "LowerCritical": {
+            "Reading": -0.5
+        },
+        "UpperCaution": {
+            "Reading": 85.0
+        },
+        "UpperCritical": {
+            "Reading": 86.0
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@odata.etag": "W/\"1699022245\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator5InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator5InputVoltage",
+    "Name": "12V Run ECB",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U83"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 47.433,
+    "ReadingTime": "2023-11-03T14:37:33.846519933Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 42
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 40
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 38.5
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 56
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 58
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 59.5
+        }
+    }
+}

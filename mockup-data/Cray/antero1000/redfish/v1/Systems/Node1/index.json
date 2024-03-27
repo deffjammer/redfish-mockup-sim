@@ -1,0 +1,62 @@
+{
+    "@odata.etag": "W/\"1692638322\"",
+    "@odata.id": "/redfish/v1/Systems/Node1",
+    "@odata.type": "#ComputerSystem.v1_5_0.ComputerSystem",
+    "Actions": {
+        "#ComputerSystem.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/Node1/ResetActionInfo",
+            "target": "/redfish/v1/Systems/Node1/Actions/ComputerSystem.Reset"
+        },
+        "#ComputerSystem.SetDefaultBootOrder": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/Node1/SetDefaultBootOrderActionInfo",
+            "target": "/redfish/v1/Systems/Node1/Actions/ComputerSystem.SetDefaultBootOrder"
+        }
+    },
+    "Bios": {
+        "@odata.id": "/redfish/v1/Systems/Node1/Bios"
+    },
+    "BiosVersion": "ex4252.bios-0.0.1_SBIOS-2731-5.27_GenoaCrb_0ACQT015-Agesa-1.0.0.2a",
+    "Boot": {
+        "BootOptions": {
+            "@odata.id": "/redfish/v1/Systems/Node1/BootOptions"
+        },
+        "BootOrder": [
+            "ME0-PXE-IP4",
+            "ME0-PXE-IP6",
+            "HSN0-PXE-IP4",
+            "HSN0-PXE-IP6",
+            "HSN1-PXE-IP4",
+            "HSN1-PXE-IP6",
+            "Boot0007"
+        ]
+    },
+    "Description": "ANTERO",
+    "EthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/Node1/EthernetInterfaces"
+    },
+    "Id": "Node1",
+    "Manufacturer": "HPE",
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/Node1/Memory"
+    },
+    "MemorySummary": {
+        "TotalSystemMemoryGiB": 1536
+    },
+    "Model": "HPE EX4252",
+    "Name": "Node1",
+    "PartNumber": "P46605-006.A",
+    "PowerState": "Off",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "AMD EPYC 9654 96-Core Processor"
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/Node1/Processors"
+    },
+    "SerialNumber": "FG22390002",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SystemType": "Physical"
+}

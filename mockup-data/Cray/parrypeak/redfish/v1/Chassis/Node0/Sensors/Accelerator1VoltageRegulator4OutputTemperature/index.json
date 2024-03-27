@@ -1,0 +1,29 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1VoltageRegulator4OutputTemperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator1VoltageRegulator4OutputTemperature",
+    "Name": "VDDCR_VDD3",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U6070"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 30,
+    "ReadingTime": "2000-01-09T09:58:22.257628320Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 110
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 130
+        }
+    }
+}

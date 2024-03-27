@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/Journal/Entries/1698177522154168",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "Created": "2023-10-24T19:58:42+00:00",
+    "EntryType": "Oem",
+    "Id": "1698177522154168",
+    "Message": "bmcweb: (2023-10-24 19:58:42) [CRITICAL \"http_connection.hpp\":752] 0 Failed to capture connection",
+    "Name": "BMC Journal Entry",
+    "OemRecordFormat": "BMC Journal Entry",
+    "Severity": "OK"
+}

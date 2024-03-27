@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"948363022\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU03ReportedPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Reported",
+    "Id": "CPU03ReportedPower",
+    "Name": "CPU0 VCORE",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0
+    },
+    "Reading": 0,
+    "ReadingTime": "2000-01-20T10:10:31.746352720Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

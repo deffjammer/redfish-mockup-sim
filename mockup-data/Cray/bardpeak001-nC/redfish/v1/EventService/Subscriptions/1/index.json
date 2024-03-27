@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646749480\"",
+    "@odata.id": "/redfish/v1/EventService/Subscriptions/1",
+    "@odata.type": "#EventDestination.v1_2_1.EventDestination",
+    "Context": "mountain_telemetry",
+    "Destination": "172.23.255.200:1890",
+    "EventTypes": [
+        "Alert"
+    ],
+    "Id": "1",
+    "Name": "Subscription 1",
+    "OriginResources@odata.count": 0,
+    "Protocol": "Redfish",
+    "RegistryPrefixes": [
+        "CrayTelemetry"
+    ]
+}

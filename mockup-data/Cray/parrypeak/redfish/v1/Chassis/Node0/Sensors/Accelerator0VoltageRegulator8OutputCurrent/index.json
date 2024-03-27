@@ -1,0 +1,29 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator8OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator0VoltageRegulator8OutputCurrent",
+    "Name": "VDD_12V0_A0",
+    "Oem": {
+        "Index": 8,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 11.7812,
+    "ReadingTime": "2000-01-09T09:58:05.132831200Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 86.2
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 250
+        }
+    }
+}

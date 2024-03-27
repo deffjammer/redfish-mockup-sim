@@ -1,0 +1,25 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator7OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator0VoltageRegulator7OutputCurrent",
+    "Name": "VDDCR_SOCIO_C",
+    "Oem": {
+        "Index": 6,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2073"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 5,
+    "ReadingTime": "2000-01-09T09:58:03.971991520Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 96
+        }
+    }
+}

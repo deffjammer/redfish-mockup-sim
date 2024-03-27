@@ -1,0 +1,3899 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of System Event Log Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728072",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:52+00:00",
+            "EntryType": "Event",
+            "Id": "1643728072",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_4",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728072_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:52+00:00",
+            "EntryType": "Event",
+            "Id": "1643728072_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_4",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728072_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:52+00:00",
+            "EntryType": "Event",
+            "Id": "1643728072_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_4",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728073",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:53+00:00",
+            "EntryType": "Event",
+            "Id": "1643728073",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_4",
+                "1.155000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728073_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:53+00:00",
+            "EntryType": "Event",
+            "Id": "1643728073_1",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_4",
+                "1.250000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728073_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:53+00:00",
+            "EntryType": "Event",
+            "Id": "1643728073_2",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_4",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728075",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:55+00:00",
+            "EntryType": "Event",
+            "Id": "1643728075",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_4",
+                "85.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728075_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:55+00:00",
+            "EntryType": "Event",
+            "Id": "1643728075_1",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_4",
+                "115.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728075_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:55+00:00",
+            "EntryType": "Event",
+            "Id": "1643728075_2",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_4",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728079",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:59+00:00",
+            "EntryType": "Event",
+            "Id": "1643728079",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_1",
+                "100.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728079_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:59+00:00",
+            "EntryType": "Event",
+            "Id": "1643728079_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_1",
+                "130.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728079_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:07:59+00:00",
+            "EntryType": "Event",
+            "Id": "1643728079_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728080",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:00+00:00",
+            "EntryType": "Event",
+            "Id": "1643728080",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_1",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728080_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:00+00:00",
+            "EntryType": "Event",
+            "Id": "1643728080_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_1",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728080_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:00+00:00",
+            "EntryType": "Event",
+            "Id": "1643728080_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728080_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:00+00:00",
+            "EntryType": "Event",
+            "Id": "1643728080_3",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_1",
+                "5.250000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728080_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:00+00:00",
+            "EntryType": "Event",
+            "Id": "1643728080_4",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_1",
+                "5.500000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728080_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:00+00:00",
+            "EntryType": "Event",
+            "Id": "1643728080_5",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728082",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:02+00:00",
+            "EntryType": "Event",
+            "Id": "1643728082",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_1",
+                "100.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728082_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:02+00:00",
+            "EntryType": "Event",
+            "Id": "1643728082_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_1",
+                "130.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728082_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:02+00:00",
+            "EntryType": "Event",
+            "Id": "1643728082_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728084",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:04+00:00",
+            "EntryType": "Event",
+            "Id": "1643728084",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_1",
+                "12.600000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728084_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:04+00:00",
+            "EntryType": "Event",
+            "Id": "1643728084_1",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_1",
+                "12.840000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728084_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:04+00:00",
+            "EntryType": "Event",
+            "Id": "1643728084_2",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728084_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:04+00:00",
+            "EntryType": "Event",
+            "Id": "1643728084_3",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_1",
+                "12.600000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728084_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:04+00:00",
+            "EntryType": "Event",
+            "Id": "1643728084_4",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_1",
+                "12.840000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728084_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:04+00:00",
+            "EntryType": "Event",
+            "Id": "1643728084_5",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728085",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:05+00:00",
+            "EntryType": "Event",
+            "Id": "1643728085",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_1",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728085_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:05+00:00",
+            "EntryType": "Event",
+            "Id": "1643728085_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_1",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728085_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:05+00:00",
+            "EntryType": "Event",
+            "Id": "1643728085_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728085_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:05+00:00",
+            "EntryType": "Event",
+            "Id": "1643728085_3",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_1",
+                "2.750000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728085_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:05+00:00",
+            "EntryType": "Event",
+            "Id": "1643728085_4",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_1",
+                "2.875000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728085_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:05+00:00",
+            "EntryType": "Event",
+            "Id": "1643728085_5",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728086",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:06+00:00",
+            "EntryType": "Event",
+            "Id": "1643728086",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_1",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728086_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:06+00:00",
+            "EntryType": "Event",
+            "Id": "1643728086_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_1",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728086_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:06+00:00",
+            "EntryType": "Event",
+            "Id": "1643728086_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728087",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:07+00:00",
+            "EntryType": "Event",
+            "Id": "1643728087",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_1",
+                "1.155000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728087_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:07+00:00",
+            "EntryType": "Event",
+            "Id": "1643728087_1",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_1",
+                "1.250000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728087_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:07+00:00",
+            "EntryType": "Event",
+            "Id": "1643728087_2",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728089",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:09+00:00",
+            "EntryType": "Event",
+            "Id": "1643728089",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_1",
+                "85.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728089_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:09+00:00",
+            "EntryType": "Event",
+            "Id": "1643728089_1",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_1",
+                "115.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728089_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:09+00:00",
+            "EntryType": "Event",
+            "Id": "1643728089_2",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_1",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728093",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:13+00:00",
+            "EntryType": "Event",
+            "Id": "1643728093",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_2",
+                "100.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728093_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:13+00:00",
+            "EntryType": "Event",
+            "Id": "1643728093_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_2",
+                "130.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728093_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:13+00:00",
+            "EntryType": "Event",
+            "Id": "1643728093_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728094",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:14+00:00",
+            "EntryType": "Event",
+            "Id": "1643728094",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_2",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728094_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:14+00:00",
+            "EntryType": "Event",
+            "Id": "1643728094_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_2",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728094_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:14+00:00",
+            "EntryType": "Event",
+            "Id": "1643728094_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728094_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:14+00:00",
+            "EntryType": "Event",
+            "Id": "1643728094_3",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_2",
+                "5.250000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728094_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:14+00:00",
+            "EntryType": "Event",
+            "Id": "1643728094_4",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_2",
+                "5.500000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728094_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:14+00:00",
+            "EntryType": "Event",
+            "Id": "1643728094_5",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728096",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:16+00:00",
+            "EntryType": "Event",
+            "Id": "1643728096",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_2",
+                "100.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728096_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:16+00:00",
+            "EntryType": "Event",
+            "Id": "1643728096_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_2",
+                "130.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728096_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:16+00:00",
+            "EntryType": "Event",
+            "Id": "1643728096_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728097",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:17+00:00",
+            "EntryType": "Event",
+            "Id": "1643728097",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_2",
+                "12.600000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728097_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:17+00:00",
+            "EntryType": "Event",
+            "Id": "1643728097_1",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_2",
+                "12.840000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728097_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:17+00:00",
+            "EntryType": "Event",
+            "Id": "1643728097_2",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728098",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:18+00:00",
+            "EntryType": "Event",
+            "Id": "1643728098",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_2",
+                "12.600000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728098_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:18+00:00",
+            "EntryType": "Event",
+            "Id": "1643728098_1",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_2",
+                "12.840000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728098_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:18+00:00",
+            "EntryType": "Event",
+            "Id": "1643728098_2",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728098_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:18+00:00",
+            "EntryType": "Event",
+            "Id": "1643728098_3",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_2",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728098_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:18+00:00",
+            "EntryType": "Event",
+            "Id": "1643728098_4",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_2",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728098_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:18+00:00",
+            "EntryType": "Event",
+            "Id": "1643728098_5",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728099",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:19+00:00",
+            "EntryType": "Event",
+            "Id": "1643728099",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_2",
+                "2.750000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728099_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:19+00:00",
+            "EntryType": "Event",
+            "Id": "1643728099_1",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_2",
+                "2.875000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728099_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:19+00:00",
+            "EntryType": "Event",
+            "Id": "1643728099_2",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728100",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:20+00:00",
+            "EntryType": "Event",
+            "Id": "1643728100",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_2",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728100_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:20+00:00",
+            "EntryType": "Event",
+            "Id": "1643728100_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_2",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728100_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:20+00:00",
+            "EntryType": "Event",
+            "Id": "1643728100_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728101",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:21+00:00",
+            "EntryType": "Event",
+            "Id": "1643728101",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_2",
+                "1.155000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728101_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:21+00:00",
+            "EntryType": "Event",
+            "Id": "1643728101_1",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_2",
+                "1.250000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728101_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:21+00:00",
+            "EntryType": "Event",
+            "Id": "1643728101_2",
+            "Message": "",
+            "MessageArgs": [
+                "1_1V_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728103",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:23+00:00",
+            "EntryType": "Event",
+            "Id": "1643728103",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_2",
+                "85.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728103_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:23+00:00",
+            "EntryType": "Event",
+            "Id": "1643728103_1",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_2",
+                "115.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728103_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:23+00:00",
+            "EntryType": "Event",
+            "Id": "1643728103_2",
+            "Message": "",
+            "MessageArgs": [
+                "Cassini_0_Temperature_2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728107",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:27+00:00",
+            "EntryType": "Event",
+            "Id": "1643728107",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_3",
+                "100.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728107_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:27+00:00",
+            "EntryType": "Event",
+            "Id": "1643728107_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_3",
+                "130.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728107_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:27+00:00",
+            "EntryType": "Event",
+            "Id": "1643728107_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_S0_VR_Temperature_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728107_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:27+00:00",
+            "EntryType": "Event",
+            "Id": "1643728107_3",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_3",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728107_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:27+00:00",
+            "EntryType": "Event",
+            "Id": "1643728107_4",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_3",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728107_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:27+00:00",
+            "EntryType": "Event",
+            "Id": "1643728107_5",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_PLL_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728108",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728108",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_3",
+                "5.250000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728108_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728108_1",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_3",
+                "5.500000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728108_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728108_2",
+            "Message": "",
+            "MessageArgs": [
+                "5_0_FET_DRV_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728109",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:29+00:00",
+            "EntryType": "Event",
+            "Id": "1643728109",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_3",
+                "100.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728109_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:29+00:00",
+            "EntryType": "Event",
+            "Id": "1643728109_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_3",
+                "130.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728109_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:29+00:00",
+            "EntryType": "Event",
+            "Id": "1643728109_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_85V_S0_VR_Temperature_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728111",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:31+00:00",
+            "EntryType": "Event",
+            "Id": "1643728111",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_3",
+                "12.600000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728111_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:31+00:00",
+            "EntryType": "Event",
+            "Id": "1643728111_1",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_3",
+                "12.840000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728111_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:31+00:00",
+            "EntryType": "Event",
+            "Id": "1643728111_2",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_1_PCIe_12_0V_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728111_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:31+00:00",
+            "EntryType": "Event",
+            "Id": "1643728111_3",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_3",
+                "12.600000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728111_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:31+00:00",
+            "EntryType": "Event",
+            "Id": "1643728111_4",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_3",
+                "12.840000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728111_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:31+00:00",
+            "EntryType": "Event",
+            "Id": "1643728111_5",
+            "Message": "",
+            "MessageArgs": [
+                "NIC_0_PCIe_12_0V_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728112",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:32+00:00",
+            "EntryType": "Event",
+            "Id": "1643728112",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_3",
+                "0.945000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728112_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:32+00:00",
+            "EntryType": "Event",
+            "Id": "1643728112_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_3",
+                "0.990000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728112_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:32+00:00",
+            "EntryType": "Event",
+            "Id": "1643728112_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_CM4_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728112_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:32+00:00",
+            "EntryType": "Event",
+            "Id": "1643728112_3",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_3",
+                "2.750000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728112_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:32+00:00",
+            "EntryType": "Event",
+            "Id": "1643728112_4",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_3",
+                "2.875000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728112_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:32+00:00",
+            "EntryType": "Event",
+            "Id": "1643728112_5",
+            "Message": "",
+            "MessageArgs": [
+                "2_5V_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728113",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:33+00:00",
+            "EntryType": "Event",
+            "Id": "1643728113",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_3",
+                "0.855000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728113_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:33+00:00",
+            "EntryType": "Event",
+            "Id": "1643728113_1",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_3",
+                "0.810000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728113_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:08:33+00:00",
+            "EntryType": "Event",
+            "Id": "1643728113_2",
+            "Message": "",
+            "MessageArgs": [
+                "0_9V_PLL_3",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228_1",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228_2",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228_3",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228_4",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228_5",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228_6",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228_6",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728228_7",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:10:28+00:00",
+            "EntryType": "Event",
+            "Id": "1643728228_7",
+            "Message": "",
+            "MessageArgs": [],
+            "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728293",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:11:33+00:00",
+            "EntryType": "Event",
+            "Id": "1643728293",
+            "Message": "Host system DC power is off",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOff",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728297",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:11:37+00:00",
+            "EntryType": "Event",
+            "Id": "1643728297",
+            "Message": "Host system DC power is on",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOn",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728548",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:15:48+00:00",
+            "EntryType": "Event",
+            "Id": "1643728548",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728548_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:15:48+00:00",
+            "EntryType": "Event",
+            "Id": "1643728548_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643729077",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-01T15:24:37+00:00",
+            "EntryType": "Event",
+            "Id": "1643729077",
+            "Message": "Service xyz.openbmc_project.cpuinfo.service has exited unsuccessfully.",
+            "MessageArgs": [
+                "xyz.openbmc_project.cpuinfo.service"
+            ],
+            "MessageId": "OpenBMC.0.1.ServiceFailure",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249716",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:56+00:00",
+            "EntryType": "Event",
+            "Id": "1644249716",
+            "Message": "Host system DC power is off",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOff",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719",
+            "Message": "Power supply PVCCD_HV_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719_1",
+            "Message": "Power supply PVCCD_HV_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719_2",
+            "Message": "Power supply P0V82_CORE_1 failed.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719_3",
+            "Message": "Power supply P0V82_CORE_1 failure predicted.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719_4",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719_5",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719_6",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719_6",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249719_7",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:01:59+00:00",
+            "EntryType": "Event",
+            "Id": "1644249719_7",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249720",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:00+00:00",
+            "EntryType": "Event",
+            "Id": "1644249720",
+            "Message": "Power supply PVCCD_HV_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249720_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:00+00:00",
+            "EntryType": "Event",
+            "Id": "1644249720_1",
+            "Message": "Power supply PVCCD_HV_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249740",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:20+00:00",
+            "EntryType": "Event",
+            "Id": "1644249740",
+            "Message": "Host system DC power is on",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOn",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249740_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:20+00:00",
+            "EntryType": "Event",
+            "Id": "1644249740_1",
+            "Message": "Power supply P0V82_CORE_1 recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249740_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:20+00:00",
+            "EntryType": "Event",
+            "Id": "1644249740_2",
+            "Message": "Power supply P0V82_CORE_1 predicted failure recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249740_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:20+00:00",
+            "EntryType": "Event",
+            "Id": "1644249740_3",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249740_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:20+00:00",
+            "EntryType": "Event",
+            "Id": "1644249740_4",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249740_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:20+00:00",
+            "EntryType": "Event",
+            "Id": "1644249740_5",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249740_6",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:20+00:00",
+            "EntryType": "Event",
+            "Id": "1644249740_6",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249741",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:21+00:00",
+            "EntryType": "Event",
+            "Id": "1644249741",
+            "Message": "Power supply PVCCD_HV_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249741_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:21+00:00",
+            "EntryType": "Event",
+            "Id": "1644249741_1",
+            "Message": "Power supply PVCCD_HV_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249741_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:21+00:00",
+            "EntryType": "Event",
+            "Id": "1644249741_2",
+            "Message": "Power supply PVCCD_HV_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249741_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:21+00:00",
+            "EntryType": "Event",
+            "Id": "1644249741_3",
+            "Message": "Power supply PVCCD_HV_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249751",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:31+00:00",
+            "EntryType": "Event",
+            "Id": "1644249751",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdExceeded",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249751_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:02:31+00:00",
+            "EntryType": "Event",
+            "Id": "1644249751_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "warning"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedWarning",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249990",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:06:30+00:00",
+            "EntryType": "Event",
+            "Id": "1644249990",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644249990_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T16:06:30+00:00",
+            "EntryType": "Event",
+            "Id": "1644249990_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644260990",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T19:09:50+00:00",
+            "EntryType": "Event",
+            "Id": "1644260990",
+            "Message": "Event subscription with id 2022044374 was added.",
+            "MessageArgs": [
+                "2022044374"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644260991",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T19:09:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644260991",
+            "Message": "Event subscription with id 695995815 was added.",
+            "MessageArgs": [
+                "695995815"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644261196",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T19:13:16+00:00",
+            "EntryType": "Event",
+            "Id": "1644261196",
+            "Message": "Event subscription with id 2022044374 was removed.",
+            "MessageArgs": [
+                "2022044374"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644261197",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T19:13:17+00:00",
+            "EntryType": "Event",
+            "Id": "1644261197",
+            "Message": "Event subscription with id 695995815 was removed.",
+            "MessageArgs": [
+                "695995815"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644261197_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T19:13:17+00:00",
+            "EntryType": "Event",
+            "Id": "1644261197_1",
+            "Message": "Event subscription with id 3118564291 was added.",
+            "MessageArgs": [
+                "3118564291"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644261197_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T19:13:17+00:00",
+            "EntryType": "Event",
+            "Id": "1644261197_2",
+            "Message": "Event subscription with id 2858273151 was added.",
+            "MessageArgs": [
+                "2858273151"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644265788",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T20:29:48+00:00",
+            "EntryType": "Event",
+            "Id": "1644265788",
+            "Message": "Event subscription with id 2858273151 was removed.",
+            "MessageArgs": [
+                "2858273151"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644265788_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T20:29:48+00:00",
+            "EntryType": "Event",
+            "Id": "1644265788_1",
+            "Message": "Event subscription with id 3118564291 was removed.",
+            "MessageArgs": [
+                "3118564291"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644265788_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T20:29:48+00:00",
+            "EntryType": "Event",
+            "Id": "1644265788_2",
+            "Message": "Event subscription with id 3416919618 was added.",
+            "MessageArgs": [
+                "3416919618"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644265788_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-07T20:29:48+00:00",
+            "EntryType": "Event",
+            "Id": "1644265788_3",
+            "Message": "Event subscription with id 2255298228 was added.",
+            "MessageArgs": [
+                "2255298228"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644423651",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-09T16:20:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644423651",
+            "Message": "Event subscription with id 2255298228 was removed.",
+            "MessageArgs": [
+                "2255298228"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644423651_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-09T16:20:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644423651_1",
+            "Message": "Event subscription with id 3416919618 was removed.",
+            "MessageArgs": [
+                "3416919618"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644423651_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-09T16:20:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644423651_2",
+            "Message": "Event subscription with id 2522930197 was added.",
+            "MessageArgs": [
+                "2522930197"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644423651_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-09T16:20:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644423651_3",
+            "Message": "Event subscription with id 3693204719 was added.",
+            "MessageArgs": [
+                "3693204719"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500832",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:12+00:00",
+            "EntryType": "Event",
+            "Id": "1644500832",
+            "Message": "Host system DC power is off",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOff",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835",
+            "Message": "Power supply P0V82_CORE_1 failed.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_1",
+            "Message": "Power supply P0V82_CORE_1 failure predicted.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_2",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_3",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_4",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_5",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_6",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_6",
+            "Message": "Power supply PVCCD_HV_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_7",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_7",
+            "Message": "Power supply PVCCD_HV_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_8",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_8",
+            "Message": "Power supply PVCCD_HV_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644500835_9",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T13:47:15+00:00",
+            "EntryType": "Event",
+            "Id": "1644500835_9",
+            "Message": "Power supply PVCCD_HV_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644501946",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T14:05:46+00:00",
+            "EntryType": "Event",
+            "Id": "1644501946",
+            "Message": "Event subscription with id 3432623273 was added.",
+            "MessageArgs": [
+                "3432623273"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644501946_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T14:05:46+00:00",
+            "EntryType": "Event",
+            "Id": "1644501946_1",
+            "Message": "Event subscription with id 2483146062 was added.",
+            "MessageArgs": [
+                "2483146062"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505765",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:25+00:00",
+            "EntryType": "Event",
+            "Id": "1644505765",
+            "Message": "Host system DC power is on",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOn",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505765_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:25+00:00",
+            "EntryType": "Event",
+            "Id": "1644505765_1",
+            "Message": "Power supply PVCCD_HV_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505765_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:25+00:00",
+            "EntryType": "Event",
+            "Id": "1644505765_2",
+            "Message": "Power supply PVCCD_HV_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505765_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:25+00:00",
+            "EntryType": "Event",
+            "Id": "1644505765_3",
+            "Message": "Power supply P0V82_CORE_1 recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:26+00:00",
+            "EntryType": "Event",
+            "Id": "1644505766",
+            "Message": "Power supply P0V82_CORE_1 predicted failure recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:26+00:00",
+            "EntryType": "Event",
+            "Id": "1644505766_1",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:26+00:00",
+            "EntryType": "Event",
+            "Id": "1644505766_2",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:26+00:00",
+            "EntryType": "Event",
+            "Id": "1644505766_3",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:26+00:00",
+            "EntryType": "Event",
+            "Id": "1644505766_4",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:26+00:00",
+            "EntryType": "Event",
+            "Id": "1644505766_5",
+            "Message": "Power supply PVCCD_HV_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766_6",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:26+00:00",
+            "EntryType": "Event",
+            "Id": "1644505766_6",
+            "Message": "Power supply PVCCD_HV_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505777",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:37+00:00",
+            "EntryType": "Event",
+            "Id": "1644505777",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdExceeded",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505777_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:09:37+00:00",
+            "EntryType": "Event",
+            "Id": "1644505777_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "warning"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedWarning",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644506016",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:13:36+00:00",
+            "EntryType": "Event",
+            "Id": "1644506016",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644506016_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-10T15:13:36+00:00",
+            "EntryType": "Event",
+            "Id": "1644506016_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644618130",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-11T22:22:10+00:00",
+            "EntryType": "Event",
+            "Id": "1644618130",
+            "Message": "Host system DC power is off",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOff",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644618131",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-11T22:22:11+00:00",
+            "EntryType": "Event",
+            "Id": "1644618131",
+            "Message": "Host system DC power is on",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOn",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644618145",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-11T22:22:25+00:00",
+            "EntryType": "Event",
+            "Id": "1644618145",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdExceeded",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644618145_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-11T22:22:25+00:00",
+            "EntryType": "Event",
+            "Id": "1644618145_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "warning"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedWarning",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644618363",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-11T22:26:03+00:00",
+            "EntryType": "Event",
+            "Id": "1644618363",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644618363_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-11T22:26:03+00:00",
+            "EntryType": "Event",
+            "Id": "1644618363_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644821500",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T06:51:40+00:00",
+            "EntryType": "Event",
+            "Id": "1644821500",
+            "Message": "Event subscription with id 2483146062 was removed.",
+            "MessageArgs": [
+                "2483146062"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644821501",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T06:51:41+00:00",
+            "EntryType": "Event",
+            "Id": "1644821501",
+            "Message": "Event subscription with id 2522930197 was removed.",
+            "MessageArgs": [
+                "2522930197"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644821501_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T06:51:41+00:00",
+            "EntryType": "Event",
+            "Id": "1644821501_1",
+            "Message": "Event subscription with id 3432623273 was removed.",
+            "MessageArgs": [
+                "3432623273"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644821501_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T06:51:41+00:00",
+            "EntryType": "Event",
+            "Id": "1644821501_2",
+            "Message": "Event subscription with id 3693204719 was removed.",
+            "MessageArgs": [
+                "3693204719"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644821501_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T06:51:41+00:00",
+            "EntryType": "Event",
+            "Id": "1644821501_3",
+            "Message": "Event subscription with id 2123396485 was added.",
+            "MessageArgs": [
+                "2123396485"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644821501_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T06:51:41+00:00",
+            "EntryType": "Event",
+            "Id": "1644821501_4",
+            "Message": "Event subscription with id 331540170 was added.",
+            "MessageArgs": [
+                "331540170"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644856611",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T16:36:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644856611",
+            "Message": "Event subscription with id 2123396485 was removed.",
+            "MessageArgs": [
+                "2123396485"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644856611_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T16:36:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644856611_1",
+            "Message": "Event subscription with id 331540170 was removed.",
+            "MessageArgs": [
+                "331540170"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644856611_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T16:36:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644856611_2",
+            "Message": "Event subscription with id 3365128165 was added.",
+            "MessageArgs": [
+                "3365128165"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644856611_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-14T16:36:51+00:00",
+            "EntryType": "Event",
+            "Id": "1644856611_3",
+            "Message": "Event subscription with id 3613849447 was added.",
+            "MessageArgs": [
+                "3613849447"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644951459",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-15T18:57:39+00:00",
+            "EntryType": "Event",
+            "Id": "1644951459",
+            "Message": "Event subscription with id 3365128165 was removed.",
+            "MessageArgs": [
+                "3365128165"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644951459_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-15T18:57:39+00:00",
+            "EntryType": "Event",
+            "Id": "1644951459_1",
+            "Message": "Event subscription with id 3613849447 was removed.",
+            "MessageArgs": [
+                "3613849447"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644951459_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-15T18:57:39+00:00",
+            "EntryType": "Event",
+            "Id": "1644951459_2",
+            "Message": "Event subscription with id 1919964256 was added.",
+            "MessageArgs": [
+                "1919964256"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644951459_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-15T18:57:39+00:00",
+            "EntryType": "Event",
+            "Id": "1644951459_3",
+            "Message": "Event subscription with id 3002317228 was added.",
+            "MessageArgs": [
+                "3002317228"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645031363",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T17:09:23+00:00",
+            "EntryType": "Event",
+            "Id": "1645031363",
+            "Message": "Event subscription with id 1919964256 was removed.",
+            "MessageArgs": [
+                "1919964256"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645031363_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T17:09:23+00:00",
+            "EntryType": "Event",
+            "Id": "1645031363_1",
+            "Message": "Event subscription with id 3002317228 was removed.",
+            "MessageArgs": [
+                "3002317228"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645031363_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T17:09:23+00:00",
+            "EntryType": "Event",
+            "Id": "1645031363_2",
+            "Message": "Event subscription with id 23261126 was added.",
+            "MessageArgs": [
+                "23261126"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645031364",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T17:09:24+00:00",
+            "EntryType": "Event",
+            "Id": "1645031364",
+            "Message": "Event subscription with id 425822364 was added.",
+            "MessageArgs": [
+                "425822364"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047608",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:08+00:00",
+            "EntryType": "Event",
+            "Id": "1645047608",
+            "Message": "Host system DC power is off",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOff",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047612",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:12+00:00",
+            "EntryType": "Event",
+            "Id": "1645047612",
+            "Message": "Power supply P0V82_CORE_1 failed.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047612_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:12+00:00",
+            "EntryType": "Event",
+            "Id": "1645047612_1",
+            "Message": "Power supply P0V82_CORE_1 failure predicted.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047612_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:12+00:00",
+            "EntryType": "Event",
+            "Id": "1645047612_2",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047612_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:12+00:00",
+            "EntryType": "Event",
+            "Id": "1645047612_3",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047612_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:12+00:00",
+            "EntryType": "Event",
+            "Id": "1645047612_4",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047612_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:12+00:00",
+            "EntryType": "Event",
+            "Id": "1645047612_5",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047613",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:13+00:00",
+            "EntryType": "Event",
+            "Id": "1645047613",
+            "Message": "Power supply PVCCD_HV_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047613_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:13+00:00",
+            "EntryType": "Event",
+            "Id": "1645047613_1",
+            "Message": "Power supply PVCCD_HV_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047613_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:13+00:00",
+            "EntryType": "Event",
+            "Id": "1645047613_2",
+            "Message": "Power supply PVCCD_HV_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645047613_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T21:40:13+00:00",
+            "EntryType": "Event",
+            "Id": "1645047613_3",
+            "Message": "Power supply PVCCD_HV_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645049666",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-16T22:14:26+00:00",
+            "EntryType": "Event",
+            "Id": "1645049666",
+            "Message": "Detected leak sensor functions properly.",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.LeakSensorFunctionsOk",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804796",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:56+00:00",
+            "EntryType": "Event",
+            "Id": "1645804796",
+            "Message": "Host system DC power is on",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOn",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797",
+            "Message": "Power supply P0V82_CORE_1 recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_1",
+            "Message": "Power supply P0V82_CORE_1 predicted failure recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_2",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_3",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_4",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_5",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_6",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_6",
+            "Message": "Power supply PVCCD_HV_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_7",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_7",
+            "Message": "Power supply PVCCD_HV_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_8",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_8",
+            "Message": "Power supply PVCCD_HV_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_9",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T15:59:57+00:00",
+            "EntryType": "Event",
+            "Id": "1645804797_9",
+            "Message": "Power supply PVCCD_HV_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804806",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T16:00:06+00:00",
+            "EntryType": "Event",
+            "Id": "1645804806",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdExceeded",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804806_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T16:00:06+00:00",
+            "EntryType": "Event",
+            "Id": "1645804806_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "warning"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedWarning",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645805046",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T16:04:06+00:00",
+            "EntryType": "Event",
+            "Id": "1645805046",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645805046_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-02-25T16:04:06+00:00",
+            "EntryType": "Event",
+            "Id": "1645805046_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164189",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:49+00:00",
+            "EntryType": "Event",
+            "Id": "1646164189",
+            "Message": "Host system DC power is off",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOff",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164194",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "1646164194",
+            "Message": "Power supply PVCCD_HV_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164194_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "1646164194_1",
+            "Message": "Power supply PVCCD_HV_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164194_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "1646164194_2",
+            "Message": "Power supply P0V82_CORE_1 failed.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164194_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "1646164194_3",
+            "Message": "Power supply P0V82_CORE_1 failure predicted.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164194_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "1646164194_4",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164194_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "1646164194_5",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164195",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:55+00:00",
+            "EntryType": "Event",
+            "Id": "1646164195",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failed.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164195_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:55+00:00",
+            "EntryType": "Event",
+            "Id": "1646164195_1",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 failure predicted.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164195_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:55+00:00",
+            "EntryType": "Event",
+            "Id": "1646164195_2",
+            "Message": "Power supply PVCCD_HV_CPU1 failed.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailed",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164195_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:49:55+00:00",
+            "EntryType": "Event",
+            "Id": "1646164195_3",
+            "Message": "Power supply PVCCD_HV_CPU1 failure predicted.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyFailurePredicted",
+            "Name": "System Event Log Entry",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164203",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:03+00:00",
+            "EntryType": "Event",
+            "Id": "1646164203",
+            "Message": "Host system DC power is on",
+            "MessageArgs": [],
+            "MessageId": "OpenBMC.0.1.DCPowerOn",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164203_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:03+00:00",
+            "EntryType": "Event",
+            "Id": "1646164203_1",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164203_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:03+00:00",
+            "EntryType": "Event",
+            "Id": "1646164203_2",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204_1",
+            "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCFA_EHV_FIVRA_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204_2",
+            "Message": "Power supply PVCCD_HV_CPU1 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204_3",
+            "Message": "Power supply PVCCD_HV_CPU1 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204_4",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204_4",
+            "Message": "Power supply PVCCD_HV_CPU0 recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204_5",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204_5",
+            "Message": "Power supply PVCCD_HV_CPU0 predicted failure recovered.",
+            "MessageArgs": [
+                "PVCCD_HV_CPU0"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204_6",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204_6",
+            "Message": "Power supply P0V82_CORE_1 recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164204_7",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:04+00:00",
+            "EntryType": "Event",
+            "Id": "1646164204_7",
+            "Message": "Power supply P0V82_CORE_1 predicted failure recovered.",
+            "MessageArgs": [
+                "P0V82_CORE_1"
+            ],
+            "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164215",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:15+00:00",
+            "EntryType": "Event",
+            "Id": "1646164215",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdExceeded",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164215_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:15+00:00",
+            "EntryType": "Event",
+            "Id": "1646164215_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "warning"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedWarning",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164454",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:54:14+00:00",
+            "EntryType": "Event",
+            "Id": "1646164454",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "92.000000"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646164454_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:54:14+00:00",
+            "EntryType": "Event",
+            "Id": "1646164454_1",
+            "Message": "",
+            "MessageArgs": [
+                "DTS_CPU2",
+                "ok"
+            ],
+            "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedOk",
+            "Name": "System Event Log Entry",
+            "Severity": ""
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646732383",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T09:39:43+00:00",
+            "EntryType": "Event",
+            "Id": "1646732383",
+            "Message": "Event subscription with id 23261126 was removed.",
+            "MessageArgs": [
+                "23261126"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646732383_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T09:39:43+00:00",
+            "EntryType": "Event",
+            "Id": "1646732383_1",
+            "Message": "Event subscription with id 425822364 was removed.",
+            "MessageArgs": [
+                "425822364"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646732384",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T09:39:44+00:00",
+            "EntryType": "Event",
+            "Id": "1646732384",
+            "Message": "Event subscription with id 715008640 was added.",
+            "MessageArgs": [
+                "715008640"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646732384_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T09:39:44+00:00",
+            "EntryType": "Event",
+            "Id": "1646732384_1",
+            "Message": "Event subscription with id 2211836951 was added.",
+            "MessageArgs": [
+                "2211836951"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646749479",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T14:24:39+00:00",
+            "EntryType": "Event",
+            "Id": "1646749479",
+            "Message": "Event subscription with id 2211836951 was removed.",
+            "MessageArgs": [
+                "2211836951"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646749479_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T14:24:39+00:00",
+            "EntryType": "Event",
+            "Id": "1646749479_1",
+            "Message": "Event subscription with id 715008640 was removed.",
+            "MessageArgs": [
+                "715008640"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646749479_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T14:24:39+00:00",
+            "EntryType": "Event",
+            "Id": "1646749479_2",
+            "Message": "Event subscription with id 2121081443 was added.",
+            "MessageArgs": [
+                "2121081443"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646749480",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-08T14:24:40+00:00",
+            "EntryType": "Event",
+            "Id": "1646749480",
+            "Message": "Event subscription with id 3695549467 was added.",
+            "MessageArgs": [
+                "3695549467"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646835482",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-09T14:18:02+00:00",
+            "EntryType": "Event",
+            "Id": "1646835482",
+            "Message": "Event subscription with id 2121081443 was removed.",
+            "MessageArgs": [
+                "2121081443"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646835482_1",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-09T14:18:02+00:00",
+            "EntryType": "Event",
+            "Id": "1646835482_1",
+            "Message": "Event subscription with id 3695549467 was removed.",
+            "MessageArgs": [
+                "3695549467"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionRemoved",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646835482_2",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-09T14:18:02+00:00",
+            "EntryType": "Event",
+            "Id": "1646835482_2",
+            "Message": "Event subscription with id 3314643383 was added.",
+            "MessageArgs": [
+                "3314643383"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1646835482_3",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-09T14:18:02+00:00",
+            "EntryType": "Event",
+            "Id": "1646835482_3",
+            "Message": "Event subscription with id 4254975651 was added.",
+            "MessageArgs": [
+                "4254975651"
+            ],
+            "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+            "Name": "System Event Log Entry",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 2272,
+    "Name": "System Event Log Entries"
+}

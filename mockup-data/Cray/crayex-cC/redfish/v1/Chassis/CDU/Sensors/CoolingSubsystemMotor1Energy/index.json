@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemMotor1Energy",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemMotor1Energy",
+    "Name": "VFD1 Run-Time Energy Counter",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Motor",
+    "Reading": 6557,
+    "ReadingTime": "2022-03-11T21:43:44.018224707Z",
+    "ReadingType": "EnergyJoules",
+    "ReadingUnits": "J"
+}

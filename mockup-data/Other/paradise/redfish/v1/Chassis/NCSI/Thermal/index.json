@@ -1,0 +1,9 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/NCSI/Thermal",
+    "@odata.type": "#Thermal.v1_7_1.Thermal",
+    "Fans": [],
+    "Id": "Thermal",
+    "Name": "Thermal",
+    "Redundancy": [],
+    "Temperatures": []
+}

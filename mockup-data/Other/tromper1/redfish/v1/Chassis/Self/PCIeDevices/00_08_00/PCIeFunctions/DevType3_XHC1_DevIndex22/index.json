@@ -1,0 +1,59 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "\"1697465671\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_08_00/PCIeFunctions/DevType3_XHC1_DevIndex22",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x0C0330",
+    "DeviceClass": "SerialBusController",
+    "DeviceId": "0x14C9",
+    "FunctionId": 4,
+    "FunctionType": "Physical",
+    "Id": "DevType3_XHC1_DevIndex22",
+    "Links": {
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device1_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device2_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device3_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device4_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device5_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device6_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device7_Port0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device8_Port0"
+            }
+        ],
+        "Drives@odata.count": 8,
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_08_00"
+        },
+        "StorageControllers": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0#/StorageControllers/1"
+            }
+        ],
+        "StorageControllers@odata.count": 1
+    },
+    "Name": "DevType3_XHC1_DevIndex22",
+    "RevisionId": "0xDA",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x14C9",
+    "SubsystemVendorId": "0x1022",
+    "VendorId": "0x1022"
+}

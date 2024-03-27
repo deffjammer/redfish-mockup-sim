@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator16MaximumOutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Maximum",
+    "Id": "Accelerator3VoltageRegulator16MaximumOutputVoltage",
+    "Name": "VDDCR_SOC",
+    "Oem": {
+        "Index": 16,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14071"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0.9463,
+    "ReadingTime": "2000-01-09T09:58:56.224808160Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 1.76
+        }
+    }
+}

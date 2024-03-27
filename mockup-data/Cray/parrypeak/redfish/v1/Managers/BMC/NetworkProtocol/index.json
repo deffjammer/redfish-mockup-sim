@@ -1,0 +1,46 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol",
+    "@odata.type": "#ManagerNetworkProtocol.v1_2_0.ManagerNetworkProtocol",
+    "Description": "Network Protocol Details",
+    "Id": "NetworkProtocol",
+    "NTP": {
+        "NTPServers": [
+            "10.254.1.4"
+        ],
+        "Port": 123,
+        "ProtocolEnabled": true
+    },
+    "Name": "Manager Network Protocol",
+    "Oem": {
+        "HTTPS": {
+            "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS"
+        },
+        "Resolv": {
+            "NameServers": [],
+            "ProtocolEnabled": false,
+            "SearchList": []
+        },
+        "SSHAdmin": {
+            "AuthorizedKeys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDkVpT3kGIeGeubqNAB3MUKwz1LeoPMeBYEG6pwEwvBISgz+SUnCaZNQFUP1Q1hmSLakfXqOlesg2QUzHlVlCJ1cCkmvS/5ng7/TLnEm4dagELkE4gD/N0KSD/rVz4629aKmKIKjJniru8/rdrKMtHpoOC/yCcal4LMHoyp1WkroUR7KjUs5hAbEynaPrrl1JtAtUYi6oxQAOldNG4JvWA4uu0Z+eJf5NBtoxrFGVer07adb26MJiva0iQctROWOaYpsd5p1ZbfGPUqSpLlFJwM/OMZbCUy7675Ot5c3B7Sif5esk+pu34t3dXJKySdtiG+iuNYoDyIXDX5o9fi9wZB smc zone: admin node\n"
+        },
+        "SSHConsole": {
+            "AuthorizedKeys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDkVpT3kGIeGeubqNAB3MUKwz1LeoPMeBYEG6pwEwvBISgz+SUnCaZNQFUP1Q1hmSLakfXqOlesg2QUzHlVlCJ1cCkmvS/5ng7/TLnEm4dagELkE4gD/N0KSD/rVz4629aKmKIKjJniru8/rdrKMtHpoOC/yCcal4LMHoyp1WkroUR7KjUs5hAbEynaPrrl1JtAtUYi6oxQAOldNG4JvWA4uu0Z+eJf5NBtoxrFGVer07adb26MJiva0iQctROWOaYpsd5p1ZbfGPUqSpLlFJwM/OMZbCUy7675Ot5c3B7Sif5esk+pu34t3dXJKySdtiG+iuNYoDyIXDX5o9fi9wZB smc zone: admin node\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCNNqkzNy1OV5e+pCt71pFzD6HwWvarzHfWXWOent9+rUhv1O4xMYh6JrXYdnbeeYID4IF+YKXjizrvidKM77HaeSA9Gtk3wJ9wZDS9aZkfEgkv+8jpSh34dm7NJuoWLYy9eko0/teknaW2DyKmVlvL04a6RMtT/up4mee92qMwG4zALyCWfkOGj/AZlGhAIsQaYgpiVWBjdTjni2n+Hm727h3jrLCgWsRLEhpzFaM2i6mQe0M266GNPU41S5sKu+dO3C82xW5jnfhH997VGpe6Oqis8flHU4Ij4Y2+Sn+DJPRNdVaeUYag+5+lyajy2e7E7KRmnoZcDZ+ykk+tHJz smc zone: leader node\n"
+        },
+        "Syslog": {
+            "Port": 514,
+            "ProtocolEnabled": true,
+            "SyslogServers": [
+                "172.23.0.1"
+            ],
+            "Transport": "udp"
+        }
+    },
+    "SSH": {
+        "Port": 22,
+        "ProtocolEnabled": true
+    },
+    "Status": {
+        "State": "Enabled"
+    }
+}

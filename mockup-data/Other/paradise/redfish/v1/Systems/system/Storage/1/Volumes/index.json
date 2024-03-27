@@ -1,0 +1,9 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#VolumeCollection.VolumeCollection",
+    "@odata.type": "#VolumeCollection.VolumeCollection",
+    "@odata.id": "/redfish/v1/Systems/system/Storage/1/Volumes",
+    "Name": "Storage Volume Collection",
+    "Description": "Volumes Disk",
+    "Members@odata.count": 0,
+    "Members": []
+}

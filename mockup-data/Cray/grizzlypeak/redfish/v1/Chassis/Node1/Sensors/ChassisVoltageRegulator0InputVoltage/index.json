@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"947221095\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/ChassisVoltageRegulator0InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator0InputVoltage",
+    "Name": "SIVOC48",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "J7000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 383.4,
+    "ReadingTime": "2000-01-07T04:58:19.724284000Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

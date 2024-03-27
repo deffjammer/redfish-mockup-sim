@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/FaultLog/Entries/1",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "AdditionalDataSizeBytes": 292,
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/FaultLog/Entries/1/attachment",
+    "Created": "2023-10-19T08:37:36+00:00",
+    "DiagnosticDataType": "CPER",
+    "EntryType": "Event",
+    "Id": "1",
+    "Message": "",
+    "Name": "FaultLog Dump Entry",
+    "Severity": "OK"
+}

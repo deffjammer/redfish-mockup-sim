@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643228831_2",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-26T20:27:11+00:00",
+    "EntryType": "Event",
+    "Id": "1643228831_2",
+    "Message": "",
+    "MessageArgs": [
+        "VCCINFAON_GPU0_GB1_Input_Voltage",
+        "10.000000"
+    ],
+    "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdExceeded",
+    "Name": "System Event Log Entry",
+    "Severity": ""
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports",
+    "@odata.type": "#MetricReportCollection.MetricReportCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReports/PlatformEnvironmentMetrics_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricReports/PlatformEnvironmentMetrics_0"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "Metric Report Collection"
+}

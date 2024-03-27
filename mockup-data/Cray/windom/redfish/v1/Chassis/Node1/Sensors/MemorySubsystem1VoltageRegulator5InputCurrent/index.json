@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1698352627\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/MemorySubsystem1VoltageRegulator5InputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "MemorySubsystem1VoltageRegulator5InputCurrent",
+    "Name": "CPU1 VDR ABCD",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "MemorySubsystem",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U4010"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 5.32,
+    "ReadingTime": "2023-10-26T20:37:04.719914460Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A"
+}

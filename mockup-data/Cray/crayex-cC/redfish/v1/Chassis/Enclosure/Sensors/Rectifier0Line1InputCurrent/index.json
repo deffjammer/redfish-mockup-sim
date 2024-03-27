@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/Rectifier0Line1InputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Line1",
+    "Id": "Rectifier0Line1InputCurrent",
+    "Name": "Rectifier",
+    "Oem": {
+        "Index": 0
+    },
+    "PhysicalContext": "Rectifier",
+    "PhysicalSubContext": "Input",
+    "Reading": 1.86,
+    "ReadingTime": "2022-03-11T21:43:42.876941612Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A"
+}

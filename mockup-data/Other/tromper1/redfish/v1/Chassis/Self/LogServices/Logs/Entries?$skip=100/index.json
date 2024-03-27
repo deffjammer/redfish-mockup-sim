@@ -1,0 +1,1061 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1697473873\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/779",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:07:23+00:00",
+            "Description": "LOG 6453",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:07:23+00:00",
+            "Id": "779",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Assertion event, Event_Data_2 : 85, Timestamp : 2023-09-28T19:07:23+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6453, Sensor_Type : Temperature, ",
+            "MessageId": "0x595555",
+            "Name": "LOG 6453",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/780",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:07:46+00:00",
+            "Description": "LOG 6454",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:07:46+00:00",
+            "Id": "780",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 61, Event_Dir : Assertion event, Event_Data_2 : 40, Timestamp : 2023-09-28T19:07:46+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6454, Sensor_Type : Temperature, ",
+            "MessageId": "0x572828",
+            "Name": "LOG 6454",
+            "SensorNumber": 61,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/781",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:08:33+00:00",
+            "Description": "LOG 6455",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:08:33+00:00",
+            "Id": "781",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Assertion event, Event_Data_2 : 85, Timestamp : 2023-09-28T19:08:33+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6455, Sensor_Type : Temperature, ",
+            "MessageId": "0x595555",
+            "Name": "LOG 6455",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/782",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:08:56+00:00",
+            "Description": "LOG 6456",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:08:56+00:00",
+            "Id": "782",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Deassertion event, Event_Data_2 : 83, Timestamp : 2023-09-28T19:08:56+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6456, Sensor_Type : Temperature, ",
+            "MessageId": "0x595355",
+            "Name": "LOG 6456",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/783",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:09:19+00:00",
+            "Description": "LOG 6457",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:09:19+00:00",
+            "Id": "783",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Assertion event, Event_Data_2 : 86, Timestamp : 2023-09-28T19:09:19+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6457, Sensor_Type : Temperature, ",
+            "MessageId": "0x595655",
+            "Name": "LOG 6457",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/784",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:09:42+00:00",
+            "Description": "LOG 6458",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:09:42+00:00",
+            "Id": "784",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 24, Event_Dir : Assertion event, Event_Data_2 : 75, Timestamp : 2023-09-28T19:09:42+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6458, Sensor_Type : Temperature, ",
+            "MessageId": "0x574B4B",
+            "Name": "LOG 6458",
+            "SensorNumber": 24,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/785",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:09:42+00:00",
+            "Description": "LOG 6459",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:09:42+00:00",
+            "Id": "785",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 26, Event_Dir : Assertion event, Event_Data_2 : 75, Timestamp : 2023-09-28T19:09:42+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6459, Sensor_Type : Temperature, ",
+            "MessageId": "0x574B4B",
+            "Name": "LOG 6459",
+            "SensorNumber": 26,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/786",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:10:06+00:00",
+            "Description": "LOG 6460",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:10:06+00:00",
+            "Id": "786",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 69, Event_Dir : Assertion event, Event_Data_2 : 80, Timestamp : 2023-09-28T19:10:06+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6460, Sensor_Type : Temperature, ",
+            "MessageId": "0x575050",
+            "Name": "LOG 6460",
+            "SensorNumber": 69,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/787",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:15+00:00",
+            "Description": "LOG 6461",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "787",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Deassertion event, Event_Data_2 : 69, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6461, Sensor_Type : Temperature, ",
+            "MessageId": "0x594555",
+            "Name": "LOG 6461",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/788",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:15+00:00",
+            "Description": "LOG 6462",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "788",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Deassertion event, Event_Data_2 : 69, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6462, Sensor_Type : Temperature, ",
+            "MessageId": "0x57454B",
+            "Name": "LOG 6462",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/789",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:15+00:00",
+            "Description": "LOG 6463",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "789",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 24, Event_Dir : Deassertion event, Event_Data_2 : 62, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6463, Sensor_Type : Temperature, ",
+            "MessageId": "0x573E4B",
+            "Name": "LOG 6463",
+            "SensorNumber": 24,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/790",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:16+00:00",
+            "Description": "LOG 6464",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "790",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Deassertion event, Event_Data_2 : 74, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6464, Sensor_Type : Temperature, ",
+            "MessageId": "0x594A55",
+            "Name": "LOG 6464",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/791",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:16+00:00",
+            "Description": "LOG 6465",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "791",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Deassertion event, Event_Data_2 : 74, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6465, Sensor_Type : Temperature, ",
+            "MessageId": "0x574A4B",
+            "Name": "LOG 6465",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/792",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:16+00:00",
+            "Description": "LOG 6466",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "792",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 26, Event_Dir : Deassertion event, Event_Data_2 : 61, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6466, Sensor_Type : Temperature, ",
+            "MessageId": "0x573D4B",
+            "Name": "LOG 6466",
+            "SensorNumber": 26,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/793",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:16+00:00",
+            "Description": "LOG 6467",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "793",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Deassertion event, Event_Data_2 : 72, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6467, Sensor_Type : Temperature, ",
+            "MessageId": "0x594855",
+            "Name": "LOG 6467",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/794",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:16+00:00",
+            "Description": "LOG 6468",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "794",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Deassertion event, Event_Data_2 : 72, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6468, Sensor_Type : Temperature, ",
+            "MessageId": "0x57484B",
+            "Name": "LOG 6468",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/795",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:16+00:00",
+            "Description": "LOG 6469",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "795",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Deassertion event, Event_Data_2 : 67, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6469, Sensor_Type : Temperature, ",
+            "MessageId": "0x594355",
+            "Name": "LOG 6469",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/796",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:17+00:00",
+            "Description": "LOG 6470",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:15+00:00",
+            "Id": "796",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Deassertion event, Event_Data_2 : 67, Timestamp : 2023-09-28T19:11:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6470, Sensor_Type : Temperature, ",
+            "MessageId": "0x57434B",
+            "Name": "LOG 6470",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/797",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:11:53+00:00",
+            "Description": "LOG 6471",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:11:53+00:00",
+            "Id": "797",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 69, Event_Dir : Deassertion event, Event_Data_2 : 79, Timestamp : 2023-09-28T19:11:53+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6471, Sensor_Type : Temperature, ",
+            "MessageId": "0x574F50",
+            "Name": "LOG 6471",
+            "SensorNumber": 69,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/798",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:13:26+00:00",
+            "Description": "LOG 6472",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:13:26+00:00",
+            "Id": "798",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 20, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T19:13:26+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6472, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6472",
+            "SensorNumber": 20,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/799",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:13:32+00:00",
+            "Description": "LOG 6473",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:13:32+00:00",
+            "Id": "799",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 18, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T19:13:32+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6473, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6473",
+            "SensorNumber": 18,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/800",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:14:21+00:00",
+            "Description": "LOG 6474",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:14:21+00:00",
+            "Id": "800",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 61, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T19:14:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6474, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6474",
+            "SensorNumber": 61,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/801",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:21:13+00:00",
+            "Description": "LOG 6475",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:21:13+00:00",
+            "Id": "801",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 68, Event_Dir : Deassertion event, Event_Data_2 : 79, Timestamp : 2023-09-28T19:21:13+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6475, Sensor_Type : Temperature, ",
+            "MessageId": "0x574F50",
+            "Name": "LOG 6475",
+            "SensorNumber": 68,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/802",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:10:56+00:00",
+            "Description": "LOG 6478",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:56+00:00",
+            "Id": "802",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:56+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6478, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6478",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/803",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:10:57+00:00",
+            "Description": "LOG 6479",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:56+00:00",
+            "Id": "803",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:56+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6479, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6479",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/804",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:10:57+00:00",
+            "Description": "LOG 6480",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:56+00:00",
+            "Id": "804",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:56+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6480, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6480",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/805",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:10:59+00:00",
+            "Description": "LOG 6523",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:57+00:00",
+            "Id": "805",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:57+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6523, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6523",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/806",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:10:59+00:00",
+            "Description": "LOG 6524",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:57+00:00",
+            "Id": "806",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:57+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6524, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6524",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/807",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:10:59+00:00",
+            "Description": "LOG 6525",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:57+00:00",
+            "Id": "807",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:57+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6525, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6525",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/808",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:11:01+00:00",
+            "Description": "LOG 6567",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:57+00:00",
+            "Id": "808",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:57+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6567, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6567",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/809",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:11:01+00:00",
+            "Description": "LOG 6568",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:57+00:00",
+            "Id": "809",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:57+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6568, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6568",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/810",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:11:01+00:00",
+            "Description": "LOG 6569",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T14:10:57+00:00",
+            "Id": "810",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T14:10:57+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6569, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6569",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/811",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:04+00:00",
+            "Description": "LOG 6614",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:04+00:00",
+            "Id": "811",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:04+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6614, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6614",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/812",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:06+00:00",
+            "Description": "LOG 6657",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:04+00:00",
+            "Id": "812",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:04+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6657, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6657",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/813",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:06+00:00",
+            "Description": "LOG 6658",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:04+00:00",
+            "Id": "813",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:04+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6658, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6658",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/814",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:07+00:00",
+            "Description": "LOG 6659",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:04+00:00",
+            "Id": "814",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:04+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6659, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6659",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/815",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:07+00:00",
+            "Description": "LOG 6660",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:04+00:00",
+            "Id": "815",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:04+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6660, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6660",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/816",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:07+00:00",
+            "Description": "LOG 6661",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:04+00:00",
+            "Id": "816",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:04+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6661, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6661",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/817",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:08+00:00",
+            "Description": "LOG 6703",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:05+00:00",
+            "Id": "817",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:05+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6703, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6703",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/818",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:08+00:00",
+            "Description": "LOG 6704",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:05+00:00",
+            "Id": "818",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:05+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6704, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6704",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/819",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:08+00:00",
+            "Description": "LOG 6705",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:19:05+00:00",
+            "Id": "819",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:19:05+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6705, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6705",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/820",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:09+00:00",
+            "Description": "LOG 6748",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:08+00:00",
+            "Id": "820",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:08+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6748, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6748",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/821",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:09+00:00",
+            "Description": "LOG 6749",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:08+00:00",
+            "Id": "821",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:08+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6749, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6749",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/822",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:09+00:00",
+            "Description": "LOG 6750",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:08+00:00",
+            "Id": "822",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:08+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6750, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6750",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/823",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:11+00:00",
+            "Description": "LOG 6793",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:09+00:00",
+            "Id": "823",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6793, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6793",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/824",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:11+00:00",
+            "Description": "LOG 6794",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:09+00:00",
+            "Id": "824",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6794, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6794",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/825",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:11+00:00",
+            "Description": "LOG 6795",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:09+00:00",
+            "Id": "825",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6795, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6795",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/826",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:13+00:00",
+            "Description": "LOG 6837",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:09+00:00",
+            "Id": "826",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 70, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6837, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6837",
+            "SensorNumber": 70,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/827",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:13+00:00",
+            "Description": "LOG 6838",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:09+00:00",
+            "Id": "827",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 71, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6838, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6838",
+            "SensorNumber": 71,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/828",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:13+00:00",
+            "Description": "LOG 6839",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-10-16T16:31:09+00:00",
+            "Id": "828",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 74, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-10-16T16:31:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 6839, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 6839",
+            "SensorNumber": 74,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 150,
+    "Name": "Log Service Entries Collection"
+}

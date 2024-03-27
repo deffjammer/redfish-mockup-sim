@@ -1,0 +1,23 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbx",
+    "@odata.type": "#SecureBootDatabase.v1_0_1.SecureBootDatabase",
+    "Actions": {
+        "#SecureBootDatabase.ResetKeys": {
+            "@ResetKeysType@Redfish.AllowableValues": [
+                "ResetAllKeysToDefault",
+                "DeleteAllKeys"
+            ],
+            "target": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbx/Actions/SecureBootDatabase.ResetKeys"
+        }
+    },
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbx/Certificates"
+    },
+    "DatabaseId": "dbx",
+    "Description": "The SecureBootDatabase schema describes a UEFI Secure Boot database used to store certificates or hashes.",
+    "Id": "dbx",
+    "Name": "Secure Boot Database",
+    "Signatures": {
+        "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbx/Signatures"
+    }
+}

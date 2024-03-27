@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemDCBus2Voltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemDCBus2Voltage",
+    "Name": "VFD2 DC Bus Voltage",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "DCBus",
+    "Reading": 484,
+    "ReadingTime": "2022-03-11T21:43:40.062141377Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

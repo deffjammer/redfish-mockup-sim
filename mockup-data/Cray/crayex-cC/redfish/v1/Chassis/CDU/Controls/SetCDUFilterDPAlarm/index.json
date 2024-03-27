@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Controls/SetCDUFilterDPAlarm",
+    "@odata.type": "#Control.v1_0_0.Control",
+    "ControlMode": "Automatic",
+    "ControlType": "Pressure",
+    "Id": "SetCDUFilterDPAlarm",
+    "Name": "CDU Filter DP Alarm Set Point",
+    "PhysicalContext": "LiquidOutlet",
+    "Sensor": {
+        "DataSourceUri": "/redfish/v1/Chassis/CDU/Sensors/"
+    },
+    "SetPoint": 10,
+    "SetPointUnits": "PSI",
+    "SettingRangeMax": 12,
+    "SettingRangeMin": 0,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

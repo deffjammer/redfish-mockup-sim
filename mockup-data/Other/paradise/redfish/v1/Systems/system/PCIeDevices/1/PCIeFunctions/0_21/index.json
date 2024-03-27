@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/PCIeDevices/1/PCIeFunctions/0_21",
+    "@odata.type": "#PCIeFunction.v1_3_0.PCIeFunction",
+    "ClassCode": "0x010802",
+    "DeviceClass": "MassStorageController",
+    "DeviceId": "0xA824",
+    "FunctionId": null,
+    "FunctionType": "Physical",
+    "Id": "0_21",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Systems/system/PCIeDevices/1"
+        }
+    },
+    "Name": "PCIe Function",
+    "RevisionId": "0x00",
+    "SubsystemId": "0xA80A",
+    "SubsystemVendorId": "0x144D",
+    "VendorId": "0x144D"
+}

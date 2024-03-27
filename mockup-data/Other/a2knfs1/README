@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.2.0
+Created: 2023-10-26 20:13:01
+Service: https://a2knfs1-bmc
+User: root
+Description: 
+Total response time: 68.13826656341553
+Average response time: 0.052494812452554336
+Minimum response time: 0.008806228637695312, /redfish
+Maximum response time: 4.043853282928467, /redfish/v1/Systems/1/LogServices/IML/Entries

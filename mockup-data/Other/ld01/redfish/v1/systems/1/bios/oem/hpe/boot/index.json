@@ -1,0 +1,160 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "5018E6D3",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/"
+        },
+        "Time": "2021-05-24T19:41:52+00:00"
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"CC480C273C715555553B66A73A7ADC6C\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "SGI Slot Chooser",
+            "CorrelatableID": "HD(3,GPT,43B535F4-46C1-4130-A802-348C56265B0A,0x41A000,0x19000)/\\EFI\\sgismc\\grubx64.efi",
+            "StructuredBootString": "HD.Slot.12.5",
+            "UEFIDevicePath": "HD(3,GPT,43B535F4-46C1-4130-A802-348C56265B0A,0x41A000,0x19000)/\\EFI\\sgismc\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "0017",
+            "BootString": "OCP Slot 10 Port 1 : Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - NIC - Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - PXE (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(1402ECDA4B28,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0015",
+            "BootString": "OCP Slot 10 Port 1 : Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - NIC - Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - PXE (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(1402ECDA4B28,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0016",
+            "BootString": "OCP Slot 10 Port 1 : Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - NIC - Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - PXE (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(1402ECDA4B28,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0018",
+            "BootString": "OCP Slot 10 Port 1 : Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - NIC - Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - PXE (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(1402ECDA4B28,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "Storage Slot 12 : HPE Smart Array P408i-a SR Gen10 - 2.1 TiB, RAID1 Logical Drive 1(Target:0, Lun:0)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.12.2",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x0,0x0)"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Storage Slot 12 : HPE Smart Array P408i-a SR Gen10 - 4.3 TiB, RAID1+0 Logical Drive 2(Target:0, Lun:1)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.12.3",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x0,0x1)"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "Slot 1",
+            "CorrelatableID": "HD(21,GPT,4641452B-16F4-426C-B7AD-416ABE47B2FC,0x81B000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.Slot.12.4",
+            "UEFIDevicePath": "HD(21,GPT,4641452B-16F4-426C-B7AD-416ABE47B2FC,0x81B000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "Slot 2",
+            "CorrelatableID": "HD(22,GPT,B01B7394-5C50-4442-904E-325AFD08E068,0x866000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.Slot.12.6",
+            "UEFIDevicePath": "HD(22,GPT,B01B7394-5C50-4442-904E-325AFD08E068,0x866000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "boot",
+    "Name": "Boot Order Current Settings",
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_0.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"FD76E72859371717179D2D3A852341DF\""
+            }
+        }
+    },
+    "PersistentBootConfigOrder": [
+        "HD.Slot.12.5",
+        "OCP.Slot.10.1.IPv4",
+        "Generic.USB.1.1",
+        "OCP.Slot.10.1.Httpv4",
+        "OCP.Slot.10.1.Httpv6",
+        "OCP.Slot.10.1.IPv6",
+        "HD.Slot.12.2",
+        "HD.Slot.12.3",
+        "HD.Slot.12.4",
+        "HD.Slot.12.6"
+    ]
+}

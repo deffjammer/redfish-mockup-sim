@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/128",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-09-15T15:04:50+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-09-15T15:04:50+00:00",
+    "Id": "128",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The resource property CPU1 SOC_S0 Power has corrected errors of type SensorReadError.",
+    "MessageArgs": [
+        "SensorReadError",
+        "CPU1 SOC_S0 Power"
+    ],
+    "MessageId": "ResourceEvent.ResourceErrorsCorrected",
+    "Name": "Log entry 128",
+    "Severity": "OK"
+}

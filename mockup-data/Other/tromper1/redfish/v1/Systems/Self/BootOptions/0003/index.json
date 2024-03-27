@@ -1,0 +1,20 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_2_2.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/Self/BootOptions/0003/SD"
+        }
+    },
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "\"1697474075\"",
+    "@odata.id": "/redfish/v1/Systems/Self/BootOptions/0003",
+    "@odata.type": "#BootOption.v1_0_3.BootOption",
+    "Alias": "UefiShell",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0003",
+    "Description": "UEFI: Built-in EFI Shell",
+    "DisplayName": "UEFI: Built-in EFI Shell",
+    "Id": "0003",
+    "Name": "Boot0003",
+    "UefiDevicePath": "VenMedia(5023B95C-DB26-429B-A648-BD47664C8012)"
+}

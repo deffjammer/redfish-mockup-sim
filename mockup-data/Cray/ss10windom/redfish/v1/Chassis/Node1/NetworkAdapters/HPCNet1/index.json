@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"948362982\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/NetworkAdapters/HPCNet1",
+    "@odata.type": "#NetworkAdapter.v1_0_1.NetworkAdapter",
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "ResetSettingsToDefaultType@Redfish.AllowableValues": [],
+            "target": "/redfish/v1/Chassis/Node1/NetworkAdapters/HPCNet1/Actions/NetworkAdapter.ResetSettingsToDefault"
+        }
+    },
+    "Description": "Timms NIC Mezzanine REV04 (HSN)",
+    "Id": "HPCNet1",
+    "Manufacturer": "Mellanox Technologies, Ltd.",
+    "Model": "ConnectX-5 100Gb/s",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/Node1/NetworkAdapters/HPCNet1/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/Node1/NetworkAdapters/HPCNet1/NetworkPorts"
+    },
+    "PartNumber": "102001903",
+    "SerialNumber": "HG19250216"
+}

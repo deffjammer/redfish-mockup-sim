@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"1647264578\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU1VoltageRegulator1Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU1VoltageRegulator1Temperature",
+    "Name": "CPU1 VCCIN",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U4001"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 39,
+    "ReadingTime": "2022-03-14T13:29:39.787430452Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

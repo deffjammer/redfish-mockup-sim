@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/NetworkProtocol/HTTPS/Certificates/1",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\nMIIErDCCA5SgAwIBAgIUATtIgY2a4S4LEyLZNnBJNTU6ANswDQYJKoZIhvcNAQEL\nBQAwgY0xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJNQTEeMBwGA1UEChMVSW5zeWRl\nIFNvZnR3YXJlIENvcnAuMRowGAYDVQQLExFCTUMgU29mdHdhcmUgVGVhbTEPMA0G\nA1UEAxMGSW5zeWRlMSQwIgYJKoZIhvcNAQkBFhVjb250YWN0LnR3QGluc3lkZS5j\nb20wHhcNNzAwMTAxMDAwMDAwWhcNMjYwMTAxMDAwMDAwWjCBjTELMAkGA1UEBhMC\nVVMxCzAJBgNVBAgTAk1BMR4wHAYDVQQKExVJbnN5ZGUgU29mdHdhcmUgQ29ycC4x\nGjAYBgNVBAsTEUJNQyBTb2Z0d2FyZSBUZWFtMQ8wDQYDVQQDEwZJbnN5ZGUxJDAi\nBgkqhkiG9w0BCQEWFWNvbnRhY3QudHdAaW5zeWRlLmNvbTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBANPEpcQAyQ8Lq2I71QJRV6vI54iFoEyfS2hvF5Ey\n+MCwW9iqa4otvL9dxKh9OsLpTm35PchsUMk6Xs4GmTZQs0J9+WpCmiVjsxtzuzTs\njtMdt42YWoRyy3qaJ25fPuIWCK1AC+kleAz39zugKWF98K3F5zTEI6jzQ0I/O/G2\nWl0rk+MdeKvNJiP8i15Dn8I2JJzOjcitB5UtuoRulsLD/iFFLKWYu3T5jmVVMGB7\nNJdgs02/ToajtxWzXCs60ilg0lJJ0rukeboBcPfPbbLP/tVCsfO7ZYRWz2t2Iadn\nZXvYX4/60g17in2Lrcv1dab8RyFMCZ3EV4bQUiFAHr5bEDUCAwEAAaOCAQAwgf0w\nDAYDVR0TBAUwAwEB/zAdBgNVHQ4EFgQUEHMj8QXgY85PNeFiu8k5KCMNv1kwgc0G\nA1UdIwSBxTCBwoAUEHMj8QXgY85PNeFiu8k5KCMNv1mhgZOkgZAwgY0xCzAJBgNV\nBAYTAlVTMQswCQYDVQQIEwJNQTEeMBwGA1UEChMVSW5zeWRlIFNvZnR3YXJlIENv\ncnAuMRowGAYDVQQLExFCTUMgU29mdHdhcmUgVGVhbTEPMA0GA1UEAxMGSW5zeWRl\nMSQwIgYJKoZIhvcNAQkBFhVjb250YWN0LnR3QGluc3lkZS5jb22CFAE7SIGNmuEu\nCxMi2TZwSTU1OgDbMA0GCSqGSIb3DQEBCwUAA4IBAQDEYEzVhZkJMPB98ZtRrJfD\n0ROh6DczA1OoYCo52kAUawhSPB6NklUSv7VzbJnsteSA4ClFBuDD/t5jRX8U9m+o\n2m+sc6Q+sIOEuMoX5hhjHPiZST2je4Z7/QdHht6kZsrzkPzhdkgM38gvxHbVZTxP\nvY3LGS3o6hrrWVQgdqN+HtB7MPPCTAWCgx4+kaWISrX4iXtD9NRXEgohmftEIN4B\n9sRdtZdfaFWoRhc5y7YFH+8D61k6P01Ek+8o5jmbyHezUjHZUCAoJXVEW7lJdyVV\n7DqadJeTuwowEP61g6ngcQIw4aCQttf+LYpMmBZ0uY/COyfcICdYuRBe4BEM9AHn\n-----END CERTIFICATE-----\n",
+    "Description": "HTTPS Certificate",
+    "Id": "1",
+    "Issuer": {
+        "CommonName": "Insyde",
+        "Country": "US",
+        "Organization": "Insyde Software Corp.",
+        "OrganizationalUnit": "BMC Software Team",
+        "State": "MA"
+    },
+    "KeyUsage": [],
+    "Name": "HTTPS Certificate",
+    "Subject": {
+        "CommonName": "Insyde",
+        "Country": "US",
+        "Organization": "Insyde Software Corp.",
+        "OrganizationalUnit": "BMC Software Team",
+        "State": "MA"
+    },
+    "ValidNotAfter": "2026-01-01T00:00:00+00:00",
+    "ValidNotBefore": "1970-01-01T00:00:00+00:00"
+}

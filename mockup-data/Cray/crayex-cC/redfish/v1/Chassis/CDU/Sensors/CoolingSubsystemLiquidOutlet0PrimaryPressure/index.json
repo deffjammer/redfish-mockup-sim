@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidOutlet0PrimaryPressure",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Primary",
+    "Id": "CoolingSubsystemLiquidOutlet0PrimaryPressure",
+    "Name": "Primary (Facility) Return Pressure",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "LiquidOutlet",
+    "Reading": 27.6,
+    "ReadingTime": "2022-03-11T21:43:43.071220076Z",
+    "ReadingType": "Pressure",
+    "ReadingUnits": "PSI"
+}

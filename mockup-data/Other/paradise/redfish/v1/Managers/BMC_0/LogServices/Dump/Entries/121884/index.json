@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/Dump/Entries/121884",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "AdditionalDataSizeBytes": 389992,
+    "AdditionalDataURI": "/redfish/v1/Managers/BMC_0/LogServices/Dump/Entries/121884/attachment",
+    "Created": "2024-02-21T16:22:12+00:00",
+    "DiagnosticDataType": "Manager",
+    "EntryType": "Event",
+    "Id": "121884",
+    "Message": "",
+    "Name": "BMC Dump Entry",
+    "Severity": "OK"
+}

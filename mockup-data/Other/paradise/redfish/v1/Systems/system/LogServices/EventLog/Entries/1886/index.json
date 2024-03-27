@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1886",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1886/attachment",
+    "Created": "2023-10-24T07:08:03+00:00",
+    "EntryType": "Event",
+    "Id": "1886",
+    "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+    "MessageArgs": [
+        "PCIe Device Enumeration Service",
+        "Discovery Timed Out"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

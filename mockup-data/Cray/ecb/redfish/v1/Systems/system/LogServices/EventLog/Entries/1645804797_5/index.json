@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804797_5",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-02-25T15:59:57+00:00",
+    "EntryType": "Event",
+    "Id": "1645804797_5",
+    "Message": "Power supply PVCCFA_EHV_FIVRA_CPU0 predicted failure recovered.",
+    "MessageArgs": [
+        "PVCCFA_EHV_FIVRA_CPU0"
+    ],
+    "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+    "Name": "System Event Log Entry",
+    "Severity": "OK"
+}

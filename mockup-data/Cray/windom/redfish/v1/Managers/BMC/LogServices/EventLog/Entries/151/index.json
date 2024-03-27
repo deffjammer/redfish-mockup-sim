@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/151",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-10-17T07:23:26+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-10-17T07:23:26+00:00",
+    "Id": "151",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "All hardware reported fatal faults have been cleared for CPU1 VDR EFGH Voltage.",
+    "MessageArgs": [
+        "CPU1 VDR EFGH Voltage"
+    ],
+    "MessageId": "CrayAlerts.HardwareFatalFaultCleared",
+    "Name": "Log entry 151",
+    "Severity": "OK"
+}

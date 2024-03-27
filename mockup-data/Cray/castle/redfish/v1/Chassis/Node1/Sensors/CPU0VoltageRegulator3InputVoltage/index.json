@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1647264578\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU0VoltageRegulator3InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator3InputVoltage",
+    "Name": "CPU0 VPP_HBM S0",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3010"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 11.938,
+    "ReadingTime": "2022-03-14T13:29:39.905937291Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

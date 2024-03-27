@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2931",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2931/attachment",
+    "Created": "2023-09-17T21:32:14+00:00",
+    "EntryType": "Event",
+    "Id": "2931",
+    "Message": "The resource property HMC Ready has detected errors of type 'Service Unavailable'.",
+    "MessageArgs": [
+        "HMC Ready",
+        "Service Unavailable"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "If problem persists, try restarting HMC",
+    "Resolved": true,
+    "Severity": "Critical"
+}

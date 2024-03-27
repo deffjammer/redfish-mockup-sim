@@ -1,0 +1,31 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/VoltageRegulator6InputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "VoltageRegulator6InputCurrent",
+    "Name": "12V HSS ECB",
+    "Oem": {
+        "Index": 6,
+        "ReferenceDesignator": "U113"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 0.165,
+    "ReadingTime": "2022-03-11T21:43:41.091609312Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 16
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 17.6
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 20.8
+        }
+    }
+}

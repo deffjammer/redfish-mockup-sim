@@ -1,0 +1,8 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/Oem/Insyde/Ncsi",
+    "@odata.type": "#InsydeNcsiCollection.InsydeNcsiCollection",
+    "Description": "The NetworkAdapterCollection schema describes a collection of network adapter instances.",
+    "Members": [],
+    "Members@odata.count": 0,
+    "Name": "Insyde Ncsi Collection"
+}

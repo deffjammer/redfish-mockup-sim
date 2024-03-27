@@ -1,0 +1,76 @@
+{
+    "$id": "http://redfish.dmtf.org/schemas/v1/AmiBios.v1_0_0.json",
+    "$schema": "http://redfish.dmtf.org/schemas/v1/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2019 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright",
+    "definitions": {
+        "Actions": {
+            "additionalProperties": true,
+            "description": "The available  actions for this Resource.",
+            "longDescription": "This type shall contain the available actions for this Resource.",
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_]*$": {
+                    "description": "This property shall specify a valid odata or Redfish property.",
+                    "type": [
+                        "array",
+                        "boolean",
+                        "integer",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "AmiBios": {
+            "additionalProperties": false,
+            "description": "This is the schema definition for the AmiBios.",
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_]*$": {
+                    "description": "This property shall specify a valid odata or Redfish property.",
+                    "type": [
+                        "array",
+                        "boolean",
+                        "integer",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ]
+                }
+            },
+            "properties": {
+                "Actions": {
+                    "$ref": "#/definitions/Actions",
+                    "description": "The available actions for this Resource.",
+                    "longDescription": "The actions property shall contain the available actions for this Resource."
+                },
+                "ChangeState": {
+                    "$ref": "#/definitions/ChangeState",
+                    "description": "The ChangeState action is used to disable/Enable any DIMM state.",
+                    "longDescription": "This Action will be performed through HHM Module of BIOS which requires KCS interface between BMC and BIOS. In SPX-13 AST2600EVB setup KCS interface is not available and this action is not validated. Once CRB available for AST2600 this action can be validated.",
+                    "readonly": false
+                }
+            },
+            "type": "object"
+        },
+        "ChangeState": {
+            "enum": [
+                "Enabled",
+                "Disabled"
+            ],
+            "enumDescriptions": {
+                "Disabled": "Disable ChangeState.",
+                "Enabled": "Enable ChangeState."
+            },
+            "enumLongDescriptions": {
+                "Disabled": "Disable ChangeState.",
+                "Enabled": "Enable ChangeState."
+            },
+            "type": "string"
+        }
+    },
+    "owningEntity": "AMI",
+    "title": "#AmiBios.v1_0_0"
+}

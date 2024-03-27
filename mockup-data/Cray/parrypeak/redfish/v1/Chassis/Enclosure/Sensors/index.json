@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisChassis0Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisSystemBoard0Temperature"
+        }
+    ],
+    "Members@odata.count": 2
+}

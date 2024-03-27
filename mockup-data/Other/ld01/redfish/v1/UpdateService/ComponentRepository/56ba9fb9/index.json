@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/56ba9fb9",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "56ba9fb9",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/A43_2.40_02_23_2021.signed.flash",
+    "Configuration": "",
+    "Created": "2021-05-24T16:26:08Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "A43_2.40_02_23_2021.signed.flash",
+    "Filepath": "A43_2.40_02_23_2021.signed.flash",
+    "Locked": true,
+    "Name": "System BIOS - A43",
+    "SizeBytes": 33564541,
+    "Targets": [
+        "00000000-0000-0000-0000-00000000021c",
+        "00000000-0000-0000-0000-000000000231",
+        "00000000-0000-0000-0000-000000000232"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "v2.40 (02/23/2021)"
+}

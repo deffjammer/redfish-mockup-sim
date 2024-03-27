@@ -1,0 +1,35 @@
+{
+    "@odata.id": "/redfish/v1/Chassis",
+    "@odata.type": "#ChassisCollection.ChassisCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/GPU_Board0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/GPU_Board1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/IVOC1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz3"
+        }
+    ],
+    "Members@odata.count": 9,
+    "Name": "Chassis Collection"
+}

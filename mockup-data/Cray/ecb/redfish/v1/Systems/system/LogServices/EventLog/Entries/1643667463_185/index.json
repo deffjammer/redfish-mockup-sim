@@ -1,0 +1,12 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643667463_185",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-31T22:17:43+00:00",
+    "EntryType": "Event",
+    "Id": "1643667463_185",
+    "Message": "",
+    "MessageArgs": [],
+    "MessageId": "ResourceEvent.1.0.3.ResourceCreated",
+    "Name": "System Event Log Entry",
+    "Severity": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot",
+    "@odata.type": "#SecureBoot.v1_1_0.SecureBoot",
+    "Actions": {
+        "#SecureBoot.ResetKeys": {
+            "@ResetKeysType@Redfish.AllowableValues": [
+                "ResetAllKeysToDefault",
+                "DeleteAllKeys",
+                "DeletePK"
+            ],
+            "target": "/redfish/v1/Systems/system/SecureBoot/Actions/SecureBoot.ResetKeys"
+        }
+    },
+    "Description": "This Resource contains a UEFI Secure Boot Resource for a Redfish implementation.",
+    "Id": "SecureBoot",
+    "Name": "SecureBoot Current Settings",
+    "SecureBootCurrentBoot": "Enabled",
+    "SecureBootDatabases": {
+        "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases"
+    },
+    "SecureBootEnable": null,
+    "SecureBootMode": "UserMode"
+}

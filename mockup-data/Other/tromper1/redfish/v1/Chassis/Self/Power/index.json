@@ -1,0 +1,123 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Power.Power",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Power",
+    "@odata.type": "#Power.v1_5_4.Power",
+    "Description": "Power sensor readings",
+    "Id": "Power",
+    "Name": "Power",
+    "PowerControl": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Power#/PowerControl/0",
+            "MemberId": "0",
+            "Name": "Chassis Power Control",
+            "PhysicalContext": "Intake",
+            "PowerLimit": {
+                "CorrectionInMs": 1000,
+                "LimitException": "HardPowerOff",
+                "LimitInWatts": 2000
+            },
+            "PowerMetrics": {
+                "AverageConsumedWatts": 256.15933333333,
+                "IntervalInMin": 5,
+                "MaxConsumedWatts": 256.53,
+                "MinConsumedWatts": 255.73
+            },
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Power#/PowerControl/1",
+            "MemberId": "1",
+            "Oem": {
+                "IEC": {
+                    "@odata.type": "#PowerControlOem.v1_0_0.PowerControlOem",
+                    "ChassisPowerConsumption": 0,
+                    "GPU": {
+                        "GPU1": {
+                            "LimitInWatts": 0,
+                            "PowerConsumption": 64.89
+                        },
+                        "GPU2": {
+                            "LimitInWatts": 699,
+                            "PowerConsumption": 63.89
+                        },
+                        "GPU3": {
+                            "LimitInWatts": 699,
+                            "PowerConsumption": 65.57
+                        },
+                        "GPU4": {
+                            "LimitInWatts": 699,
+                            "PowerConsumption": 65.73
+                        }
+                    },
+                    "MLB": {
+                        "PowerConsumption": 255.84,
+                        "PowerLimit": {
+                            "LimitInWatts": 2000,
+                            "Max": 2200,
+                            "Min": 100
+                        },
+                        "PowerMetrics": {
+                            "AccumulatedEnergyJoules": 961961248,
+                            "Timestamp": 6423412
+                        }
+                    },
+                    "PSU": {
+                        "PSU12vPowerConsumption": 1601,
+                        "PSU54vPowerConsumption": 323,
+                        "PSUAllPowerConsumption": 1924
+                    }
+                }
+            }
+        }
+    ],
+    "PowerControl@odata.count": 2,
+    "PowerSupplies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Power#/PowerSupplies/0",
+            "FirmwareVersion": "3.11",
+            "LineInputVoltage": 209.5,
+            "Manufacturer": "ARTSN",
+            "MemberId": "0",
+            "Model": "HPE_POWER_SUPPLY",
+            "Name": "PowerSupply1",
+            "PartNumber": "P25875-B21",
+            "PowerCapacityWatts": 3000,
+            "PowerInputWatts": 173,
+            "PowerOutputWatts": 155,
+            "RelatedItem@odata.count": 0,
+            "SerialNumber": "5XBMF0C5NFX04S"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Power#/PowerSupplies/1",
+            "FirmwareVersion": "3.11",
+            "LineInputVoltage": 210.5,
+            "Manufacturer": "ARTSN",
+            "MemberId": "1",
+            "Model": "HPE_POWER_SUPPLY",
+            "Name": "PowerSupply2",
+            "PartNumber": "P25875-B21",
+            "PowerCapacityWatts": 3000,
+            "PowerInputWatts": 150,
+            "PowerOutputWatts": 130,
+            "RelatedItem@odata.count": 0,
+            "SerialNumber": "5XBMF0C5NFX04U"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Power#/PowerSupplies/2",
+            "FirmwareVersion": "1.0",
+            "LineInputVoltage": 211,
+            "Manufacturer": "ARTSN",
+            "MemberId": "2",
+            "Model": "HPE_POWER_SUPPLY",
+            "Name": "PowerSupply5",
+            "PartNumber": "P24681-B21",
+            "PowerCapacityWatts": 3000,
+            "PowerInputWatts": 1601,
+            "PowerOutputWatts": 1529,
+            "RelatedItem@odata.count": 0,
+            "SerialNumber": "5WWQV0B5NEM0B2"
+        }
+    ],
+    "PowerSupplies@odata.count": 3
+}

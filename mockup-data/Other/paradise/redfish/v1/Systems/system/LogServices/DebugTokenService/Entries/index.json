@@ -1,0 +1,8 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/DebugTokenService/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of DebugTokenService Entries",
+    "Members": [],
+    "Members@odata.count": 0,
+    "Name": "DebugTokenService Log Entries"
+}

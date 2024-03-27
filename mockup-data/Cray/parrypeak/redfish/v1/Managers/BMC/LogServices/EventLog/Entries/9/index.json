@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/9",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "1999-12-31T12:18:28+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "1999-12-31T12:18:28+00:00",
+    "Id": "9",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3ReportedPower"
+        }
+    },
+    "Message": "Sensor ' Power' has failed.",
+    "MessageArgs": [
+        " Power"
+    ],
+    "MessageId": "SensorEvent.SensorFailure",
+    "Name": "Log entry 9",
+    "Severity": "Warning"
+}

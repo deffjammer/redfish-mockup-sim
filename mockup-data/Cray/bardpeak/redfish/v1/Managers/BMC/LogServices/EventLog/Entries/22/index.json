@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1698352518\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/22",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-06-13T17:10:58+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-06-13T17:10:58+00:00",
+    "Id": "22",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "All hardware reported fatal faults have been cleared for PDB INRUSH ACCEL0 Voltage.",
+    "MessageArgs": [
+        "PDB INRUSH ACCEL0 Voltage"
+    ],
+    "MessageId": "CrayAlerts.HardwareFatalFaultCleared",
+    "Name": "Log entry 22",
+    "Severity": "OK"
+}

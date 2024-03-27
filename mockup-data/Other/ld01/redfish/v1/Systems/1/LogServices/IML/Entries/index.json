@@ -1,0 +1,3714 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"7C19C54C\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Integrated Management Logs view",
+    "Name": "Integrated Management Logs view",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "1",
+            "Created": "2021-05-24T20:08:57Z",
+            "EntryType": "Oem",
+            "Message": "IML Cleared ( user: System Administrator)",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance",
+                        "Administration"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 186,
+                    "Severity": "Informational",
+                    "Updated": "2021-05-24T20:08:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/2",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "2",
+            "Created": "2021-05-24T23:24:01Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 187,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-05-24T23:24:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/3",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "3",
+            "Created": "2021-05-24T23:39:58Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 188,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-05-24T23:39:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/4",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "4",
+            "Created": "2021-06-09T16:40:42Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 189,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-09T16:40:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/5",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "5",
+            "Created": "2021-06-09T16:53:02Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 190,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-09T16:53:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/6",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "6",
+            "Created": "2021-06-09T16:54:58Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 191,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-09T16:54:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/7",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "7",
+            "Created": "2021-06-10T15:06:45Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 192,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-10T15:06:45Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/8",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "8",
+            "Created": "2021-06-11T13:31:23Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 193,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-14T13:46:50Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/9",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "9",
+            "Created": "2021-06-11T13:32:53Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 194,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-11T13:34:23Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/10",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "10",
+            "Created": "2021-06-11T13:32:54Z",
+            "EntryType": "Oem",
+            "Message": "At least one of the links is up in adapter Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter in slot 10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 14,
+                    "Count": 1,
+                    "EventNumber": 195,
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-11T13:34:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/11",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "11",
+            "Created": "2021-06-14T13:49:20Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 196,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-14T13:50:50Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/12",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "12",
+            "Created": "2021-06-14T16:13:01Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 197,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-14T16:14:32Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/13",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "13",
+            "Created": "2021-06-14T16:14:31Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 198,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T14:12:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/14",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "14",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 199,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/15",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "15",
+            "Created": "2021-06-15T14:04:38Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 200,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T14:04:38Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/16",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "16",
+            "Created": "2021-06-15T14:09:01Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 201,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T14:09:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/17",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "17",
+            "Created": "2021-06-15T14:12:10Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 202,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T14:12:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/18",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "18",
+            "Created": "2021-06-15T18:46:01Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 203,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T18:46:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/19",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "19",
+            "Created": "2021-06-15T18:46:01Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 204,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T18:46:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/20",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "20",
+            "Created": "2021-06-15T19:06:12Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 205,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T19:06:12Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/21",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "21",
+            "Created": "2021-06-15T19:17:49Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 206,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T19:17:49Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/22",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "22",
+            "Created": "2021-06-15T19:38:19Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 207,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T19:38:19Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/23",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "23",
+            "Created": "2021-06-15T19:39:04Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 208,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T19:39:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/24",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "24",
+            "Created": "2021-06-15T19:39:04Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 209,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T20:03:32Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/25",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "25",
+            "Created": "2021-06-15T19:42:44Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 210,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T19:42:44Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/26",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "26",
+            "Created": "2021-06-15T19:54:15Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 211,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T19:54:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/27",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "27",
+            "Created": "2021-06-15T20:03:02Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 212,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T20:04:17Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/28",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "28",
+            "Created": "2021-06-15T20:03:02Z",
+            "EntryType": "Oem",
+            "Message": "At least one of the links is up in adapter Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter in slot 10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 14,
+                    "Count": 1,
+                    "EventNumber": 213,
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T20:03:32Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/29",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "29",
+            "Created": "2021-06-15T20:04:17Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 214,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T20:58:20Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/30",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "30",
+            "Created": "2021-06-15T20:10:40Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 215,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T20:10:40Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/31",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "31",
+            "Created": "2021-06-15T20:58:20Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 216,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-15T20:58:35Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/32",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "32",
+            "Created": "2021-06-16T17:12:53Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 217,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-16T17:12:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/33",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "33",
+            "Created": "2021-06-16T17:12:53Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 218,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-16T17:12:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/34",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "34",
+            "Created": "2021-06-17T17:02:39Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 219,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-17T17:02:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/35",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "35",
+            "Created": "2021-06-17T17:02:39Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 220,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-17T17:02:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/36",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "36",
+            "Created": "2021-06-17T17:24:26Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 221,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-17T17:24:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/37",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "37",
+            "Created": "2021-06-17T17:24:26Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 222,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-17T17:24:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/38",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "38",
+            "Created": "2021-06-17T17:27:16Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 223,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-17T17:27:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/39",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "39",
+            "Created": "2021-06-17T17:27:16Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 224,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-17T17:27:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/40",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "40",
+            "Created": "2021-06-21T18:32:43Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 225,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-21T18:32:43Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/41",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "41",
+            "Created": "2021-06-21T18:32:43Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 226,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-21T18:32:43Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/42",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "42",
+            "Created": "2021-06-21T21:02:10Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 227,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-06-21T21:02:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/43",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "43",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 228,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/44",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "44",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 229,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/45",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "45",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 230,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/46",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "46",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 231,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/47",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "47",
+            "Created": "2021-07-01T12:23:26Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 232,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-01T12:23:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/48",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "48",
+            "Created": "2021-07-01T12:23:26Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 233,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-01T12:23:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "49",
+            "Created": "2021-07-01T12:50:13Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 234,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-01T12:50:13Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/50",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "50",
+            "Created": "2021-07-01T12:50:13Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 235,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-01T12:50:13Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/51",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "51",
+            "Created": "2021-07-01T15:12:11Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 236,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-01T15:12:11Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/52",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "52",
+            "Created": "2021-07-01T15:12:11Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 237,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-01T15:12:11Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/53",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "53",
+            "Created": "2021-07-02T09:02:18Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 238,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-02T09:02:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/54",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "54",
+            "Created": "2021-07-02T09:02:18Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 239,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-02T09:02:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/55",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "55",
+            "Created": "2021-07-15T18:28:36Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 240,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:28:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/56",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "56",
+            "Created": "2021-07-15T18:28:36Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 241,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:28:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/57",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "57",
+            "Created": "2021-07-15T18:31:43Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 242,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:31:43Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/58",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "58",
+            "Created": "2021-07-15T18:31:43Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 243,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:31:43Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/59",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "59",
+            "Created": "2021-07-15T18:42:26Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 244,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:42:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/60",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "60",
+            "Created": "2021-07-15T18:42:26Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 245,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:42:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/61",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "61",
+            "Created": "2021-07-15T18:52:09Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 246,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:52:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/62",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "62",
+            "Created": "2021-07-15T18:52:09Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 247,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:52:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/63",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "63",
+            "Created": "2021-07-15T18:56:04Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 248,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:56:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/64",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "64",
+            "Created": "2021-07-15T18:56:04Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 249,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T18:56:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/65",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "65",
+            "Created": "2021-07-15T19:33:14Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 250,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T19:33:14Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/66",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "66",
+            "Created": "2021-07-15T19:33:15Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 251,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-07-15T19:33:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/67",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "67",
+            "Created": "2021-08-10T10:40:39Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 252,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-08-10T10:43:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/68",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "68",
+            "Created": "2021-08-24T10:36:42Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 253,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-08-24T10:36:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/69",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "69",
+            "Created": "2021-08-24T10:36:42Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 254,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2021-08-24T10:36:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/70",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "70",
+            "Created": "2021-09-28T21:35:23Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 255,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-05-30T14:25:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/71",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "71",
+            "Created": "2022-04-21T18:12:49Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 256,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-04-21T18:15:05Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/72",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "72",
+            "Created": "2022-04-21T18:12:50Z",
+            "EntryType": "Oem",
+            "Message": "At least one of the links is up in adapter Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter in slot 10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 14,
+                    "Count": 1,
+                    "EventNumber": 257,
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-04-21T18:15:06Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/73",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "73",
+            "Created": "2022-05-30T14:25:26Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 258,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-05-30T14:25:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/74",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "74",
+            "Created": "2022-05-30T18:18:40Z",
+            "EntryType": "Oem",
+            "Message": "1792-Slot 12 Drive Array - Valid Data Found in Write-Back Cache. Data will automatically be written to drive array. Action: No action required.",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 6034,
+                    "Count": 1,
+                    "EventNumber": 259,
+                    "Severity": "Informational",
+                    "Updated": "2022-05-30T18:18:40Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/75",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "75",
+            "Created": "2022-05-30T18:19:25Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 260,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-05-30T18:19:25Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/76",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "76",
+            "Created": "2022-05-30T18:19:25Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 261,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-05-30T18:19:25Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/77",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "77",
+            "Created": "2022-07-11T21:04:41Z",
+            "EntryType": "Oem",
+            "Message": "Correctable Memory Error Threshold Exceeded (Processor 1, DIMM 12).",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 1120,
+                    "Count": 1,
+                    "EventNumber": 262,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0460-gen10",
+                    "RecommendedAction": "Reboot system or re-seat the DIMM and update system firmware. If the issue persists, contact support.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2022-07-11T21:04:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/78",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "78",
+            "Created": "2022-09-09T15:49:46Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 263,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-09-09T15:49:46Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/79",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "79",
+            "Created": "2022-09-09T15:49:46Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 264,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-09-09T15:49:46Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/80",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "80",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 265,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/81",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "81",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 266,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/82",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "82",
+            "Created": "2022-09-12T14:10:51Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 267,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-09-12T14:10:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/83",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "83",
+            "Created": "2022-09-12T14:10:51Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 268,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-09-12T14:10:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/84",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "84",
+            "Created": "2022-11-03T12:16:18Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 269,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-11-03T12:16:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/85",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "85",
+            "Created": "2022-11-03T12:16:18Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 270,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2022-11-03T12:16:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/86",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "86",
+            "Created": "2023-02-09T01:37:17Z",
+            "EntryType": "Oem",
+            "Message": "Correctable Memory Error Threshold Exceeded (Processor 1, DIMM 12).",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 1120,
+                    "Count": 1,
+                    "EventNumber": 271,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0460-gen10",
+                    "RecommendedAction": "Reboot system or re-seat the DIMM and update system firmware. If the issue persists, contact support.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2023-02-09T01:37:17Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/87",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "87",
+            "Created": "2023-02-14T16:12:17Z",
+            "EntryType": "Oem",
+            "Message": "1792-Slot 12 Drive Array - Valid Data Found in Write-Back Cache. Data will automatically be written to drive array. Action: No action required.",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 6034,
+                    "Count": 1,
+                    "EventNumber": 272,
+                    "Severity": "Informational",
+                    "Updated": "2023-02-14T16:12:17Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/88",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "88",
+            "Created": "2023-02-14T16:13:02Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 273,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-02-14T16:13:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/89",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "89",
+            "Created": "2023-02-14T16:13:02Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 274,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-02-14T16:13:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/90",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "90",
+            "Created": "2023-04-05T15:02:55Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 275,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-05T15:02:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/91",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "91",
+            "Created": "2023-04-05T15:02:55Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 276,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-05T15:02:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/92",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "92",
+            "Created": "2023-04-05T18:12:02Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 277,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-05T18:12:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/93",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "93",
+            "Created": "2023-04-05T18:12:03Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 278,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-05T18:12:03Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/94",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "94",
+            "Created": "2023-04-12T14:21:55Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 279,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-12T14:21:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/95",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "95",
+            "Created": "2023-04-12T14:21:55Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 280,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-12T14:21:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/96",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "96",
+            "Created": "2023-04-24T15:47:52Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 281,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-24T15:47:52Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/97",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "97",
+            "Created": "2023-04-24T15:47:52Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 282,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-24T15:47:52Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/98",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "98",
+            "Created": "2023-04-24T16:03:33Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 283,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-24T16:03:33Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/99",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "99",
+            "Created": "2023-04-24T16:03:33Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 284,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-24T16:03:33Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/100",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "100",
+            "Created": "2023-04-24T16:11:36Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 285,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-24T16:11:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/101",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "101",
+            "Created": "2023-04-24T16:11:36Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 286,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-24T16:11:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/102",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "102",
+            "Created": "2023-04-26T14:11:51Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 287,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-26T14:11:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/103",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "103",
+            "Created": "2023-04-26T14:11:51Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 288,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-26T14:11:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/104",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "104",
+            "Created": "2023-04-26T18:16:10Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 289,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-26T18:16:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/105",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "105",
+            "Created": "2023-04-26T18:16:10Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 290,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-04-26T18:16:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/106",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "106",
+            "Created": "2023-05-11T17:28:38Z",
+            "EntryType": "Oem",
+            "Message": "1792-Slot 12 Drive Array - Valid Data Found in Write-Back Cache. Data will automatically be written to drive array. Action: No action required.",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 6034,
+                    "Count": 1,
+                    "EventNumber": 291,
+                    "Severity": "Informational",
+                    "Updated": "2023-05-11T17:28:38Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/107",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "107",
+            "Created": "2023-05-11T17:29:23Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 292,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-05-11T17:29:23Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/108",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "108",
+            "Created": "2023-05-11T17:29:23Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 293,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-05-11T17:29:23Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/109",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "109",
+            "Created": "2023-05-11T17:38:24Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 294,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-05-11T17:38:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/110",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "110",
+            "Created": "2023-05-11T17:38:24Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 295,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-05-11T17:38:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/111",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "111",
+            "Created": "2023-05-31T18:31:49Z",
+            "EntryType": "Oem",
+            "Message": "Server Critical Fault (Service Information: Input Power Loss, Power Supply,  Power Supply 1 (03h))  ",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Other"
+                    ],
+                    "Class": 20,
+                    "ClassDescription": "System Error",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 296,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0014code0x0007-gen10",
+                    "RecommendedAction": "Gather Active Health System logs and create a support case.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2023-05-31T18:31:49Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/112",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "112",
+            "Created": "2023-05-31T18:31:49Z",
+            "EntryType": "Oem",
+            "Message": "Server Critical Fault (Service Information: Input Power Loss, Power Supply,  Power Supply 1 (03h)  Power Supply 2 (03h))  ",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Other"
+                    ],
+                    "Class": 20,
+                    "ClassDescription": "System Error",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 297,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0014code0x0007-gen10",
+                    "RecommendedAction": "Gather Active Health System logs and create a support case.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2023-05-31T18:31:49Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/113",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "113",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 298,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/114",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "114",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 299,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/115",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "115",
+            "Created": "2023-05-31T20:21:56Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 300,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-05-31T20:21:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/116",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "116",
+            "Created": "2023-05-31T20:21:56Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 301,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-05-31T20:21:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/117",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "117",
+            "Created": "2023-08-04T00:22:58Z",
+            "EntryType": "Oem",
+            "Message": "Correctable Memory Error Threshold Exceeded (Processor 1, DIMM 12).",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 1120,
+                    "Count": 1,
+                    "EventNumber": 302,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0460-gen10",
+                    "RecommendedAction": "Reboot system or re-seat the DIMM and update system firmware. If the issue persists, contact support.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2023-08-04T00:22:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/118",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "118",
+            "Created": "2023-09-23T00:02:30Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 303,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-09-23T00:06:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/119",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "119",
+            "Created": "2023-09-23T00:10:01Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 304,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-09-23T00:13:47Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/120",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "120",
+            "Created": "2023-09-25T17:53:29Z",
+            "EntryType": "Oem",
+            "Message": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter Connectivity status changed to OK for adapter in slot 10, port 2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 305,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2023-09-25T17:53:44Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 120
+}

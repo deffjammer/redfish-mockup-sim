@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/PCIeDevices/1",
+    "@odata.type": "#PCIeDevice.v1_9_0.PCIeDevice",
+    "AssetTag": "",
+    "DeviceType": "Simulated",
+    "FirmwareVersion": "",
+    "Id": "1",
+    "Manufacturer": "",
+    "Model": "",
+    "Name": "PCIe Device",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Systems/system/PCIeDevices/1/PCIeFunctions"
+    },
+    "PartNumber": "",
+    "SKU": "",
+    "SerialNumber": ""
+}

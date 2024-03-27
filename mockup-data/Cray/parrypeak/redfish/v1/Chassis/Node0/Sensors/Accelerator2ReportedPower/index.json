@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2ReportedPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Reported",
+    "Id": "Accelerator2ReportedPower",
+    "Oem": {
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 2
+    },
+    "Reading": 92.044,
+    "ReadingTime": "2000-01-09T09:58:27.090917440Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

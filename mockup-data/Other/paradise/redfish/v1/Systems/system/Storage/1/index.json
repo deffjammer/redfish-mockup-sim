@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
+    "@odata.id": "/redfish/v1/Systems/system/Storage/1",
+    "@odata.type": "#Storage.v1_11_0.Storage",
+    "Id": "1",
+    "Description": "Storage System",
+    "Name": "Storage System",
+    "Status": {
+        "State": "Disabled",
+        "Health": "OK"
+    },
+    "Drives": [],
+    "Volumes": {
+        "@odata.id": "/redfish/v1/Systems/system/Storage/1/Volumes"
+    },
+    "StorageControllers": []
+}

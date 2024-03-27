@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643226018",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-26T19:40:18+00:00",
+    "EntryType": "Event",
+    "Id": "1643226018",
+    "Message": "R4K44A Board with serial number HJ20360677 was installed.",
+    "MessageArgs": [
+        "R4K44A",
+        "Board",
+        "HJ20360677"
+    ],
+    "MessageId": "OpenBMC.0.1.InventoryAdded",
+    "Name": "System Event Log Entry",
+    "Severity": "OK"
+}

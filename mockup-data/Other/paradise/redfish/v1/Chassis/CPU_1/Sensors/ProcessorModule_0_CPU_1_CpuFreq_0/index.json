@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/CPU_1/Sensors/ProcessorModule_0_CPU_1_CpuFreq_0",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "ProcessorModule_0_CPU_1_CpuFreq_0",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "ProcessorModule 0 CPU 1 CpuFreq 0",
+    "PhysicalContext": "CPU",
+    "Reading": 81000000.0,
+    "ReadingRangeMax": 4000000000.0,
+    "ReadingRangeMin": 75000000.0,
+    "ReadingType": "Frequency",
+    "ReadingUnits": "Hz",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 75000000.0
+        },
+        "UpperCaution": {
+            "Reading": 4000000000.0
+        }
+    }
+}

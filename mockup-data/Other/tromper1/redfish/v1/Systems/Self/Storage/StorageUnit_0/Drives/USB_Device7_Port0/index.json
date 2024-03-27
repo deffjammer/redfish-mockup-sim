@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.etag": "\"1697465673\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device7_Port0",
+    "@odata.type": "#Drive.v1_11_0.Drive",
+    "AssetTag": null,
+    "BlockSizeBytes": 65535,
+    "CapacityBytes": 65535,
+    "EncryptionAbility": "None",
+    "Id": "USB_Device7_Port0",
+    "IndicatorLED": null,
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/Self"
+        },
+        "Endpoints@odata.count": 0,
+        "Volumes@odata.count": 0
+    },
+    "Manufacturer": "American Megatrends Inc.",
+    "MediaType": "HDD",
+    "Model": "Virtual HDisk Device",
+    "Name": "USB_Device7_Port0",
+    "Protocol": "USB",
+    "ReadyToRemove": true,
+    "Revision": "USB2.00",
+    "SerialNumber": "AAAABBBBCCCC3",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

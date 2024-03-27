@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/Memory",
+    "@odata.type": "#MemoryCollection.MemoryCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Memory/ProcessorModule_0_Memory_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Memory/ProcessorModule_0_Memory_1"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "Memory Module Collection"
+}

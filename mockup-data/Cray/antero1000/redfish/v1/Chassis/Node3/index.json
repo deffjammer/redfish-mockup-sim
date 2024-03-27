@@ -1,0 +1,31 @@
+{
+    "@odata.etag": "W/\"1692638322\"",
+    "@odata.id": "/redfish/v1/Chassis/Node3",
+    "@odata.type": "#Chassis.v1_5_1.Chassis",
+    "AssetTag": "",
+    "ChassisType": "Blade",
+    "Id": "Node3",
+    "Manufacturer": "HPE",
+    "Name": "Node3",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/Node3/NetworkAdapters"
+    },
+    "Oem": {
+        "CrayVoltageMargins": {
+            "@odata.id": "/redfish/v1/Chassis/Node3/Oem/CrayVoltageMargins"
+        }
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/Node3/Power"
+    },
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/Node3/Sensors"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/Node3/Thermal"
+    }
+}

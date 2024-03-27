@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL",
+    "@odata.type": "#LogService.v1_3_0.LogService",
+    "Actions": {
+        "#LogService.ClearLog": {
+            "target": "/redfish/v1/Systems/system/LogServices/ALL/Actions/LogService.ClearLog"
+        }
+    },
+    "DateTime": "2024-02-21T20:26:33+00:00",
+    "DateTimeLocalOffset": "+00:00",
+    "Description": "The LogService schema contains properties for monitoring and configuring a Log Service",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries"
+    },
+    "Id": "ALL",
+    "Name": "SEL Log Service Collection",
+    "OverWritePolicy": "WrapsWhenFull"
+}

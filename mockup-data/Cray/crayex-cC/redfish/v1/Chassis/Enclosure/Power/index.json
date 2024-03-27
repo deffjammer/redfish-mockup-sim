@@ -1,0 +1,51 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Power",
+    "@odata.type": "#Power.v1_4_0.Power",
+    "Description": "Power sensor readings",
+    "Id": "Power",
+    "Name": "Power",
+    "PowerSupplies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Power#/PowerSupplies/500",
+            "Manufacturer": "ABB",
+            "Model": "CC15000H3C380T",
+            "Name": "Rectifier 3",
+            "SerialNumber": "LBGEPE21KZ15040365",
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Power#/PowerSupplies/400",
+            "Manufacturer": "ABB",
+            "Model": "CC15000H3C380T",
+            "Name": "Rectifier 2",
+            "SerialNumber": "LBGEPE21KZ15041590",
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Power#/PowerSupplies/200",
+            "Manufacturer": "ABB",
+            "Model": "CC15000H3C380T",
+            "Name": "Rectifier 0",
+            "SerialNumber": "LBGEPE21KZ15040378",
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Power#/PowerSupplies/300",
+            "Manufacturer": "ABB",
+            "Model": "CC15000H3C380T",
+            "Name": "Rectifier 1",
+            "SerialNumber": "LBGEPE20KZ48044470",
+            "Status": {
+                "State": "Enabled"
+            }
+        }
+    ],
+    "PowerSupplies@odata.count": 4
+}

@@ -1,0 +1,147 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Power.Power",
+    "@odata.etag": "W/\"2A7D101B\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Power",
+    "@odata.type": "#Power.v1_3_0.Power",
+    "Id": "Power",
+    "Name": "PowerMetrics",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpePowerMetricsExt.HpePowerMetricsExt",
+            "@odata.type": "#HpePowerMetricsExt.v2_3_0.HpePowerMetricsExt",
+            "BrownoutRecoveryEnabled": true,
+            "HasCpuPowerMetering": true,
+            "HasDimmPowerMetering": true,
+            "HasGpuPowerMetering": false,
+            "HasPowerMetering": true,
+            "HighEfficiencyMode": "Balanced",
+            "Links": {
+                "PowerMeter": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Power/PowerMeter"
+                },
+                "FastPowerMeter": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Power/FastPowerMeter"
+                },
+                "SlowPowerMeter": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Power/SlowPowerMeter"
+                },
+                "FederatedGroupCapping": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Power/FederatedGroupCapping"
+                }
+            },
+            "MinimumSafelyAchievableCap": null,
+            "MinimumSafelyAchievableCapValid": false,
+            "SNMPPowerThresholdAlert": {
+                "DurationInMin": 0,
+                "ThresholdWatts": 0,
+                "Trigger": "Disabled"
+            }
+        }
+    },
+    "PowerControl": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power#PowerControl/0",
+            "MemberId": "0",
+            "PowerCapacityWatts": 1000,
+            "PowerConsumedWatts": 158,
+            "PowerMetrics": {
+                "AverageConsumedWatts": 158,
+                "IntervalInMin": 20,
+                "MaxConsumedWatts": 173,
+                "MinConsumedWatts": 158
+            }
+        }
+    ],
+    "PowerSupplies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/0",
+            "FirmwareVersion": "1.00",
+            "LastPowerOutputWatts": 85,
+            "LineInputVoltage": 209,
+            "LineInputVoltageType": "ACHighLine",
+            "Manufacturer": "LTEON",
+            "MemberId": "0",
+            "Model": "865408-B21",
+            "Name": "HpeServerPowerSupply",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeServerPowerSupply.HpeServerPowerSupply",
+                    "@odata.type": "#HpeServerPowerSupply.v2_0_0.HpeServerPowerSupply",
+                    "AveragePowerOutputWatts": 85,
+                    "BayNumber": 1,
+                    "HotplugCapable": true,
+                    "MaxPowerOutputWatts": 88,
+                    "Mismatched": false,
+                    "PowerSupplyStatus": {
+                        "State": "Ok"
+                    },
+                    "iPDUCapable": false
+                }
+            },
+            "PowerCapacityWatts": 500,
+            "PowerSupplyType": "AC",
+            "SerialNumber": "5WBXK0FLLE23MV",
+            "SparePartNumber": "866729-001",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/1",
+            "FirmwareVersion": "1.00",
+            "LastPowerOutputWatts": 74,
+            "LineInputVoltage": 210,
+            "LineInputVoltageType": "ACHighLine",
+            "Manufacturer": "LTEON",
+            "MemberId": "1",
+            "Model": "865408-B21",
+            "Name": "HpeServerPowerSupply",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeServerPowerSupply.HpeServerPowerSupply",
+                    "@odata.type": "#HpeServerPowerSupply.v2_0_0.HpeServerPowerSupply",
+                    "AveragePowerOutputWatts": 74,
+                    "BayNumber": 2,
+                    "HotplugCapable": true,
+                    "MaxPowerOutputWatts": 77,
+                    "Mismatched": false,
+                    "PowerSupplyStatus": {
+                        "State": "Ok"
+                    },
+                    "iPDUCapable": false
+                }
+            },
+            "PowerCapacityWatts": 500,
+            "PowerSupplyType": "AC",
+            "SerialNumber": "5WBXK0FLLE23GG",
+            "SparePartNumber": "866729-001",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Redundancy": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power#Redundancy/0",
+            "MaxNumSupported": 2,
+            "MemberId": "0",
+            "MinNumNeeded": 2,
+            "Mode": "Failover",
+            "Name": "PowerSupply Redundancy Group 1",
+            "RedundancySet": [
+                {
+                    "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/0"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/1"
+                }
+            ],
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ]
+}

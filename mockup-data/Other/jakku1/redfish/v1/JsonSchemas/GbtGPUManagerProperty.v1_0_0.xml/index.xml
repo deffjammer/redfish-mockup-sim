@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish Schema:  GBTGPUManager  v1.0.0-->
+<!--#                                                                                      -->
+<!--# For a detailed change log, see the README file contained in the DSP8010 bundle,      -->
+<!--# available at http://www.dmtf.org/standards/redfish                                   -->
+<!--# Copyright 2014-2017 Distributed Management Task Force, Inc. (DMTF).                  -->
+<!--# For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+        <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+    </edmx:Reference>
+    
+    <edmx:Reference Uri="/redfish/v1/JsonSchemas/GbtGPUManagerInformation.v1_0_0.xml">
+        <edmx:Include Namespace="GbtGPUManagerInformation"/>
+        <edmx:Include Namespace="GbtGPUManagerInformation.v1_0_0"/>
+    </edmx:Reference>
+
+    <edmx:Reference Uri="/redfish/v1/JsonSchemas/GbtGPUManagerCapabilities.v1_0_0.xml">
+        <edmx:Include Namespace="GbtGPUManagerCapabilities"/>
+        <edmx:Include Namespace="GbtGPUManagerCapabilities.v1_0_0"/>
+    </edmx:Reference>
+
+    <edmx:Reference Uri="/redfish/v1/JsonSchemas/GbtGPUManagerTemperture.v1_0_0.xml">
+        <edmx:Include Namespace="GbtGPUManagerTemperture"/>
+        <edmx:Include Namespace="GbtGPUManagerTemperture.v1_0_0"/>
+    </edmx:Reference>
+
+    <!-- Bob 20230608 Remove empty json schema GbtGPUManagerMemeory -->
+
+    <edmx:Reference Uri="/redfish/v1/JsonSchemas/GbtGPUManagerStatus.v1_0_0.xml">
+        <edmx:Include Namespace="GbtGPUManagerStatus"/>
+        <edmx:Include Namespace="GbtGPUManagerStatus.v1_0_0"/>
+    </edmx:Reference>
+
+    <edmx:Reference Uri="/redfish/v1/JsonSchemas/GbtGPUManagerPower.v1_0_0.xml">
+        <edmx:Include Namespace="GbtGPUManagerPower"/>
+        <edmx:Include Namespace="GbtGPUManagerPower.v1_0_0"/>
+    </edmx:Reference>
+
+    <!-- Bob 20230608 Remove empty json schema GbtGPUManagerClock -->
+
+    <edmx:DataServices>
+
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="GbtGPUManagerProperty.v1_0_0">
+            <Annotation Term="Redfish.OwningEntity" String="DMTF"/>
+
+            <NavigationProperty Name="Information" Type="GbtGPUManagerInformation.GbtGPUManagerInformation" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="The link to the logs for this chassis."/>
+            <Annotation Term="OData.LongDescription" String="This property shall contain a link to a resource collection of type GbtGPUManagerInformation."/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+
+            <NavigationProperty Name="Capabilities" Type="GbtGPUManagerCapabilities.GbtGPUManagerCapabilities" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="The link to the logs for this chassis."/>
+            <Annotation Term="OData.LongDescription" String="This property shall contain a link to a resource collection of type GbtGPUManagerCapabilities."/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+
+            <NavigationProperty Name="Temperature" Type="GbtGPUManagerTemperture.GbtGPUManagerTemperture" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="The link to the logs for this chassis."/>
+            <Annotation Term="OData.LongDescription" String="This property shall contain a link to a resource collection of type GbtGPUManagerTemperture."/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+
+            <!-- Bob 20230608 Remove empty json schema GbtGPUManagerMemeory -->
+
+            <NavigationProperty Name="Status" Type="GbtGPUManagerStatus.GbtGPUManagerStatus" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="The link to the logs for this chassis."/>
+            <Annotation Term="OData.LongDescription" String="This property shall contain a link to a resource collection of type GbtGPUManagerStatus."/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+
+            <NavigationProperty Name="Power" Type="GbtGPUManagerPower.GbtGPUManagerPower" ContainsTarget="true" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="The link to the logs for this chassis."/>
+            <Annotation Term="OData.LongDescription" String="This property shall contain a link to a resource collection of type GbtGPUManagerPower."/>
+            <Annotation Term="OData.AutoExpandReferences"/>
+            </NavigationProperty>
+
+            <!-- Bob 20230608 Remove empty json schema GbtGPUManagerClock -->
+        </Schema>
+        
+    </edmx:DataServices>
+
+</edmx:Edmx>

@@ -1,0 +1,30 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisChassis0Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisChassis0Temperature",
+    "Name": "NC TEMP SENSOR controller",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis"
+    },
+    "PhysicalContext": "Chassis",
+    "Reading": 33.996,
+    "ReadingTime": "2000-01-09T09:59:15.999864400Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 60
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 70
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 85
+        }
+    }
+}

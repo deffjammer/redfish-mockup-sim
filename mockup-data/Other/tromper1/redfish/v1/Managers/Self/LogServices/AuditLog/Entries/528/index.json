@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1695275539\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/528",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-09-21T05:52:19+00:00",
+    "Description": "Access to the resource located at /bios/defaultSD was allowed.",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-09-21T05:52:19+00:00",
+    "Id": "528",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/bios/defaultSD"
+        }
+    },
+    "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /bios/defaultSD was allowed.",
+    "MessageArgs": [
+        "/bios/defaultSD"
+    ],
+    "MessageId": "Security.1.0.AccessAllowed",
+    "Name": "Audit Log Entry 528",
+    "Severity": "OK"
+}

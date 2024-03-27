@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2VoltageRegulator2MinimumOutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Minimum",
+    "Id": "Accelerator2VoltageRegulator2MinimumOutputVoltage",
+    "Name": "VDD_0V75_HBM_B",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 2,
+        "ReferenceDesignator": "U10075"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0.765,
+    "ReadingTime": "2000-01-09T09:58:40.326765200Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.1
+        }
+    }
+}

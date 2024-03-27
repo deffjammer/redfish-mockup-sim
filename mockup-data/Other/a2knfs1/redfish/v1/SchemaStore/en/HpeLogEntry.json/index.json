@@ -1,0 +1,162 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeLogEntry",
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "description": "The HpeLogEntry resource describes the additional properties for a LogEntry resource.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Categories": {
+            "description": "The log entry categories.",
+            "etag": true,
+            "items": {
+                "enum": [
+                    "Security",
+                    "Hardware",
+                    "Firmware",
+                    "Maintenance",
+                    "Administration",
+                    "Power",
+                    "Cooling",
+                    "Invalid User Input",
+                    "Other",
+                    "Configuration"
+                ],
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "readonly": true,
+            "type": "array"
+        },
+        "Class": {
+            "description": "The log entry event class.",
+            "etag": true,
+            "readonly": true,
+            "type": "integer"
+        },
+        "ClassDescription": {
+            "description": "The log entry event class description.",
+            "etag": true,
+            "readonly": true,
+            "type": "string"
+        },
+        "Severity": {
+            "description": "The log entry event Severity.",
+            "etag": true,
+            "readonly": true,
+            "enum": [
+                "Informational",
+                "Caution",
+                "Critical",
+                "Repaired"
+            ],
+            "enumDescriptions": {
+                "Informational": "Informational event",
+                "Caution": "Caution event",
+                "Critical": "Critical event",
+                "Repaired": "Critical or Caution event repaired"
+            },
+            "type": "string"
+        },
+        "Code": {
+            "description": "The log entry event code.",
+            "etag": true,
+            "readonly": true,
+            "type": "integer"
+        },
+        "Count": {
+            "description": "The occurrence count of the log entry.",
+            "etag": true,
+            "readonly": true,
+            "type": "integer"
+        },
+        "Destination": {
+            "description": "The destination host name or IP address of the remote server that recevied the service event.",
+            "etag": true,
+            "readonly": true,
+            "type": "string"
+        },
+        "EventNumber": {
+            "description": "The event log identification number. Events are numbered in the order in which they are generated.",
+            "etag": true,
+            "readonly": true,
+            "type": "integer"
+        },
+        "Identifier": {
+            "description": "The unique identifier of the service event.",
+            "etag": true,
+            "readonly": true,
+            "type": "string"
+        },
+        "LearnMoreLink": {
+            "description": "The link to troubleshooting information.",
+            "etag": true,
+            "format": "uri-reference",
+            "readonly": true,
+            "type": "string"
+        },
+        "RecommendedAction": {
+            "description": "The recommended action for the event.",
+            "etag": true,
+            "readonly": true,
+            "type": "string"
+        },
+        "UserAction": {
+            "description": "The User action for the event.",
+            "etag": true,
+            "readonly": false,
+            "enum": [
+                "Repaired",
+                "Ignored",
+                "None",
+                "Not Applicable"
+            ],
+            "enumDescriptions": {
+                "Repaired": "The event repaired by user.",
+                "Ignored": "The event ignored by user.",
+                "None": "No user action taken on the event.",
+                "Not Applicable": "User action not applicable for the event."
+            },
+            "type": "string"
+        },
+        "Repaired": {
+            "description": "The repaired status of the IML event.",
+            "etag": true,
+            "readonly": false,
+            "type": "boolean"
+        },
+        "SubmitStatus": {
+            "description": "The service event log submission status .",
+            "etag": true,
+            "readonly": true,
+            "type": "string"
+        },
+        "Updated": {
+            "description": "The date and time of the latest log entry update, for example, 2014-04-15T00:38:00Z.",
+            "etag": true,
+            "format": "date-time",
+            "readonly": true,
+            "type": "string"
+        }
+    },
+    "readonly": false,
+    "required": [
+        "Categories",
+        "EventNumber"
+    ],
+    "title": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+    "type": "object"
+}

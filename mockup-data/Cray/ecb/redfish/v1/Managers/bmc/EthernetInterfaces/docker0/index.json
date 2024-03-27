@@ -1,0 +1,41 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/EthernetInterfaces/docker0",
+    "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+    "DHCPv4": {
+        "DHCPEnabled": false,
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true
+    },
+    "DHCPv6": {
+        "OperatingMode": "Disabled",
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true
+    },
+    "Description": "Management Network Interface",
+    "FQDN": "x9000c3s0b0",
+    "HostName": "x9000c3s0b0",
+    "IPv4Addresses": [],
+    "IPv4StaticAddresses": [],
+    "IPv6AddressPolicyTable": [],
+    "IPv6Addresses": [],
+    "IPv6DefaultGateway": "fe80::8c85:c18b:b8ed:2480",
+    "IPv6StaticAddresses": [],
+    "Id": "docker0",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkDown",
+    "MACAddress": "02:42:6b:19:bb:bf",
+    "Name": "Manager Ethernet Interface",
+    "NameServers": [],
+    "SpeedMbps": 65535,
+    "StaticNameServers": [],
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "VLANs": {
+        "@odata.id": "/redfish/v1/Managers/bmc/EthernetInterfaces/docker0/VLANs"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/8",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-10-26T20:21:42+00:00",
+    "Description": "The resource at /redfish/v1/SessionService/Sessions/5fdcbf590bc94e086dfafe85fb5d7dc3 was successfully added.",
+    "EntryCode": "Informational",
+    "EntryType": "Event",
+    "EventId": "8",
+    "EventTimestamp": "2023-10-26T20:21:42+00:00",
+    "Id": "8",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/5fdcbf590bc94e086dfafe85fb5d7dc3"
+        }
+    },
+    "Message": "The resource at /redfish/v1/SessionService/Sessions/5fdcbf590bc94e086dfafe85fb5d7dc3 was successfully added.",
+    "MessageArgs": [
+        "/redfish/v1/SessionService/Sessions/5fdcbf590bc94e086dfafe85fb5d7dc3"
+    ],
+    "MessageId": "EventLog.1.0.ResourceAdded",
+    "Name": "Log entry 8",
+    "Severity": "OK"
+}

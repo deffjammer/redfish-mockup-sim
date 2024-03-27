@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StorageService.StorageService",
+    "@odata.id": "/redfish/v1/StorageServices/1",
+    "@odata.type": "#StorageService.v1_4_0.StorageService",
+    "Id": "1",
+    "Name": "1",
+    "Description": "A storage service.",
+    "Drives": {
+        "@odata.id": "/redfish/v1/StorageServices/1/Drives"
+    },
+    "Volumes": {
+        "@odata.id": "/redfish/v1/StorageServices/1/Volumes"
+    },
+    "StoragePools": {
+        "@odata.id": "/redfish/v1/StorageServices/1/StoragePools"
+    },
+    "StorageSubsystems": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Storage"
+        }
+    ]
+}

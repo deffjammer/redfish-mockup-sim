@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemSystemBoardTemperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemSystemBoardTemperature",
+    "Name": "PLC Temperature",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "SystemBoard",
+    "Reading": 29.7,
+    "ReadingTime": "2022-03-11T21:43:41.244150924Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

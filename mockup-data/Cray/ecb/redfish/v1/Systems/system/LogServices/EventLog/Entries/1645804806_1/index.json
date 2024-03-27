@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645804806_1",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-02-25T16:00:06+00:00",
+    "EntryType": "Event",
+    "Id": "1645804806_1",
+    "Message": "",
+    "MessageArgs": [
+        "DTS_CPU2",
+        "warning"
+    ],
+    "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedWarning",
+    "Name": "System Event Log Entry",
+    "Severity": ""
+}

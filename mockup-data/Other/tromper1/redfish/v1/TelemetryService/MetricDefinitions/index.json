@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinitionCollection.MetricDefinitionCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions",
+    "@odata.type": "#MetricDefinitionCollection.MetricDefinitionCollection",
+    "Description": "Metric Definitions Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Temperature_Reading"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "MetricDefinitions"
+}

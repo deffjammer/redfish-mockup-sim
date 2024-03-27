@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/PostCodes/Entries",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Description": "Collection of POST Code Log Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/PostCodes/Entries/B1-105",
+            "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+            "Created": "2022-03-01T19:50:26+00:00",
+            "EntryType": "Event",
+            "Id": "B1-105",
+            "Message": "Boot Count: 1: TS Offset: 21.8123; POST Code: 0xa2",
+            "MessageArgs": [
+                "1",
+                "21.8123",
+                "0xa2"
+            ],
+            "MessageId": "OpenBMC.0.1.BIOSPOSTCode",
+            "Name": "POST Code Log Entry",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "BIOS POST Code Log Entries"
+}

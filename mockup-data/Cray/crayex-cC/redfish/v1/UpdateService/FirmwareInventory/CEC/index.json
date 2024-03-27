@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CEC",
+    "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
+    "Description": "Cray Cabinet Environmental Controller",
+    "Id": "CEC",
+    "Name": "CECMicro",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": false,
+    "Version": "v004r001"
+}

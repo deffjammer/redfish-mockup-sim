@@ -1,0 +1,8 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbx/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "A Collection of SecureBoot certificate.",
+    "Members": [],
+    "Members@odata.count": 0,
+    "Name": "SecureBoot Database Certificates Collection"
+}

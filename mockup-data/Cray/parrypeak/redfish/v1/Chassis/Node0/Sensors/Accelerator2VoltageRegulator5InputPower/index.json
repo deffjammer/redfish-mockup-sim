@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2VoltageRegulator5InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator2VoltageRegulator5InputPower",
+    "Name": "VDD_SOCIO_A",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 2,
+        "ReferenceDesignator": "U10070"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 752,
+    "ReadingTime": "2000-01-09T09:58:44.041044720Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

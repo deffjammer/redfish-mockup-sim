@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"1698350713\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Memory/DIMM17",
+    "@odata.type": "#Memory.v1_5_0.Memory",
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 80,
+    "CapacityMiB": 65536,
+    "DataWidthBits": 64,
+    "ErrorCorrection": "Multi-bit ECC",
+    "Id": "DIMM17",
+    "Manufacturer": "SK Hynix",
+    "MemoryDeviceType": "Other",
+    "MemoryLocation": {
+        "Slot": 5,
+        "Socket": 1
+    },
+    "MemoryType": "DRAM",
+    "Name": "DIMM 17",
+    "OperatingSpeedMhz": 4800,
+    "PartNumber": "HMCG94AEBRA103N",
+    "RankCount": 2,
+    "SerialNumber": "13F465D6"
+}

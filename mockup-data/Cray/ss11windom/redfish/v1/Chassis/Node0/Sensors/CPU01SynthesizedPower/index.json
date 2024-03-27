@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"948109193\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU01SynthesizedPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Synthesized",
+    "Id": "CPU01SynthesizedPower",
+    "Name": "CPU0 Aggregate Memory",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0
+    },
+    "Reading": 60,
+    "ReadingTime": "2000-01-17T11:39:57.122560720Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

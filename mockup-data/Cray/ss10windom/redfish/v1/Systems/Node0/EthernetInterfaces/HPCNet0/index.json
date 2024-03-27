@@ -1,0 +1,12 @@
+{
+    "@odata.etag": "W/\"948363022\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet0",
+    "@odata.type": "#EthernetInterface.v1_3_0.EthernetInterface",
+    "Description": "Timms NIC Mezzanine REV04 (HSN)",
+    "Id": "HPCNet0",
+    "MACAddress": "Not Available",
+    "PermanentMACAddress": " 00:40:a6:83:19:9f",
+    "VLANs": {
+        "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet0/VLANs"
+    }
+}

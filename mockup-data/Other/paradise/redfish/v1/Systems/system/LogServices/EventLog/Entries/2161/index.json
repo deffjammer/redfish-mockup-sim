@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/2161",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/2161/attachment",
+    "Created": "2024-01-24T22:22:52+00:00",
+    "EntryType": "Event",
+    "Id": "2161",
+    "Message": "Update.1.0.VerificationFailed",
+    "Modified": "2024-01-24T22:22:52+00:00",
+    "Name": "System Event Log Entry",
+    "Resolved": false,
+    "Severity": "Critical"
+}

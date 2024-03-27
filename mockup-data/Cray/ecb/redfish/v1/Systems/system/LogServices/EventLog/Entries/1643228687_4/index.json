@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643228687_4",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-26T20:24:47+00:00",
+    "EntryType": "Event",
+    "Id": "1643228687_4",
+    "Message": "",
+    "MessageArgs": [
+        "5_0V_FET_DRV_2",
+        "5.400000"
+    ],
+    "MessageId": "ResourceEvent.1.0.3.ResourceErrorThresholdExceeded",
+    "Name": "System Event Log Entry",
+    "Severity": ""
+}

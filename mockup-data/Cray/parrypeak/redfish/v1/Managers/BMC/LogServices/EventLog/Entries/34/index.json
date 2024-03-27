@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/34",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2000-01-04T11:35:57+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2000-01-04T11:35:57+00:00",
+    "Id": "34",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0OutputCurrent"
+        }
+    },
+    "Message": "Sensor 'SIVOC Current' reading of 66.68 (A) is within normal operating range.",
+    "MessageArgs": [
+        "SIVOC Current",
+        "66.68",
+        "A"
+    ],
+    "MessageId": "SensorEvent.SensorReadingNormalRange",
+    "Name": "Log entry 34",
+    "Severity": "OK"
+}

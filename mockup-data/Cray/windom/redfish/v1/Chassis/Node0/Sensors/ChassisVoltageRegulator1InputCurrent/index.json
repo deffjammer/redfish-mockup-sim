@@ -1,0 +1,24 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator1InputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator1InputCurrent",
+    "Name": "IVOC48 IIN ADC",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "J6000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 0.643078,
+    "ReadingTime": "2023-10-26T20:37:51.862154141Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 2.6
+        }
+    }
+}

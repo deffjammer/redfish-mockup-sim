@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/pld_active",
+    "@odata.type": "#SoftwareInventory.v1_7_0.SoftwareInventory",
+    "Description": "CPLD image",
+    "Id": "pld_active",
+    "Name": "Software Inventory",
+    "SoftwareId": "",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": false,
+    "Version": "0x0c"
+}

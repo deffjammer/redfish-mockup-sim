@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputPowerFactor",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemACInputPowerFactor",
+    "Name": "CDU Power Factor",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "ACInput",
+    "Reading": -1,
+    "ReadingTime": "2022-03-11T21:43:41.010059412Z",
+    "ReadingType": "PowerFactor",
+    "ReadingUnits": ""
+}

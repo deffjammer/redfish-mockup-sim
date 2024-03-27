@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/CPU_1/Sensors/ProcessorModule_0_MemCntl_1_Freq_0",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "ProcessorModule_0_MemCntl_1_Freq_0",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "ProcessorModule 0 MemCntl 1 Freq 0",
+    "PhysicalContext": "Memory",
+    "Reading": 4266000000.0,
+    "ReadingRangeMax": 4300000000.0,
+    "ReadingRangeMin": 500000000.0,
+    "ReadingType": "Frequency",
+    "ReadingUnits": "Hz",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 664000000.0
+        },
+        "UpperCaution": {
+            "Reading": 4267000000.0
+        }
+    }
+}

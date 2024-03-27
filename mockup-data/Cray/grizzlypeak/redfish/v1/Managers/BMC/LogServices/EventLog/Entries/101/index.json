@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"947221113\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/101",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2000-01-01T15:39:32+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2000-01-01T15:39:32+00:00",
+    "Id": "101",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The resource property gpu2 Power has detected errors of type SensorReadError.",
+    "MessageArgs": [
+        "gpu2 Power",
+        "SensorReadError"
+    ],
+    "MessageId": "ResourceEvent.ResourceErrorsDetected",
+    "Name": "Log entry 101",
+    "Severity": "Warning"
+}

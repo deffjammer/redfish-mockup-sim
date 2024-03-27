@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#USBControllersCollection.USBControllersCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Systems/Self/USBControllers",
+    "@odata.type": "#USBControllerCollection.USBControllerCollection",
+    "Description": "Collection of USBControllers",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/USBControllers/DevTypeC_USB_0"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "USBControllers Collection"
+}

@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/Rectifier0Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Rectifier0Temperature",
+    "Name": "Rectifier",
+    "Oem": {
+        "Index": 0
+    },
+    "PhysicalContext": "Rectifier",
+    "Reading": 28,
+    "ReadingTime": "2022-03-11T21:43:40.243773094Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

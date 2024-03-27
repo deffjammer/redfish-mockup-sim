@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"1699022245\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator6InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator6InputVoltage",
+    "Name": "48V->12V Converter",
+    "Oem": {
+        "Index": 6,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "VRM1"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 47.5,
+    "ReadingTime": "2023-11-03T14:37:33.649225710Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

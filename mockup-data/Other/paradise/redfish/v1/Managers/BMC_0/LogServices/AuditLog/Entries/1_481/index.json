@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_481",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-26T14:32:10+00:00",
+    "EntryType": "Oem",
+    "Id": "1_481",
+    "Message": "ost Hard Reset",
+    "Name": "Log Entry 1_481",
+    "Severity": null
+}

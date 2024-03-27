@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Role.Role",
+    "@odata.etag": "W/\"1698351295\"",
+    "@odata.id": "/redfish/v1/AccountService/Roles/HostInterfaceAdministrator",
+    "@odata.type": "#Role.v1_2_4.Role",
+    "AssignedPrivileges": [
+        "ConfigureManager",
+        "ConfigureSelf",
+        "Login",
+        "ConfigureUsers",
+        "ConfigureComponents"
+    ],
+    "Description": "Host Interface Administrator",
+    "Id": "HostInterfaceAdministrator",
+    "IsPredefined": true,
+    "Name": "Host Interface Administrator",
+    "OemPrivileges": [
+        "ConfigureHostInterface"
+    ],
+    "RoleId": "HostInterfaceAdministrator"
+}

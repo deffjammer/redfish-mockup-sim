@@ -1,0 +1,46 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"DBB868A1\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/1",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "1",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "08.50.78"
+        }
+    },
+    "Name": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter",
+    "PartNumber": "AH2010414-31  A",
+    "PhysicalPorts": [
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": "LinkUp",
+            "MacAddress": "14:02:ec:da:4b:29",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0,
+            "Status": {
+                "Health": "OK"
+            }
+        }
+    ],
+    "SerialNumber": "FEE2039H18782",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "StructuredName": "OCP.Slot.10.1",
+    "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)"
+}

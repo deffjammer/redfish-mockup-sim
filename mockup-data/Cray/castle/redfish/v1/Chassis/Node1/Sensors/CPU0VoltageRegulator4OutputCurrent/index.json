@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1647264578\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU0VoltageRegulator4OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator4OutputCurrent",
+    "Name": "CPU0 VCCINFAON S0",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3016"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 17,
+    "ReadingTime": "2022-03-14T13:29:40.084407683Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A"
+}

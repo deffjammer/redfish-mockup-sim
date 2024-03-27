@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StoragePool.StoragePool",
+    "@odata.id": "/redfish/v1/StorageServices/1/StoragePools/RAIDPool1",
+    "@odata.type": "#StoragePool.v1_3_1.StoragePool",
+    "Id": "RAIDPool1",
+    "Name": "RAIDPool1",
+    "Description": "A container of data storage.",
+    "Capacity": {
+        "Data": {
+            "AllocatedBytes": 0
+        }
+    },
+    "Links": {
+        "DedicatedSpareDrives": []
+    }
+}

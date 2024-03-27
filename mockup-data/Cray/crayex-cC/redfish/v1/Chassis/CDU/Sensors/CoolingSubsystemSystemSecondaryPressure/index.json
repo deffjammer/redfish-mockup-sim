@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemSystemSecondaryPressure",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Secondary",
+    "Id": "CoolingSubsystemSystemSecondaryPressure",
+    "Name": "Secondary (Cabinet) System Differential Pressure",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "System",
+    "Reading": 17,
+    "ReadingTime": "2022-03-11T21:43:43.019297581Z",
+    "ReadingType": "Pressure",
+    "ReadingUnits": "PSI"
+}

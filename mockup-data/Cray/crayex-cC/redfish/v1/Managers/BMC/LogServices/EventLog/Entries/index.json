@@ -1,0 +1,124 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-07T20:31:57+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-07T20:31:57+00:00",
+            "Id": "1",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+                }
+            },
+            "Message": "Successfully completed SimpleUpdate request",
+            "MessageArgs": [],
+            "MessageId": "HPEFirmwareUpdate.SimpleUpdateSuccess",
+            "Name": "Log entry 1",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/2",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-07T20:32:02+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-07T20:32:02+00:00",
+            "Id": "2",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/CDU"
+                }
+            },
+            "Message": "General CDU alarm engaged",
+            "MessageArgs": [],
+            "MessageId": "HPE_CDUAlarms.GeneralAlarm",
+            "Name": "Log entry 2",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/3",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-07T20:32:10+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-07T20:32:10+00:00",
+            "Id": "3",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/VoltageRegulator0InputVoltage"
+                }
+            },
+            "Message": "The STBY 3.3V Voltage resource has detected a critical fault indicating that it is far below normal operating conditions.",
+            "MessageArgs": [
+                "below",
+                "STBY 3.3V Voltage"
+            ],
+            "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+            "Name": "Log entry 3",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/4",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-08T18:07:39+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-08T18:07:39+00:00",
+            "Id": "4",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/CDU"
+                }
+            },
+            "Message": "General CDU alarm cleared",
+            "MessageArgs": [],
+            "MessageId": "HPE_CDUAlarms.GeneralAlarmCleared",
+            "Name": "Log entry 4",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/5",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-10T21:17:15+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-10T21:17:15+00:00",
+            "Id": "5",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Enclosure"
+                }
+            },
+            "Message": "Sensor 'A' of the redundant leak sensors in the 'Front' cabinet zone has detected a leak.",
+            "MessageArgs": [
+                "A",
+                "Front"
+            ],
+            "MessageId": "CrayAlerts.CabinetLeakDetected",
+            "Name": "Log entry 5",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/6",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-10T21:17:35+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-10T21:17:35+00:00",
+            "Id": "6",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Enclosure"
+                }
+            },
+            "Message": "All cabinet leak sensors have deactivated, and are reading dry values.",
+            "MessageArgs": [],
+            "MessageId": "CrayAlerts.CabinetLeakCleared",
+            "Name": "Log entry 6",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 6,
+    "Name": "Log Service Entries Collection"
+}

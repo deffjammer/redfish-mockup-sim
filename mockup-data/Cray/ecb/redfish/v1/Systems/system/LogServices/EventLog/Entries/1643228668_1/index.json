@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643228668_1",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-26T20:24:28+00:00",
+    "EntryType": "Event",
+    "Id": "1643228668_1",
+    "Message": "D380S840A Board with serial number 204210042 was installed.",
+    "MessageArgs": [
+        "D380S840A",
+        "Board",
+        "204210042"
+    ],
+    "MessageId": "OpenBMC.0.1.InventoryAdded",
+    "Name": "System Event Log Entry",
+    "Severity": "OK"
+}

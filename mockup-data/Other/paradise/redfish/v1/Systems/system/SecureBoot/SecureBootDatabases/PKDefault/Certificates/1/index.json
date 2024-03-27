@@ -1,0 +1,9 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/PKDefault/Certificates/1",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\nMIIDEzCCAfugAwIBAgIQZF7N3o6uZopIMB79uIeS/zANBgkqhkiG9w0BAQsFADAc\nMRowGAYDVQQDExFETyBOT1QgVFJVU1QgLSBQSzAeFw0xMTA1MTYyMzAyMDJaFw0x\nMjExMTYyMzAyMDFaMBwxGjAYBgNVBAMTEURPIE5PVCBUUlVTVCAtIFBLMIIBIjAN\nBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnClZCJovKPzoStjY4NkaR1KjFBD1\nN5VQi32FWj6QQMoobNzLFCljYm+HubB0viVNwIp12JBzknFDVLmMSzNPYAiTEuOS\nAkkq75uJn/17P+FQx8Z+ZzpYT7+hvGiL2pKK89QVxh9tvpMyG1B/WjCRIjXTt0MA\nbrBImFRg4RFCIHbrqkBpFV5q4JuaDAHUcOf6yCAfQheOs2qX1nKIP2G4XvbfCGX+\nk/6YRkEfszkk0U5NnQOoMjsRcczAdaKLayDH/xe4Lp1XSZsVIsQmgPOcxYm82ypA\nG0SF6q3BlUoER7q0eCd3FJi5iDqKhuB1G5kvZ2ikP3HTnVG6/l97Yu6EjQIDAQAB\no1EwTzBNBgNVHQEERjBEgBDSDBJvhCEAVXttwU0zOEi9oR4wHDEaMBgGA1UEAxMR\nRE8gTk9UIFRSVVNUIC0gUEuCEGRezd6OrmaKSDAe/biHkv8wDQYJKoZIhvcNAQEL\nBQADggEBAFUzTY6yIE78q33/mGQ2ygURUx8EbPXfb8yx+WRCOMFqtvuL67K9jJsm\nYXXV73OQSaH5jIYca3M7Mv2x3WHogMlsjm+9UQ3G770adpPcNSop8/WqbzNZC3CF\nDA3kbIpUOtmtD9aiXllHt8vS8ksR9FGn+quR4lX0ezfcpZgMShTtSITz3Gkkm1jC\niMYhNFt8pXUZJiV5qIhpMLxrH/09/pqwt/tECtW93vABYclOUgo5DM7BW44y56i/\nMq3aQA+kwCf+HAQaMwDI1zJkUIXEO5eQTxV6lqP2t57v+b7X7Ysi8gZNXZvtzT59\nArJLyVX/Rf319cg7S7+Wx1dCBW7/ruc=\n-----END CERTIFICATE-----\n",
+    "CertificateType": "PEM",
+    "Description": "Certificate for SecureBootDatabase",
+    "Id": "1",
+    "Name": "Certificate "
+}

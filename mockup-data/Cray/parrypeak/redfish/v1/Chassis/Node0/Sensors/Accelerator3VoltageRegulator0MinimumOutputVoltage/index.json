@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator0MinimumOutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Minimum",
+    "Id": "Accelerator3VoltageRegulator0MinimumOutputVoltage",
+    "Name": "VDDCR_VDD0",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14067"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0.85,
+    "ReadingTime": "2000-01-09T09:58:47.609783680Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.1
+        }
+    }
+}

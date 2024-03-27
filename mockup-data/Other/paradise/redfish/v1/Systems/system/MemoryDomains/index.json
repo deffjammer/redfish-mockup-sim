@@ -1,0 +1,9 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/MemoryDomains",
+    "@odata.context": "/redfish/v1/$metadata#MemoryDomainCollection.MemoryDomainCollection",
+    "@odata.type": "#MemoryDomainCollection.MemoryDomainCollection",
+    "Name": "MemoryDomainCollection",
+    "Description": "The collection of MemoryDomain Resource instances.",
+    "Members@odata.count": 0,
+    "Members": []
+}

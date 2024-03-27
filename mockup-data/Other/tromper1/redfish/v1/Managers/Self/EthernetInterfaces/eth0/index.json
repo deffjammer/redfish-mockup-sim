@@ -1,0 +1,59 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Managers/Self/EthernetInterfaces/eth0",
+    "@odata.type": "#EthernetInterface.v1_6_2.EthernetInterface",
+    "AutoNeg": true,
+    "DHCPv4": {
+        "DHCPEnabled": true
+    },
+    "DHCPv6": {
+        "OperatingMode": "Stateless"
+    },
+    "Description": "Ethernet Interface eth0",
+    "FQDN": "AMIB47AF1B47401.head-bmc.cm.hpc.amslabs.hpecorp.net",
+    "FullDuplex": true,
+    "HostName": "AMIB47AF1B47401",
+    "IPv4Addresses": [
+        {
+            "Address": "172.24.0.30",
+            "AddressOrigin": "DHCP",
+            "Gateway": "",
+            "SubnetMask": "255.255.0.0"
+        }
+    ],
+    "IPv6Addresses": [
+        {
+            "Address": "fe80::b67a:f1ff:feb4:7401",
+            "AddressOrigin": "LinkLocal",
+            "PrefixLength": 64
+        }
+    ],
+    "IPv6DefaultGateway": null,
+    "Id": "eth0",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "B4:7A:F1:B4:74:01",
+    "MTUSize": 1500,
+    "MaxIPv6StaticAddresses": 16,
+    "Name": "eth0",
+    "PermanentMACAddress": "B4:7A:F1:B4:74:01",
+    "SpeedMbps": 1000,
+    "StatelessAddressAutoConfig": {
+        "IPv4AutoConfigEnabled": false,
+        "IPv6AutoConfigEnabled": false
+    },
+    "StaticNameServers": [
+        null,
+        null,
+        null
+    ],
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VLAN": {
+        "VLANEnable": false,
+        "VLANId": 0
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/Pwm_PSU1_Fan_1",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "Pwm_PSU1_Fan_1",
+    "Name": "Pwm PSU1 Fan 1",
+    "Reading": 0.0,
+    "ReadingRangeMax": 100.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Percent",
+    "ReadingUnits": "%",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

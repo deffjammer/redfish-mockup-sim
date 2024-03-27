@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator17InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator3VoltageRegulator17InputPower",
+    "Name": "VDD_0V75_USR",
+    "Oem": {
+        "Index": 16,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14071"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 756,
+    "ReadingTime": "2000-01-09T09:58:57.466504160Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

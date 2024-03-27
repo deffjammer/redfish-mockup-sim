@@ -1,0 +1,49 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet",
+    "@odata.etag": "W/\"B45FB575\"",
+    "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+    "@odata.type": "#HpeComponentInstallSet.v1_1_0.HpeComponentInstallSet",
+    "Id": "a74b22b6",
+    "Actions": {
+        "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke"
+        }
+    },
+    "Created": "2021-05-24T16:26:29Z",
+    "Description": "Essential System Firmware Components",
+    "IsRecovery": true,
+    "Modified": "2021-05-24T16:26:29Z",
+    "Name": "System Recovery Set",
+    "Sequence": [
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/56ba9fb9",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "A43_2.40_02_23_2021.signed.flash",
+            "Name": "System BIOS - A43",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/af7342a0",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "ilo5_241.bin",
+            "Name": "iLO 5",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/9904d1c8",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "CPLD_DL325_DL345_Gen10PV2_V19_signed.vme",
+            "Name": "System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        }
+    ]
+}

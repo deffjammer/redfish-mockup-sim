@@ -1,0 +1,53 @@
+{
+    "@odata.id": "/redfish/v1/EventService",
+    "@odata.type": "#EventService.v1_8_0.EventService",
+    "Actions": {
+        "#EventService.SubmitTestEvent": {
+            "target": "/redfish/v1/EventService/Actions/EventService.SubmitTestEvent"
+        }
+    },
+    "DeliveryRetryAttempts": 3,
+    "DeliveryRetryIntervalSeconds": 30,
+    "EventFormatTypes": [
+        "Event",
+        "MetricReport"
+    ],
+    "Id": "EventService",
+    "IncludeOriginOfConditionSupported": true,
+    "Name": "Event Service",
+    "RegistryPrefixes": [
+        "Base",
+        "OpenBMC",
+        "TaskEvent",
+        "ResourceEvent"
+    ],
+    "ResourceTypes": [
+        "Task"
+    ],
+    "SMTP": {
+        "Authentication": "None",
+        "ConnectionProtocol": "None",
+        "FromAddress": "",
+        "Password": null,
+        "Port": 0,
+        "ServerAddress": "",
+        "Username": ""
+    },
+    "SSEFilterPropertiesSupported": {
+        "EventFormatType": true,
+        "MessageId": true,
+        "MetricReportDefinition": true,
+        "OriginResource": false,
+        "RegistryPrefix": true,
+        "ResourceType": false
+    },
+    "ServiceEnabled": true,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubordinateResourcesSupported": false,
+    "Subscriptions": {
+        "@odata.id": "/redfish/v1/EventService/Subscriptions"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1/EnvironmentMetrics",
+    "@odata.type": "#EnvironmentMetrics.v1_2_0.EnvironmentMetrics",
+    "EnergyJoules": {
+        "DataSourceUri": "/redfish/v1/Chassis/CPU_1/Sensors/ProcessorModule_0_CPU_1_Energy_0",
+        "Reading": 358874.0
+    },
+    "EnergykWh": {
+        "Reading": 0.099687222301972
+    },
+    "Id": "Environment Metrics",
+    "Name": "CPU_1 Environment Metrics",
+    "PowerLimitWatts": {
+        "Reading": 3.37
+    },
+    "PowerWatts": {
+        "DataSourceUri": "/redfish/v1/Chassis/CPU_1/Sensors/ProcessorModule_0_Vreg_1_SocPower_0",
+        "Reading": 3.37
+    },
+    "TemperatureCelsius": {
+        "DataSourceUri": "/redfish/v1/Chassis/CPU_1/Sensors/ProcessorModule_0_CPU_1_TempLimit_0",
+        "Reading": 55.094
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator14MinimumOutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Minimum",
+    "Id": "Accelerator3VoltageRegulator14MinimumOutputVoltage",
+    "Name": "VDD_0V75_HBM_D",
+    "Oem": {
+        "Index": 14,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14074"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0.7375,
+    "ReadingTime": "2000-01-09T09:58:53.848513680Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.1
+        }
+    }
+}

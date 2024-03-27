@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1698352518\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/23",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-06-13T17:10:58+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-06-13T17:10:58+00:00",
+    "Id": "23",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The resource property PDB INRUSH ACCEL0 Voltage has cleared the warning threshold of value 36.4.",
+    "MessageArgs": [
+        "PDB INRUSH ACCEL0 Voltage",
+        "-1333802660"
+    ],
+    "MessageId": "ResourceEvent.ResourceWarningThresholdCleared",
+    "Name": "Log entry 23",
+    "Severity": "OK"
+}

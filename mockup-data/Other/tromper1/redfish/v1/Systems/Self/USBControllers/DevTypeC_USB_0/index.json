@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#USBController.USBController",
+    "@odata.etag": "\"1697465673\"",
+    "@odata.id": "/redfish/v1/Systems/Self/USBControllers/DevTypeC_USB_0",
+    "@odata.type": "#USBController.v1_0_0.USBController",
+    "Id": "DevTypeC_USB_0",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_69_00"
+        }
+    },
+    "Name": "DevTypeC_USB_0",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Systems/Self/USBControllers/DevTypeC_USB_0/Ports"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"F43C384C\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/72",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "72",
+    "Created": "2022-04-21T18:12:50Z",
+    "EntryType": "Oem",
+    "Message": "At least one of the links is up in adapter Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter in slot 10",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 14,
+            "Count": 1,
+            "EventNumber": 257,
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2022-04-21T18:15:06Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

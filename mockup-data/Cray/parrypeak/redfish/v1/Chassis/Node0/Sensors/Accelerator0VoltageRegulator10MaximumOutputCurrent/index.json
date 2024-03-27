@@ -1,0 +1,34 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator10MaximumOutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Maximum",
+    "Id": "Accelerator0VoltageRegulator10MaximumOutputCurrent",
+    "Name": "VDDCR_VDD1",
+    "Oem": {
+        "Index": 10,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2068"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 7,
+    "ReadingTime": "2000-01-09T09:57:44.355123920Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 700
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 750
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 831
+        }
+    }
+}

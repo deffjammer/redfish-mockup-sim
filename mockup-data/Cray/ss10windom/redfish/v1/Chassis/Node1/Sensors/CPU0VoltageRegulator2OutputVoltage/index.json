@@ -1,0 +1,45 @@
+{
+    "@odata.etag": "W/\"948362986\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU0VoltageRegulator2OutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator2OutputVoltage",
+    "Name": "CPU0 VCORE",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3001"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0.797,
+    "ReadingTime": "2000-01-20T10:09:58.761295600Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 0.484251
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 0.46863
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.442595
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 1.31075
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 1.3475
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 1.40875
+        }
+    }
+}

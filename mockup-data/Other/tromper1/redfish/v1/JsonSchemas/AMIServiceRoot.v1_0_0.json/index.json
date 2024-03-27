@@ -1,0 +1,49 @@
+{
+    "$ref": "#/definitions/AMIServiceRoot",
+    "$schema": "http://redfish.dmtf.org/schemas/v1/redfish-schema.v1_1_0.json",
+    "definitions": {
+        "AMIServiceRoot": {
+            "additionalProperties": false,
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message|Privileges)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+                    "description": "This property shall specify a valid odata or Redfish property.",
+                    "type": [
+                        "array",
+                        "boolean",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ]
+                }
+            },
+            "properties": {
+                "@odata.type": {
+                    "$ref": "http://redfish.dmtf.org/schemas/v1/odata.4.0.0.json#/definitions/type"
+                },
+                "AutonomousCrashDump": {
+                    "$ref": "/redfish/v1/JsonSchemas/AMIAutonomousCrashDump.json#/definitions/AMIAutonomousCrashDump",
+                    "description": "This allows additional debug logs related to AutonomousCrashDump feature"
+                },
+                "Configurations": {
+                    "$ref": "/redfish/v1/JsonSchemas/AMIConfigurations.v1_0_0.json#/definitions/AMIConfigurations"
+                },
+                "CupsService": {
+                    "$ref": "/redfish/v1/JsonSchemas/CupsService.json#/definitions/CupsService",
+                    "description": "The link to the Cups Service.",
+                    "longDescription": "This property shall contain a link to a Resource of type CupsService.",
+                    "readonly": true
+                },
+                "InventoryDataStatus": {
+                    "$ref": "/redfish/v1/JsonSchemas/AMIInventoryStatus.v1_0_0.json#/definitions/InventoryStatus"
+                },
+                "RtpVersion": {
+                    "description": "This property shall specify Rtp version.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "title": "#AMIServiceRoot.v1_0_0.AMIServiceRoot"
+}

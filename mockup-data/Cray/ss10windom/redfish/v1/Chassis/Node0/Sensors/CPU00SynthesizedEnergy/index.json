@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"948363022\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU00SynthesizedEnergy",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Synthesized",
+    "Id": "CPU00SynthesizedEnergy",
+    "Name": "CPU0 Aggregate",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0
+    },
+    "Reading": 46378124,
+    "ReadingTime": "2000-01-20T10:10:31.768161920Z",
+    "ReadingType": "EnergyJoules",
+    "ReadingUnits": "J"
+}

@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_536",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-29T23:14:04+00:00",
+    "EntryType": "Oem",
+    "Id": "1_536",
+    "Message": "172.24.0.1][root][IPMI][CMD]IPMI Command CMD_SET_LAN_CONFIGURATION_PARAMETERS, NetFN 0xc, CMD 0x1, Channel 12",
+    "Name": "Log Entry 1_536",
+    "Severity": null
+}

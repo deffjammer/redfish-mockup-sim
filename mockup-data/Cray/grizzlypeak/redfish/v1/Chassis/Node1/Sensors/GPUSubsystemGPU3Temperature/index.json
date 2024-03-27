@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"947221095\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/GPUSubsystemGPU3Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "GPUSubsystemGPU3Temperature",
+    "Name": "gpu3",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "GPUSubsystem"
+    },
+    "PhysicalContext": "GPU",
+    "Reading": 27,
+    "ReadingTime": "2000-01-07T04:58:27.805575840Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

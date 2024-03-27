@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/2",
+    "@odata.type": "#Signature.v1_0_2.Signature",
+    "Description": "This resource contains a signature for a Redfish implementation.",
+    "Id": "2",
+    "Name": "dbxDefaultSignature 2",
+    "SignatureString": "F52F83A3FA9CFBD6920F722824DBE4034534D25B8507246B3B957DAC6E1BCE7A",
+    "SignatureType": "EFI_CERT_SHA256_GUID",
+    "SignatureTypeRegistry": "UEFI",
+    "UefiSignatureOwner": "77FA9ABD-0359-4D32-BD60-28F4E78F784B"
+}

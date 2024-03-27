@@ -1,0 +1,39 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_0.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/system/Bios/Settings"
+        }
+    },
+    "@odata.id": "/redfish/v1/Systems/system/Bios",
+    "@odata.type": "#Bios.v1_1_0.Bios",
+    "Actions": {
+        "#Bios.ChangePassword": {
+            "target": "/redfish/v1/Systems/system/Bios/Actions/Bios.ChangePassword"
+        },
+        "#Bios.ResetBios": {
+            "target": "/redfish/v1/Systems/system/Bios/Actions/Bios.ResetBios"
+        }
+    },
+    "AttributeRegistry": "BiosAttributeRegistry",
+    "Attributes": null,
+    "DebugEnabled": true,
+    "Description": "BIOS Configuration Service",
+    "Id": "BIOS",
+    "Links": {
+        "ActiveSoftwareImage": {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/bios_active"
+        },
+        "SoftwareImages": [
+            {
+                "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/bios_active"
+            }
+        ],
+        "SoftwareImages@odata.count": 1
+    },
+    "MemoryMode": "Flat",
+    "Name": "BIOS Configuration",
+    "SncEnabled": false,
+    "StolenMemoryEnabled": false,
+    "StolenMemorySize": 4096
+}

@@ -1,0 +1,35 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board00Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0ASIC0Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0DCBus0Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0SystemBoard0Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0SystemBoard0Voltage"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0VoltageRegulator0Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0VoltageRegulator0Power"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0VoltageRegulator0Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0VoltageRegulator0Voltage"
+        }
+    ],
+    "Members@odata.count": 9
+}

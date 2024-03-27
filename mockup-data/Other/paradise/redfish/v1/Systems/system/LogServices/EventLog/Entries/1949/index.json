@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1949",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1949/attachment",
+    "Created": "2023-10-25T06:21:30+00:00",
+    "EntryType": "Event",
+    "Id": "1949",
+    "Message": "Host Powered ON.",
+    "Modified": "2023-10-25T06:21:30+00:00",
+    "Name": "System Event Log Entry",
+    "Resolved": false,
+    "Severity": "OK"
+}

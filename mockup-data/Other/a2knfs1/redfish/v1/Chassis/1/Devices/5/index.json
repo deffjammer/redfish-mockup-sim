@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"0717A9AC\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/5",
+    "@odata.type": "#HpeServerDevice.v2_0_0.HpeServerDevice",
+    "Id": "5",
+    "DeviceType": "Unknown",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "N/A"
+        }
+    },
+    "Location": "Mezzanine Slot 12",
+    "Manufacturer": "",
+    "Name": "Empty slot 12",
+    "PartNumber": "",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "",
+    "Status": {
+        "State": "Absent"
+    }
+}

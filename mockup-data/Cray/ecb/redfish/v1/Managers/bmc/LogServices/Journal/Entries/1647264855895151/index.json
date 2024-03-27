@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/LogServices/Journal/Entries/1647264855895151",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-03-14T13:34:15+00:00",
+    "EntryType": "Oem",
+    "Id": "1647264855895151",
+    "Message": "bmcweb: pam_unix(webserver:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root",
+    "Name": "BMC Journal Entry",
+    "OemRecordFormat": "BMC Journal Entry",
+    "Severity": "OK"
+}

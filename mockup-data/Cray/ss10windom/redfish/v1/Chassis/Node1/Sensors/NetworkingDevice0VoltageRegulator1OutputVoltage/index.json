@@ -1,0 +1,41 @@
+{
+    "@odata.etag": "W/\"948362986\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/NetworkingDevice0VoltageRegulator1OutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "NetworkingDevice0VoltageRegulator1OutputVoltage",
+    "Name": "NMC0 NIC1 VDD_3V3_S0",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "NetworkingDevice",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U2004"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 3.328,
+    "ReadingTime": "2000-01-20T10:09:52.620821920Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 3.135
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 2.97
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 3.465
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 3.63
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 3.874
+        }
+    }
+}

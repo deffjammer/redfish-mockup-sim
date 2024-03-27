@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/LogServices/Journal/Entries/1647189974929920",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-03-13T16:46:14+00:00",
+    "EntryType": "Oem",
+    "Id": "1647189974929920",
+    "Message": "bmcweb: pam_succeed_if(webserver:auth): requirement \"user ingroup redfish\" was met by user \"admin\"",
+    "Name": "BMC Journal Entry",
+    "OemRecordFormat": "BMC Journal Entry",
+    "Severity": "OK"
+}

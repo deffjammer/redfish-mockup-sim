@@ -1,0 +1,121 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet0/Oem/Hpe/CassiniMetrics",
+    "@odata.type": "#CassiniMetrics.v1_0_0.CassiniMetrics",
+    "Actions": {
+        "#HpeCassiniMetrics.SetMetricAddress": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet0/Oem/Hpe/CassiniMetrics/SetMetricAddressActionInfo",
+            "target": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet0/Oem/Hpe/CassiniMetrics/Actions/HpeCassiniMetrics.SetMetricAddress"
+        }
+    },
+    "Id": "CassiniMetrics",
+    "Metric0": {
+        "Description": "This counter indicates the number of RS codewords that contained errors and that have been corrected.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_CORRECTED_CW",
+        "Reading": 1420547627,
+        "ReadingTime": "2023-10-26T20:38:18.281469673Z"
+    },
+    "Metric1": {
+        "Description": "This counter indicates the number of codewords received with no errors.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_GOOD_CW",
+        "Reading": 222881796293000.0,
+        "ReadingTime": "2023-10-26T20:38:18.287781282Z"
+    },
+    "Metric10": {
+        "Description": "This counter indicates the number of lossless frames transmitted with a good FCS.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_LLR_TX_OK_LOSSLESS",
+        "Reading": 0,
+        "ReadingTime": "2023-10-26T20:38:17.477493362Z"
+    },
+    "Metric11": {
+        "Description": "This counter indicates the number of lossless frames received with a good FCS.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_LLR_RX_OK_LOSSLESS",
+        "Reading": 6695262,
+        "ReadingTime": "2023-10-26T20:38:17.485092507Z"
+    },
+    "Metric2": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_0",
+        "Reading": 535339,
+        "ReadingTime": "2023-10-26T20:38:18.293749708Z"
+    },
+    "Metric3": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_1",
+        "Reading": 24123032,
+        "ReadingTime": "2023-10-26T20:38:18.365012597Z"
+    },
+    "Metric4": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_2",
+        "Reading": 2259619,
+        "ReadingTime": "2023-10-26T20:38:18.371088217Z"
+    },
+    "Metric5": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_3",
+        "Reading": 26028901,
+        "ReadingTime": "2023-10-26T20:38:18.377307511Z"
+    },
+    "Metric6": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_4",
+        "Reading": 443887971,
+        "ReadingTime": "2023-10-26T20:38:18.383359053Z"
+    },
+    "Metric7": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_5",
+        "Reading": 776082859,
+        "ReadingTime": "2023-10-26T20:38:18.389780097Z"
+    },
+    "Metric8": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_6",
+        "Reading": 501903,
+        "ReadingTime": "2023-10-26T20:38:17.465003177Z"
+    },
+    "Metric9": {
+        "Description": "This array of counters indicate the number of errors in each FECL.",
+        "MetricSizeBits": 56,
+        "MetricState": "Enabled",
+        "MetricType": "Counter",
+        "Name": "C_CNTR_HNI_PCS_FECL_ERRORS_7",
+        "Reading": 147574556,
+        "ReadingTime": "2023-10-26T20:38:17.471786363Z"
+    },
+    "Name": "Metrics for the Cassini NIC"
+}

@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"1698350656\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisVoltageRegulator0InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator0InputPower",
+    "Name": "12V_HSS ECB",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U2"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 143,
+    "ReadingTime": "2023-10-26T20:04:32.373497042Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

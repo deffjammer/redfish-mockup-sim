@@ -1,0 +1,20 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator11MaximumOutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Maximum",
+    "Id": "Accelerator3VoltageRegulator11MaximumOutputPower",
+    "Name": "VDD_1V8_S0",
+    "Oem": {
+        "Index": 10,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14068"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 15,
+    "ReadingTime": "2000-01-09T09:58:50.114222320Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

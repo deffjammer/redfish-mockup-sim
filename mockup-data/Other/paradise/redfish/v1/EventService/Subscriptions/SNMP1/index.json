@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/EventService/Subscriptions/SNMP1",
+    "@odata.type": "#EventDestination.v1_12_0.EventDestination",
+    "Context": "SNMPTrap",
+    "Destination": "snmp://172.24.0.1:162",
+    "Id": "SNMP1",
+    "Name": "Event Destination SNMP1",
+    "Protocol": "SNMPv1",
+    "SNMP": {
+        "TrapCommunity": "sgi"
+    },
+    "SubscriptionType": "SNMPTrap"
+}

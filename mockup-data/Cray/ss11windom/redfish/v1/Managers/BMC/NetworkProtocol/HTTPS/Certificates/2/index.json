@@ -1,0 +1,8 @@
+{
+    "@odata.etag": "W/\"948109178\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates/2",
+    "Certificate": [],
+    "Description": "Certificate Details",
+    "KeyUsage": "ClientAuthentication",
+    "Name": "Certificate"
+}

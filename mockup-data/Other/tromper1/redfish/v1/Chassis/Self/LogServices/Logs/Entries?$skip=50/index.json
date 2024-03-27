@@ -1,0 +1,1062 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1697473873\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/729",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:40:59+00:00",
+            "Description": "LOG 6403",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:40:58+00:00",
+            "Id": "729",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Deassertion event, Event_Data_2 : 74, Timestamp : 2023-09-28T18:40:58+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6403, Sensor_Type : Temperature, ",
+            "MessageId": "0x574A4B",
+            "Name": "LOG 6403",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/730",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:41:00+00:00",
+            "Description": "LOG 6404",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:40:58+00:00",
+            "Id": "730",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Deassertion event, Event_Data_2 : 69, Timestamp : 2023-09-28T18:40:58+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6404, Sensor_Type : Temperature, ",
+            "MessageId": "0x594555",
+            "Name": "LOG 6404",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/731",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:41:00+00:00",
+            "Description": "LOG 6405",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:40:58+00:00",
+            "Id": "731",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Deassertion event, Event_Data_2 : 69, Timestamp : 2023-09-28T18:40:58+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6405, Sensor_Type : Temperature, ",
+            "MessageId": "0x57454B",
+            "Name": "LOG 6405",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/732",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:41:01+00:00",
+            "Description": "LOG 6406",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:41:01+00:00",
+            "Id": "732",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Deassertion event, Event_Data_2 : 73, Timestamp : 2023-09-28T18:41:01+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6406, Sensor_Type : Temperature, ",
+            "MessageId": "0x57494B",
+            "Name": "LOG 6406",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/733",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:41:45+00:00",
+            "Description": "LOG 6407",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:41:45+00:00",
+            "Id": "733",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 69, Event_Dir : Deassertion event, Event_Data_2 : 79, Timestamp : 2023-09-28T18:41:45+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6407, Sensor_Type : Temperature, ",
+            "MessageId": "0x574F50",
+            "Name": "LOG 6407",
+            "SensorNumber": 69,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/734",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:43:20+00:00",
+            "Description": "LOG 6408",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:43:20+00:00",
+            "Id": "734",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 20, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T18:43:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6408, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6408",
+            "SensorNumber": 20,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/735",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:43:26+00:00",
+            "Description": "LOG 6409",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:43:26+00:00",
+            "Id": "735",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 18, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T18:43:26+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6409, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6409",
+            "SensorNumber": 18,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/736",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:44:21+00:00",
+            "Description": "LOG 6410",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:44:21+00:00",
+            "Id": "736",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 61, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T18:44:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6410, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6410",
+            "SensorNumber": 61,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/737",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:46:09+00:00",
+            "Description": "LOG 6411",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:46:09+00:00",
+            "Id": "737",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Assertion event, Event_Data_2 : 75, Timestamp : 2023-09-28T18:46:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6411, Sensor_Type : Temperature, ",
+            "MessageId": "0x574B4B",
+            "Name": "LOG 6411",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/738",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:46:32+00:00",
+            "Description": "LOG 6412",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:46:32+00:00",
+            "Id": "738",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Assertion event, Event_Data_2 : 76, Timestamp : 2023-09-28T18:46:32+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6412, Sensor_Type : Temperature, ",
+            "MessageId": "0x574C4B",
+            "Name": "LOG 6412",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/739",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:46:33+00:00",
+            "Description": "LOG 6413",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:46:32+00:00",
+            "Id": "739",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Assertion event, Event_Data_2 : 78, Timestamp : 2023-09-28T18:46:32+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6413, Sensor_Type : Temperature, ",
+            "MessageId": "0x574E4B",
+            "Name": "LOG 6413",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/740",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:46:56+00:00",
+            "Description": "LOG 6414",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:46:56+00:00",
+            "Id": "740",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Assertion event, Event_Data_2 : 77, Timestamp : 2023-09-28T18:46:56+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6414, Sensor_Type : Temperature, ",
+            "MessageId": "0x574D4B",
+            "Name": "LOG 6414",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/741",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:47:42+00:00",
+            "Description": "LOG 6415",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:47:42+00:00",
+            "Id": "741",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Assertion event, Event_Data_2 : 85, Timestamp : 2023-09-28T18:47:42+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6415, Sensor_Type : Temperature, ",
+            "MessageId": "0x595555",
+            "Name": "LOG 6415",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/742",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:47:42+00:00",
+            "Description": "LOG 6416",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:47:42+00:00",
+            "Id": "742",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Assertion event, Event_Data_2 : 85, Timestamp : 2023-09-28T18:47:42+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6416, Sensor_Type : Temperature, ",
+            "MessageId": "0x595555",
+            "Name": "LOG 6416",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/743",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:48:05+00:00",
+            "Description": "LOG 6417",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:48:05+00:00",
+            "Id": "743",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Assertion event, Event_Data_2 : 85, Timestamp : 2023-09-28T18:48:05+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6417, Sensor_Type : Temperature, ",
+            "MessageId": "0x595555",
+            "Name": "LOG 6417",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/744",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:48:06+00:00",
+            "Description": "LOG 6418",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:48:05+00:00",
+            "Id": "744",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 61, Event_Dir : Assertion event, Event_Data_2 : 40, Timestamp : 2023-09-28T18:48:05+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6418, Sensor_Type : Temperature, ",
+            "MessageId": "0x572828",
+            "Name": "LOG 6418",
+            "SensorNumber": 61,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/745",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:48:28+00:00",
+            "Description": "LOG 6419",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:48:28+00:00",
+            "Id": "745",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 18, Event_Dir : Assertion event, Event_Data_2 : 40, Timestamp : 2023-09-28T18:48:28+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6419, Sensor_Type : Temperature, ",
+            "MessageId": "0x572828",
+            "Name": "LOG 6419",
+            "SensorNumber": 18,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/746",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:48:28+00:00",
+            "Description": "LOG 6420",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:48:28+00:00",
+            "Id": "746",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 20, Event_Dir : Assertion event, Event_Data_2 : 40, Timestamp : 2023-09-28T18:48:28+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6420, Sensor_Type : Temperature, ",
+            "MessageId": "0x572828",
+            "Name": "LOG 6420",
+            "SensorNumber": 20,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/747",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:49:38+00:00",
+            "Description": "LOG 6421",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:49:38+00:00",
+            "Id": "747",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Assertion event, Event_Data_2 : 86, Timestamp : 2023-09-28T18:49:38+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6421, Sensor_Type : Temperature, ",
+            "MessageId": "0x595655",
+            "Name": "LOG 6421",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/748",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:50:25+00:00",
+            "Description": "LOG 6422",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:50:25+00:00",
+            "Id": "748",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 24, Event_Dir : Assertion event, Event_Data_2 : 75, Timestamp : 2023-09-28T18:50:25+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6422, Sensor_Type : Temperature, ",
+            "MessageId": "0x574B4B",
+            "Name": "LOG 6422",
+            "SensorNumber": 24,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/749",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:50:25+00:00",
+            "Description": "LOG 6423",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:50:25+00:00",
+            "Id": "749",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 26, Event_Dir : Assertion event, Event_Data_2 : 75, Timestamp : 2023-09-28T18:50:25+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6423, Sensor_Type : Temperature, ",
+            "MessageId": "0x574B4B",
+            "Name": "LOG 6423",
+            "SensorNumber": 26,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/750",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:51:11+00:00",
+            "Description": "LOG 6424",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:51:11+00:00",
+            "Id": "750",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 69, Event_Dir : Assertion event, Event_Data_2 : 80, Timestamp : 2023-09-28T18:51:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6424, Sensor_Type : Temperature, ",
+            "MessageId": "0x575050",
+            "Name": "LOG 6424",
+            "SensorNumber": 69,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/751",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:51:34+00:00",
+            "Description": "LOG 6425",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:51:34+00:00",
+            "Id": "751",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 22, Event_Dir : Assertion event, Event_Data_2 : 75, Timestamp : 2023-09-28T18:51:34+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6425, Sensor_Type : Temperature, ",
+            "MessageId": "0x574B4B",
+            "Name": "LOG 6425",
+            "SensorNumber": 22,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/752",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:44+00:00",
+            "Description": "LOG 6426",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "752",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 22, Event_Dir : Deassertion event, Event_Data_2 : 61, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6426, Sensor_Type : Temperature, ",
+            "MessageId": "0x573D4B",
+            "Name": "LOG 6426",
+            "SensorNumber": 22,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/753",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:44+00:00",
+            "Description": "LOG 6427",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "753",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Deassertion event, Event_Data_2 : 68, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6427, Sensor_Type : Temperature, ",
+            "MessageId": "0x594455",
+            "Name": "LOG 6427",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/754",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:44+00:00",
+            "Description": "LOG 6428",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "754",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Deassertion event, Event_Data_2 : 68, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6428, Sensor_Type : Temperature, ",
+            "MessageId": "0x57444B",
+            "Name": "LOG 6428",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/755",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:44+00:00",
+            "Description": "LOG 6429",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "755",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 24, Event_Dir : Deassertion event, Event_Data_2 : 62, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6429, Sensor_Type : Temperature, ",
+            "MessageId": "0x573E4B",
+            "Name": "LOG 6429",
+            "SensorNumber": 24,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/756",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:45+00:00",
+            "Description": "LOG 6430",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "756",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Deassertion event, Event_Data_2 : 71, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6430, Sensor_Type : Temperature, ",
+            "MessageId": "0x594755",
+            "Name": "LOG 6430",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/757",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:45+00:00",
+            "Description": "LOG 6431",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "757",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Deassertion event, Event_Data_2 : 71, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6431, Sensor_Type : Temperature, ",
+            "MessageId": "0x57474B",
+            "Name": "LOG 6431",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/758",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:45+00:00",
+            "Description": "LOG 6432",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "758",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 26, Event_Dir : Deassertion event, Event_Data_2 : 60, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6432, Sensor_Type : Temperature, ",
+            "MessageId": "0x573C4B",
+            "Name": "LOG 6432",
+            "SensorNumber": 26,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/759",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:45+00:00",
+            "Description": "LOG 6433",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "759",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Deassertion event, Event_Data_2 : 71, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6433, Sensor_Type : Temperature, ",
+            "MessageId": "0x594755",
+            "Name": "LOG 6433",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/760",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:45+00:00",
+            "Description": "LOG 6434",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "760",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Deassertion event, Event_Data_2 : 71, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6434, Sensor_Type : Temperature, ",
+            "MessageId": "0x57474B",
+            "Name": "LOG 6434",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/761",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:45+00:00",
+            "Description": "LOG 6435",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "761",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Deassertion event, Event_Data_2 : 65, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6435, Sensor_Type : Temperature, ",
+            "MessageId": "0x594155",
+            "Name": "LOG 6435",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/762",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:52:46+00:00",
+            "Description": "LOG 6436",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:52:44+00:00",
+            "Id": "762",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Deassertion event, Event_Data_2 : 65, Timestamp : 2023-09-28T18:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6436, Sensor_Type : Temperature, ",
+            "MessageId": "0x57414B",
+            "Name": "LOG 6436",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/763",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:53:16+00:00",
+            "Description": "LOG 6437",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:53:16+00:00",
+            "Id": "763",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 69, Event_Dir : Deassertion event, Event_Data_2 : 79, Timestamp : 2023-09-28T18:53:16+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6437, Sensor_Type : Temperature, ",
+            "MessageId": "0x574F50",
+            "Name": "LOG 6437",
+            "SensorNumber": 69,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/764",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:54:53+00:00",
+            "Description": "LOG 6438",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:54:53+00:00",
+            "Id": "764",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 20, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T18:54:53+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6438, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6438",
+            "SensorNumber": 20,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/765",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:54:58+00:00",
+            "Description": "LOG 6439",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:54:58+00:00",
+            "Id": "765",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 18, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T18:54:58+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6439, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6439",
+            "SensorNumber": 18,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/766",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T18:55:51+00:00",
+            "Description": "LOG 6440",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T18:55:51+00:00",
+            "Id": "766",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 61, Event_Dir : Deassertion event, Event_Data_2 : 39, Timestamp : 2023-09-28T18:55:51+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6440, Sensor_Type : Temperature, ",
+            "MessageId": "0x572728",
+            "Name": "LOG 6440",
+            "SensorNumber": 61,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/767",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:01:15+00:00",
+            "Description": "LOG 6441",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:01:15+00:00",
+            "Id": "767",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 68, Event_Dir : Deassertion event, Event_Data_2 : 79, Timestamp : 2023-09-28T19:01:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6441, Sensor_Type : Temperature, ",
+            "MessageId": "0x574F50",
+            "Name": "LOG 6441",
+            "SensorNumber": 68,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/768",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:01:21+00:00",
+            "Description": "LOG 6442",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:01:21+00:00",
+            "Id": "768",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 68, Event_Dir : Assertion event, Event_Data_2 : 80, Timestamp : 2023-09-28T19:01:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6442, Sensor_Type : Temperature, ",
+            "MessageId": "0x575050",
+            "Name": "LOG 6442",
+            "SensorNumber": 68,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/769",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:01:37+00:00",
+            "Description": "LOG 6443",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:01:37+00:00",
+            "Id": "769",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 68, Event_Dir : Deassertion event, Event_Data_2 : 79, Timestamp : 2023-09-28T19:01:37+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6443, Sensor_Type : Temperature, ",
+            "MessageId": "0x574F50",
+            "Name": "LOG 6443",
+            "SensorNumber": 68,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/770",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:04:40+00:00",
+            "Description": "LOG 6444",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:04:40+00:00",
+            "Id": "770",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 68, Event_Dir : Assertion event, Event_Data_2 : 80, Timestamp : 2023-09-28T19:04:40+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 80, Event_Type : Upper Non-critical - going high, Record_ID : 6444, Sensor_Type : Temperature, ",
+            "MessageId": "0x575050",
+            "Name": "LOG 6444",
+            "SensorNumber": 68,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/771",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:05:03+00:00",
+            "Description": "LOG 6445",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:05:03+00:00",
+            "Id": "771",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Assertion event, Event_Data_2 : 77, Timestamp : 2023-09-28T19:05:03+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6445, Sensor_Type : Temperature, ",
+            "MessageId": "0x574D4B",
+            "Name": "LOG 6445",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/772",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:05:04+00:00",
+            "Description": "LOG 6446",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:05:03+00:00",
+            "Id": "772",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Assertion event, Event_Data_2 : 75, Timestamp : 2023-09-28T19:05:03+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6446, Sensor_Type : Temperature, ",
+            "MessageId": "0x574B4B",
+            "Name": "LOG 6446",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/773",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:05:26+00:00",
+            "Description": "LOG 6447",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:05:26+00:00",
+            "Id": "773",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 23, Event_Dir : Assertion event, Event_Data_2 : 77, Timestamp : 2023-09-28T19:05:26+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6447, Sensor_Type : Temperature, ",
+            "MessageId": "0x574D4B",
+            "Name": "LOG 6447",
+            "SensorNumber": 23,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/774",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:05:50+00:00",
+            "Description": "LOG 6448",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:05:50+00:00",
+            "Id": "774",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 29, Event_Dir : Assertion event, Event_Data_2 : 76, Timestamp : 2023-09-28T19:05:50+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 75, Event_Type : Upper Non-critical - going high, Record_ID : 6448, Sensor_Type : Temperature, ",
+            "MessageId": "0x574C4B",
+            "Name": "LOG 6448",
+            "SensorNumber": 29,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/775",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:06:36+00:00",
+            "Description": "LOG 6449",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:06:36+00:00",
+            "Id": "775",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 25, Event_Dir : Assertion event, Event_Data_2 : 86, Timestamp : 2023-09-28T19:06:36+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6449, Sensor_Type : Temperature, ",
+            "MessageId": "0x595655",
+            "Name": "LOG 6449",
+            "SensorNumber": 25,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/776",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:07:00+00:00",
+            "Description": "LOG 6450",
+            "EntryCode": "Upper Critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:07:00+00:00",
+            "Id": "776",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 27, Event_Dir : Assertion event, Event_Data_2 : 85, Timestamp : 2023-09-28T19:07:00+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 85, Event_Type : Upper Critical - going high, Record_ID : 6450, Sensor_Type : Temperature, ",
+            "MessageId": "0x595555",
+            "Name": "LOG 6450",
+            "SensorNumber": 27,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/777",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:07:22+00:00",
+            "Description": "LOG 6451",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:07:22+00:00",
+            "Id": "777",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 18, Event_Dir : Assertion event, Event_Data_2 : 40, Timestamp : 2023-09-28T19:07:22+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6451, Sensor_Type : Temperature, ",
+            "MessageId": "0x572828",
+            "Name": "LOG 6451",
+            "SensorNumber": 18,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/778",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-28T19:07:23+00:00",
+            "Description": "LOG 6452",
+            "EntryCode": "Upper Non-critical - going high",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-09-28T19:07:22+00:00",
+            "Id": "778",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 87, Record_Type : system event record, Sensor_Number : 20, Event_Dir : Assertion event, Event_Data_2 : 40, Timestamp : 2023-09-28T19:07:22+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 40, Event_Type : Upper Non-critical - going high, Record_ID : 6452, Sensor_Type : Temperature, ",
+            "MessageId": "0x572828",
+            "Name": "LOG 6452",
+            "SensorNumber": 20,
+            "SensorType": "Temperature",
+            "Severity": "Warning"
+        }
+    ],
+    "Members@odata.count": 150,
+    "Members@odata.nextLink": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries?$skip=100",
+    "Name": "Log Service Entries Collection"
+}

@@ -1,0 +1,44 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"1698351295\"",
+    "@odata.id": "/redfish/v1/Managers/Self/Certificates/ASD",
+    "@odata.type": "#Certificate.v1_5_0.Certificate",
+    "Actions": {
+        "#Certificate.Rekey": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Certificates/ASD/Certificate.RekeyActionInfo",
+            "target": "/redfish/v1/Managers/Self/Certificates/ASD/Actions/Certificate.Rekey"
+        },
+        "#Certificate.Renew": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Certificates/ASD/Certificate.RenewActionInfo",
+            "target": "/redfish/v1/Managers/Self/Certificates/ASD/Actions/Certificate.Renew"
+        }
+    },
+    "CertificateString": "-----BEGIN CERTIFICATE-----\nMIIC9DCCAl2gAwIBAgIUDi4RYU7laB/hH1oJvOuqWYECakIwDQYJKoZIhvcNAQEL\nBQAwgYsxCzAJBgNVBAYTAklOMREwDwYDVQQIDAhUYW1pTmFkdTEQMA4GA1UEBwwH\nQ2hlbm5haTEMMAoGA1UECgwDQU1JMRAwDgYDVQQLDAdNZWdhcmFjMRAwDgYDVQQD\nDAdNZWdhcmFjMSUwIwYJKoZIhvcNAQkBFhZ0ZXN0YW1pQGFtaWluZGlhLmNvLmlu\nMB4XDTIwMDIwNjA2NTMzNloXDTIxMDIwNTA2NTMzNlowgYsxCzAJBgNVBAYTAklO\nMREwDwYDVQQIDAhUYW1pTmFkdTEQMA4GA1UEBwwHQ2hlbm5haTEMMAoGA1UECgwD\nQU1JMRAwDgYDVQQLDAdNZWdhcmFjMRAwDgYDVQQDDAdNZWdhcmFjMSUwIwYJKoZI\nhvcNAQkBFhZ0ZXN0YW1pQGFtaWluZGlhLmNvLmluMIGfMA0GCSqGSIb3DQEBAQUA\nA4GNADCBiQKBgQDZpwVQnznUrC//nnqSNCGx28yW1xdYyWSvTJ6vd4CuGoUNiKx5\nktxO5wcf0d66Um51HOM8VkpC8I3T4iJ0dQMAHgx3GaeAwuRjkNuHK1HL9RqV+UBk\n7VO/IKlxW8/OIMNCFcr0koIqnc4FwcWZy/CuXiaxbQbN6s3K8/wCM5ooHwIDAQAB\no1MwUTAdBgNVHQ4EFgQU9U4vD9s7SEcmtqA0lMjYqptGi1QwHwYDVR0jBBgwFoAU\n9U4vD9s7SEcmtqA0lMjYqptGi1QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0B\nAQsFAAOBgQCEeizHnrl0rn5UHE/b6R4lC+4CR8HI/mOPO8ROVbUljefUYm8pEcFw\nKX0ZOpO/DFIWHnKYZdrIFJyPBNZoZGxtXZ9EY6QhzyE5hqndI0JC45IcLw/9O5aa\nvtHwnhcjTW7+i1ACRGOjJLtVxQ7HNzTMbfNH4F7jKOEnJ4xAsESIYg==\n-----END CERTIFICATE-----",
+    "CertificateType": "PEM",
+    "Description": "Intel ASD SSL Certificate",
+    "Id": "ASD",
+    "Issuer": {
+        "City": "Chennai",
+        "CommonName": "Megarac",
+        "Country": "IN",
+        "Email": "testami@amiindia.co.in",
+        "Organization": "AMI",
+        "OrganizationalUnit": "Megarac",
+        "State": "TamiNadu"
+    },
+    "KeyUsage": [
+        null
+    ],
+    "Name": "ASD Certificate",
+    "Subject": {
+        "City": "Chennai",
+        "CommonName": "Megarac",
+        "Country": "IN",
+        "Email": "testami@amiindia.co.in",
+        "Organization": "AMI",
+        "OrganizationalUnit": "Megarac",
+        "State": "TamiNadu"
+    },
+    "ValidNotAfter": "2021-2-5T06:53:36+00:00",
+    "ValidNotBefore": "2020-2-6T06:53:36+00:00"
+}

@@ -1,0 +1,40 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/VirtualMedia/1",
+    "@odata.type": "#VirtualMedia.v1_5_1.VirtualMedia",
+    "Actions": {
+        "#VirtualMedia.EjectMedia": {
+            "target": "/redfish/v1/Managers/BMC_0/VirtualMedia/1/Actions/VirtualMedia.EjectMedia"
+        },
+        "#VirtualMedia.InsertMedia": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/BMC_0/VirtualMedia/1/InsertMediaActionInfo",
+            "target": "/redfish/v1/Managers/BMC_0/VirtualMedia/1/Actions/VirtualMedia.InsertMedia"
+        },
+        "Oem": {
+            "#VirtualMedia.Certificate": {
+                "target": "/redfish/v1/Managers/BMC_0/VirtualMedia/1/Actions/Oem/VirtualMedia.Certificate"
+            }
+        }
+    },
+    "ConnectedVia": "NotConnected",
+    "Id": "1",
+    "Image": null,
+    "Inserted": false,
+    "MediaTypes": [
+        "CD",
+        "DVD",
+        "Floppy",
+        "USBStick"
+    ],
+    "Name": "Virtual Removable Media",
+    "Password": null,
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "TransferMethod": "Stream",
+    "TransferProtocolType": "OEM",
+    "UserName": "",
+    "VerifyCertificate": false,
+    "WriteProtected": true
+}

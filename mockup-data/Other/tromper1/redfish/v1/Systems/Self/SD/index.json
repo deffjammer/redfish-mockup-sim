@@ -1,0 +1,53 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+    "@odata.etag": "\"1698351702\"",
+    "@odata.id": "/redfish/v1/Systems/Self/SD",
+    "@odata.type": "#ComputerSystem.v1_15_0.ComputerSystem",
+    "AssetTag": "123456-123456       ",
+    "Boot": {
+        "AliasBootOrder": [],
+        "BootNext": null,
+        "BootOrder": [
+            "Boot0002",
+            "Boot0003",
+            "Boot0004",
+            "Boot0000"
+        ],
+        "BootOrderPropertySelection": "BootOrder",
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideEnabled@Redfish.AllowableValues": [
+            "Disabled",
+            "Once",
+            "Continuous"
+        ],
+        "BootSourceOverrideMode": null,
+        "BootSourceOverrideMode@Redfish.AllowableValues": [
+            "Legacy",
+            "UEFI"
+        ],
+        "BootSourceOverrideTarget": "None",
+        "BootSourceOverrideTarget@Redfish.AllowableValues": [
+            "None",
+            "Pxe",
+            "Floppy",
+            "Cd",
+            "Usb",
+            "Hdd",
+            "BiosSetup",
+            "Utilities",
+            "Diags",
+            "UefiShell",
+            "UefiTarget",
+            "SDCard",
+            "UefiHttp",
+            "RemoteDrive",
+            "UefiBootNext"
+        ],
+        "HttpBootUri": null,
+        "UefiTargetBootSourceOverride": null
+    },
+    "Description": "System Self",
+    "Id": "Self",
+    "Name": "System",
+    "SystemType": "Physical"
+}

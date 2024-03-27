@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish Schema:  AMINVMeMIPort  v1.0.0                                              -->
+<!--#                                                                                      -->
+<!--# Copyright American Megatrends, Inc. (AMI).                                           -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+    <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+  </edmx:Reference>
+  <edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="AMINVMeMIPort">
+      <Annotation Term="Redfish.OwningEntity" String="AMI"/>
+
+      <ComplexType Name="AMINVMeMIPort" Abstract="true">
+        <Annotation Term="OData.Description" String="This schemas defines the properties and actions which is used in the NVMe Ports."/>
+        <Annotation Term="OData.LongDescription" String="This schemas defines the properties and actions which is used in the NVMe Ports."/>
+        <Annotation Term="Capabilities.InsertRestrictions">
+          <Record>
+            <PropertyValue Property="Insertable" Bool="false"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.UpdateRestrictions">
+          <Record>
+            <PropertyValue Property="Updatable" Bool="true"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.DeleteRestrictions">
+          <Record>
+            <PropertyValue Property="Deletable" Bool="false"/>
+          </Record>
+        </Annotation>
+      </ComplexType>
+    </Schema>
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="AMINVMeMIPort.v1_0_0">
+        <Annotation Term="Redfish.OwningEntity" String="AMI"/>
+        <ComplexType Name="AMINVMeMIPort" BaseType="AMINVMeMIPort.AMINVMeMIPort">
+	<Annotation Term="OData.Description" String="This is the schema definition for the AMINVMeMIPort."/>
+            <Property Name="PortInformation"  Type="AMINVMeMIPort.v1_0_0.PortInformation"  Nullable="false">
+                <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+                <Annotation Term="OData.Description" String="Indicates the properties related to NVMeMISubSystemInformation"/>
+                <Annotation Term="OData.LongDescription" String="Indicates the properties related to NVMeMISubSystemInformation"/>
+	    </Property>
+        </ComplexType>
+	<ComplexType Name="PortInformation">
+        <Property Name="PortNo" Type="Edm.Int64" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the AvailableSpare of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the AvailableSpare of the NVMe-MI Subsystem"/>
+          </Property>
+		 <Property Name="PortStatus" Type="Edm.String" Nullable="false">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the CompositeTempChange of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the CompositeTempChange of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="PortType" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the ControllerEnableChangeOccured of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the ControllerEnableChangeOccured of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="CurrentLinkSpeed" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the CurrentLinkSpeed of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the CurrentLinkSpeed of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="MaxLinkWidth" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the MaxLinkWidth of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the MaxLinkWidth of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="MaxMCTPTransUnitSize" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the MaxMCTPTransUnitSize of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the MaxMCTPTransUnitSize of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="MaxPayloadSize" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the MaxPayloadSize status of the NVMe-MI Subsystem."/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the MaxPayloadSize status of the NVMe-MI Subsystem."/>
+          </Property>
+		<Property Name="NegotiatedLinkWidth" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the NegotiatedLinkWidth status of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the NegotiatedLinkWidth status of the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="SupportedLinkSpeeds" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the SupportedLinkSpeeds status of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the SupportedLinkSpeeds status of the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="CurrentAddress" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the CurrentAddress of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the CurrentAddress of the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="MaxFrequency" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the MaxFrequency status of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the MaxFrequency the NVMe-MI Subsystem"/>
+          </Property>
+		<Property Name="NVMeBasicManagementCommand" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the NVMeBasicManagementCommand of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the NVMeBasicManagementCommand of the NVMe-MI Subsystem"/>
+          </Property>
+		  <Property Name="EndPointAddress" Type="Edm.Int64">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the EndPointAddress of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the EndPointAddress of the NVMe-MI Subsystem"/>
+          </Property>
+		  <Property Name="MaxEndPointFrequency" Type="Edm.String">
+            <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+            <Annotation Term="OData.Description" String="This property shall specify the MaxEndPointFrequency of the NVMe-MI Subsystem"/>
+            <Annotation Term="OData.LongDescription" String="This property shall specify the MaxEndPointFrequency of the NVMe-MI Subsystem"/>
+          </Property>
+		</ComplexType>
+	
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

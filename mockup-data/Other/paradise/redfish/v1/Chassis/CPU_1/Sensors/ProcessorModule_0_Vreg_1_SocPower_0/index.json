@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/CPU_1/Sensors/ProcessorModule_0_Vreg_1_SocPower_0",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "ProcessorModule_0_Vreg_1_SocPower_0",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "ProcessorModule 0 Vreg 1 SocPower 0",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 3.399,
+    "ReadingRangeMax": 10000.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 0.0
+        },
+        "UpperCaution": {
+            "Reading": 10000.0
+        }
+    }
+}

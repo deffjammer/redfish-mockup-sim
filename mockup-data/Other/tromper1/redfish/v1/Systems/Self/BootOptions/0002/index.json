@@ -1,0 +1,20 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_2_2.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/Self/BootOptions/0002/SD"
+        }
+    },
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "\"1697474075\"",
+    "@odata.id": "/redfish/v1/Systems/Self/BootOptions/0002",
+    "@odata.type": "#BootOption.v1_0_3.BootOption",
+    "Alias": "Pxe",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0002",
+    "Description": "UEFI: PXE IPv4 Intel(R) I210 Gigabit  Network Connection",
+    "DisplayName": "UEFI: PXE IPv4 Intel(R) I210 Gigabit  Network Connection",
+    "Id": "0002",
+    "Name": "Boot0002",
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x5,0x3)/Pci(0x0,0x0)/MAC(B47AF1B47400,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)"
+}

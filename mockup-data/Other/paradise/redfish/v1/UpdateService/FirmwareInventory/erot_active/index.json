@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/erot_active",
+    "@odata.type": "#SoftwareInventory.v1_7_0.SoftwareInventory",
+    "Description": "EROT image",
+    "Id": "erot_active",
+    "Name": "Software Inventory",
+    "SoftwareId": "",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": false,
+    "Version": "01.03.0114.0000_n01"
+}

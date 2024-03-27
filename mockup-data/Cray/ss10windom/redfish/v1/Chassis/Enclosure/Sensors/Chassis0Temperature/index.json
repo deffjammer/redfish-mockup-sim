@@ -1,0 +1,29 @@
+{
+    "@odata.etag": "W/\"948362986\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/Chassis0Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Chassis0Temperature",
+    "Name": "NC TEMP SENSOR ambient",
+    "Oem": {
+        "Index": 0
+    },
+    "PhysicalContext": "Chassis",
+    "Reading": 33,
+    "ReadingTime": "2000-01-20T10:10:10.334253600Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 60
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 70
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 85
+        }
+    }
+}

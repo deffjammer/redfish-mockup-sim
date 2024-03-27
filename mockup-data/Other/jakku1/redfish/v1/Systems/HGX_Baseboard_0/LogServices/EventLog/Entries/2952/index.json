@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2952",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2952/attachment",
+    "Created": "2023-09-19T19:03:56+00:00",
+    "EntryType": "Event",
+    "Id": "2952",
+    "Message": "The resource property GPU_SXM_3 Firmware has detected errors of type 'WriteProtected'.",
+    "MessageArgs": [
+        "GPU_SXM_3 Firmware",
+        "WriteProtected"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "If WP enabled, ERoT/AP shall not be able to update SPI. This is a HW protection.",
+    "Resolved": false,
+    "Severity": "Critical"
+}

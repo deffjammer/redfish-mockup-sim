@@ -1,0 +1,44 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPUSubsystemVoltageRegulator4InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPUSubsystemVoltageRegulator4InputVoltage",
+    "Name": "CPUS VDD_3V3_S5",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "CPUSubsystem",
+        "ReferenceDesignator": "U6002"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 11.844,
+    "ReadingTime": "2023-10-26T20:37:48.442487416Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 10.8
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 10.2
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 10
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 12.6
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 12.84
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 15.16
+        }
+    }
+}

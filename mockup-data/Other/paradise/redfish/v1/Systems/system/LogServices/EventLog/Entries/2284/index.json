@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/2284",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/2284/attachment",
+    "Created": "2024-02-08T18:40:15+00:00",
+    "EntryType": "Event",
+    "Id": "2284",
+    "Message": "Automatic fan control enabled.",
+    "Modified": "2024-02-08T18:40:15+00:00",
+    "Name": "System Event Log Entry",
+    "Resolved": false,
+    "Severity": "OK"
+}

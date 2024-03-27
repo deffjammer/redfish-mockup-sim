@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"68CC020C\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/106",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "106",
+    "Created": "2023-05-11T17:28:38Z",
+    "EntryType": "Oem",
+    "Message": "1792-Slot 12 Drive Array - Valid Data Found in Write-Back Cache. Data will automatically be written to drive array. Action: No action required.",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 6034,
+            "Count": 1,
+            "EventNumber": 291,
+            "Severity": "Informational",
+            "Updated": "2023-05-11T17:28:38Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

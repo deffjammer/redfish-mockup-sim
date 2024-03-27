@@ -1,0 +1,44 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive",
+    "@odata.etag": "W/\"8AC9F62F\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/DiskDrives/1",
+    "@odata.type": "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive",
+    "Id": "1",
+    "BlockSizeBytes": 512,
+    "CapacityGB": 2400,
+    "CapacityLogicalBlocks": 4688430768,
+    "CapacityMiB": 2289272,
+    "CarrierApplicationVersion": "11",
+    "CarrierAuthenticationStatus": "OK",
+    "CurrentTemperatureCelsius": 27,
+    "Description": "HPE Smart Storage Disk Drive View",
+    "DiskDriveStatusReasons": [
+        "None"
+    ],
+    "DiskDriveUse": "Data",
+    "EncryptedDrive": false,
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "HPD5"
+        }
+    },
+    "InterfaceSpeedMbps": 12000,
+    "InterfaceType": "SAS",
+    "LegacyBootPriority": "None",
+    "Location": "1I:1:2",
+    "LocationFormat": "ControllerPort:Box:Bay",
+    "MaximumTemperatureCelsius": 49,
+    "MediaType": "HDD",
+    "Model": "EG002400JWJNT",
+    "Name": "HpeSmartStorageDiskDrive",
+    "PowerOnHours": null,
+    "RotationalSpeedRpm": 10500,
+    "SSDEnduranceUtilizationPercentage": null,
+    "SerialNumber": "WBM3WFR7",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UncorrectedReadErrors": 0,
+    "UncorrectedWriteErrors": 0
+}

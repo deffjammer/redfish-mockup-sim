@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"1646749480\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Node1.BIOS",
+    "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
+    "Description": "Node1.BIOS",
+    "Id": "Node1.BIOS",
+    "Name": "Node1.BIOS",
+    "Status": {
+        "Health": "Warning",
+        "State": "UnavailableOffline"
+    },
+    "Updateable": true,
+    "Version": "undefined"
+}

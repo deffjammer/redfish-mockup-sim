@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"B59A5884\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "1",
+    "Created": "2021-05-24T20:08:57Z",
+    "EntryType": "Oem",
+    "Message": "IML Cleared ( user: System Administrator)",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance",
+                "Administration"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 1,
+            "Count": 1,
+            "EventNumber": 186,
+            "Severity": "Informational",
+            "Updated": "2021-05-24T20:08:57Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

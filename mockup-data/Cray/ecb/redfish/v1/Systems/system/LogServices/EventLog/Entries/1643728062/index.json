@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643728062",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-02-01T15:07:42+00:00",
+    "EntryType": "Event",
+    "Id": "1643728062",
+    "Message": "",
+    "MessageArgs": [
+        "Cassini_0_Temperature_3",
+        "85.000000"
+    ],
+    "MessageId": "ResourceEvent.1.0.3.ResourceWarningThresholdCleared",
+    "Name": "System Event Log Entry",
+    "Severity": ""
+}

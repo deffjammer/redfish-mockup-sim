@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.2.0
+Created: 2023-10-26 20:21:43
+Service: https://tromper1-bmc
+User: admin
+Description: 
+Total response time: 101.86617922782898
+Average response time: 0.060997712112472444
+Minimum response time: 0.026650428771972656, /redfish/v1/Oem/Ami/BiosStaticFiles
+Maximum response time: 5.90292501449585, /redfish/v1/Chassis/Self/Power

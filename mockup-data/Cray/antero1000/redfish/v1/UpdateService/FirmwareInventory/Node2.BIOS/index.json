@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1698350713\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Node2.BIOS",
+    "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
+    "Description": "Node2.BIOS",
+    "Id": "Node2.BIOS",
+    "Name": "Node2.BIOS",
+    "SoftwareId": "bios.ex4252.*.*",
+    "Status": {
+        "Health": "Warning",
+        "State": "UnavailableOffline"
+    },
+    "Updateable": true,
+    "Version": "ex4252.bios-0.0.1_SBIOS-2731-5.27_GenoaCrb_0ACQT015-Agesa-1.0.0.2a"
+}

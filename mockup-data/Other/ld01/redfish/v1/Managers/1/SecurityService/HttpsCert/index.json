@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeHttpsCert.HpeHttpsCert",
+    "@odata.etag": "W/\"80B6D795\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert",
+    "@odata.type": "#HpeHttpsCert.v2_0_0.HpeHttpsCert",
+    "Id": "HttpsCert",
+    "Actions": {
+        "#HpeHttpsCert.GenerateCSR": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.GenerateCSR"
+        },
+        "#HpeHttpsCert.ImportCertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.ImportCertificate"
+        }
+    },
+    "CertificateSigningRequest": null,
+    "X509CertificateInformation": {
+        "Issuer": "CN = Default Issuer (Do not trust), O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "SerialNumber": "9c:a7:34:4c:4b:fc:1e:13",
+        "Subject": "CN = ILO5UF117G4MN, O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "ValidNotAfter": "2036-05-23T07:54:11Z",
+        "ValidNotBefore": "2021-05-24T07:54:11Z"
+    }
+}

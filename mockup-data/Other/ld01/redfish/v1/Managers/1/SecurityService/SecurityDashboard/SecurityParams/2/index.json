@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/2",
+    "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+    "Id": "2",
+    "Description": "The Minimum Password Length is set to fewer than 8 characters. This configuration increases system vulnerability to attack.",
+    "Ignore": false,
+    "Name": "Minimum Password Length",
+    "RecommendedAction": "Set the Minimum Password Length to 8 or more characters.",
+    "SecurityStatus": "Risk",
+    "State": "Insufficient"
+}

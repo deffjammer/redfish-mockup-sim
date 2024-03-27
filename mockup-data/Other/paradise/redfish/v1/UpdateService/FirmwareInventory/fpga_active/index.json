@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/fpga_active",
+    "@odata.type": "#SoftwareInventory.v1_7_0.SoftwareInventory",
+    "Description": "FPGA image",
+    "Id": "fpga_active",
+    "Name": "Software Inventory",
+    "SoftwareId": "",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": false,
+    "Version": "0.8C"
+}

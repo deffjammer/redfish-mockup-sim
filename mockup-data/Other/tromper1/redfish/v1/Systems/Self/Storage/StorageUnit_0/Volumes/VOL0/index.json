@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Volume.Volume",
+    "@odata.etag": "\"1697465673\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Volumes/VOL0",
+    "@odata.type": "#Volume.v1_5_0.Volume",
+    "BlockSizeBytes": 2048,
+    "CapacityBytes": 52307968,
+    "Compressed": null,
+    "Deduplicated": null,
+    "Encrypted": null,
+    "Id": "VOL0",
+    "Links": {
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/NVMe_Device0_NSID1"
+            }
+        ],
+        "Drives@odata.count": 1
+    },
+    "Name": "VOL0",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

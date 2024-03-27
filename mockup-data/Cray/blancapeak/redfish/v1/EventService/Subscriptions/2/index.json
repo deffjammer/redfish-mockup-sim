@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"1699015539\"",
+    "@odata.id": "/redfish/v1/EventService/Subscriptions/2",
+    "@odata.type": "#EventDestination.v1_2_1.EventDestination",
+    "Context": "mountain_alerts",
+    "Destination": "172.24.0.1:1890",
+    "EventTypes": [
+        "Alert"
+    ],
+    "Id": "2",
+    "Name": "Subscription 2",
+    "OriginResources@odata.count": 0,
+    "Protocol": "Redfish"
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault",
+    "@odata.type": "#SecureBootDatabase.v1_0_1.SecureBootDatabase",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Certificates"
+    },
+    "DatabaseId": "dbDefault",
+    "Description": "The SecureBootDatabase schema describes a UEFI Secure Boot database used to store certificates or hashes.",
+    "Id": "dbDefault",
+    "Name": "Secure Boot Database",
+    "Signatures": {
+        "@odata.id": "/redfish/v1/Systems/system/SecureBoot/SecureBootDatabases/dbDefault/Signatures"
+    }
+}

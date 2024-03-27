@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1698352627\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/ChassisVoltageRegulator0InputEnergy",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator0InputEnergy",
+    "Name": "Node",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 2708382337,
+    "ReadingTime": "2023-10-26T20:37:10.562080152Z",
+    "ReadingType": "EnergyJoules",
+    "ReadingUnits": "J"
+}

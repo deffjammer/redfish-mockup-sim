@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "\"1697465670\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_64_00/PCIeFunctions/DevType3__DevIndex1",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x030200",
+    "DeviceClass": "DisplayController",
+    "DeviceId": "0x2330",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "DevType3__DevIndex1",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_64_00"
+        }
+    },
+    "Name": "DevType3__DevIndex1",
+    "RevisionId": "0xA1",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x16C0",
+    "SubsystemVendorId": "0x10DE",
+    "VendorId": "0x10DE"
+}

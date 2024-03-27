@@ -1,0 +1,1577 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_4.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/system/Oem/Insyde/SMBIOS/Settings"
+        }
+    },
+    "@odata.id": "/redfish/v1/Systems/system/Oem/Insyde/SMBIOS",
+    "@odata.type": "#InsydeSMBIOS.v1_0_0.InsydeSMBIOS",
+    "Description": "The SMBIOS schema contains properties related to the SMBIOS Attribute",
+    "Id": "SMBIOS",
+    "Name": "SMBIOS Data",
+    "SMBIOS_Table": {
+        "0_0_BIOS_Characteristics": [
+            "0x0000000010019A80",
+            "Bit 7: PCI is supported.",
+            "Bit 9: Plug and Play is supported.",
+            "Bit 11: BIOS is Upgradeable (Flash).",
+            "Bit 12: BIOS shadowing is allowed.",
+            "Bit 15: Boot from CD is supported.",
+            "Bit 16: Selectable Boot is supported.",
+            "Bit 28: Int 14h, Serial Services are supported."
+        ],
+        "0_0_BIOS_Characteristics_Extension_1": [
+            "0x01",
+            "Bit 0: ACPI is supported."
+        ],
+        "0_0_BIOS_Characteristics_Extension_2": [
+            "0x0C",
+            "Bit 2: Enable Targeted Content Distribution.",
+            "Bit 3: UEFI Specification is supported."
+        ],
+        "0_0_BIOS_ROM_Size": [
+            "16 MB(see Extended_BIOS_ROM_Size for actual size)"
+        ],
+        "0_0_BIOS_Release": [
+            "17.0"
+        ],
+        "0_0_BIOS_Release_Date": [
+            "01/29/2024"
+        ],
+        "0_0_BIOS_Starting_Address_Segment": [
+            "0x0000"
+        ],
+        "0_0_BIOS_Vendor": [
+            "FOXCONN"
+        ],
+        "0_0_BIOS_Version": [
+            "17.00"
+        ],
+        "0_0_EC_Release": [
+            "1.10"
+        ],
+        "0_0_Extended_BIOS_ROM_Size": [
+            "64 MB"
+        ],
+        "13_30_Current_Language": [
+            "enUS"
+        ],
+        "13_30_Flags": [
+            "0x01",
+            "Bit 0: Abbreviated Format(1) or Long Format(0)."
+        ],
+        "13_30_Installable_Languages": [
+            "enUS",
+            "frFR",
+            "zhTW",
+            "jaJP"
+        ],
+        "13_30_Reserved": [
+            "0x000000000000000000000000000000"
+        ],
+        "16_31_Extended_Maximum_Capacity": [
+            "0 (0 Byte)"
+        ],
+        "16_31_Location": [
+            "0x03 System board or motherboard"
+        ],
+        "16_31_Maximum_Capacity": [
+            "251658240 (240 MB)"
+        ],
+        "16_31_Memory_Error_Correction": [
+            "0x05 Single-bit ECC"
+        ],
+        "16_31_Memory_Error_Information_Handle": [
+            "65535"
+        ],
+        "16_31_Number_of_Memory_Devices": [
+            "2"
+        ],
+        "16_31_Use": [
+            "0x03 System memory"
+        ],
+        "17_32_Attributes": [
+            "0x01",
+            "Bit 3-0 Rank: 1"
+        ],
+        "17_32_Bank_Locator": [
+            "LP5x_0"
+        ],
+        "17_32_Configured_Memory_Clock_Speed": [
+            "0"
+        ],
+        "17_32_Configured_voltage": [
+            "0"
+        ],
+        "17_32_Data_Width": [
+            "480"
+        ],
+        "17_32_Device_Locator": [
+            "LP5x_0"
+        ],
+        "17_32_Device_Set": [
+            "0"
+        ],
+        "17_32_Extended_Size": [
+            "122880"
+        ],
+        "17_32_Form_Factor": [
+            "0x10 Undefined"
+        ],
+        "17_32_Maximum_voltage": [
+            "0"
+        ],
+        "17_32_Memory_Error_Information_Handle": [
+            "0"
+        ],
+        "17_32_Memory_Type": [
+            "0x23 Undefined"
+        ],
+        "17_32_Minimum_voltage": [
+            "0"
+        ],
+        "17_32_Physical_Memory_Array_Handle": [
+            "31"
+        ],
+        "17_32_Serial_Number": [
+            "9223382828347886819"
+        ],
+        "17_32_Size": [
+            "0x7FFF",
+            "120 GB"
+        ],
+        "17_32_Speed": [
+            "8532"
+        ],
+        "17_32_Total_Width": [
+            "540"
+        ],
+        "17_32_Type_Detail": [
+            "0x0000"
+        ],
+        "17_33_Attributes": [
+            "0x01",
+            "Bit 3-0 Rank: 1"
+        ],
+        "17_33_Bank_Locator": [
+            "LP5x_1"
+        ],
+        "17_33_Configured_Memory_Clock_Speed": [
+            "0"
+        ],
+        "17_33_Configured_voltage": [
+            "0"
+        ],
+        "17_33_Data_Width": [
+            "480"
+        ],
+        "17_33_Device_Locator": [
+            "LP5x_1"
+        ],
+        "17_33_Device_Set": [
+            "0"
+        ],
+        "17_33_Extended_Size": [
+            "122880"
+        ],
+        "17_33_Form_Factor": [
+            "0x10 Undefined"
+        ],
+        "17_33_Maximum_voltage": [
+            "0"
+        ],
+        "17_33_Memory_Error_Information_Handle": [
+            "0"
+        ],
+        "17_33_Memory_Type": [
+            "0x23 Undefined"
+        ],
+        "17_33_Minimum_voltage": [
+            "0"
+        ],
+        "17_33_Physical_Memory_Array_Handle": [
+            "31"
+        ],
+        "17_33_Serial_Number": [
+            "9223381763758034147"
+        ],
+        "17_33_Size": [
+            "0x7FFF",
+            "120 GB"
+        ],
+        "17_33_Speed": [
+            "8532"
+        ],
+        "17_33_Total_Width": [
+            "540"
+        ],
+        "17_33_Type_Detail": [
+            "0x0000"
+        ],
+        "19_34_Ending_Address": [
+            "127926271"
+        ],
+        "19_34_Extended_Ending_Address": [
+            "0"
+        ],
+        "19_34_Extended_Starting_Address": [
+            "0"
+        ],
+        "19_34_Memory_Array_Handle": [
+            "31"
+        ],
+        "19_34_Partition_Width": [
+            "0"
+        ],
+        "19_34_Starting_Address": [
+            "2097152"
+        ],
+        "19_35_Ending_Address": [
+            "-1"
+        ],
+        "19_35_Extended_Ending_Address": [
+            "2147483647"
+        ],
+        "19_35_Extended_Starting_Address": [
+            "-2147483648"
+        ],
+        "19_35_Memory_Array_Handle": [
+            "31"
+        ],
+        "19_35_Partition_Width": [
+            "0"
+        ],
+        "19_35_Starting_Address": [
+            "-1"
+        ],
+        "1_1_Family": [
+            " "
+        ],
+        "1_1_Manufacturer": [
+            "Insyde"
+        ],
+        "1_1_Product_Name": [
+            "Grace"
+        ],
+        "1_1_SKU_Number": [
+            " "
+        ],
+        "1_1_Serial_Number": [
+            "1234567890123"
+        ],
+        "1_1_UUID": [
+            "FF47B79E-22DB-89B8-DC51-ABEBBF50DBA5"
+        ],
+        "1_1_Version": [
+            " "
+        ],
+        "1_1_Wake-up_Type": [
+            "0x06 Power Switch"
+        ],
+        "2_2_Asset_Tag": [
+            " "
+        ],
+        "2_2_Board_Type": [
+            "0x05 System Management Module"
+        ],
+        "2_2_Chassis_Handle": [
+            "4"
+        ],
+        "2_2_Feature_Flags": [
+            "0x0A",
+            "Bit 1: Board requires at least one daughter board or auxiliary card to function properly.",
+            "Bit 3: Board is replaceable."
+        ],
+        "2_2_Location_in_Chassis": [
+            " "
+        ],
+        "2_2_Manufacturer": [
+            " "
+        ],
+        "2_2_Number_of_Contained_Object_Handles": [
+            "0"
+        ],
+        "2_2_Product": [
+            " "
+        ],
+        "2_2_Serial_Number": [
+            " "
+        ],
+        "2_2_Version": [
+            " "
+        ],
+        "2_3_Asset_Tag": [
+            " "
+        ],
+        "2_3_Board_Type": [
+            "0x0B Processor/Memory Module"
+        ],
+        "2_3_Chassis_Handle": [
+            "4"
+        ],
+        "2_3_Feature_Flags": [
+            "0x0A",
+            "Bit 1: Board requires at least one daughter board or auxiliary card to function properly.",
+            "Bit 3: Board is replaceable."
+        ],
+        "2_3_Location_in_Chassis": [
+            " "
+        ],
+        "2_3_Manufacturer": [
+            " "
+        ],
+        "2_3_Number_of_Contained_Object_Handles": [
+            30,
+            31
+        ],
+        "2_3_Product": [
+            " "
+        ],
+        "2_3_Serial_Number": [
+            " "
+        ],
+        "2_3_Version": [
+            " "
+        ],
+        "32_36_Boot_Status": [
+            "0"
+        ],
+        "32_36_Reserved": [
+            "0"
+        ],
+        "38_37_Base_Address": [
+            "16"
+        ],
+        "38_37_Base_Address_Modifier/Interrupt_Info": [
+            "0"
+        ],
+        "38_37_I2C_Slave_Address": [
+            "16"
+        ],
+        "38_37_IPMI_Specification_Revision": [
+            "32"
+        ],
+        "38_37_Interface_Type": [
+            "0x04 SSIF: SMBus System Interface"
+        ],
+        "38_37_Interrupt_Number": [
+            "183"
+        ],
+        "38_37_NV_Storage_Device_Address": [
+            "0"
+        ],
+        "39_38_Cooling_Device_Handle": [
+            "65535"
+        ],
+        "39_38_Device_Name": [
+            "PSU 0"
+        ],
+        "39_38_Input_Current_Probe_Handle": [
+            "65535"
+        ],
+        "39_38_Input_Voltage_Probe_Handle": [
+            "65535"
+        ],
+        "39_38_Location": [
+            "Top Supply Bay"
+        ],
+        "39_38_Max_Power_Capacity": [
+            "32768"
+        ],
+        "39_38_Power_Supply_Characteristics": [
+            "4372"
+        ],
+        "39_38_Power_Unit_Group": [
+            "1"
+        ],
+        "39_39_Cooling_Device_Handle": [
+            "65535"
+        ],
+        "39_39_Device_Name": [
+            "PSU 1"
+        ],
+        "39_39_Input_Current_Probe_Handle": [
+            "65535"
+        ],
+        "39_39_Input_Voltage_Probe_Handle": [
+            "65535"
+        ],
+        "39_39_Location": [
+            "Bottom Supply Bay"
+        ],
+        "39_39_Max_Power_Capacity": [
+            "32768"
+        ],
+        "39_39_Power_Supply_Characteristics": [
+            "4372"
+        ],
+        "39_39_Power_Unit_Group": [
+            "1"
+        ],
+        "3_4_Boot-up_State": [
+            "0x02 Unknown"
+        ],
+        "3_4_Chassis_Type": [
+            "0x01 Other"
+        ],
+        "3_4_Contained_Element_Count": [
+            "0"
+        ],
+        "3_4_Contained_Element_Record_Length": [
+            "3"
+        ],
+        "3_4_Contained_Elements": [
+            "0"
+        ],
+        "3_4_Height": [
+            "1"
+        ],
+        "3_4_Manufacturer": [
+            " "
+        ],
+        "3_4_Number_of_Power_Cords": [
+            "1"
+        ],
+        "3_4_OEM-defined": [
+            "0x00000000"
+        ],
+        "3_4_Power_Supply_State": [
+            "0x02 Unknown"
+        ],
+        "3_4_SKU_Number": [
+            " "
+        ],
+        "3_4_Security_Status": [
+            "0x02 Unknown"
+        ],
+        "3_4_Serial_Number": [
+            " "
+        ],
+        "3_4_Thermal_State": [
+            "0x02 Unknown"
+        ],
+        "3_4_Version": [
+            " "
+        ],
+        "41_40_Bus_Number": [
+            "1"
+        ],
+        "41_40_Device/Function_Number": [
+            "0"
+        ],
+        "41_40_Device_Type": [
+            "Device Status : Enable",
+            "Device Type : Ethernet"
+        ],
+        "41_40_Device_Type_Instance": [
+            "1"
+        ],
+        "41_40_Reference_Designation": [
+            "Embedded NIC"
+        ],
+        "41_40_Segment_Group_Number": [
+            "6"
+        ],
+        "41_41_Bus_Number": [
+            "1"
+        ],
+        "41_41_Device/Function_Number": [
+            "1"
+        ],
+        "41_41_Device_Type": [
+            "Device Status : Enable",
+            "Device Type : Ethernet"
+        ],
+        "41_41_Device_Type_Instance": [
+            "2"
+        ],
+        "41_41_Reference_Designation": [
+            "Embedded NIC"
+        ],
+        "41_41_Segment_Group_Number": [
+            "6"
+        ],
+        "41_42_Bus_Number": [
+            "1"
+        ],
+        "41_42_Device/Function_Number": [
+            "0"
+        ],
+        "41_42_Device_Type": [
+            "Device Status : Enable",
+            "Device Type : Other"
+        ],
+        "41_42_Device_Type_Instance": [
+            "1"
+        ],
+        "41_42_Reference_Designation": [
+            "Embedded USB Controller"
+        ],
+        "41_42_Segment_Group_Number": [
+            "7"
+        ],
+        "41_43_Bus_Number": [
+            "2"
+        ],
+        "41_43_Device/Function_Number": [
+            "0"
+        ],
+        "41_43_Device_Type": [
+            "Device Status : Enable",
+            "Device Type : Video"
+        ],
+        "41_43_Device_Type_Instance": [
+            "1"
+        ],
+        "41_43_Reference_Designation": [
+            "Embedded Video Controller"
+        ],
+        "41_43_Segment_Group_Number": [
+            "8"
+        ],
+        "42_44_Host_IP_Address": [
+            "84.199.46.125"
+        ],
+        "42_44_Host_IP_Address_Format": [
+            "0x26 Reserved"
+        ],
+        "42_44_Host_IP_Assignment_Type": [
+            "0x67 Reserved"
+        ],
+        "42_44_Host_IP_Mask": [
+            "1.10.255.255"
+        ],
+        "42_44_Interface_Specific_Length": [
+            "17"
+        ],
+        "42_44_Interface_Type": [
+            "0x40"
+        ],
+        "42_44_Protocol_Count": [
+            "1"
+        ],
+        "42_44_Protocol_Identifier": [
+            "17"
+        ],
+        "42_44_Protocol_Length": [
+            "31"
+        ],
+        "42_44_Redfish_Service_Hostname_Length": [
+            "0"
+        ],
+        "42_44_Redfish_Service_IP_Address": [
+            "255.255.252.0"
+        ],
+        "42_44_Redfish_Service_IP_Address_Format": [
+            "0xFF Reserved"
+        ],
+        "42_44_Redfish_Service_IP_Discovery_Type": [
+            "0x00 Unknown"
+        ],
+        "42_44_Redfish_Service_IP_Mask": [
+            "1.10.255.255"
+        ],
+        "42_44_Redfish_Service_IP_Port": [
+            "65280"
+        ],
+        "42_44_Redfish_Service_VLAN_ID": [
+            "16580607"
+        ],
+        "42_44_Service_UUID": [
+            "0003EE0B-3AB2-1AF6-D78A-010025000104"
+        ],
+        "43_45_Characteristics": [
+            "0x0000000000000000"
+        ],
+        "43_45_Description": [
+            "TPM"
+        ],
+        "43_45_Firmware_Version_1": [
+            "983061"
+        ],
+        "43_45_Firmware_Version_2": [
+            "4206080"
+        ],
+        "43_45_Major_Spec_Version": [
+            "2"
+        ],
+        "43_45_Minor_Spec_Version": [
+            "0"
+        ],
+        "43_45_OEM-defined": [
+            "0"
+        ],
+        "43_45_Vendor_ID": [
+            "5785161"
+        ],
+        "4_5_Asset_Tag": [
+            " "
+        ],
+        "4_5_Core_Count": [
+            "72"
+        ],
+        "4_5_Core_Count_2": [
+            "72"
+        ],
+        "4_5_Core_Enabled": [
+            "72"
+        ],
+        "4_5_Core_Enabled_2": [
+            "72"
+        ],
+        "4_5_Current_Speed": [
+            "3438 MHz"
+        ],
+        "4_5_External_Clock": [
+            "1000 MHz"
+        ],
+        "4_5_L1_Cache_Handle": [
+            "589832"
+        ],
+        "4_5_L2_Cache_Handle": [
+            "655369"
+        ],
+        "4_5_L3_Cache_Handle": [
+            "84148234"
+        ],
+        "4_5_Max_Speed": [
+            "0 MHz"
+        ],
+        "4_5_Part_Number": [
+            " "
+        ],
+        "4_5_Processor_Characteristics": [
+            "0x0224",
+            "Bit 2: 64-bit Capable.",
+            "Bit 5: Execute Protection."
+        ],
+        "4_5_Processor_Family": [
+            "0xFE Indicator to obtain the processor family from the Processor Family 2 field"
+        ],
+        "4_5_Processor_Family_2": [
+            "0x0101 ARMv8"
+        ],
+        "4_5_Processor_ID": [
+            "0x00000102 036B0241"
+        ],
+        "4_5_Processor_Manufacturer": [
+            "NVIDIA"
+        ],
+        "4_5_Processor_Type": [
+            "0x03 Central Processor"
+        ],
+        "4_5_Processor_Upgrade": [
+            "2"
+        ],
+        "4_5_Processor_Version": [
+            "Grace A02"
+        ],
+        "4_5_Serial_Number": [
+            "0x00000001780991C51C0000000A010200"
+        ],
+        "4_5_Socket_Designation": [
+            "G1:0.0"
+        ],
+        "4_5_Status": [
+            "65"
+        ],
+        "4_5_Thread_Count": [
+            "72"
+        ],
+        "4_5_Thread_Count_2": [
+            "72"
+        ],
+        "4_5_Voltage": [
+            "0x00"
+        ],
+        "4_6_Asset_Tag": [
+            " "
+        ],
+        "4_6_Core_Count": [
+            "72"
+        ],
+        "4_6_Core_Count_2": [
+            "72"
+        ],
+        "4_6_Core_Enabled": [
+            "72"
+        ],
+        "4_6_Core_Enabled_2": [
+            "72"
+        ],
+        "4_6_Current_Speed": [
+            "0 MHz"
+        ],
+        "4_6_External_Clock": [
+            "1000 MHz"
+        ],
+        "4_6_L1_Cache_Handle": [
+            "851980"
+        ],
+        "4_6_L2_Cache_Handle": [
+            "917517"
+        ],
+        "4_6_L3_Cache_Handle": [
+            "84148238"
+        ],
+        "4_6_Max_Speed": [
+            "0 MHz"
+        ],
+        "4_6_Part_Number": [
+            " "
+        ],
+        "4_6_Processor_Characteristics": [
+            "0x0224",
+            "Bit 2: 64-bit Capable.",
+            "Bit 5: Execute Protection."
+        ],
+        "4_6_Processor_Family": [
+            "0xFE Indicator to obtain the processor family from the Processor Family 2 field"
+        ],
+        "4_6_Processor_Family_2": [
+            "0x0101 ARMv8"
+        ],
+        "4_6_Processor_ID": [
+            "0x00000102 036B0241"
+        ],
+        "4_6_Processor_Manufacturer": [
+            "NVIDIA"
+        ],
+        "4_6_Processor_Type": [
+            "0x03 Central Processor"
+        ],
+        "4_6_Processor_Upgrade": [
+            "2"
+        ],
+        "4_6_Processor_Version": [
+            "Grace A02"
+        ],
+        "4_6_Serial_Number": [
+            "0x00000001780991C52000000018010200"
+        ],
+        "4_6_Socket_Designation": [
+            "G2:0.1"
+        ],
+        "4_6_Status": [
+            "65"
+        ],
+        "4_6_Thread_Count": [
+            "72"
+        ],
+        "4_6_Thread_Count_2": [
+            "72"
+        ],
+        "4_6_Voltage": [
+            "0x00"
+        ],
+        "7_10_Associativity": [
+            "0x09 12-way Set-Associative"
+        ],
+        "7_10_Cache_Configuration": [
+            "0x03E2",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 3"
+        ],
+        "7_10_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_10_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_10_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_10_Installed_Size": [
+            "0x8720",
+            "114 MB"
+        ],
+        "7_10_Maximum_Cache_Size": [
+            "0x8720",
+            "114 MB"
+        ],
+        "7_10_Socket_Designation": [
+            "L3 Cache"
+        ],
+        "7_10_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_10_System_Cache_Type": [
+            "0x05 Unified"
+        ],
+        "7_11_Associativity": [
+            "0x05 4-way Set-Associative"
+        ],
+        "7_11_Cache_Configuration": [
+            "0x03E0",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 1"
+        ],
+        "7_11_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_11_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_11_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_11_Installed_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_11_Maximum_Cache_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_11_Socket_Designation": [
+            "L1 Instruction Cache"
+        ],
+        "7_11_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_11_System_Cache_Type": [
+            "0x03 Instruction"
+        ],
+        "7_12_Associativity": [
+            "0x05 4-way Set-Associative"
+        ],
+        "7_12_Cache_Configuration": [
+            "0x03E0",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 1"
+        ],
+        "7_12_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_12_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_12_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_12_Installed_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_12_Maximum_Cache_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_12_Socket_Designation": [
+            "L1 Data Cache"
+        ],
+        "7_12_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_12_System_Cache_Type": [
+            "0x04 Data"
+        ],
+        "7_13_Associativity": [
+            "0x07 8-way Set-Associative"
+        ],
+        "7_13_Cache_Configuration": [
+            "0x03E1",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 2"
+        ],
+        "7_13_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_13_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_13_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_13_Installed_Size": [
+            "0x8480",
+            "72 MB"
+        ],
+        "7_13_Maximum_Cache_Size": [
+            "0x8480",
+            "72 MB"
+        ],
+        "7_13_Socket_Designation": [
+            "L2 Cache"
+        ],
+        "7_13_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_13_System_Cache_Type": [
+            "0x05 Unified"
+        ],
+        "7_14_Associativity": [
+            "0x09 12-way Set-Associative"
+        ],
+        "7_14_Cache_Configuration": [
+            "0x03E2",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 3"
+        ],
+        "7_14_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_14_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_14_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_14_Installed_Size": [
+            "0x8720",
+            "114 MB"
+        ],
+        "7_14_Maximum_Cache_Size": [
+            "0x8720",
+            "114 MB"
+        ],
+        "7_14_Socket_Designation": [
+            "L3 Cache"
+        ],
+        "7_14_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_14_System_Cache_Type": [
+            "0x05 Unified"
+        ],
+        "7_7_Associativity": [
+            "0x05 4-way Set-Associative"
+        ],
+        "7_7_Cache_Configuration": [
+            "0x03E0",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 1"
+        ],
+        "7_7_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_7_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_7_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_7_Installed_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_7_Maximum_Cache_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_7_Socket_Designation": [
+            "L1 Instruction Cache"
+        ],
+        "7_7_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_7_System_Cache_Type": [
+            "0x03 Instruction"
+        ],
+        "7_8_Associativity": [
+            "0x05 4-way Set-Associative"
+        ],
+        "7_8_Cache_Configuration": [
+            "0x03E0",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 1"
+        ],
+        "7_8_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_8_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_8_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_8_Installed_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_8_Maximum_Cache_Size": [
+            "0x1200",
+            "4 MB"
+        ],
+        "7_8_Socket_Designation": [
+            "L1 Data Cache"
+        ],
+        "7_8_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_8_System_Cache_Type": [
+            "0x04 Data"
+        ],
+        "7_9_Associativity": [
+            "0x07 8-way Set-Associative"
+        ],
+        "7_9_Cache_Configuration": [
+            "0x03E1",
+            "Bit 9:8 : Operational Mode: Unknown",
+            "Bit 7   : Enaled",
+            "Bit 6:5 : Location: Unknown",
+            "Bit 3   : Not Socketed",
+            "Bit 2:0 : Cache Level: Level 2"
+        ],
+        "7_9_Cache_Speed": [
+            "0 Mhz"
+        ],
+        "7_9_Current_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_9_Error_Correction_Type": [
+            "0x02 Unknown"
+        ],
+        "7_9_Installed_Size": [
+            "0x8480",
+            "72 MB"
+        ],
+        "7_9_Maximum_Cache_Size": [
+            "0x8480",
+            "72 MB"
+        ],
+        "7_9_Socket_Designation": [
+            "L2 Cache"
+        ],
+        "7_9_Supported_SRAM_Type": [
+            "0x0002",
+            "Bit 1: Unknown"
+        ],
+        "7_9_System_Cache_Type": [
+            "0x05 Unified"
+        ],
+        "8_15_External_Connector_Type": [
+            "0xFF Other"
+        ],
+        "8_15_External_Reference_Designator": [
+            "KVM"
+        ],
+        "8_15_Internal_Connector_Type": [
+            "0xFF Other"
+        ],
+        "8_15_Internal_Reference_Designator": [
+            "J2"
+        ],
+        "8_15_Port_Type": [
+            "0xFF Other"
+        ],
+        "8_16_External_Connector_Type": [
+            "0x0B RJ-45"
+        ],
+        "8_16_External_Reference_Designator": [
+            "Management Network"
+        ],
+        "8_16_Internal_Connector_Type": [
+            "0x0B RJ-45"
+        ],
+        "8_16_Internal_Reference_Designator": [
+            "J6"
+        ],
+        "8_16_Port_Type": [
+            "0x1F Network Port"
+        ],
+        "8_17_External_Connector_Type": [
+            "0x0B RJ-45"
+        ],
+        "8_17_External_Reference_Designator": [
+            "Embedded Network"
+        ],
+        "8_17_Internal_Connector_Type": [
+            "0x0B RJ-45"
+        ],
+        "8_17_Internal_Reference_Designator": [
+            "J37"
+        ],
+        "8_17_Port_Type": [
+            "0x1F Network Port"
+        ],
+        "9_18_Bus_Number": [
+            "0x1"
+        ],
+        "9_18_Current_Usage": [
+            "0x03 Available"
+        ],
+        "9_18_Data_Bus_Width": [
+            "13"
+        ],
+        "9_18_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_18_Peer_count": [
+            "0"
+        ],
+        "9_18_Segment_Group_Number": [
+            "0x0"
+        ],
+        "9_18_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_18_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_18_Slot_Data_Bus_Width": [
+            "0x0D 16x or x16"
+        ],
+        "9_18_Slot_Designation": [
+            "PCIe Slot 2"
+        ],
+        "9_18_Slot_ID": [
+            "1"
+        ],
+        "9_18_Slot_Length": [
+            "0x04 Long Length"
+        ],
+        "9_18_Slot_Type": [
+            "0xC3 PCI Express Gen 5 x16"
+        ],
+        "9_19_Bus_Number": [
+            "0x1"
+        ],
+        "9_19_Current_Usage": [
+            "0x04 In use"
+        ],
+        "9_19_Data_Bus_Width": [
+            "10"
+        ],
+        "9_19_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_19_Peer_count": [
+            "0"
+        ],
+        "9_19_Segment_Group_Number": [
+            "0x2"
+        ],
+        "9_19_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_19_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_19_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_19_Slot_Designation": [
+            "M.2 NVMe Drive Slot 1"
+        ],
+        "9_19_Slot_ID": [
+            "2"
+        ],
+        "9_19_Slot_Length": [
+            "0x01 Other"
+        ],
+        "9_19_Slot_Type": [
+            "0x17 M.2 Socket 3 (Mechanical Key M)"
+        ],
+        "9_20_Bus_Number": [
+            "0x1"
+        ],
+        "9_20_Current_Usage": [
+            "0x03 Available"
+        ],
+        "9_20_Data_Bus_Width": [
+            "10"
+        ],
+        "9_20_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_20_Peer_count": [
+            "0"
+        ],
+        "9_20_Segment_Group_Number": [
+            "0x3"
+        ],
+        "9_20_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_20_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_20_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_20_Slot_Designation": [
+            "M.2 NVMe Drive Slot 2"
+        ],
+        "9_20_Slot_ID": [
+            "3"
+        ],
+        "9_20_Slot_Length": [
+            "0x01 Other"
+        ],
+        "9_20_Slot_Type": [
+            "0x17 M.2 Socket 3 (Mechanical Key M)"
+        ],
+        "9_21_Bus_Number": [
+            "0x1"
+        ],
+        "9_21_Current_Usage": [
+            "0x03 Available"
+        ],
+        "9_21_Data_Bus_Width": [
+            "13"
+        ],
+        "9_21_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_21_Peer_count": [
+            "0"
+        ],
+        "9_21_Segment_Group_Number": [
+            "0x4"
+        ],
+        "9_21_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_21_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_21_Slot_Data_Bus_Width": [
+            "0x0D 16x or x16"
+        ],
+        "9_21_Slot_Designation": [
+            "PCIe Slot 3"
+        ],
+        "9_21_Slot_ID": [
+            "4"
+        ],
+        "9_21_Slot_Length": [
+            "0x04 Long Length"
+        ],
+        "9_21_Slot_Type": [
+            "0xC3 PCI Express Gen 5 x16"
+        ],
+        "9_22_Bus_Number": [
+            "0x1"
+        ],
+        "9_22_Current_Usage": [
+            "0x03 Available"
+        ],
+        "9_22_Data_Bus_Width": [
+            "10"
+        ],
+        "9_22_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_22_Peer_count": [
+            "0"
+        ],
+        "9_22_Segment_Group_Number": [
+            "0x10"
+        ],
+        "9_22_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_22_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_22_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_22_Slot_Designation": [
+            "NVMe Drive Slot 1"
+        ],
+        "9_22_Slot_ID": [
+            "5"
+        ],
+        "9_22_Slot_Length": [
+            "0x05 2.5 drive form factor"
+        ],
+        "9_22_Slot_Type": [
+            "0xC1 PCI Express Gen 5 x4"
+        ],
+        "9_23_Bus_Number": [
+            "0x1"
+        ],
+        "9_23_Current_Usage": [
+            "0x03 Available"
+        ],
+        "9_23_Data_Bus_Width": [
+            "10"
+        ],
+        "9_23_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_23_Peer_count": [
+            "0"
+        ],
+        "9_23_Segment_Group_Number": [
+            "0x11"
+        ],
+        "9_23_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_23_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_23_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_23_Slot_Designation": [
+            "NVMe Drive Slot 2"
+        ],
+        "9_23_Slot_ID": [
+            "6"
+        ],
+        "9_23_Slot_Length": [
+            "0x05 2.5 drive form factor"
+        ],
+        "9_23_Slot_Type": [
+            "0xC1 PCI Express Gen 5 x4"
+        ],
+        "9_24_Bus_Number": [
+            "0x1"
+        ],
+        "9_24_Current_Usage": [
+            "0x04 In use"
+        ],
+        "9_24_Data_Bus_Width": [
+            "13"
+        ],
+        "9_24_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_24_Peer_count": [
+            "0"
+        ],
+        "9_24_Segment_Group_Number": [
+            "0x12"
+        ],
+        "9_24_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_24_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_24_Slot_Data_Bus_Width": [
+            "0x0D 16x or x16"
+        ],
+        "9_24_Slot_Designation": [
+            "PCIe Slot 1"
+        ],
+        "9_24_Slot_ID": [
+            "7"
+        ],
+        "9_24_Slot_Length": [
+            "0x04 Long Length"
+        ],
+        "9_24_Slot_Type": [
+            "0xC3 PCI Express Gen 5 x16"
+        ],
+        "9_25_Bus_Number": [
+            "0x1"
+        ],
+        "9_25_Current_Usage": [
+            "0x04 In use"
+        ],
+        "9_25_Data_Bus_Width": [
+            "10"
+        ],
+        "9_25_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_25_Peer_count": [
+            "0"
+        ],
+        "9_25_Segment_Group_Number": [
+            "0x14"
+        ],
+        "9_25_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_25_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_25_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_25_Slot_Designation": [
+            "NVMe Drive Slot 3"
+        ],
+        "9_25_Slot_ID": [
+            "8"
+        ],
+        "9_25_Slot_Length": [
+            "0x05 2.5 drive form factor"
+        ],
+        "9_25_Slot_Type": [
+            "0xC1 PCI Express Gen 5 x4"
+        ],
+        "9_26_Bus_Number": [
+            "0x1"
+        ],
+        "9_26_Current_Usage": [
+            "0x04 In use"
+        ],
+        "9_26_Data_Bus_Width": [
+            "10"
+        ],
+        "9_26_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_26_Peer_count": [
+            "0"
+        ],
+        "9_26_Segment_Group_Number": [
+            "0x15"
+        ],
+        "9_26_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_26_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_26_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_26_Slot_Designation": [
+            "NVMe Drive Slot 4"
+        ],
+        "9_26_Slot_ID": [
+            "9"
+        ],
+        "9_26_Slot_Length": [
+            "0x05 2.5 drive form factor"
+        ],
+        "9_26_Slot_Type": [
+            "0xC1 PCI Express Gen 5 x4"
+        ],
+        "9_27_Bus_Number": [
+            "0x1"
+        ],
+        "9_27_Current_Usage": [
+            "0x03 Available"
+        ],
+        "9_27_Data_Bus_Width": [
+            "10"
+        ],
+        "9_27_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_27_Peer_count": [
+            "0"
+        ],
+        "9_27_Segment_Group_Number": [
+            "0x16"
+        ],
+        "9_27_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_27_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_27_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_27_Slot_Designation": [
+            "NVMe Drive Slot 5"
+        ],
+        "9_27_Slot_ID": [
+            "10"
+        ],
+        "9_27_Slot_Length": [
+            "0x05 2.5 drive form factor"
+        ],
+        "9_27_Slot_Type": [
+            "0xC1 PCI Express Gen 5 x4"
+        ],
+        "9_28_Bus_Number": [
+            "0x1"
+        ],
+        "9_28_Current_Usage": [
+            "0x03 Available"
+        ],
+        "9_28_Data_Bus_Width": [
+            "10"
+        ],
+        "9_28_Device/Function_Number": [
+            "0x00",
+            "Bits 7:3 : device 0x0 ",
+            "Bits 2:0 : function 0x0 "
+        ],
+        "9_28_Peer_count": [
+            "0"
+        ],
+        "9_28_Segment_Group_Number": [
+            "0x17"
+        ],
+        "9_28_Slot_Characteristics_1": [
+            "0x00"
+        ],
+        "9_28_Slot_Characteristics_2": [
+            "0x00"
+        ],
+        "9_28_Slot_Data_Bus_Width": [
+            "0x0A 4x or x4"
+        ],
+        "9_28_Slot_Designation": [
+            "NVMe Drive Slot 6"
+        ],
+        "9_28_Slot_ID": [
+            "11"
+        ],
+        "9_28_Slot_Length": [
+            "0x05 2.5 drive form factor"
+        ],
+        "9_28_Slot_Type": [
+            "0xC1 PCI Express Gen 5 x4"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator8Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator3VoltageRegulator8Temperature",
+    "Name": "VDD_12V0_A3",
+    "Oem": {
+        "Index": 8,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3,
+        "ReferenceDesignator": "U14000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 33,
+    "ReadingTime": "2000-01-09T09:59:09.876390160Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 78
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 80
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 85
+        }
+    }
+}

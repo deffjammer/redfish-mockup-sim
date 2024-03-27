@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"948363022\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Memory/DIMM5",
+    "@odata.type": "#Memory.v1_5_0.Memory",
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 72,
+    "CapacityMiB": 16384,
+    "DataWidthBits": 64,
+    "ErrorCorrection": "Multi-bit ECC",
+    "Id": "DIMM5",
+    "Manufacturer": "Samsung",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+        "Slot": 5,
+        "Socket": 0
+    },
+    "MemoryType": "DRAM",
+    "Name": "DIMM 5",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "M393A2K43DB3-CWE",
+    "RankCount": 2,
+    "SerialNumber": "0384CC9C"
+}

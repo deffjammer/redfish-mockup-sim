@@ -1,0 +1,21 @@
+{
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/psu_active",
+    "@odata.type": "#SoftwareInventory.v1_7_0.SoftwareInventory",
+    "Description": "PSU image",
+    "Id": "psu_active",
+    "Name": "Software Inventory",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/PowerSubsystem/PowerSupplies"
+        }
+    ],
+    "RelatedItem@odata.count": 1,
+    "SoftwareId": "",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": false,
+    "Version": "PSU0:0100.0101,PSU1:0100.0101"
+}

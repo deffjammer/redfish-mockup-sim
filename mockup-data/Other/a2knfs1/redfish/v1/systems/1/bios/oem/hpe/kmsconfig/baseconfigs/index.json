@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseConfigs.HpeBaseConfigs",
+    "@odata.etag": "W/\"46BC94B14E087D7D7DB607876A2463B3\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/kmsconfig/baseconfigs/",
+    "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+    "BaseConfigs": [
+        {
+            "default": {
+                "EncryptableDevices": [],
+                "KeyManagementType": "Disabled",
+                "OpalBlockSid": "Disabled"
+            }
+        }
+    ],
+    "Capabilities": {
+        "BaseConfig": true,
+        "BaseConfigs": false
+    },
+    "Id": "baseconfigs",
+    "Name": "Kms Default Settings"
+}

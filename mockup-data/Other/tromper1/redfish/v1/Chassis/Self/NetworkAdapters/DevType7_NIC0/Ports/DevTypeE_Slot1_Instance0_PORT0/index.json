@@ -1,0 +1,18 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Ports.Ports",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/Ports/DevTypeE_Slot1_Instance0_PORT0",
+    "@odata.type": "#Port.v1_5_0.Port",
+    "Id": "DevTypeE_Slot1_Instance0_PORT0",
+    "InterfaceEnabled": false,
+    "LinkState": "Disabled",
+    "LinkStatus": "LinkDown",
+    "Name": "DevTypeE_Slot1_Instance0_PORT0",
+    "PortId": "0",
+    "PortProtocol": "Ethernet",
+    "SignalDetected": false,
+    "Status": {
+        "Health": "Critical",
+        "State": "Disabled"
+    }
+}

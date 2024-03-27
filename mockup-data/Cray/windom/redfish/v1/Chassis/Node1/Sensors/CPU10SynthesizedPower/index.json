@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1698352627\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU10SynthesizedPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Synthesized",
+    "Id": "CPU10SynthesizedPower",
+    "Name": "CPU1 Aggregate",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 1
+    },
+    "Reading": 24,
+    "ReadingTime": "2023-10-26T20:37:23.721099044Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

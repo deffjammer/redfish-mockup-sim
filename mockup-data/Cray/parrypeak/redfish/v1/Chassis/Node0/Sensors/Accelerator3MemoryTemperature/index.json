@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3MemoryTemperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Memory",
+    "Id": "Accelerator3MemoryTemperature",
+    "Oem": {
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3
+    },
+    "Reading": 29,
+    "ReadingTime": "2000-01-09T09:58:47.615004320Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

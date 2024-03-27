@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"948109218\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Processors/CPU1",
+    "@odata.type": "#Processor.v1_7_0.Processor",
+    "Id": "CPU1",
+    "Manufacturer": "Advanced Micro Devices, Inc.",
+    "MaxSpeedMHz": 3350,
+    "MaxTDPWatts": 200,
+    "Model": "AMD EPYC 7702 64-Core Processor",
+    "Name": "Processor",
+    "ProcessorId": {
+        "EffectiveFamily": "0x17",
+        "EffectiveModel": "0x31",
+        "Step": "0x0",
+        "VendorId": "AuthenticAMD"
+    },
+    "ProcessorType": "CPU",
+    "SerialNumber": "9HM8513R90028",
+    "Socket": "CPU 1",
+    "Status": {
+        "Health": "OK"
+    },
+    "TDPWatts": 200,
+    "TotalCores": 64,
+    "TotalThreads": 128
+}

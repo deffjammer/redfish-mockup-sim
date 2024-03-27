@@ -1,0 +1,102 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/PlatformEnvironmentMetrics_0",
+    "@odata.type": "#MetricReportDefinition.v1_4_1.MetricReportDefinition",
+    "Id": "PlatformEnvironmentMetrics_0",
+    "MetricProperties": [
+        "/redfish/v1/Chassis/HGX_ProcessorModule_{PMWild}/Sensors/HGX_ProcessorModule_{PMWild}_Power_0",
+        "/redfish/v1/Chassis/HGX_ProcessorModule_{PMWild}/Sensors/HGX_ProcessorModule_{PMWild}_Energy_0",
+        "/redfish/v1/Chassis/Baseboard_0/Sensors/{BSWild}",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_CPU_{CWild}_Power_0",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_CPU_{CWild}_Energy_0",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_CPU_{CWild}_TempAvg_0",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_CPU_{CWild}_TempLimit_0",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_Vreg_0_CpuPower_0",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_Vreg_0_SocPower_0",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_Vreg_1_CpuPower_0",
+        "/redfish/v1/Chassis/HGX_CPU_{CWild}/Sensors/HGX_ProcessorModule_{PMWild}_Vreg_1_SocPower_0"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/PlatformEnvironmentMetrics_0"
+    },
+    "MetricReportDefinitionType": "OnRequest",
+    "Name": "PlatformEnvironmentMetrics_0",
+    "ReportActions": [
+        "LogToMetricReportsCollection"
+    ],
+    "ReportUpdates": "Overwrite",
+    "Status": {
+        "State": "Enabled"
+    },
+    "Wildcards": [
+        {
+            "Name": "GWild",
+            "Values": []
+        },
+        {
+            "Name": "NWild",
+            "Values": []
+        },
+        {
+            "Name": "PRWild",
+            "Values": []
+        },
+        {
+            "Name": "PSWild",
+            "Values": []
+        },
+        {
+            "Name": "FWild",
+            "Values": []
+        },
+        {
+            "Name": "BSWild",
+            "Values": [
+                "PSU1_CUR_OUT",
+                "PSU1_PWR_OUT",
+                "Pwm_PSU1_Fan_1",
+                "PSU1_VOL_OUT",
+                "PSU1_TEMP_2",
+                "PSU1_TEMP_1",
+                "PSU1_CUR_IN",
+                "PSU1_PWR_IN",
+                "PSU1_INLET_TEMP",
+                "PDB_PWR_BK_TEMP",
+                "PSU0_CUR_OUT",
+                "PSU0_PWR_OUT",
+                "Pwm_PSU0_Fan_1",
+                "PSU0_VOL_OUT",
+                "PSU0_TEMP_2",
+                "PSU0_TEMP_1",
+                "PSU0_CUR_IN",
+                "PSU0_PWR_IN",
+                "PSU0_INLET_TEMP",
+                "Baseboard_0_HSC_0_Power_0",
+                "Baseboard_0_StandbyHSC_0_Power_0",
+                "Baseboard_0_TotalHSC_Power_0",
+                "Baseboard_0_HSC_0_Temp_0",
+                "Baseboard_0_Inlet_0_Temp_0",
+                "Baseboard_0_Inlet_1_Temp_0",
+                "Baseboard_0_Inlet_2_Temp_0",
+                "Baseboard_0_Inlet_3_Temp_0",
+                "Baseboard_0_Module_0_Temp_0",
+                "Baseboard_0_PCB_0_Temp_0",
+                "Baseboard_0_PCB_1_Temp_0",
+                "Baseboard_0_PCB_2_Temp_0",
+                "Baseboard_0_StandbyHSC_0_Temp_0"
+            ]
+        },
+        {
+            "Name": "PMWild",
+            "Values": [
+                "0"
+            ]
+        },
+        {
+            "Name": "CWild",
+            "Values": [
+                "0",
+                "1"
+            ]
+        }
+    ]
+}

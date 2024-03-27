@@ -1,0 +1,12 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645049666",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-02-16T22:14:26+00:00",
+    "EntryType": "Event",
+    "Id": "1645049666",
+    "Message": "Detected leak sensor functions properly.",
+    "MessageArgs": [],
+    "MessageId": "OpenBMC.0.1.LeakSensorFunctionsOk",
+    "Name": "System Event Log Entry",
+    "Severity": "OK"
+}

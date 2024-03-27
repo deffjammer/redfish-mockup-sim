@@ -1,0 +1,1082 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1697474077\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/546",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-21T06:07:42+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-21T06:07:42+00:00",
+            "Id": "546",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 546",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/547",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-21T06:07:43+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-21T06:07:43+00:00",
+            "Id": "547",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 547",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/548",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-21T06:07:43+00:00",
+            "Description": "The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-21T06:07:43+00:00",
+            "Id": "548",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 548",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/549",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:27:49+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:27:49+00:00",
+            "Id": "549",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 549",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/550",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:28+00:00",
+            "Description": "Access to the resource located at /bios/defaultSD was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:28+00:00",
+            "Id": "550",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/bios/defaultSD"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /bios/defaultSD was allowed.",
+            "MessageArgs": [
+                "/bios/defaultSD"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 550",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/551",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:33+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Bios was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:33+00:00",
+            "Id": "551",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Bios"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Bios was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Bios"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 551",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/552",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:34+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:34+00:00",
+            "Id": "552",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/BiosStaticFiles"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 552",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/553",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:34+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:34+00:00",
+            "Id": "553",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 553",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/554",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:35+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:35+00:00",
+            "Id": "554",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 554",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/555",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:36+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:36+00:00",
+            "Id": "555",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 555",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/556",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:36+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:36+00:00",
+            "Id": "556",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 556",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/557",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:36+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:36+00:00",
+            "Id": "557",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 557",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/558",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:37+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:37+00:00",
+            "Id": "558",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 558",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/559",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-09-27T16:28:39+00:00",
+            "Description": "The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-09-27T16:28:39+00:00",
+            "Id": "559",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 559",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/560",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:11:05+00:00",
+            "Description": "ComputerSystem.Reset - ForceRestart action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:11:05+00:00",
+            "Id": "560",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "ComputerSystem.Reset - ForceRestart action was triggered which requires attention",
+            "MessageArgs": [
+                "ComputerSystem.Reset",
+                "ForceRestart"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 560",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/561",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:11:54+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:11:54+00:00",
+            "Id": "561",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 561",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/562",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:19+00:00",
+            "Description": "Access to the resource located at /bios/defaultSD was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:19+00:00",
+            "Id": "562",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/bios/defaultSD"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /bios/defaultSD was allowed.",
+            "MessageArgs": [
+                "/bios/defaultSD"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 562",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/563",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:24+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Bios was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:24+00:00",
+            "Id": "563",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Bios"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Bios was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Bios"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 563",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/564",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:25+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:25+00:00",
+            "Id": "564",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/BiosStaticFiles"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 564",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/565",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:25+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:25+00:00",
+            "Id": "565",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 565",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/566",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:26+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:26+00:00",
+            "Id": "566",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 566",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/567",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:26+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:26+00:00",
+            "Id": "567",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 567",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/568",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:27+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:27+00:00",
+            "Id": "568",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 568",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/569",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:27+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:27+00:00",
+            "Id": "569",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 569",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/570",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:28+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:28+00:00",
+            "Id": "570",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 570",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/571",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T14:14:29+00:00",
+            "Description": "The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T14:14:29+00:00",
+            "Id": "571",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 571",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/572",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:19:13+00:00",
+            "Description": "ComputerSystem.Reset - ForceRestart action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:19:13+00:00",
+            "Id": "572",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "ComputerSystem.Reset - ForceRestart action was triggered which requires attention",
+            "MessageArgs": [
+                "ComputerSystem.Reset",
+                "ForceRestart"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 572",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/573",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:20:02+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:20:02+00:00",
+            "Id": "573",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 573",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/574",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:28+00:00",
+            "Description": "Access to the resource located at /bios/defaultSD was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:28+00:00",
+            "Id": "574",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/bios/defaultSD"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /bios/defaultSD was allowed.",
+            "MessageArgs": [
+                "/bios/defaultSD"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 574",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/575",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:33+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Bios was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:33+00:00",
+            "Id": "575",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Bios"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Bios was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Bios"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 575",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/576",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:34+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:34+00:00",
+            "Id": "576",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/BiosStaticFiles"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 576",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/577",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:34+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:34+00:00",
+            "Id": "577",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 577",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/578",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:34+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:34+00:00",
+            "Id": "578",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 578",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/579",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:35+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:35+00:00",
+            "Id": "579",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 579",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/580",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:35+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:35+00:00",
+            "Id": "580",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 580",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/581",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:35+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:35+00:00",
+            "Id": "581",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 581",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/582",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:36+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:36+00:00",
+            "Id": "582",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 582",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/583",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:22:37+00:00",
+            "Description": "The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:22:37+00:00",
+            "Id": "583",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 583",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/584",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:31:18+00:00",
+            "Description": "ComputerSystem.Reset - ForceRestart action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:31:18+00:00",
+            "Id": "584",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "ComputerSystem.Reset - ForceRestart action was triggered which requires attention",
+            "MessageArgs": [
+                "ComputerSystem.Reset",
+                "ForceRestart"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 584",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/585",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:32:01+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:32:01+00:00",
+            "Id": "585",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 585",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/586",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:26+00:00",
+            "Description": "Access to the resource located at /bios/defaultSD was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:26+00:00",
+            "Id": "586",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/bios/defaultSD"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /bios/defaultSD was allowed.",
+            "MessageArgs": [
+                "/bios/defaultSD"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 586",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/587",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:31+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Bios was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:31+00:00",
+            "Id": "587",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Bios"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Bios was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Bios"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 587",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/588",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:32+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:32+00:00",
+            "Id": "588",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/BiosStaticFiles"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 588",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/589",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:33+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:33+00:00",
+            "Id": "589",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/BiosStaticFiles/SetupData.xml"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 589",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/590",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:33+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:33+00:00",
+            "Id": "590",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 590",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/591",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:33+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:33+00:00",
+            "Id": "591",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 591",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/592",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:33+00:00",
+            "Description": "Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:33+00:00",
+            "Id": "592",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/InventoryData was allowed.",
+            "MessageArgs": [
+                "/Oem/Ami/InventoryData"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 592",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/593",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:34+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:34+00:00",
+            "Id": "593",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 593",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/594",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:35+00:00",
+            "Description": "Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:35+00:00",
+            "Id": "594",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Systems/Self/Oem/Ami/BiosTable was allowed.",
+            "MessageArgs": [
+                "/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.AccessAllowed",
+            "Name": "Audit Log Entry 594",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/595",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-10-16T16:34:37+00:00",
+            "Description": "The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2023-10-16T16:34:37+00:00",
+            "Id": "595",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 595",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 150,
+    "Name": "Log Service Entries Collection"
+}

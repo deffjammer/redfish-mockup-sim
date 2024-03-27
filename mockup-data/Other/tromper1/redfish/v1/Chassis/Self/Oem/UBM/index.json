@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ChassisOemUBM.ChassisOemUBM",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Oem/UBM",
+    "@odata.type": "#ChassisOemUBM.v1_0_0.ChassisOemUBM",
+    "Board": {
+        "AreaLength": 4,
+        "CustomFields": "D23041 ",
+        "Date": "Mon Jan  1 00:00:00 1996",
+        "Language": 25,
+        "Manufacturer": "HPE",
+        "PartNumber": "P40445-001",
+        "Version": 1
+    },
+    "Chassis": {
+        "AreaLength": 0,
+        "Version": 0
+    },
+    "Description": "UBM Data",
+    "FirmwareVersion": "01.00.0000",
+    "Id": "UBM",
+    "Name": "UBM",
+    "Product": {
+        "AreaLength": 10,
+        "FRUFileID": "015E05",
+        "Language": 25,
+        "Manufacturer": "HPE",
+        "PartNumber": "P21209-003",
+        "ProductName": "8 SFF 24G x4NVMe/SAS UBM6 BC BP",
+        "ProductVersion": "0A",
+        "Version": 1
+    }
+}

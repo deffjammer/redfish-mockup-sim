@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.2.0
+Created: 2024-02-21 14:23:02
+Service: https://172.24.0.13
+User: root
+Description: 
+Total response time: 805.7586336135864
+Average response time: 0.08196100433461362
+Minimum response time: 0.007864952087402344, /redfish/v1/schema/OemUpdateService_v1.xml
+Maximum response time: 17.781795501708984, /redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# InsydeOem Schema:  InsydeSMBIOS  v1.0.0                                              -->
+<!--#                                                                                      -->
+<!--#  @section LICENSE                                                                    -->
+<!--#                                                                                      -->
+<!--# Copyright (c) 2003-2019, Insyde Software Corp. All Rights Reserved.                  -->
+<!--#                                                                                      -->
+<!--# You may not reproduce, distribute, publish, display, perform, modify, adapt,         -->
+<!--# transmit, broadcast, present, recite, release, license or otherwise exploit          -->
+<!--# any part of this publication in any form, by any means, without the prior            -->
+<!--# written permission of Insyde Software Corp.                                          -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+    <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/RedfishExtensions_v1.xml">
+    <edmx:Include Namespace="RedfishExtensions.v1_0_0" Alias="Redfish"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Resource_v1.xml">
+    <edmx:Include Namespace="Resource.v1_0_0"/>
+  </edmx:Reference>
+
+  <edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="InsydeSMBIOS">
+
+      <EntityType Name="InsydeSMBIOS" BaseType="Resource.v1_0_0.Resource" Abstract="true">
+        <Annotation Term="OData.AdditionalProperties" Bool="true"/>
+        <Annotation Term="OData.Description" String="The SMBIOS schema contains properties related to the SMBIOS Attribute."/>
+        <Annotation Term="OData.LongDescription" String="This resource shall be used to represent SMBIOS attributes for a Redfish implementation."/>
+        <Annotation Term="Capabilities.InsertRestrictions">
+          <Record>
+            <PropertyValue Property="Insertable" Bool="false"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.UpdateRestrictions">
+          <Record>
+            <PropertyValue Property="Updatable" Bool="true"/>
+            <Annotation Term="OData.Description" String="The SMBIOS resource can be updated to change the value of the writable SMBIOS properties."/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.DeleteRestrictions">
+          <Record>
+            <PropertyValue Property="Deletable" Bool="false"/>
+          </Record>
+        </Annotation>
+      </EntityType>
+
+    </Schema>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="InsydeSMBIOS.v1_0_0">
+
+      <EntityType Name="InsydeSMBIOS" BaseType="InsydeSMBIOS.InsydeSMBIOS">
+        <Property Name="SMBIOS_Table" Type="InsydeSMBIOS.v1_0_0.SMBIOS_Table" Nullable="false">
+          <Annotation Term="OData.Description" String="The list of SMBIOS attributes specific to the manufacturer or provider."/>
+          <Annotation Term="OData.LongDescription" String="SMBIOS attribute settings appear as additional properties in this object."/>
+        </Property>
+      </EntityType>
+
+      <ComplexType Name="SMBIOS_Table">
+        <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+        <Annotation Term="OData.Description" String="The manufacturer/provider-specific list of SMBIOS attributes."/>
+        <Annotation Term="OData.LongDescription" String="This type shall describe SMBIOS Attribute settings as additional properties in this object."/>
+        <Annotation Term="Redfish.DynamicPropertyPatterns">
+          <Collection>
+            <Record>
+              <PropertyValue Property="Pattern" String="^[0-9]+_[0-9]+_[a-zA-Z0-9_/()-]+$"/>
+              <PropertyValue Property="Type" String="Collection(Edm.Primitive)"/>
+            </Record>
+          </Collection>
+        </Annotation>
+      </ComplexType>
+
+    </Schema>
+
+  </edmx:DataServices>
+</edmx:Edmx>
+

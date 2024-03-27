@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2449",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2449/attachment",
+    "Created": "1970-01-01T00:26:13+00:00",
+    "EntryType": "Event",
+    "Id": "2449",
+    "Message": "Awaiting for an action to proceed with activating image 'cec1736PkgEcfw-00.02.0083.0002' on 'HGX_FW_ERoT_NVSwitch_3 HGX_FW_ERoT_PCIeSwitch_0 HGX_FW_ERoT_NVSwitch_0 HGX_FW_ERoT_FPGA_0 HGX_FW_ERoT_NVSwitch_1 HGX_FW_ERoT_NVSwitch_2'.",
+    "MessageArgs": [
+        "cec1736PkgEcfw-00.02.0083.0002",
+        "HGX_FW_ERoT_NVSwitch_3 HGX_FW_ERoT_PCIeSwitch_0 HGX_FW_ERoT_NVSwitch_0 HGX_FW_ERoT_FPGA_0 HGX_FW_ERoT_NVSwitch_1 HGX_FW_ERoT_NVSwitch_2"
+    ],
+    "MessageId": "Update.1.0.AwaitToActivate",
+    "Name": "System Event Log Entry",
+    "Resolution": "Perform the requested action to advance the update operation.",
+    "Resolved": true,
+    "Severity": "OK"
+}

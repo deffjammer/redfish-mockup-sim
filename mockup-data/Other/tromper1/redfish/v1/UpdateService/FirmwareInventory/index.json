@@ -1,0 +1,50 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory",
+    "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "Description": "Collection of Firmware Inventory resources available to the UpdateService",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BIOS"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HDDCtrlr"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/MainCPLD"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PDB"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PFRCPLD"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PLDM11"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/RT_NVME"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/RT_OTHER"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/RT_SA"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/UBM3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/UBM6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/UBMHDDCtrlr"
+        }
+    ],
+    "Members@odata.count": 13,
+    "Name": "Firmware Inventory Collection"
+}

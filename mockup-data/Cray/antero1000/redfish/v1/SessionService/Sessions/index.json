@@ -1,0 +1,13 @@
+{
+    "@odata.etag": "W/\"1698350655\"",
+    "@odata.id": "/redfish/v1/SessionService/Sessions",
+    "@odata.type": "#SessionCollection.SessionCollection",
+    "Description": "Colection of Sessions",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/4490a01622d1d05ed422c4e21d29c7c6"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "Session Collection"
+}

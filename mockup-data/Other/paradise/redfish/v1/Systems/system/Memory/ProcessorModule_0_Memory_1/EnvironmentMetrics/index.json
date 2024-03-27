@@ -1,0 +1,6 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/Memory/ProcessorModule_0_Memory_1/EnvironmentMetrics",
+    "@odata.type": "#EnvironmentMetrics.v1_2_0.EnvironmentMetrics",
+    "Id": "EnvironmentMetrics",
+    "Name": "ProcessorModule_0_Memory_1 Environment Metrics"
+}

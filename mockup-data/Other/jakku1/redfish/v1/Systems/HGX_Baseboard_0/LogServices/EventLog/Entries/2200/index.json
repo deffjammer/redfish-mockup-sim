@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2200",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2200/attachment",
+    "Created": "1970-01-01T00:22:12+00:00",
+    "EntryType": "Event",
+    "Id": "2200",
+    "Message": "Verification of image 'cec1736Ecfw-00.02.0083.0002' at 'HGX_FW_ERoT_GPU_SXM_6' failed.",
+    "MessageArgs": [
+        "cec1736Ecfw-00.02.0083.0002",
+        "HGX_FW_ERoT_GPU_SXM_6"
+    ],
+    "MessageId": "Update.1.0.VerificationFailed",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

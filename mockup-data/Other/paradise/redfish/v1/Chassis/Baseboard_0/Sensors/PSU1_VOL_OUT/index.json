@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_VOL_OUT",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "PSU1_VOL_OUT",
+    "Name": "PSU1 VOL OUT",
+    "Reading": 54.185,
+    "ReadingRangeMax": 255.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/LogServices/Journal/Entries/1647208805506588",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-03-13T22:00:05+00:00",
+    "EntryType": "Oem",
+    "Id": "1647208805506588",
+    "Message": "ipmid: Invalid channel name.",
+    "Name": "BMC Journal Entry",
+    "OemRecordFormat": "BMC Journal Entry",
+    "Severity": "Warning"
+}

@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1760FF62\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "49",
+    "Created": "2021-08-31T17:50:21Z",
+    "EntryType": "Oem",
+    "Message": "Processor 1, DIMM 2 could not be authenticated as genuine HPE Memory. Enhanced and extended HPE Memory features will not be active.",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_2_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 625,
+            "Count": 1,
+            "EventNumber": 1070,
+            "Severity": "Informational",
+            "Updated": "2021-08-31T17:50:21Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

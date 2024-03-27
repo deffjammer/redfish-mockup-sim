@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"0FEE219C\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/117",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "117",
+    "Created": "2023-08-04T00:22:58Z",
+    "EntryType": "Oem",
+    "Message": "Correctable Memory Error Threshold Exceeded (Processor 1, DIMM 12).",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 1120,
+            "Count": 1,
+            "EventNumber": 302,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0460-gen10",
+            "RecommendedAction": "Reboot system or re-seat the DIMM and update system firmware. If the issue persists, contact support.",
+            "Repaired": false,
+            "Severity": "Caution",
+            "Updated": "2023-08-04T00:22:58Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Warning"
+}

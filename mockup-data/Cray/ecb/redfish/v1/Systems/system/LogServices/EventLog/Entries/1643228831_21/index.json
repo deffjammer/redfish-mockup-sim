@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1643228831_21",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-01-26T20:27:11+00:00",
+    "EntryType": "Event",
+    "Id": "1643228831_21",
+    "Message": "",
+    "MessageArgs": [
+        "VCCFA_EHV_FIVR_GPU1_GB1_Input_Voltage",
+        "warning"
+    ],
+    "MessageId": "ResourceEvent.1.0.3.ResourceStatusChangedWarning",
+    "Name": "System Event Log Entry",
+    "Severity": ""
+}

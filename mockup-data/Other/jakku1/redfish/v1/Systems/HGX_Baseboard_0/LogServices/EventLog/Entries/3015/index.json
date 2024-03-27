@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/3015",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/3015/attachment",
+    "Created": "2023-09-28T09:56:49+00:00",
+    "EntryType": "Event",
+    "Id": "3015",
+    "Message": "The resource property GPU_SXM_1 Driver Event Message has detected errors of type '[Tue Jun  9 12:24:53 UTC 1970][393216][00] XID 43 eCh 00000008'.",
+    "MessageArgs": [
+        "GPU_SXM_1 Driver Event Message",
+        "[Tue Jun  9 12:24:53 UTC 1970][393216][00] XID 43 eCh 00000008"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

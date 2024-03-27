@@ -1,0 +1,24 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/33",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2000-01-04T11:35:20+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2000-01-04T11:35:20+00:00",
+    "Id": "33",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0OutputCurrent"
+        }
+    },
+    "Message": "Sensor 'SIVOC Current' reading of 76.81 (A) is above the 72 upper caution threshold.",
+    "MessageArgs": [
+        "SIVOC Current",
+        "76.81",
+        "A",
+        "72"
+    ],
+    "MessageId": "SensorEvent.ReadingAboveUpperCautionThreshold",
+    "Name": "Log entry 33",
+    "Severity": "Warning"
+}

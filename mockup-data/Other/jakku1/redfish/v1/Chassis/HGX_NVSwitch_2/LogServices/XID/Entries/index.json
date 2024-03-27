@@ -1,0 +1,389 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVSwitch_2/LogServices/XID/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of XID Log Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2795",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:00:54+00:00",
+            "EntryType": "Event",
+            "Id": "2795",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15400960][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 11x'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15400960][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 11x"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2799",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:00:57+00:00",
+            "EntryType": "Event",
+            "Id": "2799",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15466496][02] SXID 17 dData {0x01b16900'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15466496][02] SXID 17 dData {0x01b16900",
+                "0x00000003",
+                "0x4b409602",
+                "0xbadf510a",
+                "0x00"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2803",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:00:59+00:00",
+            "EntryType": "Event",
+            "Id": "2803",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15532032][00] SXID 17 dNon-fatal'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15532032][00] SXID 17 dNon-fatal",
+                "PRI WRITE PRT error",
+                "instance"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2807",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:01:01+00:00",
+            "EntryType": "Event",
+            "Id": "2807",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15597568][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 11x'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15597568][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 11x"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2811",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:01:03+00:00",
+            "EntryType": "Event",
+            "Id": "2811",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15663104][02] SXID 17 dData {0x01b2e900'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15663104][02] SXID 17 dData {0x01b2e900",
+                "0x00000003",
+                "0x4b409202",
+                "0xbadf510a",
+                "0x00"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2815",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:01:05+00:00",
+            "EntryType": "Event",
+            "Id": "2815",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15728640][00] SXID 17 dNon-fatal'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15728640][00] SXID 17 dNon-fatal",
+                "PRI WRITE PRT error",
+                "instance"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2819",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:01:07+00:00",
+            "EntryType": "Event",
+            "Id": "2819",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15794176][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 12x'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15794176][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 12x"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2823",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "1970-01-01T00:01:09+00:00",
+            "EntryType": "Event",
+            "Id": "2823",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15859712][02] SXID 17 dData {0x01c16900'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15859712][02] SXID 17 dData {0x01c16900",
+                "0x00000003",
+                "0x4b409602",
+                "0xbadf510a",
+                "0x00"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2827",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:35+00:00",
+            "EntryType": "Event",
+            "Id": "2827",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15925248][00] SXID 17 dNon-fatal'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15925248][00] SXID 17 dNon-fatal",
+                "PRI WRITE PRT error",
+                "instance"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2831",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:38+00:00",
+            "EntryType": "Event",
+            "Id": "2831",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][15990784][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 12x'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][15990784][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 12x"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2835",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:40+00:00",
+            "EntryType": "Event",
+            "Id": "2835",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16056320][02] SXID 17 dData {0x01c26900'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16056320][02] SXID 17 dData {0x01c26900",
+                "0x00000003",
+                "0x4b409602",
+                "0xbadf510a",
+                "0x00"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2839",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:42+00:00",
+            "EntryType": "Event",
+            "Id": "2839",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16121856][00] SXID 17 dNon-fatal'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16121856][00] SXID 17 dNon-fatal",
+                "PRI WRITE PRT error",
+                "instance"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2843",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:44+00:00",
+            "EntryType": "Event",
+            "Id": "2843",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16187392][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 13x'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16187392][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 13x"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2847",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:46+00:00",
+            "EntryType": "Event",
+            "Id": "2847",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16252928][02] SXID 17 dData {0x01d16900'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16252928][02] SXID 17 dData {0x01d16900",
+                "0x00000003",
+                "0x4b409602",
+                "0xbadf510a",
+                "0x00"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2851",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:48+00:00",
+            "EntryType": "Event",
+            "Id": "2851",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16318464][00] SXID 17 dNon-fatal'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16318464][00] SXID 17 dNon-fatal",
+                "PRI WRITE PRT error",
+                "instance"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2855",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:50+00:00",
+            "EntryType": "Event",
+            "Id": "2855",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16384000][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 14x'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16384000][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 14x"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2859",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:52+00:00",
+            "EntryType": "Event",
+            "Id": "2859",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16449536][02] SXID 17 dData {0x01e16900'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16449536][02] SXID 17 dData {0x01e16900",
+                "0x00000003",
+                "0x4b409602",
+                "0xbadf510a",
+                "0x00"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2863",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:54+00:00",
+            "EntryType": "Event",
+            "Id": "2863",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16515072][00] SXID 17 dNon-fatal'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16515072][00] SXID 17 dNon-fatal",
+                "PRI WRITE PRT error",
+                "instance"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2867",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:56+00:00",
+            "EntryType": "Event",
+            "Id": "2867",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16580608][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 15'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16580608][00] SXID 17 dSeverity 0 Engine instance 04 Sub-engine instance 15"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2871",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2023-08-09T01:41:58+00:00",
+            "EntryType": "Event",
+            "Id": "2871",
+            "Message": "The resource property NVSwitch_2 Driver Event Message has detected errors of type '[Sun Feb  1 05:23:19 UTC 1970][16646144][02] SXID 17 dData {0x01f16900'.",
+            "MessageArgs": [
+                "NVSwitch_2 Driver Event Message",
+                "[Sun Feb  1 05:23:19 UTC 1970][16646144][02] SXID 17 dData {0x01f16900",
+                "0x00000003",
+                "0x4b409602",
+                "0xbadf510a",
+                "0x00"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        }
+    ],
+    "Members@odata.count": 20,
+    "Name": "XID Log Entries"
+}

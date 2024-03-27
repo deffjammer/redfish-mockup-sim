@@ -1,0 +1,101 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system",
+    "@odata.type": "#ComputerSystem.v1_13_0.ComputerSystem",
+    "Actions": {
+        "#ComputerSystem.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/system/ResetActionInfo",
+            "target": "/redfish/v1/Systems/system/Actions/ComputerSystem.Reset"
+        }
+    },
+    "Bios": {
+        "@odata.id": "/redfish/v1/Systems/system/Bios"
+    },
+    "Boot": {
+        "AutomaticRetryAttempts": 3,
+        "AutomaticRetryConfig": "Disabled",
+        "AutomaticRetryConfig@Redfish.AllowableValues": [
+            "Disabled",
+            "RetryAttempts"
+        ],
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideMode": "Legacy",
+        "BootSourceOverrideTarget": "None",
+        "BootSourceOverrideTarget@Redfish.AllowableValues": [
+            "None",
+            "Pxe",
+            "Hdd",
+            "Cd",
+            "Diags",
+            "BiosSetup",
+            "Usb"
+        ]
+    },
+    "Description": "Computer System",
+    "HostWatchdogTimer": {
+        "FunctionEnabled": false,
+        "Status": {
+            "State": "Enabled"
+        },
+        "TimeoutAction": "ResetSystem"
+    },
+    "Id": "system",
+    "IndicatorLED": "Off",
+    "LastResetTime": "2022-03-01T19:50:03+00:00",
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/BMC"
+            }
+        ],
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/bmc"
+            }
+        ]
+    },
+    "LocationIndicatorActive": false,
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Systems/system/LogServices"
+    },
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/system/Memory"
+    },
+    "MemorySummary": {
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        },
+        "TotalSystemMemoryGiB": 1024
+    },
+    "Name": "system",
+    "Oem": {
+        "Intel": {
+            "HostMacAddress": "98:4f:ee:16:58:44"
+        }
+    },
+    "PowerRestorePolicy": "AlwaysOff",
+    "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "Intel Xeon processor",
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        }
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/system/Processors"
+    },
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Storage": {
+        "@odata.id": "/redfish/v1/Systems/system/Storage"
+    },
+    "SystemType": "Physical",
+    "UUID": "00000000-0000-0000-0000-000000000000"
+}

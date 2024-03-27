@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1698350696\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU1VoltageRegulator5Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU1VoltageRegulator5Temperature",
+    "Name": "CPU1 VDDCR_CPUB",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 1,
+        "ReferenceDesignator": "U4016"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

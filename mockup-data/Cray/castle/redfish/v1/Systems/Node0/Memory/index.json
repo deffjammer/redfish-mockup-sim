@@ -1,0 +1,9 @@
+{
+    "@odata.etag": "W/\"1646685786\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Memory",
+    "@odata.type": "#MemoryCollection.MemoryCollection",
+    "Description": "Collection of Memories for this system",
+    "Members": [],
+    "Members@odata.count": 0,
+    "Name": "Memory Collection"
+}

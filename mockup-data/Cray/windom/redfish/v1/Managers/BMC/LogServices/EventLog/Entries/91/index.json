@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1698352662\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/91",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2023-08-15T18:23:59+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-08-15T18:23:59+00:00",
+    "Id": "91",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The CPU0 VDR ABCD Power resource has detected a critical fault indicating that it is far outside normal operating conditions.",
+    "MessageArgs": [
+        "CPU0 VDR ABCD Power",
+        "outside"
+    ],
+    "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+    "Name": "Log entry 91",
+    "Severity": "Critical"
+}

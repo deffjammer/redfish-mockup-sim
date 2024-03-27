@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemACInputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemACInputPower",
+    "Name": "CDU Apparent Power",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "ACInput",
+    "Reading": 464,
+    "ReadingTime": "2022-03-11T21:43:40.639263751Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

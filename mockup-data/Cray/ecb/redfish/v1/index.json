@@ -1,0 +1,57 @@
+{
+    "@odata.id": "/redfish/v1",
+    "@odata.type": "#ServiceRoot.v1_5_0.ServiceRoot",
+    "AccountService": {
+        "@odata.id": "/redfish/v1/AccountService"
+    },
+    "CertificateService": {
+        "@odata.id": "/redfish/v1/CertificateService"
+    },
+    "Chassis": {
+        "@odata.id": "/redfish/v1/Chassis"
+    },
+    "EventService": {
+        "@odata.id": "/redfish/v1/EventService"
+    },
+    "Id": "RootService",
+    "JsonSchemas": {
+        "@odata.id": "/redfish/v1/JsonSchemas"
+    },
+    "Links": {
+        "Sessions": {
+            "@odata.id": "/redfish/v1/SessionService/Sessions"
+        }
+    },
+    "Managers": {
+        "@odata.id": "/redfish/v1/Managers"
+    },
+    "Name": "Root Service",
+    "Oem": {
+        "OpenBmc": {
+            "@odata.type": "#OemServiceRoot.v1_0_0.ServiceRoot",
+            "CupsService": {
+                "@odata.id": "/redfish/v1/CupsService"
+            }
+        }
+    },
+    "RedfishVersion": "1.9.0",
+    "Registries": {
+        "@odata.id": "/redfish/v1/Registries"
+    },
+    "SessionService": {
+        "@odata.id": "/redfish/v1/SessionService"
+    },
+    "Systems": {
+        "@odata.id": "/redfish/v1/Systems"
+    },
+    "Tasks": {
+        "@odata.id": "/redfish/v1/TaskService"
+    },
+    "TelemetryService": {
+        "@odata.id": "/redfish/v1/TelemetryService"
+    },
+    "UUID": "4a8aec28-d213-4617-ad3d-2f7941302087",
+    "UpdateService": {
+        "@odata.id": "/redfish/v1/UpdateService"
+    }
+}

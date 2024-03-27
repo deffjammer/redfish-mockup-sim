@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/Managers/bmc/LogServices/Journal/Entries/1647258176593757",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-03-14T11:42:56+00:00",
+    "EntryType": "Oem",
+    "Id": "1647258176593757",
+    "Message": "kernel: audit: type=1334 audit(1647258176.591:117399): prog-id=58692 op=LOAD",
+    "Name": "BMC Journal Entry",
+    "OemRecordFormat": "BMC Journal Entry",
+    "Severity": "OK"
+}

@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#InsydePostCodeCollection.InsydePostCodeCollection",
+    "@odata.id": "/redfish/v1/Systems/system/Oem/Insyde/PostCode",
+    "@odata.type": "#InsydePostCodeCollection.InsydePostCodeCollection",
+    "Name": "Post Code Collection",
+    "Description": "A Collection of Post Code resource instances.",
+    "Members@odata.count": 2,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Oem/Insyde/PostCode/Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Oem/Insyde/PostCode/Previous"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogServiceCollection.LogServiceCollection",
+    "@odata.etag": "\"1697465491\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices",
+    "@odata.type": "#LogServiceCollection.LogServiceCollection",
+    "Description": "Collection of Log Services for this Managers",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "Log Service Collection"
+}

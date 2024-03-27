@@ -1,0 +1,8 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Midplane/Controls",
+    "@odata.type": "#ControlCollection.ControlCollection",
+    "Description": "The collection of Controlable resource instances Midplane",
+    "Members": [],
+    "Members@odata.count": 0,
+    "Name": "Controls"
+}

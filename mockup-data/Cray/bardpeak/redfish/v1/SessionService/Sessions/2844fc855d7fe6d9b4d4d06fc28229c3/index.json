@@ -1,0 +1,9 @@
+{
+    "@odata.etag": "W/\"1698352512\"",
+    "@odata.id": "/redfish/v1/SessionService/Sessions/2844fc855d7fe6d9b4d4d06fc28229c3",
+    "@odata.type": "#Session.v1_1_0.Session",
+    "Description": "Session for user root",
+    "Id": "2844fc855d7fe6d9b4d4d06fc28229c3",
+    "Name": "root Session",
+    "UserName": "root"
+}

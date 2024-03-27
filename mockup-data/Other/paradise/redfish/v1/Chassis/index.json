@@ -1,0 +1,50 @@
+{
+    "@odata.id": "/redfish/v1/Chassis",
+    "@odata.type": "#ChassisCollection.ChassisCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Cpld0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Midplane"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/ProcessorModule_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/ERoT_CPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/ERoT_CPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/FPGA_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/NCSI"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1"
+        }
+    ],
+    "Members@odata.count": 14,
+    "Name": "Chassis Collection"
+}

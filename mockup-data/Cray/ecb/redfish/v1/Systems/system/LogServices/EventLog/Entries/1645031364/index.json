@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1645031364",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-02-16T17:09:24+00:00",
+    "EntryType": "Event",
+    "Id": "1645031364",
+    "Message": "Event subscription with id 425822364 was added.",
+    "MessageArgs": [
+        "425822364"
+    ],
+    "MessageId": "OpenBMC.0.1.EventSubscriptionAdded",
+    "Name": "System Event Log Entry",
+    "Severity": "OK"
+}

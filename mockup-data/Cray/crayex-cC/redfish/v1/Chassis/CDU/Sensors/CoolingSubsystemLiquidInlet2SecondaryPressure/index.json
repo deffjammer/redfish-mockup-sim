@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemLiquidInlet2SecondaryPressure",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Secondary",
+    "Id": "CoolingSubsystemLiquidInlet2SecondaryPressure",
+    "Name": "Secondary (Cabinet) Return Pressure Probe 2",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "LiquidInlet",
+    "Reading": 35.5,
+    "ReadingTime": "2022-03-11T21:43:43.030410707Z",
+    "ReadingType": "Pressure",
+    "ReadingUnits": "PSI"
+}

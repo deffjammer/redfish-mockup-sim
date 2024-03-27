@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemActuatorInputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CoolingSubsystemActuatorInputVoltage",
+    "Name": "CWV Valve Actuator (Commanded Voltage)",
+    "Oem": {
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Actuator",
+    "PhysicalSubContext": "Input",
+    "Reading": 4.6,
+    "ReadingTime": "2022-03-11T21:43:40.073161107Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V"
+}

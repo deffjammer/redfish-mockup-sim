@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemPump2SecondaryInputPressure",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Secondary",
+    "Id": "CoolingSubsystemPump2SecondaryInputPressure",
+    "Name": "Secondary (Cabinet) Pump Suction Pressure Probe 2",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Pump",
+    "PhysicalSubContext": "Input",
+    "Reading": 39,
+    "ReadingTime": "2022-03-11T21:43:43.040396278Z",
+    "ReadingType": "Pressure",
+    "ReadingUnits": "PSI"
+}

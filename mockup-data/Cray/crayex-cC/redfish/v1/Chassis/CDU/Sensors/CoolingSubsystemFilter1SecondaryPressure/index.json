@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646685118\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Sensors/CoolingSubsystemFilter1SecondaryPressure",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "ElectricalContext": "Secondary",
+    "Id": "CoolingSubsystemFilter1SecondaryPressure",
+    "Name": "Secondary (Cabinet) Filter Inlet Pressure",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "CoolingSubsystem"
+    },
+    "PhysicalContext": "Filter",
+    "Reading": 0,
+    "ReadingTime": "2022-03-11T21:43:43.061488695Z",
+    "ReadingType": "Pressure",
+    "ReadingUnits": "PSI"
+}

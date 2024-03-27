@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# InsydeOem Schema:  InsydeIPAcess  v1.0.0                                                -->
+<!--#                                                                                      -->
+<!--#  @section LICENSE                                                                    -->
+<!--#                                                                                      -->
+<!--# Copyright (c) 2003-2019, Insyde Software Corp. All Rights Reserved.                  -->
+<!--#                                                                                      -->
+<!--# You may not reproduce, distribute, publish, display, perform, modify, adapt,         -->
+<!--# transmit, broadcast, present, recite, release, license or otherwise exploit          -->
+<!--# any part of this publication in any form, by any means, without the prior            -->
+<!--# written permission of Insyde Software Corp.                                          -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+    <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Resource_v1.xml">
+    <edmx:Include Namespace="Resource.v1_0_0"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/RedfishExtensions_v1.xml">
+    <edmx:Include Namespace="RedfishExtensions.v1_0_0" Alias="Redfish"/>
+  </edmx:Reference>
+
+  <edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="InsydeIPAccessEntry">
+      <Annotation Term="Redfish.OwningEntity" String="DMTF"/>
+
+      <EntityType Name="InsydeIPAccessEntry" BaseType="Resource.v1_0_0.Resource" Abstract="true">
+
+        <Annotation Term="Capabilities.InsertRestrictions">
+          <Record>
+            <PropertyValue Property="Insertable" Bool="false"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.UpdateRestrictions">
+          <Record>
+            <PropertyValue Property="Updatable" Bool="true"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.DeleteRestrictions">
+          <Record>
+            <PropertyValue Property="Deletable" Bool="true"/>
+          </Record>
+        </Annotation>
+      </EntityType>
+
+    </Schema>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="InsydeIPAccessEntry.v1_0_0">
+      <Annotation Term="Redfish.OwningEntity" String="DMTF"/>
+      <EntityType Name="InsydeIPAccessEntry" BaseType="InsydeIPAccessEntry.InsydeIPAccessEntry">
+        <Property Name="IPMask" Type="InsydeIPAccessEntry.v1_0_0.IPMask">
+
+        </Property>
+        <Property Name="IPRange" Type="InsydeIPAccessEntry.v1_0_0.IPRange">
+
+        </Property>
+        <Property Name="MAC" Type="Edm.String">
+
+        </Property>
+        <Property Name="Port" Type="InsydeIPAccessEntry.v1_0_0.Port">
+
+        </Property>
+
+        <Property Name="Type" Type="InsydeIPAccessEntry.v1_0_0.RuleType">
+
+        </Property>
+        <Property Name="Policy" Type="InsydeIPAccessEntry.v1_0_0.PolicyRule">
+
+        </Property>
+      </EntityType>
+
+      <ComplexType Name="IPMask">
+        <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+        <Annotation Term="OData.Description" String="The entry in the RFC6724-defined address selection policy table."/>
+        <Annotation Term="OData.LongDescription" String="This type shall describe an entry in the RFC6724-defined address selection policy table."/>
+        <Property Name="Prefix" Type="Edm.Int64">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="Net Mask Prefix"/>
+          <Annotation Term="OData.LongDescription" String="Net Mask Prefix"/>
+          <Annotation Term="Validation.Minimum" Int="1"/>
+          <Annotation Term="Validation.Maximum" Int="128"/>
+        </Property>
+        <Property Name="IP" Type="Edm.String">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="IP Address"/>
+          <Annotation Term="OData.LongDescription" String="IP Address"/>
+        </Property>
+      </ComplexType>
+
+      <ComplexType Name="IPRange">
+        <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+        <Annotation Term="OData.Description" String="IP Address range."/>
+        <Annotation Term="OData.LongDescription" String="IP Address range."/>
+        <Property Name="Start" Type="Edm.String">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="IP Address range"/>
+          <Annotation Term="OData.LongDescription" String="IP Address start"/>
+
+        </Property>
+        <Property Name="End" Type="Edm.String">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="IP Address range"/>
+          <Annotation Term="OData.LongDescription" String="IP Address range end"/>
+        </Property>
+      </ComplexType>
+
+      <ComplexType Name="Port">
+        <Annotation Term="OData.AdditionalProperties" Bool="false"/>
+        <Annotation Term="OData.Description" String="port range."/>
+        <Annotation Term="OData.LongDescription" String=" port range."/>
+        <Property Name="Protocol" Type="InsydeIPAccessEntry.v1_0_0.ProtocolType">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="Protocol setting"/>
+          <Annotation Term="OData.LongDescription" String="Protocol setting"/>
+        </Property>
+        <Property Name="Start" Type="Edm.Int64">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="port range"/>
+          <Annotation Term="OData.LongDescription" String="port range start"/>
+
+        </Property>
+        <Property Name="End" Type="Edm.Int64">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="port range"/>
+          <Annotation Term="OData.LongDescription" String="port range end"/>
+        </Property>
+      </ComplexType>
+
+      <EnumType Name="PolicyRule">
+        <Member Name="ACCEPT">
+          <Annotation Term="OData.Description" String="Allow the connection."/>
+          <Annotation Term="OData.LongDescription" String="Allow the connection."/>
+        </Member>
+        <Member Name="DROP">
+          <Annotation Term="OData.Description" String="Drop the connection."/>
+          <Annotation Term="OData.LongDescription" String="Drop the connection, act like it never happened. This is best if you don’t want the source to realize your system exists"/>
+        </Member>
+      </EnumType>
+      <EnumType Name="RuleType">
+        <Member Name="IPMASK">
+          <Annotation Term="OData.Description" String="Setting rules."/>
+          <Annotation Term="OData.LongDescription" String="Setting with IP Address and netmask prefix."/>
+        </Member>
+        <Member Name="IPRANGE">
+          <Annotation Term="OData.Description" String="Setting rules."/>
+          <Annotation Term="OData.LongDescription" String="Setting with IP Address range"/>
+        </Member>
+        <Member Name="MAC">
+          <Annotation Term="OData.Description" String="Setting rules."/>
+          <Annotation Term="OData.LongDescription" String="Setting with MAC address."/>
+        </Member>
+        <Member Name="PORT">
+          <Annotation Term="OData.Description" String="Setting rules."/>
+          <Annotation Term="OData.LongDescription" String="Setting with port."/>
+        </Member>
+      </EnumType>
+      <EnumType Name="ProtocolType">
+        <Member Name="UDP">
+          <Annotation Term="OData.Description" String="Setting rules."/>
+          <Annotation Term="OData.LongDescription" String="Setting with UDP type."/>
+        </Member>
+        <Member Name="TCP">
+          <Annotation Term="OData.Description" String="Setting rules."/>
+          <Annotation Term="OData.LongDescription" String="Setting with TCP type."/>
+        </Member>
+      </EnumType>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#InsydeIPAccessCollection.InsydeIPAccessCollection",
+    "@odata.id": "/redfish/v1/Managers/BMC_0/Oem/Insyde/IPv6AccessCollection",
+    "@odata.type": "#InsydeIPAccessCollection.InsydeIPAccessCollection",
+    "Description": "The collection of IPAccess Control Resource instances.",
+    "Members": [],
+    "Members@odata.count": 0,
+    "Name": "IPv6AccessCollection",
+    "ServiceEnabled": false
+}

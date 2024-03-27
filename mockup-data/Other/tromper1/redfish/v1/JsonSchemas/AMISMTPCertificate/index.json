@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "\"1698351709\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/AMISMTPCertificate",
+    "@odata.type": "#JsonSchemaFile.v1_1_4.JsonSchemaFile",
+    "Description": "AMISMTPCertificate schema",
+    "Id": "AMISMTPCertificate",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/JsonSchemas/AMISMTPCertificate.json"
+        }
+    ],
+    "Name": "AMISMTPCertificate schema",
+    "Schema": "AMISMTPCertificate.AMISMTPCertificate"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<!--################################################################################       -->
+<!--# Redfish OEM Schema:  NvidiaChassis  v1.0.0                                           -->
+<!--#                                                                                      -->
+<!--# Copyright 2021-2022 NVIDIA.                                                          -->
+<!--# For the full NVIDIA copyright policy, see LICENSE.md                                 -->
+<!--################################################################################       -->
+<!---->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Namespace="Org.OData.Core.V1" Alias="OData"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/RedfishExtensions_v1.xml">
+    <edmx:Include Namespace="RedfishExtensions.v1_0_0" Alias="Redfish"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Resource_v1.xml">
+    <edmx:Include Namespace="Resource"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/csd01/complete/vocabularies/Org.OData.Measures.V1.xml">
+    <edmx:Include Namespace="Org.OData.Measures.V1" Alias="Measures"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Chassis_v1.xml">
+    <edmx:Include Namespace="Chassis"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/PCIeDevice_v1.xml">
+    <edmx:Include Namespace="PCIeDevice"/>
+  </edmx:Reference>
+
+  <edmx:DataServices>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="NvidiaChassis">
+      <Annotation Term="Redfish.OwningEntity" String="NVIDIA"/>
+    </Schema>
+
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="NvidiaChassis.v1_0_0">
+      <Annotation Term="Redfish.OwningEntity" String="NVIDIA"/>
+
+      <ComplexType Name="NvidiaChassis">
+        <Property Name="HardwareWriteProtected" Type="Edm.Boolean">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="An indication whether the hardware write protection jumper is present."/>
+          <Annotation Term="OData.LongDescription" String="This property shall indicate the hardware write protection jumper status, where a value `true` shall indicate that the hardware write protection jumper is present, and all requests for software write protection will be ignored."/>
+        </Property>
+        <Property Name="HardwareWriteProtectedControl" Type="Edm.Boolean">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="An indication whether the hardware write protection is enabled."/>
+          <Annotation Term="OData.LongDescription" String="This property shall indicate the status of WP_HW_CTRL_N, where a value `true` shall indicate that the status of WP_HW_CTRL_N is enabled, and all requests for software write protection will be ignored."/>
+        </Property>
+        <Property Name="PCIeReferenceClockCount" Type="Edm.Int64">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="The number of PCIe reference clock and reset pairs on this baseboard."/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain the number of PCIe reference clock and reset pairs on this baseboard."/>
+        </Property>
+        <Property Name="SerialNumber" Type="Edm.String">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="The chassis serial number."/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain the chassis serial number that allows partners to populate."/>
+        </Property>
+        <Property Name="PartNumber" Type="Edm.String">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="The chassis part number."/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain the chassis part number that allows partners to populate."/>
+        </Property>
+        <Property Name="AutomaticBackgroundCopyEnabled" Type="Edm.Boolean">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="An indication whether automatic copy policy is enabled for this ERoT."/>
+          <Annotation Term="OData.LongDescription" String="This property shall indicate whether automatic copy policy is enabled for this ERoT."/>
+        </Property>
+        <Property Name="BackgroundCopyStatus" Type="NvidiaChassis.v1_0_0.BackgroundCopyStatus">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="The status of background copy operation as indicated by this ERoT."/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain the status of background copy operation as indicated by this ERoT."/>
+        </Property>
+        <Property Name="InbandUpdatePolicyEnabled" Type="Edm.Boolean">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/ReadWrite"/>
+          <Annotation Term="OData.Description" String="An indication whether inband update policy is enabled by this ERoT."/>
+          <Annotation Term="OData.LongDescription" String="This property shall indicate whether inband update policy is enabled by this ERoT.  If `false`, inband update policy is disabled, meaning both AP_FW and EC_FW are not allowed to update from the host."/>
+        </Property>
+        <NavigationProperty Name="ComponentsProtected" Type="Collection(Resource.Item)">
+          <Annotation Term="OData.Permissions" EnumMember="OData.Permission/Read"/>
+          <Annotation Term="OData.Description" String="An array of links to resources that this component provides integrity protection."/>
+          <Annotation Term="OData.LongDescription" String="This property shall contain an array of links to resources that this component provides integrity protection."/>
+        </NavigationProperty>
+      </ComplexType>
+
+      <EnumType Name="BackgroundCopyStatus">
+        <Member Name="Pending">
+          <Annotation Term="OData.Description" String="No background copy is in progress.  This value shall represent that the background copy operation is pending and has not yet begun to execute."/>
+        </Member>
+        <Member Name="InProgress">
+          <Annotation Term="OData.Description" String="Background copy is in progress.  This value shall represent that the background copy operation is in progress."/>
+        </Member>
+        <Member Name="Completed">
+          <Annotation Term="OData.Description" String="Background copy is completed.  This value shall represent that the background copy operation is completed successfully."/>
+        </Member>
+      </EnumType>
+
+    </Schema>
+
+  </edmx:DataServices>
+</edmx:Edmx>

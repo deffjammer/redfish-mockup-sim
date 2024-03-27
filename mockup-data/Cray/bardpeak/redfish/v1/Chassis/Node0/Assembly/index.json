@@ -1,0 +1,342 @@
+{
+    "@odata.etag": "W/\"1698352512\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Assembly",
+    "@odata.type": "#Assembly.v1_3_0.Assembly",
+    "Assemblies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Assembly#/Assemblies/0",
+            "MemberId": "0",
+            "Model": "AMD INSTINCT MI200 (MCM) OAM LC",
+            "Name": "Accelerator0",
+            "Oem": {
+                "Links": {
+                    "Processors": [
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU1"
+                        }
+                    ]
+                }
+            },
+            "PhysicalContext": "Accelerator",
+            "SerialNumber": "000000000000",
+            "Version": "90"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Assembly#/Assemblies/1",
+            "MemberId": "1",
+            "Model": "AMD INSTINCT MI200 (MCM) OAM LC",
+            "Name": "Accelerator1",
+            "Oem": {
+                "Links": {
+                    "Processors": [
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU2"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU3"
+                        }
+                    ]
+                }
+            },
+            "PhysicalContext": "Accelerator",
+            "SerialNumber": "000000000000",
+            "Version": "90"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Assembly#/Assemblies/2",
+            "MemberId": "2",
+            "Model": "AMD INSTINCT MI200 (MCM) OAM LC",
+            "Name": "Accelerator2",
+            "Oem": {
+                "Links": {
+                    "Processors": [
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU6"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU7"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU4"
+                        },
+                        {
+                            "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU5"
+                        }
+                    ]
+                }
+            },
+            "PhysicalContext": "Accelerator",
+            "SerialNumber": "000000000000",
+            "Version": "90"
+        }
+    ],
+    "Id": "Assembly",
+    "Name": "System-related Assembly data"
+}

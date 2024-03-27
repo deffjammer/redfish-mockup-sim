@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"1647264578\"",
+    "@odata.id": "/redfish/v1/Chassis/Node1/Sensors/CPU0VoltageRegulator2Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator2Temperature",
+    "Name": "CPU0 FIVRA S0",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3010"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 38,
+    "ReadingTime": "2022-03-14T13:29:39.901804409Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

@@ -1,0 +1,28 @@
+{
+    "@odata.etag": "W/\"1698352518\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0OutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator0OutputPower",
+    "Name": "PDB SIVOC48",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "J7000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 480,
+    "ReadingTime": "2023-10-26T20:35:16.600215137Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 3000
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 3200
+        }
+    }
+}

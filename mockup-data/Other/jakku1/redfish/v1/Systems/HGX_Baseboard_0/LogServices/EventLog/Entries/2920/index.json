@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2920",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2920/attachment",
+    "Created": "2023-09-15T13:35:05+00:00",
+    "EntryType": "Event",
+    "Id": "2920",
+    "Message": "The resource property PCIeRetimer_2 PCIe has detected errors of type 'Abnormal Width Change'.",
+    "MessageArgs": [
+        "PCIeRetimer_2 PCIe",
+        "Abnormal Width Change"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "Reset the link. If problem persists, isolate the server for RMA evaluation.",
+    "Resolved": true,
+    "Severity": "Critical"
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2999",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/2999/attachment",
+    "Created": "2023-09-27T07:36:50+00:00",
+    "EntryType": "Event",
+    "Id": "2999",
+    "Message": "The resource property GPU_SXM_1 Driver Event Message has detected errors of type '[Tue Apr 14 01:10:43 UTC 1970][131072][02] XID 31 eCh 00000008'.",
+    "MessageArgs": [
+        "GPU_SXM_1 Driver Event Message",
+        "[Tue Apr 14 01:10:43 UTC 1970][131072][02] XID 31 eCh 00000008",
+        "intr 00000000. MMU Fault: ENGINE GRAPHICS GPCCL"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

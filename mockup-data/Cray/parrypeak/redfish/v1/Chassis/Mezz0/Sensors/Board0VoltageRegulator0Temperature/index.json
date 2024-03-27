@@ -1,0 +1,31 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0VoltageRegulator0Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Board0VoltageRegulator0Temperature",
+    "Name": "0.85V S0 VR Temperature",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Board",
+        "ParentalIndex": 0
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 40,
+    "ReadingTime": "2000-01-09T09:59:13.745576400Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 100
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 130
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 150
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1644505766",
+    "@odata.type": "#LogEntry.v1_4_0.LogEntry",
+    "Created": "2022-02-10T15:09:26+00:00",
+    "EntryType": "Event",
+    "Id": "1644505766",
+    "Message": "Power supply P0V82_CORE_1 predicted failure recovered.",
+    "MessageArgs": [
+        "P0V82_CORE_1"
+    ],
+    "MessageId": "OpenBMC.0.1.PowerSupplyPredictedFailureRecovered",
+    "Name": "System Event Log Entry",
+    "Severity": "OK"
+}

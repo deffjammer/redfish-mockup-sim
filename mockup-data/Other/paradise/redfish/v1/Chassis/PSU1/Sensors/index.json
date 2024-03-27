@@ -1,0 +1,36 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Collection of Sensors for this Chassis",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_CUR_IN"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_CUR_OUT"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/Pwm_PSU1_Fan_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_PWR_IN"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_PWR_OUT"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_INLET_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_TEMP_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_TEMP_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Sensors/PSU1_VOL_OUT"
+        }
+    ],
+    "Members@odata.count": 9,
+    "Name": "Sensors"
+}

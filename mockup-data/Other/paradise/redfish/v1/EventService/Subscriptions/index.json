@@ -1,0 +1,11 @@
+{
+    "@odata.id": "/redfish/v1/EventService/Subscriptions",
+    "@odata.type": "#EventDestinationCollection.EventDestinationCollection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/EventService/Subscriptions/SNMP1"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "Event Destination Collections"
+}

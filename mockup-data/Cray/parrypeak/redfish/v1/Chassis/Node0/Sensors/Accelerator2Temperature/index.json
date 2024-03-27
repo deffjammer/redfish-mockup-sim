@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"947411862\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator2Temperature",
+    "Oem": {
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 2
+    },
+    "Reading": 34,
+    "ReadingTime": "2000-01-09T09:58:27.090917440Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

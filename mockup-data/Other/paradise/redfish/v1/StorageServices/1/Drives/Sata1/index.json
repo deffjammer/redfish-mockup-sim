@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.id": "/redfish/v1/StorageServices/1/Drives/Sata1",
+    "@odata.type": "#Drive.v1_13_0.Drive",
+    "Id": "Sata1",
+    "Name": "Drive Sata1",
+    "Description": "The Drive schema represents a single physical drive for a system.",
+    "Protocol": "SATA",
+    "MediaType": "HDD",
+    "Model": "",
+    "CapacityBytes": 0,
+    "SerialNumber": "",
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": null,
+            "LocationType": null
+        }
+    },
+    "RotationSpeedRPM": null,
+    "Revision": "`>~",
+    "Oem": {
+        "InsydeDrives": {
+            "@odata.type": "#InsydeOEMExtensions.Drive",
+            "Controller": ""
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/2012",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/2012/attachment",
+    "Created": "2024-01-04T08:07:48+00:00",
+    "EntryType": "Event",
+    "Id": "2012",
+    "Message": "The resource property BMC_0 SMBPBI has detected errors of type 'Failover to Redundant Interface(i2c)'.",
+    "MessageArgs": [
+        "BMC_0 SMBPBI",
+        "Failover to Redundant Interface(i2c)"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1647035019\"",
+    "@odata.id": "/redfish/v1/Chassis/CDU/Controls",
+    "@odata.type": "#ControlsCollection.ControlsCollection",
+    "Description": "All controls for CDU",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Controls/SetCDUTemp"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Controls/SetCDUPressure"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CDU/Controls/SetCDUFilterDPAlarm"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "CDU Controls Collection"
+}

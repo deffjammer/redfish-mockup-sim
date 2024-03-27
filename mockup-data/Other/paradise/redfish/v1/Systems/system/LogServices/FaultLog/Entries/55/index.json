@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/FaultLog/Entries/55",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "AdditionalDataSizeBytes": 296,
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/FaultLog/Entries/55/attachment",
+    "CPER": {
+        "Oem": {
+            "NvIpSignature": "DRAM-CHANNELS",
+            "NvSeverity": "None",
+            "NvSocketNumber": "0",
+            "SectionType": "NVIDIA CPER Error Section",
+            "Severity": "OK"
+        }
+    },
+    "Created": "2023-11-28T13:24:33+00:00",
+    "DiagnosticDataType": "CPER",
+    "EntryType": "Event",
+    "Id": "55",
+    "Message": "",
+    "Name": "FaultLog Dump Entry",
+    "Severity": "OK"
+}
