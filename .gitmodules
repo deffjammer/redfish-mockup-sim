@@ -7,3 +7,6 @@
 [submodule "Redfish-Service-Validator"]
 	path = Redfish-Service-Validator
 	url = https://github.com/DMTF/Redfish-Service-Validator.git
+[submodule "Redfish-Interface-Emulator"]
+	path = Redfish-Interface-Emulator
+	url = https://github.com/DMTF/Redfish-Interface-Emulator.git
