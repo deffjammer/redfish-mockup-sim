@@ -4,3 +4,6 @@
 [submodule "Redfish-Mockup-Creator"]
 	path = Redfish-Mockup-Creator
 	url = https://github.com/DMTF/Redfish-Mockup-Creator.git
+[submodule "Redfish-Service-Validator"]
+	path = Redfish-Service-Validator
+	url = https://github.com/DMTF/Redfish-Service-Validator.git
