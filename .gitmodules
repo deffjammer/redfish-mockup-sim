@@ -10,3 +10,9 @@
 [submodule "Redfish-Interface-Emulator"]
 	path = Redfish-Interface-Emulator
 	url = https://github.com/DMTF/Redfish-Interface-Emulator.git
+[submodule "redfish-validator-profiles"]
+	path = redfish-validator-profiles
+	url = https://github.com/Cray-HPE/redfish-validator-profiles.git
+[submodule "Redfish-Interop-Validator"]
+	path = Redfish-Interop-Validator
+	url = https://github.com/DMTF/Redfish-Interop-Validator.git
