@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Allow": "GET, HEAD, PUT, PATCH",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-type": "application/json; charset=utf-8",
+        "Date": "Tue, 26 Mar 2024 20:13:41 GMT",
+        "ETag": "W/\"57A91AB8AA527E7E7EE0EB7ED0C74125\"",
+        "Link": "</redfish/v1/schemastore/en/hpeserverbootsettings.v2_0_0.json/>; rel=describedby",
+        "OData-Version": "4.0",
+        "Transfer-Encoding": "chunked",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "sameorigin",
+        "X-XSS-Protection": "1; mode=block"
+    }
+}

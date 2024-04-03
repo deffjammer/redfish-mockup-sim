@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2E807DC7\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/165",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "165",
+    "Created": "2024-03-20T22:30:50Z",
+    "EntryType": "Oem",
+    "Message": "Embedded Flash: Restarted",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Firmware"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1116,
+            "Count": 1,
+            "EventNumber": 1621153,
+            "Severity": "Informational",
+            "Updated": "2024-03-20T22:30:50Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

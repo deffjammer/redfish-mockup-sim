@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1698347836\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/146",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-10-26T19:17:16+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-10-26T19:17:16+00:00",
+    "Message": "User: admin, IP: ::ffff:172.24.0.1, Protocol: http - Action /redfish/v1/UpdateService/upload firmware update is completed.",
+    "MessageArgs": [
+        "/redfish/v1/UpdateService/upload"
+    ],
+    "MessageId": "FirmwareUpdateCompleted",
+    "Name": "Audit Log Entry 146",
+    "Severity": "OK"
+}

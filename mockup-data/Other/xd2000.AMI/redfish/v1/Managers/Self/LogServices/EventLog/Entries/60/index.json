@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/60",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-11-20T19:40:45+00:00",
+    "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+    "EntryCode": "Informational",
+    "EntryType": "Event",
+    "EventId": "60",
+    "EventTimestamp": "2023-11-20T19:40:45+00:00",
+    "Id": "60",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+        }
+    },
+    "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+    "MessageArgs": [
+        "/redfish/v1/EventService/Subscriptions/1"
+    ],
+    "MessageId": "EventLog.1.0.ResourceRemoved",
+    "Name": "Log entry 60",
+    "Severity": "OK"
+}

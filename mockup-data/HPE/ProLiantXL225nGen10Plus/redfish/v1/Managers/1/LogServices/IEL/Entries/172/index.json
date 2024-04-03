@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"CB6D3BDD\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/172",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "172",
+    "Created": "2024-03-21T00:45:52Z",
+    "EntryType": "Oem",
+    "Message": "Virtual Serial Port started by: admin - 172.24.254.241(DNS name not found).",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1031,
+            "Count": 1,
+            "EventNumber": 1621160,
+            "Severity": "Informational",
+            "Updated": "2024-03-21T00:45:52Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "W/\"93FED4B2\"",
+    "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/3",
+    "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+    "Id": "3",
+    "FullDuplex": false,
+    "IPv4Addresses": [],
+    "IPv4StaticAddresses": [],
+    "IPv6AddressPolicyTable": [],
+    "IPv6Addresses": [],
+    "IPv6StaticAddresses": [],
+    "IPv6StaticDefaultGateways": [],
+    "InterfaceEnabled": null,
+    "LinkStatus": null,
+    "MACAddress": "00:a0:c9:00:00:01",
+    "Name": "",
+    "NameServers": [],
+    "SpeedMbps": null,
+    "StaticNameServers": [],
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

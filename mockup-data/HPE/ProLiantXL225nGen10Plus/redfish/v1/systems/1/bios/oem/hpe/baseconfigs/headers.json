@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Allow": "GET, HEAD",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-type": "application/json; charset=utf-8",
+        "Date": "Tue, 26 Mar 2024 20:13:39 GMT",
+        "ETag": "W/\"3B926DB11FCBF1F1F1EA17EC7148783F\"",
+        "Link": "</redfish/v1/schemastore/en/hpebaseconfigs.v2_0_0.json/>; rel=describedby",
+        "OData-Version": "4.0",
+        "Transfer-Encoding": "chunked",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "sameorigin",
+        "X-XSS-Protection": "1; mode=block"
+    }
+}

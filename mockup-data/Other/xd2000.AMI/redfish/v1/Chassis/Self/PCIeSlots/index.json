@@ -1,0 +1,106 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeSlots.PCIeSlots",
+    "@odata.etag": "\"1701278856\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeSlots",
+    "@odata.type": "#PCIeSlots.v1_1_1.PCIeSlots",
+    "Description": "PcieSlot_0",
+    "Id": "PcieSlot_0",
+    "Name": "PcieSlot_0",
+    "Slots": [
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C1_00"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 16,
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 16,
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 16,
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 16,
+            "SlotType": "OCP",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 4,
+            "SlotType": "M2",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 4,
+            "PCIeType": "Gen5",
+            "SlotType": "U2",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 4,
+            "PCIeType": "Gen5",
+            "SlotType": "U2",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 4,
+            "PCIeType": "Gen5",
+            "SlotType": "U2",
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "Lanes": 4,
+            "PCIeType": "Gen5",
+            "SlotType": "U2",
+            "Status": {
+                "State": "Absent"
+            }
+        }
+    ]
+}

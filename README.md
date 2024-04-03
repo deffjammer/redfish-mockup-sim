@@ -62,6 +62,7 @@ Running against MockupServer
    oemcheck = False
    debugging = False
 
+# This is run in the Redfish-Interop-Validator directory created from redfish-validator-profiles steps in redfish-validator-profiles/README.md
  python3 RedfishInteropValidator.py -c config/CSM.ini -i http://0.0.0.0:443 ../redfish-validator-profiles/profiles/CSMRedfishProfile.v1_2_0.json -p initial0
 
 ```

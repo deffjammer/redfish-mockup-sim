@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701278856\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/198",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "198",
+    "Name": "P2_SOC_Status",
+    "Reading": 32768,
+    "Status": {
+        "State": "Enabled"
+    }
+}

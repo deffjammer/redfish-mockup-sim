@@ -1,0 +1,17 @@
+{
+    "GET": {
+        "Server": "AMI MegaRAC Redfish Service",
+        "Allow": "GET",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Link": "<http://redfish.dmtf.org/schemas/v1/PCIeDevice.v1_4_0.json>; rel=describedby, </redfish/v1/Chassis/Self/PCIeDevices/00_40_01/PCIeFunctions>; path=/PCIeFunctions",
+        "ETag": "\"1705423260\"",
+        "Content-Type": "application/json; charset=UTF-8",
+        "OData-Version": "4.0",
+        "Content-Length": "451",
+        "Date": "Tue, 26 Mar 2024 20:05:06 GMT"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "GET": {
+        "Server": "AMI MegaRAC Redfish Service",
+        "Allow": "GET",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Link": "<http://redfish.dmtf.org/schemas/v1/SerialInterfaceCollection.json>; rel=describedby",
+        "ETag": "\"946684836\"",
+        "Content-Type": "application/json; charset=UTF-8",
+        "OData-Version": "4.0",
+        "Content-Length": "650",
+        "Date": "Tue, 26 Mar 2024 20:04:59 GMT"
+    }
+}

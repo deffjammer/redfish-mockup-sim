@@ -1,0 +1,42 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "\"1705423261\"",
+    "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces/EthernetInterface1",
+    "@odata.type": "#EthernetInterface.v1_5_1.EthernetInterface",
+    "DHCPv4": {
+        "DHCPEnabled": false
+    },
+    "IPv4Addresses": [
+        {
+            "Address": "0.0.0.0",
+            "AddressOrigin": "Static",
+            "SubnetMask": "0.0.0.0"
+        }
+    ],
+    "IPv6Addresses": [
+        {
+            "Address": "FE80:00:00:00:B67A:F1FF:FEB4:B2E4",
+            "AddressOrigin": "DHCPv6",
+            "PrefixLength": 64
+        }
+    ],
+    "IPv6DefaultGateway": "00:00:00:00:00:00:00:00",
+    "Id": "EthernetInterface1",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/Self"
+        },
+        "Endpoints@odata.count": 0
+    },
+    "MACAddress": "B4:7A:F1:B4:B2:E4",
+    "MTUSize": 1500,
+    "Name": "EthernetInterface1",
+    "PermanentMACAddress": "B4:7A:F1:B4:B2:E4",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x5,0x3)/Pci(0x0,0x0)"
+}

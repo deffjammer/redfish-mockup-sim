@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/99",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "99",
+    "Name": "PSU3_PIN",
+    "Reading": 120,
+    "Status": {
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"B1A98B28A186AEAEAE8CB810E98169A7\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "0011",
+            "BootString": "Embedded LOM 1 Port 1 : Intel(R) I350 Gigabit Network Connection (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.LOM.1.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "000D",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Embedded LOM 1 Port 1 : Intel(R) I350 Gigabit Network Connection (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.LOM.1.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "Embedded LOM 1 Port 1 : Intel(R) I350 Gigabit Network Connection (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.LOM.1.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0002",
+            "BootString": "Embedded LOM 1 Port 1 : Intel(R) I350 Gigabit Network Connection (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.LOM.1.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "SATA Drive  Box 4 Bay 6 : VK000480GWSXF ",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x8,0x2)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.EmbSATA.6.1",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x8,0x2)/Pci(0x0,0x0)/Sata(0x5,0x0,0x0)"
+        },
+        {
+            "BootOptionNumber": "0019",
+            "BootString": "Slot 8",
+            "CorrelatableID": "HD(28,GPT,08598F57-70AC-4AB9-8F98-02E714DA0617,0x19C8000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.2",
+            "UEFIDevicePath": "HD(28,GPT,08598F57-70AC-4AB9-8F98-02E714DA0617,0x19C8000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "Slot 2",
+            "CorrelatableID": "HD(22,GPT,A96D0910-FED4-4F16-AA16-2D3D4A769333,0x1806000,0x4B000)/\\EFI\\rocky\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.3",
+            "UEFIDevicePath": "HD(22,GPT,A96D0910-FED4-4F16-AA16-2D3D4A769333,0x1806000,0x4B000)/\\EFI\\rocky\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "001C",
+            "BootString": "Slot 3",
+            "CorrelatableID": "HD(23,GPT,52E65122-7CD6-488F-81F5-AFD0EB4AD697,0x1851000,0x4B000)/\\EFI\\redhat\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.4",
+            "UEFIDevicePath": "HD(23,GPT,52E65122-7CD6-488F-81F5-AFD0EB4AD697,0x1851000,0x4B000)/\\EFI\\redhat\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "001E",
+            "BootString": "Slot 4",
+            "CorrelatableID": "HD(24,GPT,1571B6B4-CFDD-4DC1-80B4-E0ED3FF77E1D,0x189C000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.6",
+            "UEFIDevicePath": "HD(24,GPT,1571B6B4-CFDD-4DC1-80B4-E0ED3FF77E1D,0x189C000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Slot 1",
+            "CorrelatableID": "HD(21,GPT,EF66FB39-92DF-43F9-9C0A-D1DEE78B4184,0x17BB000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.7",
+            "UEFIDevicePath": "HD(21,GPT,EF66FB39-92DF-43F9-9C0A-D1DEE78B4184,0x17BB000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "001D",
+            "BootString": "Slot 6",
+            "CorrelatableID": "HD(26,GPT,8FC09E28-F49A-4F0E-9657-CB52E24EB006,0x1932000,0x4B000)/\\EFI\\redhat\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.8",
+            "UEFIDevicePath": "HD(26,GPT,8FC09E28-F49A-4F0E-9657-CB52E24EB006,0x1932000,0x4B000)/\\EFI\\redhat\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "0017",
+            "BootString": "Slot 7",
+            "CorrelatableID": "HD(27,GPT,B818EB68-D115-4EDA-83C8-0D28C0A71694,0x197D000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.9",
+            "UEFIDevicePath": "HD(27,GPT,B818EB68-D115-4EDA-83C8-0D28C0A71694,0x197D000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "001A",
+            "BootString": "Slot 5",
+            "CorrelatableID": "HD(25,GPT,39CFBBC3-FC93-4892-B432-C846829482C4,0x18E7000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.10",
+            "UEFIDevicePath": "HD(25,GPT,39CFBBC3-FC93-4892-B432-C846829482C4,0x18E7000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "001B",
+            "BootString": "Slot 9",
+            "CorrelatableID": "HD(29,GPT,CA13F378-AFB0-4843-A3B8-2B753A245EB0,0x1A13000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.11",
+            "UEFIDevicePath": "HD(29,GPT,CA13F378-AFB0-4843-A3B8-2B753A245EB0,0x1A13000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        },
+        {
+            "BootOptionNumber": "0018",
+            "BootString": "Slot 10",
+            "CorrelatableID": "HD(30,GPT,47B5A682-2156-40D0-BAF1-3C466D59657A,0x1A5E000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "StructuredBootString": "HD.EmbSATA.6.5",
+            "UEFIDevicePath": "HD(30,GPT,47B5A682-2156-40D0-BAF1-3C466D59657A,0x1A5E000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "boot",
+    "Name": "Boot Order Current Settings",
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_0.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"57A91AB8AA527E7E7EE0EB7ED0C74125\""
+            }
+        }
+    },
+    "PersistentBootConfigOrder": [
+        "NIC.LOM.1.1.IPv4",
+        "Generic.USB.1.1",
+        "NIC.LOM.1.1.Httpv6",
+        "NIC.LOM.1.1.IPv6",
+        "NIC.LOM.1.1.Httpv4",
+        "HD.EmbSATA.6.1",
+        "HD.EmbSATA.6.2",
+        "HD.EmbSATA.6.3",
+        "HD.EmbSATA.6.4",
+        "HD.EmbSATA.6.6",
+        "HD.EmbSATA.6.7",
+        "HD.EmbSATA.6.8",
+        "HD.EmbSATA.6.9",
+        "HD.EmbSATA.6.10",
+        "HD.EmbSATA.6.11",
+        "HD.EmbSATA.6.5"
+    ]
+}

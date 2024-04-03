@@ -1,0 +1,65 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSecurityService.HpeSecurityService",
+    "@odata.etag": "W/\"B562C57C\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService",
+    "@odata.type": "#HpeSecurityService.v2_3_1.HpeSecurityService",
+    "Id": "SecurityService",
+    "CurrentCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+    "Links": {
+        "ESKM": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/ESKM"
+        },
+        "HttpsCert": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert"
+        },
+        "SSO": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO"
+        },
+        "SecurityDashboard": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard"
+        },
+        "CertAuth": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication"
+        }
+    },
+    "LoginSecurityBanner": {
+        "IsEnabled": false
+    },
+    "PlatformCert": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCert/Certificates"
+        }
+    },
+    "PlatformCertUpdate": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCertUpdate/Certificates"
+        }
+    },
+    "SSHHostKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3KecJDbaJKtSJ+bc7ujpctFgPbO4p1/acv7axdzv4WqYnw2YkNlzfm1kvEEIZN8lQKhNcvS9vL5DJJLnSwUNVgOQnHsNcBrJ20g3PuVVHfOl033Uifo6u2s37fKaxJjbz59UvbtRX6YAyGpPSIq6mh5f5Hd7TaWA7TAmWgMD4OA9TeUeBwtZ/MwzWr3FA2XMsyiEl8MHEGHxaFkf4rjV0EIJfaVInWD8W5WO3YrvHJcXF3/CswWt7unXjtUI9HSjbuKe+Yp2bEybiq9sBKOUImrpCHoarnfsESE+ie30/bA1eKZElfTVrmMHXPP0C8PwVu/a62M13CXeD1n1iQZP/",
+    "SecurityState": "Production",
+    "SecurityState@Redfish.AllowableValues": [
+        "Production",
+        "HighSecurity",
+        "FIPS"
+    ],
+    "SystemIAK": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIAK/Certificates"
+        }
+    },
+    "SystemIDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIDevID/Certificates"
+        }
+    },
+    "iLOIDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/iLOIDevID/Certificates"
+        }
+    },
+    "iLOLDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/iLOLDevID/Certificates"
+        }
+    }
+}

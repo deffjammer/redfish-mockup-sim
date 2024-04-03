@@ -1,0 +1,1070 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1711064684\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/904",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:27+00:00",
+            "Description": "SEL 1127",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:26+00:00",
+            "Id": "904",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 172, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:26+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1127, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1127",
+            "SensorNumber": 172,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/905",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:27+00:00",
+            "Description": "SEL 1128",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:26+00:00",
+            "Id": "905",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 173, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:26+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1128, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1128",
+            "SensorNumber": 173,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/906",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:28+00:00",
+            "Description": "SEL 1129",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:27+00:00",
+            "Id": "906",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 172, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:27+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1129, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1129",
+            "SensorNumber": 172,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/907",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:29+00:00",
+            "Description": "SEL 1130",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:27+00:00",
+            "Id": "907",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 173, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:27+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1130, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1130",
+            "SensorNumber": 173,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/908",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:29+00:00",
+            "Description": "SEL 1131",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:28+00:00",
+            "Id": "908",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 172, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:28+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1131, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1131",
+            "SensorNumber": 172,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/909",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:29+00:00",
+            "Description": "SEL 1132",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:28+00:00",
+            "Id": "909",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 173, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:28+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1132, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1132",
+            "SensorNumber": 173,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/910",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:57+00:00",
+            "Description": "SEL 1133",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:29+00:00",
+            "Id": "910",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 172, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:29+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1133, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1133",
+            "SensorNumber": 172,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/911",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:57+00:00",
+            "Description": "SEL 1134",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:29+00:00",
+            "Id": "911",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 173, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:29+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1134, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1134",
+            "SensorNumber": 173,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/912",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:57+00:00",
+            "Description": "SEL 1135",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:30+00:00",
+            "Id": "912",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 172, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1135, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1135",
+            "SensorNumber": 172,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/913",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:57+00:00",
+            "Description": "SEL 1136",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:30+00:00",
+            "Id": "913",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 173, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1136, Sensor_Type : CPU Throttle, ",
+            "MessageId": "0x40FFFF",
+            "Name": "SEL 1136",
+            "SensorNumber": 173,
+            "SensorType": "CPU Throttle",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/914",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-01T07:50:57+00:00",
+            "Description": "SEL 1137",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-01T07:50:56+00:00",
+            "Id": "914",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 230, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:56+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : HDD Backplane Presence, Record_ID : 1137, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x01FFFF",
+            "Name": "SEL 1137",
+            "SensorNumber": 230,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/915",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-11T20:03:10+00:00",
+            "Description": "SEL 1141",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-11T20:03:10+00:00",
+            "Id": "915",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-11T20:03:10+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S5/G2: soft-off, Record_ID : 1141, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 1141",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/916",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-11T20:03:11+00:00",
+            "Description": "SEL 1142",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-11T20:03:11+00:00",
+            "Id": "916",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-11T20:03:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by IPMI, Record_ID : 1142, Sensor_Type : OEM, ",
+            "MessageId": "0x040000",
+            "Name": "SEL 1142",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/917",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-11T22:19:47+00:00",
+            "Description": "SEL 1143",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-11T22:19:47+00:00",
+            "Id": "917",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-11T22:19:47+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by Redfish, Record_ID : 1143, Sensor_Type : OEM, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 1143",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/918",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-11T22:19:47+00:00",
+            "Description": "SEL 1144",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-11T22:19:47+00:00",
+            "Id": "918",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-11T22:19:47+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0: working, Record_ID : 1144, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 1144",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/919",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-11T22:19:48+00:00",
+            "Description": "SEL 1145",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-11T22:19:47+00:00",
+            "Id": "919",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-11T22:19:47+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by IPMI, Record_ID : 1145, Sensor_Type : OEM, ",
+            "MessageId": "0x030000",
+            "Name": "SEL 1145",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/920",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-11T22:26:38+00:00",
+            "Description": "SEL 1146",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-11T22:23:06+00:00",
+            "Id": "920",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 254, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-11T22:23:06+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Timestamp Clock Sync, Record_ID : 1146, Sensor_Type : System Event, ",
+            "MessageId": "0x0500FF",
+            "Name": "SEL 1146",
+            "SensorNumber": 254,
+            "SensorType": "System Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/921",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-11T22:26:38+00:00",
+            "Description": "SEL 1147",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-11T22:26:38+00:00",
+            "Id": "921",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 254, Event_Dir : Assertion event, Event_Data_2 : 128, Timestamp : 2023-12-11T22:26:38+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Timestamp Clock Sync, Record_ID : 1147, Sensor_Type : System Event, ",
+            "MessageId": "0x0580FF",
+            "Name": "SEL 1147",
+            "SensorNumber": 254,
+            "SensorType": "System Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/922",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:01:54+00:00",
+            "Description": "SEL 1148",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:01:53+00:00",
+            "Id": "922",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-12T04:01:53+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by Redfish, Record_ID : 1148, Sensor_Type : OEM, ",
+            "MessageId": "0x010000",
+            "Name": "SEL 1148",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/923",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:01:58+00:00",
+            "Description": "SEL 1149",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:01:57+00:00",
+            "Id": "923",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-12T04:01:57+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S5/G2: soft-off, Record_ID : 1149, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 1149",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/924",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:01:59+00:00",
+            "Description": "SEL 1150",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:01:58+00:00",
+            "Id": "924",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-12T04:01:58+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by IPMI, Record_ID : 1150, Sensor_Type : OEM, ",
+            "MessageId": "0x040000",
+            "Name": "SEL 1150",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/925",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:02:46+00:00",
+            "Description": "SEL 1151",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:02:46+00:00",
+            "Id": "925",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-12T04:02:46+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by Redfish, Record_ID : 1151, Sensor_Type : OEM, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 1151",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/926",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:02:46+00:00",
+            "Description": "SEL 1152",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:02:46+00:00",
+            "Id": "926",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-12T04:02:46+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0: working, Record_ID : 1152, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 1152",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/927",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:02:46+00:00",
+            "Description": "SEL 1153",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:02:46+00:00",
+            "Id": "927",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-12T04:02:46+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by IPMI, Record_ID : 1153, Sensor_Type : OEM, ",
+            "MessageId": "0x030000",
+            "Name": "SEL 1153",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/928",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:09:38+00:00",
+            "Description": "SEL 1154",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:06:05+00:00",
+            "Id": "928",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 254, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-12T04:06:05+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Timestamp Clock Sync, Record_ID : 1154, Sensor_Type : System Event, ",
+            "MessageId": "0x0500FF",
+            "Name": "SEL 1154",
+            "SensorNumber": 254,
+            "SensorType": "System Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/929",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-12T04:09:38+00:00",
+            "Description": "SEL 1155",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-12T04:09:38+00:00",
+            "Id": "929",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 254, Event_Dir : Assertion event, Event_Data_2 : 128, Timestamp : 2023-12-12T04:09:38+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Timestamp Clock Sync, Record_ID : 1155, Sensor_Type : System Event, ",
+            "MessageId": "0x0580FF",
+            "Name": "SEL 1155",
+            "SensorNumber": 254,
+            "SensorType": "System Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/930",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T18:05:47+00:00",
+            "Description": "SEL 1156",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T18:05:46+00:00",
+            "Id": "930",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-18T18:05:46+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by Redfish, Record_ID : 1156, Sensor_Type : OEM, ",
+            "MessageId": "0x010000",
+            "Name": "SEL 1156",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/931",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T18:05:51+00:00",
+            "Description": "SEL 1157",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T18:05:51+00:00",
+            "Id": "931",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-18T18:05:51+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S5/G2: soft-off, Record_ID : 1157, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 1157",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/932",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T20:45:23+00:00",
+            "Description": "SEL 1158",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T18:05:51+00:00",
+            "Id": "932",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-18T18:05:51+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by IPMI, Record_ID : 1158, Sensor_Type : OEM, ",
+            "MessageId": "0x040000",
+            "Name": "SEL 1158",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/933",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T20:45:24+00:00",
+            "Description": "SEL 1159",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T20:45:23+00:00",
+            "Id": "933",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-18T20:45:23+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by Redfish, Record_ID : 1159, Sensor_Type : OEM, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 1159",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/934",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T20:45:24+00:00",
+            "Description": "SEL 1160",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T20:45:23+00:00",
+            "Id": "934",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-18T20:45:23+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by IPMI, Record_ID : 1160, Sensor_Type : OEM, ",
+            "MessageId": "0x030000",
+            "Name": "SEL 1160",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/935",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T20:48:38+00:00",
+            "Description": "SEL 1161",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T20:45:24+00:00",
+            "Id": "935",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-18T20:45:24+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0: working, Record_ID : 1161, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 1161",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/936",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T20:48:38+00:00",
+            "Description": "SEL 1162",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T20:48:44+00:00",
+            "Id": "936",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 254, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-18T20:48:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Timestamp Clock Sync, Record_ID : 1162, Sensor_Type : System Event, ",
+            "MessageId": "0x0500FF",
+            "Name": "SEL 1162",
+            "SensorNumber": 254,
+            "SensorType": "System Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/937",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-18T20:48:38+00:00",
+            "Description": "SEL 1163",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-18T20:48:38+00:00",
+            "Id": "937",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 254, Event_Dir : Assertion event, Event_Data_2 : 128, Timestamp : 2023-12-18T20:48:38+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Timestamp Clock Sync, Record_ID : 1163, Sensor_Type : System Event, ",
+            "MessageId": "0x0580FF",
+            "Name": "SEL 1163",
+            "SensorNumber": 254,
+            "SensorType": "System Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/938",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T01:46:14+00:00",
+            "Description": "SEL 1164",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T01:46:14+00:00",
+            "Id": "938",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T01:46:14+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by Redfish, Record_ID : 1164, Sensor_Type : OEM, ",
+            "MessageId": "0x010000",
+            "Name": "SEL 1164",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/939",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T01:46:19+00:00",
+            "Description": "SEL 1165",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T01:46:19+00:00",
+            "Id": "939",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-19T01:46:19+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S5/G2: soft-off, Record_ID : 1165, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 1165",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/940",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T01:46:20+00:00",
+            "Description": "SEL 1166",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T01:46:19+00:00",
+            "Id": "940",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T01:46:19+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by IPMI, Record_ID : 1166, Sensor_Type : OEM, ",
+            "MessageId": "0x040000",
+            "Name": "SEL 1166",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/941",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T01:46:54+00:00",
+            "Description": "SEL 1167",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T01:46:53+00:00",
+            "Id": "941",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T01:46:53+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by Redfish, Record_ID : 1167, Sensor_Type : OEM, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 1167",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/942",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T01:46:54+00:00",
+            "Description": "SEL 1168",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T01:46:54+00:00",
+            "Id": "942",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T01:46:54+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by IPMI, Record_ID : 1168, Sensor_Type : OEM, ",
+            "MessageId": "0x030000",
+            "Name": "SEL 1168",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/943",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:00:57+00:00",
+            "Description": "SEL 1169",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T01:46:55+00:00",
+            "Id": "943",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-19T01:46:55+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0: working, Record_ID : 1169, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 1169",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/944",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:00:57+00:00",
+            "Description": "SEL 1170",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:00:56+00:00",
+            "Id": "944",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T02:00:56+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by Redfish, Record_ID : 1170, Sensor_Type : OEM, ",
+            "MessageId": "0x010000",
+            "Name": "SEL 1170",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/945",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:01:01+00:00",
+            "Description": "SEL 1171",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:01:00+00:00",
+            "Id": "945",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-19T02:01:00+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S5/G2: soft-off, Record_ID : 1171, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 1171",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/946",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:05:24+00:00",
+            "Description": "SEL 1172",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:01:01+00:00",
+            "Id": "946",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T02:01:01+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by IPMI, Record_ID : 1172, Sensor_Type : OEM, ",
+            "MessageId": "0x040000",
+            "Name": "SEL 1172",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/947",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:05:24+00:00",
+            "Description": "SEL 1173",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:05:24+00:00",
+            "Id": "947",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T02:05:24+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by Redfish, Record_ID : 1173, Sensor_Type : OEM, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 1173",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/948",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:05:25+00:00",
+            "Description": "SEL 1174",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:05:24+00:00",
+            "Id": "948",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-19T02:05:24+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0: working, Record_ID : 1174, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 1174",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/949",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:05:25+00:00",
+            "Description": "SEL 1175",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:05:24+00:00",
+            "Id": "949",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T02:05:24+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by IPMI, Record_ID : 1175, Sensor_Type : OEM, ",
+            "MessageId": "0x030000",
+            "Name": "SEL 1175",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/950",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:26:09+00:00",
+            "Description": "SEL 1176",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:26:08+00:00",
+            "Id": "950",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T02:26:08+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by Redfish, Record_ID : 1176, Sensor_Type : OEM, ",
+            "MessageId": "0x010000",
+            "Name": "SEL 1176",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/951",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:26:13+00:00",
+            "Description": "SEL 1177",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:26:12+00:00",
+            "Id": "951",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 241, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-19T02:26:12+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S5/G2: soft-off, Record_ID : 1177, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 1177",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/952",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:26:13+00:00",
+            "Description": "SEL 1178",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:26:13+00:00",
+            "Id": "952",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T02:26:13+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power off by IPMI, Record_ID : 1178, Sensor_Type : OEM, ",
+            "MessageId": "0x040000",
+            "Name": "SEL 1178",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/953",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2023-12-19T02:27:31+00:00",
+            "Description": "SEL 1179",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2023-12-19T02:27:30+00:00",
+            "Id": "953",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 242, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2023-12-19T02:27:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : power on by Redfish, Record_ID : 1179, Sensor_Type : OEM, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 1179",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 151,
+    "Members@odata.nextLink": "/redfish/v1/Managers/Self/LogServices/SEL/Entries?$skip=50",
+    "Name": "Log Service Entries Collection",
+    "Oem": {
+        "Cray": {
+            "@odata.type": "#CraySELDescription.v1_0_0.CraySELDescription",
+            "SELDescription": {
+                "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/SELDescription"
+            }
+        }
+    }
+}

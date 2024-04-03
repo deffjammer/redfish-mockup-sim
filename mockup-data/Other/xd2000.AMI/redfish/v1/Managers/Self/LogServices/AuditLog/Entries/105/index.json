@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1695217322\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/105",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-09-20T13:42:02+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-09-20T13:42:02+00:00",
+    "Message": "User: admin, IP: ::ffff:172.24.0.1, Protocol: http - Device is flashing firmware for action /redfish/v1/UpdateService/upload.",
+    "MessageArgs": [
+        "/redfish/v1/UpdateService/upload"
+    ],
+    "MessageId": "FlashFirmware",
+    "Name": "Audit Log Entry 105",
+    "Severity": "OK"
+}

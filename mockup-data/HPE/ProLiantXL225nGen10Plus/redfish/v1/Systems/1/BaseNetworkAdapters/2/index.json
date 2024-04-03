@@ -1,0 +1,62 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"E4E5E0BD\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "2",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "1.2684.0"
+        }
+    },
+    "Name": "Intel(R) I350 Gigabit Network Connection",
+    "PhysicalPorts": [
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": "LinkUp",
+            "MacAddress": "ec:eb:b8:8d:0d:58",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0,
+            "Status": {
+                "Health": "OK"
+            }
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "00:a0:c9:00:00:01",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0
+        }
+    ],
+    "Status": {
+        "State": "Enabled"
+    },
+    "StructuredName": "NIC.LOM.1.1",
+    "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)"
+}

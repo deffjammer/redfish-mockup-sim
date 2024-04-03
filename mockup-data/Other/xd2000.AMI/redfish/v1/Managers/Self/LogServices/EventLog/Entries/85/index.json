@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/85",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-11-29T17:32:01+00:00",
+    "Description": "The resource at /redfish/v1/SessionService/Sessions/f987b8b14bb391758e39261a8ec31876 was successfully removed.",
+    "EntryCode": "Informational",
+    "EntryType": "Event",
+    "EventId": "85",
+    "EventTimestamp": "2023-11-29T17:32:01+00:00",
+    "Id": "85",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/"
+        }
+    },
+    "Message": "The resource at /redfish/v1/SessionService/Sessions/f987b8b14bb391758e39261a8ec31876 was successfully removed.",
+    "MessageArgs": [
+        "/redfish/v1/SessionService/Sessions/f987b8b14bb391758e39261a8ec31876"
+    ],
+    "MessageId": "EventLog.1.0.ResourceRemoved",
+    "Name": "Log entry 85",
+    "Severity": "OK"
+}

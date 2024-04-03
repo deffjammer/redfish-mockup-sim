@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinition.MetricDefinition",
+    "@odata.etag": "\"1711064494\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Fan_Reading",
+    "@odata.type": "#MetricDefinition.v1_0_3.MetricDefinition",
+    "Accuracy": 5,
+    "Id": "Fan_Reading",
+    "Implementation": "PhysicalSensor",
+    "IsLinear": true,
+    "MetricDataType": "Integer",
+    "MetricProperties": [
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/206_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/205_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/128_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/203_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/201_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/132_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/135_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/208_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/134_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/130_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/129_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/131_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/202_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/204_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/207_0/ReadingRPM",
+        "/redfish/v1/Chassis/Self/Thermal#/Fans/133_0/ReadingRPM"
+    ],
+    "MetricType": "Numeric",
+    "Name": "Fan Reading",
+    "Precision": 3,
+    "Units": "RPM"
+}

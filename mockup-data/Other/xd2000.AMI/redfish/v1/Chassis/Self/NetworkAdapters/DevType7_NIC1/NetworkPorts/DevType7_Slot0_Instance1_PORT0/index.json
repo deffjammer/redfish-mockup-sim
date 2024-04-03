@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+    "@odata.etag": "\"1705423259\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC1/NetworkPorts/DevType7_Slot0_Instance1_PORT0",
+    "@odata.type": "#NetworkPort.v1_2_3.NetworkPort",
+    "ActiveLinkTechnology": "Ethernet",
+    "ActiveLinkTechnology@Redfish.AllowableValues": [
+        "Ethernet",
+        "InfiniBand",
+        "FibreChannel"
+    ],
+    "AssociatedNetworkAddresses": [
+        "B4:7A:F1:B4:B2:E4"
+    ],
+    "FlowControlConfiguration@Redfish.AllowableValues": [
+        "None",
+        "TX",
+        "RX",
+        "TX_RX"
+    ],
+    "Id": "DevType7_Slot0_Instance1_PORT0",
+    "LinkStatus": "Up",
+    "Name": "DevType7_Slot0_Instance1_PORT0",
+    "PhysicalPortNumber": "PortNumber_1",
+    "PortMaximumMTU": 1500,
+    "SignalDetected": true,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

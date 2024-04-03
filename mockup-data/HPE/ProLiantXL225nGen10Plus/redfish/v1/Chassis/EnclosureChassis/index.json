@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "W/\"7E5A5CFF\"",
+    "@odata.id": "/redfish/v1/Chassis/EnclosureChassis",
+    "@odata.type": "#Chassis.v1_10_2.Chassis",
+    "Id": "EnclosureChassis",
+    "AssetTag": "",
+    "ChassisType": "Enclosure",
+    "Manufacturer": "HPE",
+    "Name": "HPE Apollo2000 Gen10+  ",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
+            "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
+            "ChassisPowerWatts": 617,
+            "EnclosureCPLD": "0b0b",
+            "NodePowerWatts": 97,
+            "TrayID": "0x04"
+        }
+    },
+    "PCIeDevices": {},
+    "PCIeSlots": {},
+    "PartNumber": "P17447-001",
+    "PowerState": "On",
+    "SerialNumber": "1234567890"
+}

@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1711483550\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/235",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2024-03-14T06:50:47+00:00",
+    "Description": "LOG 1299",
+    "EntryCode": "Lower Non-critical - going low",
+    "EntryType": "SEL",
+    "EventTimestamp": "2024-03-14T06:50:47+00:00",
+    "Id": "235",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+        }
+    },
+    "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 128, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2024-03-14T06:50:47+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : Lower Non-critical - going low, Record_ID : 1299, Sensor_Type : Fan, ",
+    "MessageId": "0x000000",
+    "Name": "LOG 1299",
+    "SensorNumber": 128,
+    "SensorType": "Fan",
+    "Severity": "OK"
+}

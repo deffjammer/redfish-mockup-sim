@@ -1,0 +1,150 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "W/\"624755CB\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000",
+    "@odata.type": "#NetworkAdapter.v1_4_0.NetworkAdapter",
+    "Id": "DC060000",
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/Actions/NetworkAdapter.ResetSettingsToDefault",
+            "title": "Reset network adapter configuration to factory default values."
+        }
+    },
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": true
+                },
+                "NPAR": {
+                    "NparCapable": false
+                },
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    },
+                    "VirtualFunction": {
+                        "DeviceMaxCount": 127,
+                        "MinAssignmentGroupSize": 0,
+                        "NetworkPortMaxCount": 127
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "",
+            "Links": {
+                "NetworkPorts": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1"
+                    }
+                ]
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 1,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "PCI-E Slot 1"
+                }
+            }
+        }
+    ],
+    "Description": "Device capabilities and characteristics with active configuration status",
+    "Manufacturer": "Hewlett Packard Enterprise",
+    "Model": "CX515A - ConnectX-5 QSFP28",
+    "Name": "Network communication device, physical instance viewpoint",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkDeviceFunctions/"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/"
+    },
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeNetworkAdapter.HpeNetworkAdapter",
+            "@odata.type": "#HpeNetworkAdapter.v1_3_0.HpeNetworkAdapter",
+            "Actions": {
+                "#HpeNetworkAdapter.FlushConfigurationToNVM": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/Actions/Oem/Hpe/HpeNetworkAdapter.FlushConfigurationToNVM",
+                    "title": "Force a save of current network adapter configuration to non-volatile storage."
+                },
+                "#NetworkAdapter.FlushConfigurationToNVM": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/Actions/Oem/Hpe/NetworkAdapter.FlushConfigurationToNVM",
+                    "title": "NOTE: Deprecated, will be removed in a future release. Replaced by HpeNetworkAdapter.FlushConfigurationToNVM. Force a save of current network adapter configuration to non-volatile storage."
+                }
+            },
+            "CLPVersion": "",
+            "Controllers": [
+                {
+                    "ConfigurationStatus": {
+                        "Detail": [
+                            {
+                                "Group": 8,
+                                "SubGroup": 0,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 8,
+                                "SubGroup": 1,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 20,
+                                "SubGroup": 0,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 21,
+                                "SubGroup": 0,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 38,
+                                "SubGroup": 0,
+                                "Summary": 0
+                            }
+                        ],
+                        "Summary": 0
+                    },
+                    "DeviceLimitationsBitmap": 1,
+                    "EdgeVirtualBridging": {
+                        "ChannelDescriptionTLVCapable": false,
+                        "ChannelLinkControlTLVCapable": false
+                    },
+                    "EmbeddedLLDPFunctions": {
+                        "Optional": false
+                    },
+                    "FactoryDefaultsCurrentlyActive": false,
+                    "FunctionTypeLimits": [
+                        {
+                            "ConstraintDescription": "",
+                            "EthernetResourcesConsumed": 1,
+                            "FCoEResourcesConsumed": 0,
+                            "TotalSharedResourcesAvailable": 0,
+                            "iSCSIResourcesConsumed": 0
+                        }
+                    ],
+                    "FunctionTypes": [
+                        "Ethernet",
+                        "InfiniBand",
+                        "RoCE"
+                    ],
+                    "MostRecentConfigurationChangeSource": "None",
+                    "RDMASupport": [
+                        "None"
+                    ],
+                    "UnderlyingDataSource": "DCi"
+                }
+            ],
+            "FactoryDefaultsActuationBehavior": "AtFullPower",
+            "PCAVersion": "MCX515A-CCAT",
+            "RedfishConfiguration": "Disabled"
+        }
+    },
+    "PartNumber": "MCX515A-CCAT",
+    "SKU": "",
+    "SerialNumber": "MT1810X09000    ",
+    "Settings": {
+        "href": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/Settings/"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/87",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "87",
+    "Name": "PSU3_VOUT",
+    "Reading": 12,
+    "Status": {
+        "State": "Enabled"
+    }
+}

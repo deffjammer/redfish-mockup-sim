@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/72",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "72",
+    "Name": "Exhaust_Temp",
+    "Reading": 40,
+    "Status": {
+        "State": "Enabled"
+    }
+}

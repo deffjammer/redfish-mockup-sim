@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterfaceCollection.EthernetInterfaceCollection",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces",
+    "@odata.type": "#EthernetInterfaceCollection.EthernetInterfaceCollection",
+    "Description": "Collection of ethernet interfaces for this system",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces/EthernetInterface1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces/VirtualEthernetInterface2"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "Ethernet Interface Collection"
+}

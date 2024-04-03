@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"D102880B\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/212",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "212",
+    "Created": "2024-03-21T23:42:07Z",
+    "EntryType": "Oem",
+    "Message": "iLO network link down.",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Other"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 73,
+            "Count": 6,
+            "EventNumber": 1621202,
+            "Severity": "Caution",
+            "Updated": "2024-03-21T23:46:42Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

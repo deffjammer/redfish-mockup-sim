@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Registries/BiosAttributeRegistryCA2K.1.11.0",
+    "@odata.type": "#MessageRegistryFile.v1_1_3.MessageRegistryFile",
+    "Description": "Registry for BiosAttributeRegistryCA2K.1.11.0",
+    "Id": "BiosAttributeRegistryCA2K.1.11.0",
+    "Languages": [
+        "en-US"
+    ],
+    "Location": [
+        {
+            "Language": "en-US",
+            "Uri": "/redfish/v1/Registries/BiosAttributeRegistryCA2K.en-US.1.11.0.json"
+        }
+    ],
+    "Name": "BiosAttributeRegistryCA2K.1.11.0 Registry",
+    "Registry": "BiosAttributeRegistryCA2K.1.11.0"
+}

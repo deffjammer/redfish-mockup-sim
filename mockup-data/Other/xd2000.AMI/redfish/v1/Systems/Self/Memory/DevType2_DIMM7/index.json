@@ -1,0 +1,57 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+    "@odata.etag": "\"946684834\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Memory/DevType2_DIMM7",
+    "@odata.type": "#Memory.v1_8_0.Memory",
+    "AllowedSpeedsMHz": [
+        0
+    ],
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 65535,
+    "CacheSizeMiB": 0,
+    "CapacityMiB": 0,
+    "DataWidthBits": 65535,
+    "DeviceLocator": "CPU1_DIMM_H1",
+    "Id": "DevType2_DIMM7",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/Self"
+        }
+    },
+    "LogicalSizeMiB": 0,
+    "Manufacturer": "Unknown",
+    "MemoryDeviceType": "DDR5",
+    "MemoryLocation": {
+        "Channel": 8,
+        "Slot": 1,
+        "Socket": 1
+    },
+    "MemorySubsystemControllerManufacturerID": "0x0000",
+    "MemorySubsystemControllerProductID": "0x0000",
+    "MemoryType": "DRAM",
+    "ModuleManufacturerID": "0x0000",
+    "ModuleProductID": "0x0000",
+    "Name": "DevType2_DIMM7",
+    "NonVolatileSizeMiB": 0,
+    "Oem": {
+        "@odata.type": "#CrayGbtMemoryOemProperty.v1_0_0.CrayGbtMemoryOemProperty",
+        "GbtMemoryOemProperty": {
+            "ConfiguredVoltage": 0,
+            "MaximumVoltage": 0,
+            "MinimumVoltage": 0
+        }
+    },
+    "OperatingSpeedMhz": 0,
+    "PartNumber": "Unknown",
+    "RankCount": 0,
+    "SecurityCapabilities": {
+        "ConfigurationLockCapable": false,
+        "DataLockCapable": false,
+        "PassphraseCapable": false
+    },
+    "SerialNumber": "Unknown",
+    "Status": {
+        "State": "Absent"
+    },
+    "VolatileSizeMiB": 0
+}

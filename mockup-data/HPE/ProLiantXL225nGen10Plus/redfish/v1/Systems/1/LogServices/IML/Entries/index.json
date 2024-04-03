@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"75983E8D\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Integrated Management Logs view",
+    "Name": "Integrated Management Logs view",
+    "Members": [],
+    "Members@odata.count": 0
+}

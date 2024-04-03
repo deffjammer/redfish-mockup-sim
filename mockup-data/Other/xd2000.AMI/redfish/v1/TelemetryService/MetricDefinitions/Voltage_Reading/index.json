@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinition.MetricDefinition",
+    "@odata.etag": "\"1711064494\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Voltage_Reading",
+    "@odata.type": "#MetricDefinition.v1_0_3.MetricDefinition",
+    "Accuracy": 5,
+    "Id": "Voltage_Reading",
+    "Implementation": "PhysicalSensor",
+    "IsLinear": true,
+    "MetricDataType": "Decimal",
+    "MetricProperties": [
+        "/redfish/v1/Chassis/Self/Power#/Voltages/87_0/ReadingVolts",
+        "/redfish/v1/Chassis/Self/Power#/Voltages/84_0/ReadingVolts",
+        "/redfish/v1/Chassis/Self/Power#/Voltages/81_0/ReadingVolts",
+        "/redfish/v1/Chassis/Self/Power#/Voltages/85_0/ReadingVolts",
+        "/redfish/v1/Chassis/Self/Power#/Voltages/82_0/ReadingVolts",
+        "/redfish/v1/Chassis/Self/Power#/Voltages/83_0/ReadingVolts",
+        "/redfish/v1/Chassis/Self/Power#/Voltages/86_0/ReadingVolts",
+        "/redfish/v1/Chassis/Self/Power#/Voltages/80_0/ReadingVolts"
+    ],
+    "MetricType": "Numeric",
+    "Name": "Voltage Reading",
+    "Precision": 3,
+    "Units": "V"
+}

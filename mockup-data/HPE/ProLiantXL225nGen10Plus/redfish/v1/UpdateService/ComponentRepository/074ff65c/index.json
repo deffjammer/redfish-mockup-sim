@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/074ff65c",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "074ff65c",
+    "Activates": "Immediately",
+    "ComponentUri": "/fwrepo/ACCGen10Plus_1.6.9s.bin",
+    "Configuration": "",
+    "Created": "2021-02-02T14:11:59Z",
+    "Criticality": "Optional",
+    "DeviceClass": "42fc70be-bb87-4bdb-8e7c-db1c9af52957",
+    "ExecutionParameters": "",
+    "Filename": "ACCGen10Plus_1.6.9s.bin",
+    "Filepath": "ACCGen10Plus_1.6.9s.bin",
+    "Locked": false,
+    "Name": "HPE Apollo Chassis Controller Firmware",
+    "SizeBytes": 528501,
+    "Targets": [
+        "00000000-0000-0000-0000-00000000022f",
+        "00000000-0000-0000-0000-00000000022e",
+        "00000000-0000-0000-0000-00000000022d",
+        "00000000-0000-0000-0000-000000000229",
+        "00000000-0000-0000-0000-000000000227"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "1.6.9"
+}

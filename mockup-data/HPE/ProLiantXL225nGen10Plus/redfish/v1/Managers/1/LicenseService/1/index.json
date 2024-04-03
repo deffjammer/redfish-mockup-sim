@@ -1,0 +1,62 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
+    "@odata.etag": "W/\"DCF4FAE0\"",
+    "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+    "@odata.type": "#HpeiLOLicense.v2_3_0.HpeiLOLicense",
+    "Id": "1",
+    "Confirmation": {
+        "Code": "",
+        "Message": "",
+        "Service": "www.hpe.com/glis",
+        "Status": false
+    },
+    "ConfirmationRequest": {
+        "EON": {
+            "License": "iLO Advanced",
+            "LicenseKey": "34S42-CD39T-SQQV7-P8WVZ-9KHKW",
+            "Quantity": 1,
+            "State": "unconfirmed"
+        },
+        "Signer": "iLO",
+        "System": {
+            "ChipId": "C27831C6002E8B14",
+            "Product": "ProLiant XL225n Gen10 Plus",
+            "SerialNumber": "T001PP0185"
+        }
+    },
+    "Description": "iLO License View",
+    "License": "iLO Advanced",
+    "LicenseClass": "FQL",
+    "LicenseErr": "",
+    "LicenseExpire": "",
+    "LicenseFeatures": {
+        "DirectoryAuth": true,
+        "DowngradePolicy": true,
+        "EmailAlert": true,
+        "FWScan": true,
+        "Federation": true,
+        "Jitter": true,
+        "KD": true,
+        "KeyMgr": true,
+        "MURC": true,
+        "ODIM": false,
+        "PowerReg": true,
+        "RC": true,
+        "Recovery": true,
+        "RemoteSyslog": true,
+        "Scrncap": true,
+        "SecureErase": true,
+        "SmartCard": true,
+        "SuiteB": true,
+        "TextCons": true,
+        "VM": true,
+        "VMScript": true,
+        "VSPLogging": true
+    },
+    "LicenseInstallDate": "1 Feb 2021",
+    "LicenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-9KHKW",
+    "LicenseSeats": 1,
+    "LicenseTier": "ADV",
+    "LicenseType": "Perpetual",
+    "Name": "iLO License"
+}

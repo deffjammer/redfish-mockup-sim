@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Allow": "GET, HEAD, PATCH",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-type": "application/json; charset=utf-8",
+        "Date": "Tue, 26 Mar 2024 20:13:13 GMT",
+        "ETag": "W/\"B60B0A30\"",
+        "Link": "</redfish/v1/SchemaStore/en/Role.json>; rel=describedby",
+        "OData-Version": "4.0",
+        "Transfer-Encoding": "chunked",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "sameorigin",
+        "X-XSS-Protection": "1; mode=block"
+    }
+}

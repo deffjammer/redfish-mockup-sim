@@ -1,0 +1,326 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+    "@odata.etag": "W/\"0ED459D3\"",
+    "@odata.id": "/redfish/v1/Systems/1",
+    "@odata.type": "#ComputerSystem.v1_10_0.ComputerSystem",
+    "Id": "1",
+    "Actions": {
+        "#ComputerSystem.Reset": {
+            "ResetType@Redfish.AllowableValues": [
+                "On",
+                "ForceOff",
+                "GracefulShutdown",
+                "ForceRestart",
+                "Nmi",
+                "PushPowerButton",
+                "GracefulRestart"
+            ],
+            "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset"
+        }
+    },
+    "AssetTag": "",
+    "Bios": {
+        "@odata.id": "/redfish/v1/systems/1/bios"
+    },
+    "BiosVersion": "A46 v2.42 (02/23/2021)",
+    "Boot": {
+        "BootOptions": {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions"
+        },
+        "BootOrder": [
+            "Boot0011",
+            "Boot000D",
+            "Boot000E",
+            "Boot000F",
+            "Boot0002",
+            "Boot0012",
+            "Boot0019",
+            "Boot0013",
+            "Boot001C",
+            "Boot001E",
+            "Boot0010",
+            "Boot001D",
+            "Boot0017",
+            "Boot001A",
+            "Boot001B",
+            "Boot0018"
+        ],
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideMode": "UEFI",
+        "BootSourceOverrideTarget": "None",
+        "BootSourceOverrideTarget@Redfish.AllowableValues": [
+            "None",
+            "Cd",
+            "Hdd",
+            "Usb",
+            "SDCard",
+            "Utilities",
+            "Diags",
+            "BiosSetup",
+            "Pxe",
+            "UefiShell",
+            "UefiHttp",
+            "UefiTarget"
+        ],
+        "UefiTargetBootSourceOverride": "None",
+        "UefiTargetBootSourceOverride@Redfish.AllowableValues": [
+            "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv4(0.0.0.0)",
+            "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
+            "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
+            "PciRoot(0x2)/Pci(0x1,0x2)/Pci(0x0,0x0)/MAC(ECEBB88D0D58,0x1)/IPv4(0.0.0.0)/Uri()",
+            "PciRoot(0x1)/Pci(0x8,0x2)/Pci(0x0,0x0)/Sata(0x5,0x0,0x0)",
+            "HD(28,GPT,08598F57-70AC-4AB9-8F98-02E714DA0617,0x19C8000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "HD(22,GPT,A96D0910-FED4-4F16-AA16-2D3D4A769333,0x1806000,0x4B000)/\\EFI\\rocky\\grubx64.efi",
+            "HD(23,GPT,52E65122-7CD6-488F-81F5-AFD0EB4AD697,0x1851000,0x4B000)/\\EFI\\redhat\\grubx64.efi",
+            "HD(24,GPT,1571B6B4-CFDD-4DC1-80B4-E0ED3FF77E1D,0x189C000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "HD(21,GPT,EF66FB39-92DF-43F9-9C0A-D1DEE78B4184,0x17BB000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "HD(26,GPT,8FC09E28-F49A-4F0E-9657-CB52E24EB006,0x1932000,0x4B000)/\\EFI\\redhat\\grubx64.efi",
+            "HD(27,GPT,B818EB68-D115-4EDA-83C8-0D28C0A71694,0x197D000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "HD(25,GPT,39CFBBC3-FC93-4892-B432-C846829482C4,0x18E7000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "HD(29,GPT,CA13F378-AFB0-4843-A3B8-2B753A245EB0,0x1A13000,0x4B000)/\\EFI\\sles\\grubx64.efi",
+            "HD(30,GPT,47B5A682-2156-40D0-BAF1-3C466D59657A,0x1A5E000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+        ]
+    },
+    "EthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
+    },
+    "HostName": "",
+    "IndicatorLED": "Off",
+    "Links": {
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1"
+            }
+        ],
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/1"
+            }
+        ]
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Systems/1/LogServices"
+    },
+    "Manufacturer": "HPE",
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/1/Memory"
+    },
+    "MemoryDomains": {
+        "@odata.id": "/redfish/v1/Systems/1/MemoryDomains"
+    },
+    "MemorySummary": {
+        "Status": {
+            "HealthRollup": "OK"
+        },
+        "TotalSystemMemoryGiB": 32,
+        "TotalSystemPersistentMemoryGiB": 0
+    },
+    "Model": "ProLiant XL225n Gen10 Plus",
+    "Name": "Computer System",
+    "NetworkInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces"
+    },
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeComputerSystemExt.HpeComputerSystemExt",
+            "@odata.type": "#HpeComputerSystemExt.v2_9_0.HpeComputerSystemExt",
+            "Actions": {
+                "#HpeComputerSystemExt.PowerButton": {
+                    "PushType@Redfish.AllowableValues": [
+                        "Press",
+                        "PressAndHold"
+                    ],
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.PowerButton"
+                },
+                "#HpeComputerSystemExt.RestoreManufacturingDefaults": {
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.RestoreManufacturingDefaults"
+                },
+                "#HpeComputerSystemExt.RestoreSystemDefaults": {
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.RestoreSystemDefaults"
+                },
+                "#HpeComputerSystemExt.SecureSystemErase": {
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.SecureSystemErase"
+                },
+                "#HpeComputerSystemExt.ServerIntelligentDiagnosticsMode": {
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.ServerIntelligentDiagnosticsMode"
+                },
+                "#HpeComputerSystemExt.ServerSafeMode": {
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.ServerSafeMode"
+                },
+                "#HpeComputerSystemExt.SystemReset": {
+                    "ResetType@Redfish.AllowableValues": [
+                        "ColdBoot",
+                        "AuxCycle"
+                    ],
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hpe/HpeComputerSystemExt.SystemReset"
+                }
+            },
+            "AggregateHealthStatus": {
+                "AgentlessManagementService": "Unavailable",
+                "BiosOrHardwareHealth": {
+                    "Status": {
+                        "Health": "OK"
+                    }
+                },
+                "FanRedundancy": "Redundant",
+                "Fans": {
+                    "Status": {
+                        "Health": "OK"
+                    }
+                },
+                "Memory": {
+                    "Status": {
+                        "Health": "OK"
+                    }
+                },
+                "Network": {
+                    "Status": {
+                        "Health": "OK"
+                    }
+                },
+                "PowerSupplies": {
+                    "PowerSuppliesMismatch": false,
+                    "Status": {
+                        "Health": "OK"
+                    }
+                },
+                "Processors": {
+                    "Status": {
+                        "Health": "OK"
+                    }
+                },
+                "Storage": {
+                    "Status": {
+                        "Health": "OK"
+                    }
+                },
+                "Temperatures": {
+                    "Status": {
+                        "Health": "OK"
+                    }
+                }
+            },
+            "Bios": {
+                "Backup": {
+                    "Date": "11/06/2020",
+                    "Family": "A46",
+                    "VersionString": "A46 v1.38 (11/06/2020)"
+                },
+                "Current": {
+                    "Date": "02/23/2021",
+                    "Family": "A46",
+                    "VersionString": "A46 v2.42 (02/23/2021)"
+                },
+                "UefiClass": 2
+            },
+            "CriticalTempRemainOff": false,
+            "CurrentPowerOnTimeSeconds": 419520,
+            "DeviceDiscoveryComplete": {
+                "AMSDeviceDiscovery": "NoAMS",
+                "DeviceDiscovery": "vMainDeviceDiscoveryComplete",
+                "SmartArrayDiscovery": "Complete"
+            },
+            "ElapsedEraseTimeInMinutes": 0,
+            "EndOfPostDelaySeconds": null,
+            "EstimatedEraseTimeInMinutes": 0,
+            "IsColdBooting": false,
+            "Links": {
+                "PCIDevices": {
+                    "@odata.id": "/redfish/v1/Systems/1/PCIDevices"
+                },
+                "PCISlots": {
+                    "@odata.id": "/redfish/v1/Systems/1/PCISlots"
+                },
+                "NetworkAdapters": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters"
+                },
+                "SmartStorage": {
+                    "@odata.id": "/redfish/v1/Systems/1/SmartStorage"
+                },
+                "USBPorts": {
+                    "@odata.id": "/redfish/v1/Systems/1/USBPorts"
+                },
+                "USBDevices": {
+                    "@odata.id": "/redfish/v1/Systems/1/USBDevices"
+                },
+                "EthernetInterfaces": {
+                    "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
+                },
+                "WorkloadPerformanceAdvisor": {
+                    "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor"
+                },
+                "SecureEraseReportService": {
+                    "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService"
+                }
+            },
+            "PCAPartNumber": "P21164-001",
+            "PCASerialNumber": "PXDGN0XRHD708U",
+            "PostDiscoveryCompleteTimeStamp": "2024-03-21T23:42:40Z",
+            "PostDiscoveryMode": null,
+            "PostMode": null,
+            "PostState": "FinishedPost",
+            "PowerAutoOn": "Restore",
+            "PowerOnDelay": "Minimum",
+            "PowerOnMinutes": 1589555,
+            "PowerRegulatorMode": "OSControl",
+            "PowerRegulatorModesSupported": [
+                "OSControl",
+                "Max"
+            ],
+            "SMBIOS": {
+                "extref": "/smbios"
+            },
+            "ServerFQDN": "",
+            "ServerIntelligentDiagnosticsModeEnabled": false,
+            "ServerSafeModeEnabled": false,
+            "SystemROMAndiLOEraseComponentStatus": {
+                "BIOSSettingsEraseStatus": "Idle",
+                "iLOSettingsEraseStatus": "Idle"
+            },
+            "SystemROMAndiLOEraseStatus": "Idle",
+            "UserDataEraseComponentStatus": {},
+            "UserDataEraseStatus": "Idle",
+            "VirtualProfile": "Inactive"
+        }
+    },
+    "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "AMD EPYC 7702 64-Core Processor                ",
+        "Status": {
+            "HealthRollup": "OK"
+        }
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/1/Processors"
+    },
+    "SKU": "XL225nG10+",
+    "SecureBoot": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot"
+    },
+    "SerialNumber": "T001PP0185",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Storage": {
+        "@odata.id": "/redfish/v1/Systems/1/Storage"
+    },
+    "SystemType": "Physical",
+    "TrustedModules": [
+        {
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeTrustedModuleExt.HpeTrustedModuleExt",
+                    "@odata.type": "#HpeTrustedModuleExt.v2_0_0.HpeTrustedModuleExt"
+                }
+            },
+            "Status": {
+                "State": "Absent"
+            }
+        }
+    ],
+    "UUID": "32324C58-6E35-3054-3031-505030313835"
+}

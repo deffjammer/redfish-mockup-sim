@@ -1,0 +1,62 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
+    "@odata.etag": "\"1705423261\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0",
+    "@odata.type": "#Storage.v1_9_0.Storage",
+    "Description": "Storage0",
+    "Drives@odata.count": 0,
+    "Id": "StorageUnit_0",
+    "Links": {
+        "Enclosures@odata.count": 0
+    },
+    "Name": "StorageUnit_0",
+    "Redundancy@odata.count": 0,
+    "StorageControllers": [
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0#/StorageControllers/0",
+            "AssetTag": "(USB_Controller_0)",
+            "FirmwareVersion": "1.20",
+            "MemberId": "0",
+            "Model": "Not Available",
+            "Name": "USB_Controller0",
+            "SerialNumber": "Not Available",
+            "SpeedGbps": 3,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "SupportedControllerProtocols": [
+                "USB",
+                "PCIe"
+            ],
+            "SupportedDeviceProtocols": [
+                "USB"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0#/StorageControllers/1",
+            "AssetTag": "(USB_Controller_1)",
+            "FirmwareVersion": "1.20",
+            "MemberId": "1",
+            "Model": "Not Available",
+            "Name": "USB_Controller1",
+            "SerialNumber": "Not Available",
+            "SpeedGbps": 3,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "SupportedControllerProtocols": [
+                "USB",
+                "PCIe"
+            ],
+            "SupportedDeviceProtocols": [
+                "USB"
+            ]
+        }
+    ],
+    "StorageControllers@odata.count": 2,
+    "Volumes": {
+        "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Volumes"
+    }
+}

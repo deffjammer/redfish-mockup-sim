@@ -1,0 +1,56 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#TaskCollection.TaskCollection",
+    "@odata.etag": "\"1711064485\"",
+    "@odata.id": "/redfish/v1/TaskService/Tasks",
+    "@odata.type": "#TaskCollection.TaskCollection",
+    "Description": "Task Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/66"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/67"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/68"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/69"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/70"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/71"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/72"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/73"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/74"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/75"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/76"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/77"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/78"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/79"
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks/80"
+        }
+    ],
+    "Members@odata.count": 15,
+    "Name": "Task Collection"
+}

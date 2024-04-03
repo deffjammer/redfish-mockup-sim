@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"E23C2080\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
+    "@odata.type": "#HpeServerDevice.v2_0_0.HpeServerDevice",
+    "Id": "4",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/1"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.2684.0"
+        }
+    },
+    "Location": "Embedded LOM",
+    "Manufacturer": "",
+    "Name": "Intel(R) I350 Gigabit Network Connection",
+    "PartNumber": "",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

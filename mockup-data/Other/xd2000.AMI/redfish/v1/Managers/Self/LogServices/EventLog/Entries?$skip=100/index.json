@@ -1,0 +1,517 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1711100821\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/101",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-02T01:48:11+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "101",
+            "EventTimestamp": "2024-02-02T01:48:11+00:00",
+            "Id": "101",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 101",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/102",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-02T01:48:12+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "102",
+            "EventTimestamp": "2024-02-02T01:48:12+00:00",
+            "Id": "102",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 102",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/103",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-02T01:57:31+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "103",
+            "EventTimestamp": "2024-02-02T01:57:31+00:00",
+            "Id": "103",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 103",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/104",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-02T01:57:31+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "104",
+            "EventTimestamp": "2024-02-02T01:57:31+00:00",
+            "Id": "104",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 104",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/105",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-06T04:06:39+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "105",
+            "EventTimestamp": "2024-02-06T04:06:39+00:00",
+            "Id": "105",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 105",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/106",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-06T04:06:40+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "106",
+            "EventTimestamp": "2024-02-06T04:06:40+00:00",
+            "Id": "106",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 106",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/107",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-20T15:30:11+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "107",
+            "EventTimestamp": "2024-02-20T15:30:11+00:00",
+            "Id": "107",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 107",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/108",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-20T15:30:12+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "108",
+            "EventTimestamp": "2024-02-20T15:30:12+00:00",
+            "Id": "108",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 108",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/109",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-23T19:18:20+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "109",
+            "EventTimestamp": "2024-02-23T19:18:20+00:00",
+            "Id": "109",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 109",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/110",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-23T19:18:21+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "110",
+            "EventTimestamp": "2024-02-23T19:18:21+00:00",
+            "Id": "110",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 110",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/111",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-23T19:49:55+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "111",
+            "EventTimestamp": "2024-02-23T19:49:55+00:00",
+            "Id": "111",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 111",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/112",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-02-23T19:49:55+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "112",
+            "EventTimestamp": "2024-02-23T19:49:55+00:00",
+            "Id": "112",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 112",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/113",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-01T16:47:55+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "113",
+            "EventTimestamp": "2024-03-01T16:47:55+00:00",
+            "Id": "113",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 113",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/114",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-01T16:47:56+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "114",
+            "EventTimestamp": "2024-03-01T16:47:56+00:00",
+            "Id": "114",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 114",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/115",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-13T13:52:51+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "115",
+            "EventTimestamp": "2024-03-13T13:52:51+00:00",
+            "Id": "115",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 115",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/116",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-13T13:52:51+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "116",
+            "EventTimestamp": "2024-03-13T13:52:51+00:00",
+            "Id": "116",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 116",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/117",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-14T16:00:47+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "117",
+            "EventTimestamp": "2024-03-14T16:00:47+00:00",
+            "Id": "117",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 117",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/118",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-14T16:00:48+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "118",
+            "EventTimestamp": "2024-03-14T16:00:48+00:00",
+            "Id": "118",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 118",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/119",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-15T10:52:15+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "119",
+            "EventTimestamp": "2024-03-15T10:52:15+00:00",
+            "Id": "119",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 119",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/120",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-15T10:52:15+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "120",
+            "EventTimestamp": "2024-03-15T10:52:15+00:00",
+            "Id": "120",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 120",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/121",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-22T09:47:00+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "121",
+            "EventTimestamp": "2024-03-22T09:47:00+00:00",
+            "Id": "121",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/1/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions/1 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions/1"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 121",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/122",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2024-03-22T09:47:01+00:00",
+            "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "122",
+            "EventTimestamp": "2024-03-22T09:47:01+00:00",
+            "Id": "122",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+                }
+            },
+            "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+            "MessageArgs": [
+                "/redfish/v1/EventService/Subscriptions"
+            ],
+            "MessageId": "EventLog.1.0.ResourceAdded",
+            "Name": "Log entry 122",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 122,
+    "Name": "Log Service Entries Collection"
+}

@@ -1,0 +1,77 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeSlots.PCIeSlots",
+    "@odata.etag": "W/\"04746F1D\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots",
+    "@odata.type": "#PCIeSlots.v1_3_0.PCIeSlots",
+    "Id": "PCIeSlots",
+    "Name": "PCIeSlots",
+    "Slots": [
+        {
+            "HotPluggable": false,
+            "Lanes": 16,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 1,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "PCI-E Slot 1"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "HotPluggable": false,
+            "Lanes": 16,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 2,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "PCI-E Slot 2"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": false,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 7,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "Mezzanine Slot 7"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": false,
+            "Lanes": 16,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 8,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "OCP Slot 8"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "OCP3Small",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        }
+    ]
+}

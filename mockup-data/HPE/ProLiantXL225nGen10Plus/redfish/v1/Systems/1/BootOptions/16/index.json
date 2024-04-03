@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/16",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "16",
+    "Alias": "None",
+    "BootOptionReference": "Boot0018",
+    "DisplayName": "Slot 10",
+    "Name": "Boot Option",
+    "UefiDevicePath": "HD(30,GPT,47B5A682-2156-40D0-BAF1-3C466D59657A,0x1A5E000,0x4B000)/\\EFI\\sles\\grubx64.efi"
+}

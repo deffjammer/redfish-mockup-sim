@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Task.Task",
+    "@odata.etag": "\"1707278995\"",
+    "@odata.id": "/redfish/v1/TaskService/Tasks/73",
+    "@odata.type": "#Task.v1_4_2.Task",
+    "Description": "Task for Computer Reset",
+    "EndTime": "2024-02-07T04:09:59+00:00",
+    "Id": "73",
+    "Messages": [
+        {
+            "@odata.type": "#Message.v1_0_8.Message",
+            "Message": "The task with id 73 has completed.",
+            "MessageArgs": [
+                "73"
+            ],
+            "MessageId": "TaskEvent.1.0.TaskCompletedOK",
+            "Resolution": "None.",
+            "Severity": "OK"
+        }
+    ],
+    "Name": "Computer Reset",
+    "StartTime": "2024-02-07T04:09:56+00:00",
+    "TaskState": "Completed",
+    "TaskStatus": "OK"
+}

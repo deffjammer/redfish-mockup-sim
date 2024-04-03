@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata",
+    "@odata.etag": "\"1701278847\"",
+    "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/Inventory/Crc",
+    "@odata.type": "#InventoryCRC.v1_0_0.InventoryCRC",
+    "GroupCrcList": [
+        {
+            "CERTIFICATE": 2263795347
+        },
+        {
+            "CPU": 3866799680
+        },
+        {
+            "PCIE": 4272167135
+        },
+        {
+            "DIMM": 2061524651
+        }
+    ]
+}

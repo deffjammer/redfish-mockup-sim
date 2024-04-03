@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkPortCollection.NetworkPortCollection",
+    "@odata.etag": "W/\"AA6D42B0\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/",
+    "@odata.type": "#NetworkPortCollection.NetworkPortCollection",
+    "Description": "Network Adapter Port Configuration and Status",
+    "Name": "Network Adapter Port Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1/"
+        }
+    ],
+    "Members@odata.count": 1
+}

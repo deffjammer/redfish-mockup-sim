@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunction.NetworkDeviceFunction",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC1/NetworkDeviceFunctions/NetworkDeviceFunction1/SD",
+    "@odata.type": "#NetworkDeviceFunction.v1_3_3.NetworkDeviceFunction",
+    "AssignablePhysicalPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC1/NetworkPorts/DevType7_Slot0_Instance1_PORT0"
+        }
+    ],
+    "AssignablePhysicalPorts@odata.count": 1,
+    "Ethernet": {
+        "MACAddress": "B4:7A:F1:B4:B2:E4",
+        "MTUSize": 1500,
+        "PermanentMACAddress": "B4:7A:F1:B4:B2:E4"
+    },
+    "Id": "NetworkDeviceFunction1",
+    "Links": {
+        "Endpoints@odata.count": 0,
+        "PCIeFunction": {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_63_00/PCIeFunctions/DevType3__DevIndex44"
+        },
+        "PhysicalPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC1/NetworkPorts/DevType7_Slot0_Instance1_PORT0"
+        }
+    },
+    "Name": "NetworkDeviceFunction1"
+}

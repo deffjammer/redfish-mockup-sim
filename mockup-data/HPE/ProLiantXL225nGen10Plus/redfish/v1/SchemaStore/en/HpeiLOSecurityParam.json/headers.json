@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Allow": "GET, HEAD",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-type": "application/json; charset=utf-8",
+        "Date": "Tue, 26 Mar 2024 20:26:17 GMT",
+        "ETag": "\"460024FB\"",
+        "OData-Version": "4.0",
+        "Transfer-Encoding": "chunked",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "sameorigin",
+        "X-XSS-Protection": "1; mode=block"
+    }
+}

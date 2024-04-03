@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.2.0
+Created: 2024-03-26 15:04:38
+Service: https://x3000c0s3n1-bmc:443
+User: admin
+Description: xd2000
+Total response time: 238.1613187789917
+Average response time: 0.1253480625152588
+Minimum response time: 0.012827873229980469, /redfish
+Maximum response time: 3.204137086868286, /redfish/v1/Chassis/Self/Sensors/129

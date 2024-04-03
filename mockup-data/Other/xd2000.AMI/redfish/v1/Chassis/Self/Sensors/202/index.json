@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701279004\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/202",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "202",
+    "Name": "Fan5_Rear",
+    "Reading": 13475,
+    "Status": {
+        "State": "Enabled"
+    }
+}

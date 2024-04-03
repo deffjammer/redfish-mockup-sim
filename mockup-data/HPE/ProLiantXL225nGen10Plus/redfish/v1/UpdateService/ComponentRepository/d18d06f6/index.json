@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/d18d06f6",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "d18d06f6",
+    "Activates": "AfterHardPowerCycle",
+    "ComponentUri": "/fwrepo/tiber_impl1_prodsigned_3434_102920.vme",
+    "Configuration": "",
+    "Created": "2021-02-02T17:13:53Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+    "ExecutionParameters": "",
+    "Filename": "tiber_impl1_prodsigned_3434_102920.vme",
+    "Filepath": "tiber_impl1_prodsigned_3434_102920.vme",
+    "Locked": false,
+    "Name": "System Programmable Logic Device",
+    "SizeBytes": 859345,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000229"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "34"
+}

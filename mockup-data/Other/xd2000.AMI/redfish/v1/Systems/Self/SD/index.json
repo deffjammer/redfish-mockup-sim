@@ -1,0 +1,48 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Systems/Self/SD",
+    "@odata.type": "#ComputerSystem.v1_8_0.ComputerSystem",
+    "AssetTag": "123456-123456       ",
+    "Boot": {
+        "BootNext": null,
+        "BootOrder": [
+            "Boot0001",
+            "Boot0002"
+        ],
+        "BootOrderPropertySelection": "BootOrder",
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideEnabled@Redfish.AllowableValues": [
+            "Disabled",
+            "Once"
+        ],
+        "BootSourceOverrideMode": "UEFI",
+        "BootSourceOverrideMode@Redfish.AllowableValues": [
+            "UEFI"
+        ],
+        "BootSourceOverrideTarget": "None",
+        "BootSourceOverrideTarget@Redfish.AllowableValues": [
+            "None",
+            "Pxe",
+            "Floppy",
+            "Cd",
+            "Usb",
+            "Hdd",
+            "BiosSetup",
+            "UefiShell",
+            "UefiTarget",
+            "UefiHttp",
+            "RemoteDrive",
+            "UefiBootNext"
+        ],
+        "UefiTargetBootSourceOverride": null,
+        "UefiTargetBootSourceOverride@Redfish.AllowableValues": [
+            "PciRoot(0x3)/Pci(0x5,0x3)/Pci(0x0,0x0)/MAC(B47AF1B4B2E4,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)",
+            "VenMedia(5023B95C-DB26-429B-A648-BD47664C8012)"
+        ]
+    },
+    "Description": "System Self",
+    "Id": "Self",
+    "Name": "System",
+    "SystemType": "Physical"
+}

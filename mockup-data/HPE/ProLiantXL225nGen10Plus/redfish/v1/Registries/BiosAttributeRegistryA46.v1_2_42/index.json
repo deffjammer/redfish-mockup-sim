@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.etag": "W/\"A4AE0369\"",
+    "@odata.id": "/redfish/v1/Registries/BiosAttributeRegistryA46.v1_2_42",
+    "@odata.type": "#MessageRegistryFile.v1_0_4.MessageRegistryFile",
+    "Id": "BiosAttributeRegistryA46.v1_2_42",
+    "Description": "Registry Definition File for BiosAttributeRegistryA46.v1_2_42",
+    "Languages": [
+        "en",
+        "ja",
+        "zh"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/registrystore/registries/en/biosattributeregistrya46.v1_2_42"
+        },
+        {
+            "Language": "ja",
+            "Uri": "/redfish/v1/registrystore/registries/ja/biosattributeregistrya46.v1_2_42"
+        },
+        {
+            "Language": "zh",
+            "Uri": "/redfish/v1/registrystore/registries/zh/biosattributeregistrya46.v1_2_42"
+        }
+    ],
+    "Name": "BiosAttributeRegistryA46.v1_2_42 Message Registry File",
+    "Registry": "BiosAttributeRegistryA46.v1_2_42"
+}

@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"0CEEB1C1\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/215",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "215",
+    "Created": "2024-03-21T23:42:32Z",
+    "EntryType": "Oem",
+    "Message": "Property \"Product ID\" has unusual content (invalid character in position [9])",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Invalid User Input"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1165,
+            "Count": 1,
+            "EventNumber": 1621205,
+            "Severity": "Informational",
+            "Updated": "2024-03-21T23:42:32Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

@@ -1,0 +1,160 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+    "@odata.etag": "W/\"42D63588\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1",
+    "@odata.type": "#NetworkPort.v1_2_5.NetworkPort",
+    "Id": "1",
+    "ActiveLinkTechnology": "Ethernet",
+    "AssociatedNetworkAddresses": [
+        "50:6B:4B:28:4F:28"
+    ],
+    "CurrentLinkSpeedMbps": 0,
+    "Description": "Port status and active configuration data",
+    "EEEEnabled": false,
+    "FlowControlStatus": "RX",
+    "LinkStatus": "Down",
+    "Name": "Network adapter port",
+    "NetDevFuncMaxBWAlloc": [],
+    "NetDevFuncMinBWAlloc": [],
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeNetworkPort.HpeNetworkPort",
+            "@odata.type": "#HpeNetworkPort.v1_3_0.HpeNetworkPort",
+            "Actions": {
+                "#HpeNetworkPort.DiagnosticsReset": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1/Actions/Oem/Hpe/HpeNetworkPort.DiagnosticsReset",
+                    "title": "Reset diagnostic capabilities on this port to an inactive state."
+                },
+                "#NetworkPort.DiagnosticsReset": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1/Actions/Oem/Hpe/NetworkPort.DiagnosticsReset",
+                    "title": "NOTE: Deprecated, will be removed in a future release. Replaced by HpeNetworkPort.DiagnosticsReset. Reset diagnostic capabilities on this port to an inactive state."
+                }
+            },
+            "AutoNegotiationCapable": true,
+            "ConfiguredNetworkLinks": [
+                {
+                    "ConfiguredLinkSpeedGbps": 1
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 10
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 25
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 40
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 50
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 100
+                }
+            ],
+            "Evb": {
+                "odataId": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1/HpeEVB/"
+            },
+            "EvbData": {},
+            "Lldp": {
+                "odataId": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1/HpeLLDP/"
+            },
+            "LldpData": {
+                "Receiving": {
+                    "Dcb": {
+                        "ApplicationPriorityReceived": false,
+                        "ApplicationPriorityTable": [],
+                        "Ets": {
+                            "BandwidthAssignmentTable": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "CreditBasedShaper": false,
+                            "MaximumTrafficClassCount": 8,
+                            "PriorityAssignmentTable": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "TlvReceived": false,
+                            "TrafficSelectionAlgorithmTable": [
+                                "strict",
+                                "strict",
+                                "strict",
+                                "strict",
+                                "strict",
+                                "strict",
+                                "strict",
+                                "strict"
+                            ],
+                            "Willing": false
+                        },
+                        "LocalEqualRemote": false,
+                        "Pfc": {
+                            "EnabledTrafficClasses": "00000000",
+                            "MacSecurityBypassCapability": false,
+                            "MaximumTrafficClassCount": 0,
+                            "TlvReceived": false,
+                            "Willing": false
+                        },
+                        "Version": "unknown"
+                    }
+                },
+                "Transmitting": {
+                    "ChassisID": "32324C58-6E35-3054-3031-505030313835",
+                    "ChassisIDSubtype": "local-Assign",
+                    "ManagementAddresses": [
+                        {
+                            "ManagementIPAddress": "00:00:00:00:00:00",
+                            "ManagementIPAddressType": "all802"
+                        }
+                    ],
+                    "ManagementCvlanIDTransmitted": false,
+                    "PortDescription": "ConnectX-5, 100G/50G/40G/25G/10G/1G QSFP",
+                    "PortID": "50:6B:4B:28:4F:28",
+                    "PortIDSubtype": "mac-Addr",
+                    "SystemDescription": "HPE ProLiant Server"
+                }
+            },
+            "PortDiagnosticEnableLocalLoopback": false,
+            "PortDiagnosticEnableRemoteLoopback": false,
+            "PortDiagnosticLocalLoopbackCapable": true,
+            "PortDiagnosticRemoteLoopbackCapable": false,
+            "PortDiagnosticsEnabled": true,
+            "VirtualFunctionAllocations": []
+        }
+    },
+    "PhysicalPortNumber": "1",
+    "PortMaximumMTU": 10000,
+    "Settings": {
+        "href": "/redfish/v1/Chassis/1/NetworkAdapters/DC060000/NetworkPorts/1/Settings/"
+    },
+    "SignalDetected": false,
+    "SupportedEthernetCapabilities": [
+        "WakeOnLAN"
+    ],
+    "SupportedLinkCapabilities": [
+        {
+            "CapableLinkSpeedMbps": [
+                100000
+            ],
+            "LinkNetworkTechnology": "Ethernet"
+        },
+        {
+            "CapableLinkSpeedMbps": [
+                100000
+            ],
+            "LinkNetworkTechnology": "InfiniBand"
+        }
+    ]
+}

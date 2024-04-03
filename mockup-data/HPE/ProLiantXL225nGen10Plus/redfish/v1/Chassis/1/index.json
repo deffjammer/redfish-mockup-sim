@@ -1,0 +1,101 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "W/\"2900ABDD\"",
+    "@odata.id": "/redfish/v1/Chassis/1",
+    "@odata.type": "#Chassis.v1_10_2.Chassis",
+    "Id": "1",
+    "AssetTag": "",
+    "ChassisType": "Other",
+    "IndicatorLED": "Off",
+    "Links": {
+        "ContainedBy": {
+            "@odata.id": "/redfish/v1/Chassis/EnclosureChassis"
+        },
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1"
+            }
+        ],
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/1"
+            }
+        ]
+    },
+    "Manufacturer": "HPE",
+    "Model": "ProLiant XL225n Gen10 Plus",
+    "Name": "Computer System Chassis",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+    },
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
+            "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
+            "Actions": {
+                "#HpeServerChassis.DisableMCTPOnServer": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.DisableMCTPOnServer"
+                },
+                "#HpeServerChassis.FactoryResetMCTP": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.FactoryResetMCTP"
+                },
+                "#HpeServerChassis.ModifyEnclosureChassisFru": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.ModifyEnclosureChassisFru"
+                }
+            },
+            "BayNumber": 4,
+            "ElConfigOverride": false,
+            "Firmware": {
+                "PlatformDefinitionTable": {
+                    "Current": {
+                        "VersionString": "7.6.0 Build 20"
+                    }
+                },
+                "SystemProgrammableLogicDevice": {
+                    "Current": {
+                        "VersionString": "0x34"
+                    }
+                }
+            },
+            "Links": {
+                "Devices": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Devices"
+                }
+            },
+            "MCTPEnabledOnServer": true,
+            "SystemMaintenanceSwitches": {
+                "Sw1": "Off",
+                "Sw10": "Off",
+                "Sw11": "Off",
+                "Sw12": "Off",
+                "Sw2": "Off",
+                "Sw3": "Off",
+                "Sw4": "Off",
+                "Sw5": "Off",
+                "Sw6": "Off",
+                "Sw7": "Off",
+                "Sw8": "Off",
+                "Sw9": "Off"
+            }
+        }
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    "PowerState": "On",
+    "SKU": "XL225nG10+",
+    "SerialNumber": "T001PP0185",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+    }
+}

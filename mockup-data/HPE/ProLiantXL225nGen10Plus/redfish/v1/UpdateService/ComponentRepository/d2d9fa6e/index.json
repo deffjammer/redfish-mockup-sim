@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/d2d9fa6e",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "d2d9fa6e",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/A46_1.38_11_06_2020.signed.flash",
+    "Configuration": "",
+    "Created": "2021-02-02T14:17:19Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "A46_1.38_11_06_2020.signed.flash",
+    "Filepath": "A46_1.38_11_06_2020.signed.flash",
+    "Locked": false,
+    "Name": "System BIOS - A46",
+    "SizeBytes": 33564508,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000229"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "v1.38 (11/06/2020)"
+}

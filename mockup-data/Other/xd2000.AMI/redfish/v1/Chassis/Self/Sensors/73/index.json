@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/73",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "73",
+    "Name": "Enclosure_Inlet",
+    "Reading": 23,
+    "Status": {
+        "State": "Enabled"
+    }
+}
