@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/907",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-12-01T07:50:29+00:00",
+    "Description": "SEL 1130",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2023-12-01T07:50:27+00:00",
+    "Id": "907",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "Event_Data_1 : 64, Record_Type : system event record, Sensor_Number : 173, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2023-12-01T07:50:27+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : CPU VRD, Record_ID : 1130, Sensor_Type : CPU Throttle, ",
+    "MessageId": "0x40FFFF",
+    "Name": "SEL 1130",
+    "SensorNumber": 173,
+    "SensorType": "CPU Throttle",
+    "Severity": "Warning"
+}

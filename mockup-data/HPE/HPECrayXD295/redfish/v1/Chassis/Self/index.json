@@ -1,0 +1,80 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "\"1711064684\"",
+    "@odata.id": "/redfish/v1/Chassis/Self",
+    "@odata.type": "#Chassis.v1_10_0.Chassis",
+    "Actions": {
+        "#Chassis.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Chassis/Self/ResetActionInfo",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_2_2.OperationApplyTimeSupport",
+                "MaintenanceWindowDurationInSeconds": 600,
+                "MaintenanceWindowResource": {
+                    "@odata.id": "/redfish/v1/Chassis/Self"
+                },
+                "SupportedValues": [
+                    "Immediate",
+                    "AtMaintenanceWindowStart"
+                ]
+            },
+            "target": "/redfish/v1/Chassis/Self/Actions/Chassis.Reset"
+        }
+    },
+    "AssetTag": "123456-123456       ",
+    "ChassisType": "Other",
+    "Description": "Chassis Self",
+    "Id": "Self",
+    "IndicatorLED": "Off",
+    "IndicatorLED@Redfish.AllowableValues": [
+        "Lit",
+        "Blinking",
+        "Off"
+    ],
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self"
+            }
+        ],
+        "ComputerSystems@odata.count": 1,
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/Self"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Chassis/Self/LogServices"
+    },
+    "Manufacturer": "HPE",
+    "Model": "HPE Cray XD 2000 System",
+    "Name": "Computer System Chassis",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters"
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/Self/PCIeSlots"
+    },
+    "PartNumber": "1395A3306301",
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/Self/Power"
+    },
+    "PowerState": "On",
+    "SKU": "Default string",
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/Self/Sensors"
+    },
+    "SerialNumber": "00000000   ",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+    }
+}

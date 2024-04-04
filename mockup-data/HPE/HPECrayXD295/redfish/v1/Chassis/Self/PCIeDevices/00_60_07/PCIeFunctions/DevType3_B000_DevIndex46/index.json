@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "\"1705423260\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_07/PCIeFunctions/DevType3_B000_DevIndex46",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x060400",
+    "DeviceClass": "Bridge",
+    "DeviceId": "0x14A7",
+    "FunctionId": 1,
+    "FunctionType": "Physical",
+    "Id": "DevType3_B000_DevIndex46",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_07"
+        }
+    },
+    "Name": "DevType3_B000_DevIndex46",
+    "RevisionId": "0x01",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x0000",
+    "SubsystemVendorId": "0x0180",
+    "VendorId": "0x1022"
+}

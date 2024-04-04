@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1709065874\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/235",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2024-02-27T20:31:14+00:00",
+    "Description": "The value of attribute LimitInWatts at /redfish/v1/Chassis/Self/Power was successfully updated from 2200 to 2200.",
+    "EntryType": "Event",
+    "EventTimestamp": "2024-02-27T20:31:14+00:00",
+    "Id": "235",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Self/Power"
+        }
+    },
+    "Message": "User: admin, IP: 172.24.0.1, Protocol: https - The value of attribute LimitInWatts at /redfish/v1/Chassis/Self/Power was successfully updated from 2200 to 2200.",
+    "MessageArgs": [
+        "LimitInWatts",
+        "/redfish/v1/Chassis/Self/Power",
+        "2200",
+        "2200"
+    ],
+    "MessageId": "Security.1.0.ResourceModified",
+    "Name": "Audit Log Entry 235",
+    "Severity": "OK"
+}

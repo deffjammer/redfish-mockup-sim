@@ -1,0 +1,98 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFileCollection.JsonSchemaFileCollection",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/JsonSchemas",
+    "@odata.type": "#JsonSchemaFileCollection.JsonSchemaFileCollection",
+    "Description": "List of JSON Oem schemas and Extensions.",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIAccountService.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIAccountServiceConfigurations.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIAdvanceRADIUSSetting.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIBIOSInventoryCRC.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIBiosTable.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIBiosTableTags.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMICaCert.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIChassisPowerThermal.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIConfigurations.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIEventService"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIEventService.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIExternalAccountProvider.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIInventoryStatus.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIManager.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIManagerAccount.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIManagerBoot.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIRADIUS.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMISMTPCertificate.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMISMTPCertificateCollection.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIServiceRoot.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIUpdateService.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AMIVirtualMedia.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/AmiBios.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/BiosStaticFile.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/BiosStaticFileCollection"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/ChangePassword.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/CrayGbtMemoryOemProperty.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/CraySELDescription.v1_0_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/JsonSchemas/ResetBios.v1_0_0"
+        }
+    ],
+    "Members@odata.count": 29,
+    "Name": "Schema Repository"
+}

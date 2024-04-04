@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "\"1705423261\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E9_00",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "DeviceType": "MultiFunction",
+    "Id": "00_E9_00",
+    "Manufacturer": "Advanced Micro Devices, Inc. [AMD]",
+    "Name": "00_E9_00",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E9_00/PCIeFunctions"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

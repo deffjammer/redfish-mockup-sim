@@ -1,0 +1,17 @@
+{
+    "GET": {
+        "Server": "AMI MegaRAC Redfish Service",
+        "Allow": "GET, POST, DELETE",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Link": "</redfish/v1/Systems/Self/Oem/Ami/Inventory/Crc/JsonSchemas/InventoryCRC.v1_0_0.json>; rel=describedby",
+        "ETag": "\"1701278847\"",
+        "Content-Type": "application/json; charset=UTF-8",
+        "OData-Version": "4.0",
+        "Content-Length": "287",
+        "Date": "Tue, 26 Mar 2024 20:05:02 GMT"
+    }
+}

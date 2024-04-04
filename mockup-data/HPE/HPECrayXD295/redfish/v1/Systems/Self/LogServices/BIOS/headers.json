@@ -1,0 +1,17 @@
+{
+    "GET": {
+        "Server": "AMI MegaRAC Redfish Service",
+        "Allow": "GET, PATCH",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Link": "<http://redfish.dmtf.org/schemas/v1/LogService.v1_1_3.json>; rel=describedby, <http://redfish.dmtf.org/schemas/v1/Settings.v1_2_2.json>, </redfish/v1/Systems/Self/LogServices/BIOS/Entries>; path=/Entries",
+        "ETag": "\"1711064684\"",
+        "Content-Type": "application/json; charset=UTF-8",
+        "OData-Version": "4.0",
+        "Content-Length": "1069",
+        "Date": "Tue, 26 Mar 2024 20:04:59 GMT"
+    }
+}

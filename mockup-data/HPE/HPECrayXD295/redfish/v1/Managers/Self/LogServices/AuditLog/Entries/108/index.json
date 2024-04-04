@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1695897959\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/108",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-09-28T10:45:59+00:00",
+    "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+    "EntryType": "Event",
+    "EventTimestamp": "2023-09-28T10:45:59+00:00",
+    "Id": "108",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+        }
+    },
+    "Message": "User: HostAutoFW, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+    "MessageArgs": [
+        "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+    ],
+    "MessageId": "Security.1.0.ResourceCreated",
+    "Name": "Audit Log Entry 108",
+    "Severity": "OK"
+}

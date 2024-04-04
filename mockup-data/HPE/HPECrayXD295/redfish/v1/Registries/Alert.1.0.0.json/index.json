@@ -1,0 +1,62 @@
+{
+    "@odata.type": "#MessageRegistry.v1_3_1.MessageRegistry",
+    "Description": "This registry defines Redfish Alert messages registry",
+    "Id": "Alert.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "GenericEventType": {
+            "Description": "Indicates that a condition exists which requires attention",
+            "Message": "%1 exists which requires attention.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        },
+        "OEMEventType": {
+            "Description": "Indicates that a condition exists which requires attention",
+            "Message": "%1 exists which requires attention.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        },
+        "SensorEvent": {
+            "Description": "Indicates that a condition exists which requires attention",
+            "Message": "%1 exists which requires attention.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        },
+        "SpecificEventType": {
+            "Description": "Indicates that a condition exists which requires attention",
+            "Message": "%1 exists which requires attention.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        },
+        "UnspecifiedEventType": {
+            "Description": "Indicates that a condition exists which requires attention",
+            "Message": "%1 exists which requires attention.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        }
+    },
+    "Name": "Alert Message Registry",
+    "OwningEntity": "AMI",
+    "RegistryPrefix": "Alert",
+    "RegistryVersion": "1.0.0"
+}

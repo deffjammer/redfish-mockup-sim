@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/80",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "80",
+    "Name": "P3V3_STBY",
+    "Reading": 3.3286,
+    "Status": {
+        "State": "Enabled"
+    }
+}

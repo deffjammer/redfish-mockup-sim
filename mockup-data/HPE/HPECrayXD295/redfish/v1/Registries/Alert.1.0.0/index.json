@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Registries/Alert.1.0.0",
+    "@odata.type": "#MessageRegistryFile.v1_1_3.MessageRegistryFile",
+    "Description": "Registry for Alert.1.0.0",
+    "Id": "Alert.1.0.0",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/Registries/Alert.1.0.0.json"
+        }
+    ],
+    "Name": "Alert.1.0.0 Registry",
+    "Registry": "Alert.1.0.0"
+}

@@ -1,0 +1,43 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "\"1705423259\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0",
+    "@odata.type": "#NetworkAdapter.v1_3_0.NetworkAdapter",
+    "Controllers": [
+        {
+            "FirmwarePackageVersion": "nil",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkDeviceFunctions/NetworkDeviceFunction0"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 1,
+                "NetworkPorts": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkPorts/DevType7_Slot5_Instance0_PORT0"
+                    }
+                ],
+                "NetworkPorts@odata.count": 1,
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_C1_00"
+                    }
+                ],
+                "PCIeDevices@odata.count": 1
+            }
+        }
+    ],
+    "Id": "DevType7_NIC0",
+    "Name": "DevType7_NIC0",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkPorts"
+    },
+    "Status": {
+        "Health": "Critical",
+        "State": "Enabled"
+    }
+}

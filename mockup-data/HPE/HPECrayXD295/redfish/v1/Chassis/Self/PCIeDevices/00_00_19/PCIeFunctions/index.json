@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunctionCollection.PCIeFunctionCollection",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions",
+    "@odata.type": "#PCIeFunctionCollection.PCIeFunctionCollection",
+    "Description": "The Collection of PCIeFunctions",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex20"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex21"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex22"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex23"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex24"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex25"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex26"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_00_19/PCIeFunctions/DevType3_DMMY_DevIndex27"
+        }
+    ],
+    "Members@odata.count": 8,
+    "Name": "PCIeFunction Collection"
+}

@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/EventService/Oem/Ami/SMTP/Certificates",
+    "@odata.type": "#AMISMTPCertificateCollection.v1_0_0.AMISMTPCertificateCollection",
+    "Certificates": [],
+    "Certificates@odata.count": 0,
+    "Description": "Collection for SMTP Certificate Collection",
+    "Name": "SMTP Certificate Collection"
+}

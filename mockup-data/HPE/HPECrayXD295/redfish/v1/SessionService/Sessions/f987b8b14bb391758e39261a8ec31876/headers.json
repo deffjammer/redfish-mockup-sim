@@ -1,0 +1,10 @@
+{
+    "GET": {
+        "Server": "AMI MegaRAC Redfish Service",
+        "OData-Version": "4.0",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Content-Length": "605",
+        "Date": "Tue, 26 Mar 2024 20:04:51 GMT",
+        "Connection": "close"
+    }
+}

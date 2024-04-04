@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EventDestination.EventDestination",
+    "@odata.etag": "\"1711100821\"",
+    "@odata.id": "/redfish/v1/EventService/Subscriptions/1",
+    "@odata.type": "#EventDestination.v1_7_0.EventDestination",
+    "Context": "XD2000_Alerts",
+    "DeliveryRetryPolicy": "RetryForever",
+    "Description": "Event Subscription",
+    "Destination": "http://172.24.0.1:1890/",
+    "EventFormatType": "Event",
+    "Id": "1",
+    "Name": "Subscription 1",
+    "Protocol": "Redfish",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SubordinateResources": false,
+    "SubscriptionType": "RedfishEvent"
+}

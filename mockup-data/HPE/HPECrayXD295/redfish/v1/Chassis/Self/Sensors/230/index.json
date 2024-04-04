@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1701279012\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/230",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "230",
+    "Name": "HDDBP_Presense",
+    "Reading": 32770,
+    "Status": {
+        "State": "Enabled"
+    }
+}

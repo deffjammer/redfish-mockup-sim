@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/EventLog/Entries/79",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2023-11-27T12:12:53+00:00",
+    "Description": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+    "EntryCode": "Informational",
+    "EntryType": "Event",
+    "EventId": "79",
+    "EventTimestamp": "2023-11-27T12:12:53+00:00",
+    "Id": "79",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/EventService/Subscriptions/Id"
+        }
+    },
+    "Message": "The resource at /redfish/v1/EventService/Subscriptions was successfully added.",
+    "MessageArgs": [
+        "/redfish/v1/EventService/Subscriptions"
+    ],
+    "MessageId": "EventLog.1.0.ResourceAdded",
+    "Name": "Log entry 79",
+    "Severity": "OK"
+}

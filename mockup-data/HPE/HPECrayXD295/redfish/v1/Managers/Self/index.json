@@ -1,0 +1,119 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Manager.Manager",
+    "@odata.etag": "\"1711483390\"",
+    "@odata.id": "/redfish/v1/Managers/Self",
+    "@odata.type": "#Manager.v1_6_0.Manager",
+    "Actions": {
+        "#Manager.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/ResetActionInfo",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_2_2.OperationApplyTimeSupport",
+                "MaintenanceWindowDurationInSeconds": 600,
+                "MaintenanceWindowResource": {
+                    "@odata.id": "/redfish/v1/Managers/Self"
+                },
+                "SupportedValues": [
+                    "Immediate",
+                    "AtMaintenanceWindowStart"
+                ]
+            },
+            "target": "/redfish/v1/Managers/Self/Actions/Manager.Reset"
+        },
+        "Oem": {
+            "#AMIManager.RedfishDBReset": {
+                "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Oem/RedfishDBResetActionInfo",
+                "target": "/redfish/v1/Managers/Self/Actions/Oem/AMIManager.RedfishDBReset"
+            },
+            "#AMIVirtualMedia.ConfigureCDInstance": {
+                "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Oem/ConfigureCDInstanceActionInfo",
+                "target": "/redfish/v1/Managers/Self/Actions/Oem/AMIVirtualMedia.ConfigureCDInstance"
+            },
+            "#AMIVirtualMedia.EnableRMedia": {
+                "@Redfish.ActionInfo": "/redfish/v1/Managers/Self/Oem/EnableRMediaActionInfo",
+                "target": "/redfish/v1/Managers/Self/Actions/Oem/AMIVirtualMedia.EnableRMedia"
+            }
+        }
+    },
+    "CommandShell": {
+        "ConnectTypesSupported": [
+            "IPMI"
+        ],
+        "MaxConcurrentSessions": 15,
+        "ServiceEnabled": true
+    },
+    "DateTime": "2024-03-26T20:04:41+00:00",
+    "DateTimeLocalOffset": "+00:00",
+    "Description": "BMC",
+    "EthernetInterfaces": {
+        "@odata.id": "/redfish/v1/Managers/Self/EthernetInterfaces"
+    },
+    "FirmwareVersion": "1.60.0",
+    "GraphicalConsole": {
+        "ConnectTypesSupported": [
+            "KVMIP"
+        ],
+        "MaxConcurrentSessions": 2,
+        "ServiceEnabled": true
+    },
+    "HostInterfaces": {
+        "@odata.id": "/redfish/v1/Managers/Self/HostInterfaces"
+    },
+    "Id": "Self",
+    "Links": {
+        "ManagerInChassis": {
+            "@odata.id": "/redfish/v1/Chassis/Self"
+        }
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Managers/Self/LogServices"
+    },
+    "ManagerType": "BMC",
+    "Model": "17169250",
+    "Name": "Manager",
+    "NetworkProtocol": {
+        "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol"
+    },
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMIManager.v1_0_0.AMIManager",
+            "ManagerServiceInfo": {
+                "CommandShellServiceInfo": {
+                    "IPMI": {
+                        "MaxConcurrentSessions": 15
+                    }
+                },
+                "Links": {
+                    "NetworkProtocol": {
+                        "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol"
+                    }
+                }
+            },
+            "PowerSaveMode": "Disable",
+            "VirtualMedia": {
+                "CDInstances": 2,
+                "RMediaStatus": "Disabled"
+            }
+        }
+    },
+    "PowerState": "On",
+    "Redundancy@odata.count": 0,
+    "SerialConsole": {
+        "ConnectTypesSupported": [
+            "IPMI"
+        ],
+        "MaxConcurrentSessions": 1,
+        "ServiceEnabled": true
+    },
+    "SerialInterfaces": {
+        "@odata.id": "/redfish/v1/Managers/Self/SerialInterfaces"
+    },
+    "ServiceEntryPointUUID": "679a669c-bfde-1000-01ac-e5b2b4f17ab4",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UUID": "679a669c-bfde-1000-01ac-e5b2b4f17ab4",
+    "VirtualMedia": {
+        "@odata.id": "/redfish/v1/Managers/Self/VirtualMedia"
+    }
+}

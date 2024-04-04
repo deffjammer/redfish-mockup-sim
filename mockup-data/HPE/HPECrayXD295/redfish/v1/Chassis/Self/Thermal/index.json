@@ -1,0 +1,1415 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Thermal.Thermal",
+    "@odata.etag": "\"1696405057\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Thermal",
+    "@odata.type": "#Thermal.v1_5_3.Thermal",
+    "Description": "Thermal sensor readings",
+    "Fans": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/0",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "0",
+            "MinReadingRange": 0,
+            "Name": "Fan6_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 14875,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 203,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/1",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "1",
+            "MinReadingRange": 0,
+            "Name": "Fan5_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 13475,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 202,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/2",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "2",
+            "MinReadingRange": 0,
+            "Name": "Fan4_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 11725,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 134,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/3",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "3",
+            "MinReadingRange": 0,
+            "Name": "Fan7_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 13300,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 206,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/4",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "4",
+            "MinReadingRange": 0,
+            "Name": "Fan1_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 11550,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 128,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/5",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "5",
+            "MinReadingRange": 0,
+            "Name": "Fan1_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 10500,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 129,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/6",
+            "LowerThresholdCritical": 0,
+            "LowerThresholdFatal": 0,
+            "LowerThresholdNonCritical": 0,
+            "MaxReadingRange": 1020,
+            "MemberId": "6",
+            "MinReadingRange": 0,
+            "Name": "Pump1",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 136,
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/7",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "7",
+            "MinReadingRange": 0,
+            "Name": "Fan6_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 13300,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 204,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/8",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "8",
+            "MinReadingRange": 0,
+            "Name": "Fan2_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 10675,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 131,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/9",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "9",
+            "MinReadingRange": 0,
+            "Name": "Fan5_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 14875,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 201,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/10",
+            "LowerThresholdCritical": 0,
+            "LowerThresholdFatal": 0,
+            "LowerThresholdNonCritical": 0,
+            "MaxReadingRange": 44625,
+            "MemberId": "10",
+            "MinReadingRange": 0,
+            "Name": "Pump2",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 137,
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/11",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "11",
+            "MinReadingRange": 0,
+            "Name": "Fan3_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 11725,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 132,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/12",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "12",
+            "MinReadingRange": 0,
+            "Name": "Fan8_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 13475,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 208,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/13",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "13",
+            "MinReadingRange": 0,
+            "Name": "Fan3_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 10500,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 133,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/14",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "14",
+            "MinReadingRange": 0,
+            "Name": "Fan7_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 14700,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 205,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/15",
+            "LowerThresholdFatal": 1400,
+            "MaxReadingRange": 44625,
+            "MemberId": "15",
+            "MinReadingRange": 0,
+            "Name": "Fan4_Rear",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 10500,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 135,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/16",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "16",
+            "MinReadingRange": 0,
+            "Name": "Fan2_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 11725,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 130,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Fans/17",
+            "LowerThresholdFatal": 1575,
+            "MaxReadingRange": 44625,
+            "MemberId": "17",
+            "MinReadingRange": 0,
+            "Name": "Fan8_Front",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Fan",
+            "Reading": 14875,
+            "ReadingUnits": "RPM",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 207,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Id": "Thermal",
+    "Name": "Thermal",
+    "Temperatures": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/0",
+            "MemberId": "0",
+            "Name": "PCIE3_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 210,
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/1",
+            "MemberId": "1",
+            "Name": "CPU1_DIMM_GHIJKL",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 187,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 87,
+            "UpperThresholdFatal": 92
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/2",
+            "MemberId": "2",
+            "Name": "Efuse_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 24,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 68,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 110,
+            "UpperThresholdNonCritical": 100
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/3",
+            "MemberId": "3",
+            "Name": "CPU2_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 38,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 2,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 97,
+            "UpperThresholdFatal": 100
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/4",
+            "MemberId": "4",
+            "Name": "CPU2_DIMM_ABCDEF",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 29,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 188,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 87,
+            "UpperThresholdFatal": 92
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/5",
+            "MemberId": "5",
+            "Name": "PCIE4_Margin",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 115,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 0,
+            "UpperThresholdFatal": 5,
+            "UpperThresholdNonCritical": -5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/6",
+            "MemberId": "6",
+            "Name": "PCIE3_Zone_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 209,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/7",
+            "MemberId": "7",
+            "Name": "BMC_Zone",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 37,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 66,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 90,
+            "UpperThresholdFatal": 95
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/8",
+            "MemberId": "8",
+            "Name": "CPU1_DIMM_ABCDEF",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 32,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 186,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 87,
+            "UpperThresholdFatal": 92
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/9",
+            "MemberId": "9",
+            "Name": "P2_SOC_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 43,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 216,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/10",
+            "MemberId": "10",
+            "Name": "P1_VDDIO_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 45,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 58,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/11",
+            "MemberId": "11",
+            "Name": "PCIE1_Margin",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 112,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 0,
+            "UpperThresholdFatal": 5,
+            "UpperThresholdNonCritical": -5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/12",
+            "MemberId": "12",
+            "Name": "NVME4_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 185,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/13",
+            "MemberId": "13",
+            "Name": "P1_VDDCR1_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 43,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 56,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/14",
+            "MemberId": "14",
+            "Name": "P2_VDDCR1_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 57,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/15",
+            "MemberId": "15",
+            "Name": "OCP_Margin",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 117,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 0,
+            "UpperThresholdFatal": 5,
+            "UpperThresholdNonCritical": -5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/16",
+            "MemberId": "16",
+            "Name": "NVME1_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 182,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/17",
+            "MemberId": "17",
+            "Name": "PSU3_Inlet",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 21,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 52,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 55,
+            "UpperThresholdFatal": 60
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/18",
+            "MemberId": "18",
+            "Name": "PCIE5_Zone_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 213,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/19",
+            "MemberId": "19",
+            "Name": "PSU4_Inlet",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 53,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 55,
+            "UpperThresholdFatal": 60
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/20",
+            "MemberId": "20",
+            "Name": "PCIE1_Zone_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 60,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/21",
+            "MemberId": "21",
+            "Name": "P1_VDDCR0_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 42,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 54,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/22",
+            "MemberId": "22",
+            "Name": "P2_VDD11_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 33,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 218,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/23",
+            "MemberId": "23",
+            "Name": "PCIE5_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 54,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 214,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/24",
+            "MemberId": "24",
+            "Name": "CPU1_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 40,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 1,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 97,
+            "UpperThresholdFatal": 100
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/25",
+            "MemberId": "25",
+            "Name": "PCIE4_Zone_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 211,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/26",
+            "MemberId": "26",
+            "Name": "IO_Zone",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 64,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 65,
+            "UpperThresholdFatal": 70,
+            "UpperThresholdNonCritical": 60
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/27",
+            "MemberId": "27",
+            "Name": "P1_VDD11_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 45,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 217,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/28",
+            "MemberId": "28",
+            "Name": "NVME2_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 183,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/29",
+            "MemberId": "29",
+            "Name": "Board_Inlet",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 27,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 48,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 65,
+            "UpperThresholdFatal": 70
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/30",
+            "MemberId": "30",
+            "Name": "P1_SOC_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 42,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 215,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/31",
+            "MemberId": "31",
+            "Name": "PSU1_Inlet",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 23,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 50,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 55,
+            "UpperThresholdFatal": 60
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/32",
+            "MemberId": "32",
+            "Name": "P2_VDDIO_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 33,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 59,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/33",
+            "MemberId": "33",
+            "Name": "PCIE2_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 63,
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/34",
+            "MemberId": "34",
+            "Name": "OCP_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 65,
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/35",
+            "MemberId": "35",
+            "Name": "PCIE1_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 61,
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/36",
+            "MemberId": "36",
+            "Name": "PCIE2_Zone_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 62,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/37",
+            "MemberId": "37",
+            "Name": "PCIE4_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 212,
+            "Status": {
+                "State": "Absent"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/38",
+            "MemberId": "38",
+            "Name": "NVME3_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 184,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/39",
+            "MemberId": "39",
+            "Name": "M2_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 67,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 70,
+            "UpperThresholdFatal": 75,
+            "UpperThresholdNonCritical": 65
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/40",
+            "MemberId": "40",
+            "Name": "P2_VDDCR0_VRD",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 43,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 55,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 110,
+            "UpperThresholdFatal": 120
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/41",
+            "MemberId": "41",
+            "Name": "Enclosure_Inlet",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 24,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 73,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 47,
+            "UpperThresholdFatal": 50
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/42",
+            "MemberId": "42",
+            "Name": "PCIE2_Margin",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 113,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 0,
+            "UpperThresholdFatal": 5,
+            "UpperThresholdNonCritical": -5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/43",
+            "MemberId": "43",
+            "Name": "Exhaust_Temp",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 40,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 72,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 90,
+            "UpperThresholdFatal": 95,
+            "UpperThresholdNonCritical": 85
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/44",
+            "MemberId": "44",
+            "Name": "2U_Board_Inlet",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 29,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 196,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 65,
+            "UpperThresholdFatal": 70
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/45",
+            "MemberId": "45",
+            "Name": "PCIE5_Margin",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": -31,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 116,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 0,
+            "UpperThresholdFatal": 5,
+            "UpperThresholdNonCritical": -5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/46",
+            "MemberId": "46",
+            "Name": "CPU2_DIMM_GHIJKL",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 189,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 87,
+            "UpperThresholdFatal": 92
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/47",
+            "MemberId": "47",
+            "Name": "PSU2_Inlet",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 26,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 51,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 55,
+            "UpperThresholdFatal": 60
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal#/Temperatures/48",
+            "MemberId": "48",
+            "Name": "PCIE3_Margin",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "Intake",
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 114,
+            "Status": {
+                "State": "Absent"
+            },
+            "UpperThresholdCritical": 0,
+            "UpperThresholdFatal": 5,
+            "UpperThresholdNonCritical": -5
+        }
+    ]
+}
