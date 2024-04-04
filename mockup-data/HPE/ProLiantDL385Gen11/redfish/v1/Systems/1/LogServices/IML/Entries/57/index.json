@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5C28EF7A\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/57",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "57",
+    "Created": "0000-00-00T00:00:00Z",
+    "EntryType": "Oem",
+    "Message": "Hardware Installation Error - Cabling to cable riser slot 5 is not correctly installed. Riser functionality may be impaired.",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Configuration"
+            ],
+            "Class": 50,
+            "ClassDescription": "UEFI",
+            "Code": 21568,
+            "Count": 2,
+            "EventNumber": 467,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0032code0x5440-gen10",
+            "RecommendedAction": "Ensure riser slot  5 is installed with cable(s) connected in the correct locations. Please consult the User Guide for more information.",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "0000-00-00T00:00:00Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

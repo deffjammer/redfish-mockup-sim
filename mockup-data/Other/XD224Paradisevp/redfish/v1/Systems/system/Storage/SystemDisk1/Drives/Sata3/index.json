@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.id": "/redfish/v1/Systems/system/Storage/SystemDisk1/Drives/Sata3",
+    "@odata.type": "#Drive.v1_13_0.Drive",
+    "Id": "Sata3",
+    "Name": "Drive Sata3",
+    "Description": "The Drive schema represents a single physical drive for a system.",
+    "Protocol": "SATA",
+    "MediaType": "NVME",
+    "Model": "SAMSUNG MZWLJ3T8HBLS-00007",
+    "CapacityBytes": 3840755982336,
+    "SerialNumber": "S4YPNC0W701059",
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": 0,
+            "LocationType": "Socket"
+        }
+    },
+    "RotationSpeedRPM": null,
+    "Revision": "EPK9GB5Q",
+    "Oem": {
+        "InsydeDrives": {
+            "@odata.type": "#InsydeOEMExtensions.Drive",
+            "Controller": ""
+        }
+    },
+    "LocationIndicatorActive": false
+}

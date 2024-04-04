@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/82",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-03-02T23:16:54+00:00",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventId": "82",
+    "EventTimestamp": "2024-03-02T23:16:54+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "82",
+    "Message": "Upper Non-critical - going high - Asserted",
+    "MessageId": "0x01573D3D",
+    "Name": "ProcessorModule_0_CPU_0_TempAvg_0",
+    "SensorNumber": 32,
+    "SensorType": "Temperature",
+    "Severity": "OK"
+}

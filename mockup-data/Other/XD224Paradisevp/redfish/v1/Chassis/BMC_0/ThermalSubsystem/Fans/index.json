@@ -1,0 +1,27 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/Fans",
+    "@odata.type": "#FanCollection.FanCollection",
+    "Description": "The collection of Fan resource instances BMC_0",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/Fans/FAN_1_A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/Fans/FAN_1_B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/Fans/FAN_2_A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/Fans/FAN_2_B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/Fans/FAN_3_A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/Fans/FAN_3_B"
+        }
+    ],
+    "Members@odata.count": 6,
+    "Name": "Fan Collection"
+}

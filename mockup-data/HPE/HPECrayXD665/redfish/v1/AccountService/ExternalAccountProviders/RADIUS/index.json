@@ -1,11 +1,11 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ExternalAccountProvider.ExternalAccountProvider",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/AccountService/ExternalAccountProviders/RADIUS",
     "@odata.type": "#ExternalAccountProvider.v1_1_2.ExternalAccountProvider",
     "AccountProviderType": "OEM",
     "Description": "RADIUS server settings",
-    "Id": "RADIUS Server",
+    "Id": "RADIUS",
     "Name": "RADIUS Settings",
     "Oem": {
         "Ami": {

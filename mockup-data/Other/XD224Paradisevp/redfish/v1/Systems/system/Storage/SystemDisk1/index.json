@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
+    "@odata.id": "/redfish/v1/Systems/system/Storage/SystemDisk1",
+    "@odata.type": "#Storage.v1_11_0.Storage",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Id": "SystemDisk1",
+    "Name": "Local Storage Controller",
+    "Description": "This Resource shall represent a storage subsystem in the Redfish Specification.",
+    "Drives": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Storage/SystemDisk1/Drives/Sata1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Storage/SystemDisk1/Drives/Sata2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Storage/SystemDisk1/Drives/Sata3"
+        }
+    ],
+    "Links": {}
+}

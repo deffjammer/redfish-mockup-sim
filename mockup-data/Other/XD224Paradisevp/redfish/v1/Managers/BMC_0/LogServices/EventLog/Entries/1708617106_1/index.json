@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1708617106_1",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-02-22T15:51:46+00:00",
+    "EntryType": "Event",
+    "EventId": "ce9ac1d6-2f1a-4786-81c9-3b0d5cdc9fbb",
+    "Id": "1708617106_1",
+    "Message": "The requested resource of type Chassis named 'Cpld_0' was not found.",
+    "MessageArgs": [
+        "Chassis",
+        "Cpld_0"
+    ],
+    "MessageId": "Base.1.11.ResourceNotFound",
+    "Name": "Log Entry 1708617106_1",
+    "Severity": "Critical"
+}

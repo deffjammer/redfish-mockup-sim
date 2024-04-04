@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"C712B9CD\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/46",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "46",
+    "Created": "2024-01-23T14:41:37Z",
+    "EntryType": "Oem",
+    "EventId": "aceed85c-723a-a4c6-6cbd-b353a78d0a29",
+    "EventTimestamp": "2024-01-23T14:41:37Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+        }
+    },
+    "MessageArgs": [
+        ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+        "16"
+    ],
+    "MessageId": "NetworkDevice.1.0.ConnectionDropped",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

@@ -1,0 +1,1062 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1712175403\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/748",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 824",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2024-03-21T19:10:08+00:00",
+            "Id": "748",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 242, Sensor_Name : Power_Action, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2024-03-21T19:10:08+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Chassis Power Off by IPMI/Web/PEF, Record_ID : 824, Sensor_Type : OEM, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 824",
+            "SensorNumber": 242,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/749",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 825",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "749",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 76, Sensor_Name : CPU1_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 825, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 825",
+            "SensorNumber": 76,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/750",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 826",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "750",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 77, Sensor_Name : CPU2_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 826, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 826",
+            "SensorNumber": 77,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/751",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 827",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "751",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 78, Sensor_Name : GPU1_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 827, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 827",
+            "SensorNumber": 78,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/752",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 828",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "752",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 79, Sensor_Name : GPU2_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 828, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 828",
+            "SensorNumber": 79,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/753",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 829",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "753",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 80, Sensor_Name : GPU3_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 829, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 829",
+            "SensorNumber": 80,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/754",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 830",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "754",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 81, Sensor_Name : GPU4_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 830, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 830",
+            "SensorNumber": 81,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/755",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 831",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "755",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 82, Sensor_Name : Fan1_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 831, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 831",
+            "SensorNumber": 82,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/756",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 832",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "756",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 83, Sensor_Name : Fan2_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 832, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 832",
+            "SensorNumber": 83,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/757",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 833",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "757",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 84, Sensor_Name : Fan3_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 833, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 833",
+            "SensorNumber": 84,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/758",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 834",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "758",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 85, Sensor_Name : Fan4_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 834, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 834",
+            "SensorNumber": 85,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/759",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 835",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "759",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 86, Sensor_Name : Fan5_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 835, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 835",
+            "SensorNumber": 86,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/760",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 836",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "760",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 87, Sensor_Name : Fan6_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 836, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 836",
+            "SensorNumber": 87,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/761",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 837",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "761",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 88, Sensor_Name : Fan7_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 837, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 837",
+            "SensorNumber": 88,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/762",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 838",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "762",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 89, Sensor_Name : Fan8_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 838, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 838",
+            "SensorNumber": 89,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/763",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 839",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "763",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 90, Sensor_Name : Fan9_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 839, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 839",
+            "SensorNumber": 90,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/764",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 840",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "764",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 91, Sensor_Name : Fan10_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 840, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 840",
+            "SensorNumber": 91,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/765",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 841",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "765",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 92, Sensor_Name : Fan11_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 841, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 841",
+            "SensorNumber": 92,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/766",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 842",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "766",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 93, Sensor_Name : Fan12_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 842, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 842",
+            "SensorNumber": 93,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/767",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 843",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:11+00:00",
+            "Id": "767",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Self"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 241, Sensor_Name : ACPI_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S5/G2 'Soft Off', Record_ID : 843, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 843",
+            "SensorNumber": 241,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/768",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 847",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "768",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 78, Sensor_Name : GPU1_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Present, Record_ID : 847, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 847",
+            "SensorNumber": 78,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/769",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 848",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "769",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 78, Sensor_Name : GPU1_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Normal, Record_ID : 848, Sensor_Type : OEM, ",
+            "MessageId": "0x01FFFF",
+            "Name": "SEL 848",
+            "SensorNumber": 78,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/770",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 849",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "770",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 78, Sensor_Name : GPU1_Pump_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 849, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 849",
+            "SensorNumber": 78,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/771",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 850",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "771",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 79, Sensor_Name : GPU2_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Present, Record_ID : 850, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 850",
+            "SensorNumber": 79,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/772",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 851",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "772",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 79, Sensor_Name : GPU2_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Normal, Record_ID : 851, Sensor_Type : OEM, ",
+            "MessageId": "0x01FFFF",
+            "Name": "SEL 851",
+            "SensorNumber": 79,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/773",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 852",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "773",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 79, Sensor_Name : GPU2_Pump_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 852, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 852",
+            "SensorNumber": 79,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/774",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 853",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "774",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 80, Sensor_Name : GPU3_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Present, Record_ID : 853, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 853",
+            "SensorNumber": 80,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/775",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 854",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "775",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 80, Sensor_Name : GPU3_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Normal, Record_ID : 854, Sensor_Type : OEM, ",
+            "MessageId": "0x01FFFF",
+            "Name": "SEL 854",
+            "SensorNumber": 80,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/776",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 855",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "776",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 80, Sensor_Name : GPU3_Pump_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 855, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 855",
+            "SensorNumber": 80,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/777",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 856",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "777",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 81, Sensor_Name : GPU4_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Present, Record_ID : 856, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 856",
+            "SensorNumber": 81,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/778",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 857",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "778",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 81, Sensor_Name : GPU4_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Normal, Record_ID : 857, Sensor_Type : OEM, ",
+            "MessageId": "0x01FFFF",
+            "Name": "SEL 857",
+            "SensorNumber": 81,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/779",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 858",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "779",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 81, Sensor_Name : GPU4_Pump_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 858, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 858",
+            "SensorNumber": 81,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/780",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 859",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "780",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 82, Sensor_Name : Fan1_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Present, Record_ID : 859, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 859",
+            "SensorNumber": 82,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/781",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 860",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "781",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 82, Sensor_Name : Fan1_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 PGD, Record_ID : 860, Sensor_Type : OEM, ",
+            "MessageId": "0x03FFFF",
+            "Name": "SEL 860",
+            "SensorNumber": 82,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/782",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 861",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "782",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 82, Sensor_Name : Fan1_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 861, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 861",
+            "SensorNumber": 82,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/783",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 862",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "783",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 83, Sensor_Name : Fan2_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Present, Record_ID : 862, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 862",
+            "SensorNumber": 83,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/784",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 863",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "784",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 83, Sensor_Name : Fan2_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 PGD, Record_ID : 863, Sensor_Type : OEM, ",
+            "MessageId": "0x03FFFF",
+            "Name": "SEL 863",
+            "SensorNumber": 83,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/785",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 864",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "785",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 83, Sensor_Name : Fan2_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 864, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 864",
+            "SensorNumber": 83,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/786",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 865",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "786",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 84, Sensor_Name : Fan3_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Present, Record_ID : 865, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 865",
+            "SensorNumber": 84,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/787",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 866",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "787",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 84, Sensor_Name : Fan3_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 PGD, Record_ID : 866, Sensor_Type : OEM, ",
+            "MessageId": "0x03FFFF",
+            "Name": "SEL 866",
+            "SensorNumber": 84,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/788",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 867",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "788",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 84, Sensor_Name : Fan3_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 867, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 867",
+            "SensorNumber": 84,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/789",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 868",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "789",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 85, Sensor_Name : Fan4_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Present, Record_ID : 868, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 868",
+            "SensorNumber": 85,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/790",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 869",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "790",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 85, Sensor_Name : Fan4_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 PGD, Record_ID : 869, Sensor_Type : OEM, ",
+            "MessageId": "0x03FFFF",
+            "Name": "SEL 869",
+            "SensorNumber": 85,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/791",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 870",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "791",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 85, Sensor_Name : Fan4_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 870, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 870",
+            "SensorNumber": 85,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/792",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 871",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "792",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 86, Sensor_Name : Fan5_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Present, Record_ID : 871, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 871",
+            "SensorNumber": 86,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/793",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 872",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "793",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 86, Sensor_Name : Fan5_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 PGD, Record_ID : 872, Sensor_Type : OEM, ",
+            "MessageId": "0x03FFFF",
+            "Name": "SEL 872",
+            "SensorNumber": 86,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/794",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 873",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "794",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 86, Sensor_Name : Fan5_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 873, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 873",
+            "SensorNumber": 86,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/795",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 874",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "795",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 87, Sensor_Name : Fan6_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Present, Record_ID : 874, Sensor_Type : OEM, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 874",
+            "SensorNumber": 87,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/796",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 875",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "796",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 87, Sensor_Name : Fan6_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 PGD, Record_ID : 875, Sensor_Type : OEM, ",
+            "MessageId": "0x03FFFF",
+            "Name": "SEL 875",
+            "SensorNumber": 87,
+            "SensorType": "OEM",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/797",
+            "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+            "Created": "2022-01-01T00:00:29+00:00",
+            "Description": "SEL 876",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2000-01-01T00:00:31+00:00",
+            "Id": "797",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 87, Sensor_Name : Fan6_State, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Fan60 Absent, Record_ID : 876, Sensor_Type : OEM, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 876",
+            "SensorNumber": 87,
+            "SensorType": "OEM",
+            "Severity": "Critical"
+        }
+    ],
+    "Members@odata.count": 150,
+    "Members@odata.nextLink": "/redfish/v1/Managers/Self/LogServices/SEL/Entries?$skip=100",
+    "Name": "Log Service Entries Collection"
+}

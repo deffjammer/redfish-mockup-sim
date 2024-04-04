@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"487EB5BF\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/49",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "49",
+    "Created": "2024-01-23T14:41:52Z",
+    "EntryType": "Oem",
+    "EventId": "f1aa1506-b0f8-d06a-906b-d9f8ba1816be",
+    "EventTimestamp": "2024-01-23T14:41:52Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+        }
+    },
+    "MessageArgs": [
+        ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+        "8"
+    ],
+    "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

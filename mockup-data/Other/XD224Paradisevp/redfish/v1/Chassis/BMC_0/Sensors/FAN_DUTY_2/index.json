@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_DUTY_2",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "FAN_DUTY_2",
+    "Name": "FAN DUTY 2",
+    "Reading": 100.0,
+    "ReadingRangeMax": 100.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Percent",
+    "ReadingUnits": "%",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

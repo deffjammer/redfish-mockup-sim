@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712249927\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/753",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2022-01-01T00:00:29+00:00",
+    "Description": "SEL 829",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2000-01-01T00:00:11+00:00",
+    "Id": "753",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 80, Sensor_Name : GPU3_Pump_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2000-01-01T00:00:11+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Pump Absent, Record_ID : 829, Sensor_Type : OEM, ",
+    "MessageId": "0x04FFFF",
+    "Name": "SEL 829",
+    "SensorNumber": 80,
+    "SensorType": "OEM",
+    "Severity": "OK"
+}

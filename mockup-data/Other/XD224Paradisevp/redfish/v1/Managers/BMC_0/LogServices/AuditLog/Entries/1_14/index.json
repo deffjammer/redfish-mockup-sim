@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_14",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-26T17:07:25+00:00",
+    "EntryType": "Oem",
+    "Id": "1_14",
+    "Message": "ost Power Up",
+    "Name": "Log Entry 1_14",
+    "Severity": null
+}

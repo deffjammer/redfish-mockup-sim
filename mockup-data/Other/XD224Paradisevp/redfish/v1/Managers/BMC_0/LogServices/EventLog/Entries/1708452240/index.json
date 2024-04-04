@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1708452240",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-02-20T18:04:00+00:00",
+    "EntryType": "Event",
+    "EventId": "3cb11e1f-d352-471b-aaae-76a86495a845",
+    "Id": "1708452240",
+    "Message": "The request failed due to an internal service error.  The service is still operational.",
+    "MessageArgs": [],
+    "MessageId": "Base.1.11.InternalError",
+    "Name": "Log Entry 1708452240",
+    "Severity": "Critical"
+}

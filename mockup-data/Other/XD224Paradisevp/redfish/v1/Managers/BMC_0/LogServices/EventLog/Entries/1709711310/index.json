@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1709711310",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-03-06T07:48:30+00:00",
+    "EntryType": "Event",
+    "EventId": "c2a9353e-accb-4729-9dd3-42a9c3b3cae0",
+    "Id": "1709711310",
+    "Message": "The requested resource of type #Chassis.v1_14_0.Chassis named 'Self' was not found.",
+    "MessageArgs": [
+        "#Chassis.v1_14_0.Chassis",
+        "Self"
+    ],
+    "MessageId": "Base.1.11.ResourceNotFound",
+    "Name": "Log Entry 1709711310",
+    "Severity": "Critical"
+}

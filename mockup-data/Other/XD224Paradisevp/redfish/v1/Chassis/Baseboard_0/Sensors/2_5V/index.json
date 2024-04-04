@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/2_5V",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "2_5V",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "2 5V",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 2.531,
+    "ReadingRangeMax": 4.095,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 2.25
+        },
+        "LowerCritical": {
+            "Reading": 2.125
+        },
+        "UpperCaution": {
+            "Reading": 2.75
+        },
+        "UpperCritical": {
+            "Reading": 2.875
+        }
+    }
+}

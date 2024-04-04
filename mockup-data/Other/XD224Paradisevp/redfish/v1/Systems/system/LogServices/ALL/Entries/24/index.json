@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/24",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-02-14T18:47:59+00:00",
+    "EntryCode": "Deassert",
+    "EntryType": "SEL",
+    "EventId": "24",
+    "EventTimestamp": "2024-02-14T18:47:59+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "24",
+    "Message": "Drive Presence - Deasserted",
+    "MessageId": "0xEF00FFFF",
+    "Name": "DISK2_STATUS",
+    "SensorNumber": 91,
+    "SensorType": "Drive Slot/Bay",
+    "Severity": "OK"
+}

@@ -1,0 +1,391 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal",
+    "@odata.type": "#Thermal.v1_7_1.Thermal",
+    "Fans": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Fans/0",
+            "@odata.type": "#Thermal.v1_7_1.Fan",
+            "MaxReadingRange": 100,
+            "MemberId": "0",
+            "MinReadingRange": 0,
+            "Name": "Pwm PSU0 Fan 1",
+            "Reading": 0,
+            "ReadingUnits": "Percent",
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Fans/1",
+            "@odata.type": "#Thermal.v1_7_1.Fan",
+            "MaxReadingRange": 100,
+            "MemberId": "1",
+            "MinReadingRange": 0,
+            "Name": "Pwm PSU1 Fan 1",
+            "Reading": 0,
+            "ReadingUnits": "Percent",
+            "Status": {
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Id": "Thermal",
+    "Name": "Thermal",
+    "Redundancy": [],
+    "Temperatures": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/0",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 0.0,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 150.0,
+            "MemberId": "0",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": -50.0,
+            "Name": "0 85V S0 VR Temperature",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 42.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 130.0,
+            "UpperThresholdNonCritical": 100.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/1",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 0.0,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 150.0,
+            "MemberId": "1",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": -50.0,
+            "Name": "0 9V S0 VR Temperature",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 41.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 130.0,
+            "UpperThresholdNonCritical": 100.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/2",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 0.0,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 150.0,
+            "MemberId": "2",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": -40.0,
+            "Name": "3 3V QSFP VR Temperature",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 45.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 125.0,
+            "UpperThresholdNonCritical": 100.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/3",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 256,
+            "MemberId": "3",
+            "Name": "Baseboard 0 HSC 0 Temp 0",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 29.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": null
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/4",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "4",
+            "Name": "Baseboard 0 Inlet 0 Temp 0",
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 21.21484375,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 127.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/5",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "5",
+            "Name": "Baseboard 0 Inlet 1 Temp 0",
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 20.1875,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 127.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/6",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "6",
+            "Name": "Baseboard 0 Inlet 2 Temp 0",
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 28.03125,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 127.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/7",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "7",
+            "Name": "Baseboard 0 Inlet 3 Temp 0",
+            "PhysicalContext": "Intake",
+            "ReadingCelsius": 28.03125,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 127.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/8",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "8",
+            "Name": "Baseboard 0 Module 0 Temp 0",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 35.99609375,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 100.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/9",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "9",
+            "Name": "Baseboard 0 PCB 0 Temp 0",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 25.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 80.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/10",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "10",
+            "Name": "Baseboard 0 PCB 1 Temp 0",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 30.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 80.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/11",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 127,
+            "MemberId": "11",
+            "Name": "Baseboard 0 PCB 2 Temp 0",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 30.5,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 80.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/12",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": 256,
+            "MemberId": "12",
+            "Name": "Baseboard 0 StandbyHSC 0 Temp 0",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 27.9375,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 125.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/13",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 0.0,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "13",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": 0.0,
+            "Name": "Cassini 0 Temperature",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 43.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 115.0,
+            "UpperThresholdNonCritical": 85.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/14",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 0.0,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "14",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": 0.0,
+            "Name": "PCB Temperature",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 34.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 120.0,
+            "UpperThresholdNonCritical": 100.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/15",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "15",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PDB PWR BK TEMP",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 47.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/16",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "16",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU0 INLET TEMP",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 33.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/17",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "17",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU0 TEMP 1",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 45.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/18",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "18",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU0 TEMP 2",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 49.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/19",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "19",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU1 INLET TEMP",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 34.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/20",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "20",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU1 TEMP 1",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 43.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/21",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxReadingRangeTemp": 127.0,
+            "MemberId": "21",
+            "MinReadingRangeTemp": -128.0,
+            "Name": "PSU1 TEMP 2",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 46.0,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/22",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 0.0,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 125.0,
+            "MemberId": "22",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": -40.0,
+            "Name": "QSFP Internal Temperature",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": null,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 70.0,
+            "UpperThresholdNonCritical": 60.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Thermal#/Temperatures/23",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 0.0,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 150.0,
+            "MemberId": "23",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": -50.0,
+            "Name": "uC Temperature",
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 37.0,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 130.0,
+            "UpperThresholdNonCritical": 100.0
+        }
+    ]
+}

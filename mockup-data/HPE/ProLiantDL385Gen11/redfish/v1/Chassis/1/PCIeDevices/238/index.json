@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/238",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Id": "238",
+    "FirmwareVersion": "1.5.41",
+    "Manufacturer": "HPE",
+    "Model": "R4K46A",
+    "Name": "HPE Cassini High Speed Network NIC",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/238/PCIeFunctions"
+    },
+    "PartNumber": "R4K46A",
+    "SKU": "P41345-001",
+    "SerialNumber": "EJ21490105",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol/HTTPS/Certificates/1",
     "@odata.type": "#Certificate.v1_4_0.Certificate",
     "Actions": {
@@ -13,7 +13,7 @@
             "target": "/redfish/v1/Managers/Self/NetworkProtocol/HTTPS/Certificates/1/Actions/Certificate.Renew"
         }
     },
-    "CertificateString": "-----BEGIN CERTIFICATE-----\nMIIEMjCCAxqgAwIBAgIUY7dWPlDWulpCdEokbafR+GRjWDwwDQYJKoZIhvcNAQEL\nBQAwgbsxCzAJBgNVBAYTAlVTMRAwDgYDVQQIDAdHZW9yZ2lhMREwDwYDVQQHDAhO\nb3Jjcm9zczE0MDIGA1UECgwrQW1lcmljYW4gTWVnYXRyZW5kcyBJbnRlcm5hdGlv\nbmFsIExMQyAoQU1JKTEbMBkGA1UECwwSU2VydmljZSBQcm9jZXNzb3JzMRQwEgYD\nVQQDDAttZWdhcmFjLmNvbTEeMBwGCSqGSIb3DQEJARYPc3VwcG9ydEBhbWkuY29t\nMB4XDTIyMDEwMTAwMDAyMloXDTMxMTIzMDAwMDAyMlowgYIxCzAJBgNVBAYTAlVT\nMRAwDgYDVQQIDAdHZW9yZ2lhMQ8wDQYDVQQHDAZEdWx1dGgxDDAKBgNVBAoMA0FN\nSTEQMA4GA1UECwwHTUVHQVJBQzEQMA4GA1UEAwwHYW1pLmNvbTEeMBwGCSqGSIb3\nDQEJARYPbWVnYXJhY0BhbWkuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\nCgKCAQEA+OFjtEFTmQsYHfIdl+IST1mb28mF7/WZFmVZNPvuDyLLl6jYv0GIixy2\nlObZyUwYFHAWAKM7JmqSV1TYy7bN4AtLfUGS/HXb846Wgb8yS9XFzT0ys1bARTRD\nYDOMa7tf5sQpIBABjMVkhZJh/iGdp0S3OHneuR2T2YpinXTVh+cCpn7OD0zFe7OX\nxMwQaHuJ6ZO3CjOwtMeXAiIfpwgo2btOawvsguJ8RBQ/jAFMkF/WeZV7zR902gML\n4UG9fBK68cjnAi3g13aG2EjouXoZEmsoYUTsWyrFXMFVvZqenxTjhUNXr2C4+jjt\neVLbJhcc83BmbD3ObuYPlMJEkspPbQIDAQABo2UwYzAJBgNVHRMEAjAAMAsGA1Ud\nDwQEAwIF4DAqBgNVHREEIzAhggttZWdhcmFjLmNvbYIMMTY5LjI1NC4wLjE3hwSp\n/gARMB0GA1UdDgQWBBQKmdBqRMKpg3bdX1+rXRNN34P6jTANBgkqhkiG9w0BAQsF\nAAOCAQEAWrXfpfe1gJMQrA0ePiJGFMhHlycBLUl7L0Xe5TS6lwo54v/EdNlGApo0\nkjW0prx1/GfsE/fiFeQSYwrJvt2qAJKf7y01OZ9EUUJWAQ/5F6EtONhYBFmx4EoG\ngtpyQVbtDHLuv2d9XGJYwseI/hZqKqgUlJiI4WdBmnfKvAWUkrEyBfIDztAfOwND\noipDtjlpd1nXIu2GkSwmxsedIJFFNHdsTM2lrLzZhT9W5M2fZg8HY/DVAj4BEc8f\nMWwJWMepXmCL1Ur0Vwfx0cOFO55wjv1EwBEXb50fzjevO0teZTBhMryhl6oTB157\nSzQLotCK47pDpEmtr3jCx5z31pE8JA==\n-----END CERTIFICATE-----",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\nMIIEBjCCAu6gAwIBAgIUCBAsnIPA5bX2UvWtdYrdw9snxyEwDQYJKoZIhvcNAQEL\nBQAwgbsxCzAJBgNVBAYTAlVTMRAwDgYDVQQIDAdHZW9yZ2lhMREwDwYDVQQHDAhO\nb3Jjcm9zczE0MDIGA1UECgwrQW1lcmljYW4gTWVnYXRyZW5kcyBJbnRlcm5hdGlv\nbmFsIExMQyAoQU1JKTEbMBkGA1UECwwSU2VydmljZSBQcm9jZXNzb3JzMRQwEgYD\nVQQDDAttZWdhcmFjLmNvbTEeMBwGCSqGSIb3DQEJARYPc3VwcG9ydEBhbWkuY29t\nMB4XDTIyMDEwMTAwMDAzMFoXDTMxMTIzMDAwMDAzMFowgYIxCzAJBgNVBAYTAlVT\nMRAwDgYDVQQIDAdHZW9yZ2lhMQ8wDQYDVQQHDAZEdWx1dGgxDDAKBgNVBAoMA0FN\nSTEQMA4GA1UECwwHTUVHQVJBQzEQMA4GA1UEAwwHYW1pLmNvbTEeMBwGCSqGSIb3\nDQEJARYPbWVnYXJhY0BhbWkuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\nCgKCAQEA+OFjtEFTmQsYHfIdl+IST1mb28mF7/WZFmVZNPvuDyLLl6jYv0GIixy2\nlObZyUwYFHAWAKM7JmqSV1TYy7bN4AtLfUGS/HXb846Wgb8yS9XFzT0ys1bARTRD\nYDOMa7tf5sQpIBABjMVkhZJh/iGdp0S3OHneuR2T2YpinXTVh+cCpn7OD0zFe7OX\nxMwQaHuJ6ZO3CjOwtMeXAiIfpwgo2btOawvsguJ8RBQ/jAFMkF/WeZV7zR902gML\n4UG9fBK68cjnAi3g13aG2EjouXoZEmsoYUTsWyrFXMFVvZqenxTjhUNXr2C4+jjt\neVLbJhcc83BmbD3ObuYPlMJEkspPbQIDAQABozkwNzAJBgNVHRMEAjAAMAsGA1Ud\nDwQEAwIF4DAdBgNVHQ4EFgQUCpnQakTCqYN23V9fq10TTd+D+o0wDQYJKoZIhvcN\nAQELBQADggEBAGu8A2yz1y9MhfFTP7JBE511JhDKaVzO/ZwV7Qr1BUfCQH8nLY1F\n0inHik2Lz34y2FV8WURlx9lGk9Zk8bFILUBScdiRyJaX/c/Rx+akBrHaKXvsGfWF\nyhFER01SyGFWHeBXc8XCUrikYrA83OaMSwnKt7KSlokW6B2/ACtBQscQ6YVlVYpT\nc7w92fY4BfLiOLqxbHsKbHdk/uyDTgvgD4iYmLTneqE0uZCjYwYGiqS2S27cU+v5\ners7AWsWkVzW2OoUC1c35PA9mLVZ9O65qwr+icnDtbGqFCrgRkcX2bTXLqsqeWJm\n0CBKNif8pZo5uYvO+XNYFDTwALkZiWTEz8E=\n-----END CERTIFICATE-----",
     "CertificateType": "PEM",
     "Description": "Certificate Instance",
     "Id": "1",
@@ -27,9 +27,9 @@
         "State": "Georgia"
     },
     "KeyUsage": [
+        "KeyEncipherment",
         "DigitalSignature",
-        "NonRepudiation",
-        "KeyEncipherment"
+        "NonRepudiation"
     ],
     "Name": "Certificate Instance",
     "Subject": {
@@ -41,6 +41,6 @@
         "OrganizationalUnit": "MEGARAC",
         "State": "Georgia"
     },
-    "ValidNotAfter": "2031-12-30T00:00:22+00:00",
-    "ValidNotBefore": "2022-1-1T00:00:22+00:00"
+    "ValidNotAfter": "2031-12-30T00:00:30+00:00",
+    "ValidNotBefore": "2022-1-1T00:00:30+00:00"
 }

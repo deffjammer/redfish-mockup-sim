@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/353",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-04-04T14:57:55+00:00",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventId": "353",
+    "EventTimestamp": "2024-04-04T14:57:55+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "353",
+    "Message": "Processor Presence Detected - Asserted",
+    "MessageId": "0x6F07FFFF",
+    "Name": "CPU1_ERROR",
+    "SensorNumber": 106,
+    "SensorType": "Processor",
+    "Severity": "OK"
+}

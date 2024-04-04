@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#CertificateLocations.CertificateLocations",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/CertificateService/CertificateLocations",
     "@odata.type": "#CertificateLocations.v1_0_2.CertificateLocations",
     "Description": "Certificate Locations",
@@ -8,25 +8,25 @@
     "Links": {
         "Certificates": [
             {
-                "@odata.id": "/redfish/v1/Systems/Self/Boot/Certificates/1"
-            },
-            {
-                "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol/HTTPS/Certificates/1"
-            },
-            {
-                "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/KEKDefault/Certificates/1"
-            },
-            {
                 "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbDefault/Certificates/3"
             },
             {
                 "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/PKDefault/Certificates/1"
             },
             {
-                "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbDefault/Certificates/1"
+                "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/KEKDefault/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Boot/Certificates/1"
             },
             {
                 "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbDefault/Certificates/2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases/dbDefault/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol/HTTPS/Certificates/1"
             }
         ],
         "Certificates@odata.count": 7

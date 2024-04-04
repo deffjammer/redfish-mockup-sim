@@ -1,0 +1,180 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Collection of Sensors for this Chassis",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_AltitudePressure_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_85V_S0_Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_S0_Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/3_3V_QSFP_Current"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_CUR_IN"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_CUR_OUT"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_CUR_IN"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_CUR_OUT"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Pwm_PSU0_Fan_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Pwm_PSU1_Fan_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_85V_S0_Power"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_S0_Power"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/3_3V_QSFP_Power"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_HSC_0_Power_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_StandbyHSC_0_Power_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_TotalHSC_Power_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_PWR_IN"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_PWR_OUT"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_PWR_IN"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_PWR_OUT"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_85V_S0_VR_Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_S0_VR_Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/3_3V_QSFP_VR_Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_HSC_0_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_Inlet_0_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_Inlet_1_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_Inlet_2_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_Inlet_3_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_Module_0_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_PCB_0_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_PCB_1_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_PCB_2_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_StandbyHSC_0_Temp_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Cassini_0_Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PCB_Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PDB_PWR_BK_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_INLET_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_TEMP_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_TEMP_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_INLET_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_TEMP_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_TEMP_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/QSFP_Internal_Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/uC_Temperature"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_85V_S0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_CM4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_CM4_PLL"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_PLL"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_S0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/1_1V"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/2_5V"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/3_3V_QSFP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/3_3V_QSFP_Internal"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/5_0_FET_DRV"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/NIC_PCIe_12_0V"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU0_VOL_OUT"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_VOL_OUT"
+        }
+    ],
+    "Members@odata.count": 57,
+    "Name": "Sensors"
+}

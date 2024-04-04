@@ -1,0 +1,255 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power",
+    "@odata.type": "#Power.v1_7_1.Power",
+    "Id": "Power",
+    "Name": "Power",
+    "PowerControl": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/PowerControl/0",
+            "@odata.type": "#Power.v1_7_1.PowerControl",
+            "MemberId": "0",
+            "Name": "Chassis Power Control",
+            "PowerCapacityWatts": null,
+            "PowerConsumedWatts": null,
+            "PowerLimit": {
+                "LimitException": "NoAction",
+                "LimitInWatts": null
+            }
+        }
+    ],
+    "PowerSupplies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/PowerSupplies/0",
+            "EfficiencyPercent": 90,
+            "Manufacturer": "DELTA",
+            "MemberId": "0",
+            "Model": "ECD56020022-N",
+            "Name": "PSU0",
+            "PartNumber": "          ",
+            "PowerOutputWatts": 597.0,
+            "SerialNumber": "THAKN23070083",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/PowerSupplies/1",
+            "EfficiencyPercent": 90,
+            "Manufacturer": "DELTA",
+            "MemberId": "1",
+            "Model": "ECD56020022-N",
+            "Name": "PSU1",
+            "PartNumber": "          ",
+            "PowerOutputWatts": 547.0,
+            "SerialNumber": "THAKN23070017",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Redundancy": [],
+    "Voltages": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/0",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 0.757,
+            "LowerThresholdNonCritical": 0.8,
+            "MaxReadingRange": 32.767,
+            "MemberId": "0",
+            "MinReadingRange": 0.0,
+            "Name": "0 85V S0",
+            "ReadingVolts": 0.8240000000000001,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 0.9430000000000001,
+            "UpperThresholdNonCritical": 0.9
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/1",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 0.81,
+            "LowerThresholdNonCritical": 0.855,
+            "MaxReadingRange": 2.047,
+            "MemberId": "1",
+            "MinReadingRange": 0.0,
+            "Name": "0 9V CM4",
+            "ReadingVolts": 0.896,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 0.99,
+            "UpperThresholdNonCritical": 0.9450000000000001
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/2",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 0.81,
+            "LowerThresholdNonCritical": 0.855,
+            "MaxReadingRange": 2.047,
+            "MemberId": "2",
+            "MinReadingRange": 0.0,
+            "Name": "0 9V CM4 PLL",
+            "ReadingVolts": 0.893,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 0.99,
+            "UpperThresholdNonCritical": 0.9450000000000001
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/3",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 0.81,
+            "LowerThresholdNonCritical": 0.855,
+            "MaxReadingRange": 2.047,
+            "MemberId": "3",
+            "MinReadingRange": 0.0,
+            "Name": "0 9V PLL",
+            "ReadingVolts": 0.889,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 0.99,
+            "UpperThresholdNonCritical": 0.9450000000000001
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/4",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 0.81,
+            "LowerThresholdNonCritical": 0.855,
+            "MaxReadingRange": 32.767,
+            "MemberId": "4",
+            "MinReadingRange": 0.0,
+            "Name": "0 9V S0",
+            "ReadingVolts": 0.9,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 0.99,
+            "UpperThresholdNonCritical": 0.9450000000000001
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/5",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 0.68,
+            "LowerThresholdNonCritical": 1.045,
+            "MaxReadingRange": 2.047,
+            "MemberId": "5",
+            "MinReadingRange": 0.0,
+            "Name": "1 1V",
+            "ReadingVolts": 1.092,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 1.25,
+            "UpperThresholdNonCritical": 1.155
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/6",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 2.125,
+            "LowerThresholdNonCritical": 2.25,
+            "MaxReadingRange": 4.095,
+            "MemberId": "6",
+            "MinReadingRange": 0.0,
+            "Name": "2 5V",
+            "ReadingVolts": 2.532,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 2.875,
+            "UpperThresholdNonCritical": 2.75
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/7",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 3.0,
+            "LowerThresholdNonCritical": 3.1350000000000002,
+            "MaxReadingRange": 4.095,
+            "MemberId": "7",
+            "MinReadingRange": 0.0,
+            "Name": "3 3V QSFP",
+            "ReadingVolts": 3.302,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 3.551,
+            "UpperThresholdNonCritical": 3.465
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/8",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": null,
+            "LowerThresholdNonCritical": 3.1350000000000002,
+            "MaxReadingRange": 6.553,
+            "MemberId": "8",
+            "MinReadingRange": 0.0,
+            "Name": "3 3V QSFP Internal",
+            "ReadingVolts": null,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 3.551,
+            "UpperThresholdNonCritical": 3.465
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/9",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 4.5,
+            "LowerThresholdNonCritical": 4.75,
+            "MaxReadingRange": 6.3580000000000005,
+            "MemberId": "9",
+            "MinReadingRange": 0.0,
+            "Name": "5 0 FET DRV",
+            "ReadingVolts": 4.979,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 5.5,
+            "UpperThresholdNonCritical": 5.25
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/10",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdCritical": 10.200000000000001,
+            "LowerThresholdNonCritical": 10.8,
+            "MaxReadingRange": 22.522000000000002,
+            "MemberId": "10",
+            "MinReadingRange": 0.0,
+            "Name": "NIC PCIe 12 0V",
+            "ReadingVolts": 12.133000000000001,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 13.200000000000001,
+            "UpperThresholdNonCritical": 12.96
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/11",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "MaxReadingRange": 255.0,
+            "MemberId": "11",
+            "MinReadingRange": 0.0,
+            "Name": "PSU0 VOL OUT",
+            "ReadingVolts": 54.142,
+            "Status": {
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Power#/Voltages/12",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "MaxReadingRange": 255.0,
+            "MemberId": "12",
+            "MinReadingRange": 0.0,
+            "Name": "PSU1 VOL OUT",
+            "ReadingVolts": 54.201,
+            "Status": {
+                "State": "Enabled"
+            }
+        }
+    ]
+}

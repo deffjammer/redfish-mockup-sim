@@ -1,0 +1,74 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/ThermalSubsystem/ThermalMetrics",
+    "@odata.type": "#ThermalMetrics.v1_0_1.ThermalMetrics",
+    "Id": "ThermalMetrics",
+    "Name": "Chassis Thermal Metrics",
+    "TemperatureReadingsCelsius": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/PDB_PWR_BK_TEMP",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/PDB_PWR_BK_TEMP",
+            "DeviceName": "PDB_PWR_BK_TEMP",
+            "Reading": "46.000000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_MB01",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_MB01",
+            "DeviceName": "TEMP_AMB_MB01",
+            "Reading": "30.500000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/X550_TEMP",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/X550_TEMP",
+            "DeviceName": "X550_TEMP",
+            "Reading": "30.000000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/VRM_TEMP_PDBTOP",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/VRM_TEMP_PDBTOP",
+            "DeviceName": "VRM_TEMP_PDBTOP",
+            "Reading": "27.062000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_MB",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_MB",
+            "DeviceName": "TEMP_AMB_MB",
+            "Reading": "21.125000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/VRM_TEMP_PDBBTM",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/VRM_TEMP_PDBBTM",
+            "DeviceName": "VRM_TEMP_PDBBTM",
+            "Reading": "27.500000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_FIO",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_FIO",
+            "DeviceName": "TEMP_AMB_FIO",
+            "Reading": "18.562000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/DISK1_TEMP",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/DISK1_TEMP",
+            "DeviceName": "DISK1_TEMP",
+            "Reading": "28.000000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/DISK2_TEMP",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/DISK2_TEMP",
+            "DeviceName": "DISK2_TEMP",
+            "Reading": "30.000000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/M2_0_TEMP",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/M2_0_TEMP",
+            "DeviceName": "M2_0_TEMP",
+            "Reading": "32.000000"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/M2_1_TEMP",
+            "DataSourceUri": "/redfish/v1/Chassis/BMC_0/Sensors/M2_1_TEMP",
+            "DeviceName": "M2_1_TEMP",
+            "Reading": "nan"
+        }
+    ]
+}

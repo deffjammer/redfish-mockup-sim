@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/137",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/137/attachment",
+    "Created": "2024-02-08T18:48:49+00:00",
+    "EntryType": "Event",
+    "Id": "137",
+    "Message": "Update.1.0.TransferFailed",
+    "Modified": "2024-02-08T18:48:49+00:00",
+    "Name": "System Event Log Entry",
+    "Resolved": false,
+    "Severity": "Critical"
+}

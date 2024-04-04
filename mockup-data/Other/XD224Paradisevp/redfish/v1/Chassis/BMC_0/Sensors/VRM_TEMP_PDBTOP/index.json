@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/VRM_TEMP_PDBTOP",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "VRM_TEMP_PDBTOP",
+    "Name": "VRM TEMP PDBTOP",
+    "Reading": 27.062,
+    "ReadingRangeMax": 127.0,
+    "ReadingRangeMin": -128.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

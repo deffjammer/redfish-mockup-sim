@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
-    "@odata.etag": "\"1697465491\"",
+    "@odata.etag": "\"1712175403\"",
     "@odata.id": "/redfish/v1/Chassis/Self",
     "@odata.type": "#Chassis.v1_14_0.Chassis",
     "Actions": {
@@ -20,7 +20,7 @@
             "target": "/redfish/v1/Chassis/Self/Actions/Chassis.Reset"
         }
     },
-    "AssetTag": "",
+    "AssetTag": "123456-123456       ",
     "ChassisType": "Main Server Chassis",
     "Description": "Chassis Self",
     "Id": "Self",
@@ -39,7 +39,7 @@
         "ComputerSystems@odata.count": 1,
         "Drives": [
             {
-                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/NVMe_Device0_NSID1"
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device0_Port0"
             },
             {
                 "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device1_Port0"
@@ -61,12 +61,9 @@
             },
             {
                 "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device7_Port0"
-            },
-            {
-                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device8_Port0"
             }
         ],
-        "Drives@odata.count": 9,
+        "Drives@odata.count": 8,
         "ManagedBy": [
             {
                 "@odata.id": "/redfish/v1/Managers/Self"
@@ -78,11 +75,7 @@
         "@odata.id": "/redfish/v1/Chassis/Self/LogServices"
     },
     "Manufacturer": "HPE",
-    "MediaControllers": {
-        "@odata.id": "/redfish/v1/Chassis/Self/MediaControllers"
-    },
-    "Model": "Cray XD665 CTO Server ",
-    "Name": "Computer System Chassis",
+    "Name": "HPE Cray SC XD665     ",
     "NetworkAdapters": {
         "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters"
     },
@@ -100,7 +93,7 @@
         "@odata.id": "/redfish/v1/Chassis/Self/Power"
     },
     "PowerState": "On",
-    "SKU": "Default string",
+    "SKU": "P52377-B21",
     "Sensors": {
         "@odata.id": "/redfish/v1/Chassis/Self/Sensors"
     },

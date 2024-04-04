@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
-    "@odata.etag": "\"1697465670\"",
+    "@odata.etag": "\"1712175471\"",
     "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_84_00",
     "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
     "AssetTag": "",
@@ -18,8 +18,8 @@
         "MaxPCIeType": "Gen5",
         "PCIeType": "Gen5"
     },
-    "PartNumber": "675-23087-0011-QS1",
-    "SerialNumber": "1664922710033",
+    "PartNumber": "935-23087-0001-000",
+    "SerialNumber": "1660623710109",
     "Status": {
         "Health": "OK",
         "State": "Enabled"

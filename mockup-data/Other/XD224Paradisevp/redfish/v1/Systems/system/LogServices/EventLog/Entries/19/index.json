@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/19",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/19/attachment",
+    "Created": "2024-01-26T16:52:06+00:00",
+    "EntryType": "Event",
+    "Id": "19",
+    "Message": "Baseboard Standby Power ON.",
+    "Modified": "2024-01-26T16:52:06+00:00",
+    "Name": "System Event Log Entry",
+    "Resolved": false,
+    "Severity": "OK"
+}

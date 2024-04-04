@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/345",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/345/attachment",
+    "Created": "2024-04-04T14:56:30+00:00",
+    "EntryType": "Event",
+    "Id": "345",
+    "Message": "The resource property 5 has detected errors of type ''.",
+    "MessageArgs": [
+        "5",
+        ""
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

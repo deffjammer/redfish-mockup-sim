@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#SerialInterfaceCollection.SerialInterfaceCollection",
-    "@odata.etag": "\"1640995245\"",
+    "@odata.etag": "\"1294265237\"",
     "@odata.id": "/redfish/v1/Managers/Self/SerialInterfaces",
     "@odata.type": "#SerialInterfaceCollection.SerialInterfaceCollection",
     "Description": "Collection of Serial Interfaces for this System",

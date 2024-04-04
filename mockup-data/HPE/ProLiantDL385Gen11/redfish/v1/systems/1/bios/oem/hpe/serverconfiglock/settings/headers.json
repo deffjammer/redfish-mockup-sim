@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Allow": "GET, HEAD, PUT, PATCH",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-type": "application/json; charset=utf-8",
+        "Date": "Thu, 04 Apr 2024 17:13:35 GMT",
+        "ETag": "W/\"05052E325E99DFDFDF57497ACD8287FC\"",
+        "Link": "</redfish/v1/schemastore/en/hpeserverconfiglock.v1_0_0.json/>; rel=describedby",
+        "OData-Version": "4.0",
+        "Transfer-Encoding": "chunked",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "sameorigin",
+        "X-XSS-Protection": "1; mode=block"
+    }
+}

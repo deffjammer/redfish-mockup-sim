@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_1084",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-03-14T18:44:18+00:00",
+    "EntryType": "Oem",
+    "Id": "1_1084",
+    "Message": "RU write, FRU Device ID = 4, Offset 444, Size 22",
+    "Name": "Log Entry 1_1084",
+    "Severity": null
+}

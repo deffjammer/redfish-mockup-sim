@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
-    "@odata.etag": "\"1697465673\"",
+    "@odata.etag": "\"1712175473\"",
     "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0",
     "@odata.type": "#Storage.v1_9_0.Storage",
     "Controllers": {
@@ -9,7 +9,7 @@
     "Description": "Storage0",
     "Drives": [
         {
-            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/NVMe_Device0_NSID1"
+            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device0_Port0"
         },
         {
             "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device1_Port0"
@@ -31,12 +31,9 @@
         },
         {
             "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device7_Port0"
-        },
-        {
-            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device8_Port0"
         }
     ],
-    "Drives@odata.count": 9,
+    "Drives@odata.count": 8,
     "Id": "StorageUnit_0",
     "Name": "StorageUnit_0",
     "Status": {
@@ -46,19 +43,19 @@
     "StorageControllers": [
         {
             "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0#/StorageControllers/0",
-            "AssetTag": "(NVMe_Controller_0)",
-            "FirmwareVersion": "MPK70H5Q",
+            "AssetTag": "(USB_Controller_0)",
+            "FirmwareVersion": "1.20",
             "MemberId": "0",
-            "Model": "MZXL5800HBHQ-000H3",
-            "Name": "NVMe_Controller_0",
-            "SerialNumber": "S5Z6NE0N800017",
-            "SpeedGbps": 63.02,
+            "Model": "Not Available",
+            "Name": "USB_Controller0",
+            "SerialNumber": "Not Available",
+            "SpeedGbps": 3,
             "Status": {
                 "Health": "OK",
                 "State": "Enabled"
             },
             "SupportedControllerProtocols": [
-                "NVMe",
+                "USB",
                 "PCIe"
             ]
         },
@@ -79,27 +76,9 @@
                 "USB",
                 "PCIe"
             ]
-        },
-        {
-            "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0#/StorageControllers/2",
-            "AssetTag": "(USB_Controller_2)",
-            "FirmwareVersion": "1.20",
-            "MemberId": "2",
-            "Model": "Not Available",
-            "Name": "USB_Controller2",
-            "SerialNumber": "Not Available",
-            "SpeedGbps": 3,
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            },
-            "SupportedControllerProtocols": [
-                "USB",
-                "PCIe"
-            ]
         }
     ],
-    "StorageControllers@odata.count": 3,
+    "StorageControllers@odata.count": 2,
     "Volumes": {
         "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Volumes"
     }

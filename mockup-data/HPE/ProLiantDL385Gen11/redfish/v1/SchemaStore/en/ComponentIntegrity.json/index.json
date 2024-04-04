@@ -1,0 +1,113 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "ComponentIntegrity",
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "description": "The ComponentIntegrity resource provides critical and pertinent security information about a specific device, system, software element, or other managed entity.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "ComponentIntegrityEnabled": {
+            "description": "An indication of whether security protocols are enabled for the component.",
+            "longDescription": "This property shall indicate whether security protocols are enabled for the component.  If ComponentIntegrityType contains `SPDM`, a value of `false` shall prohibit the SPDM Requester from using SPDM to communicate with the component identified by the TargetComponentURI property.  If ComponentIntegrityType contains `TPM`, a value of `false` shall disable the TPM component identified by the TargetComponentURI property entirely.  If `false`, services shall not provide the TPM and SPDM properties in response payloads for this resource.  If `false`, services shall reject action requests to this resource.  If `true`, services shall allow security protocols with the component identified by the TargetComponentURI property.",
+            "readonly": false,
+            "type": "boolean"
+        },
+        "ComponentIntegrityType": {
+            "enum": [
+                "SPDM",
+                "TPM",
+                "OEM"
+            ],
+            "enumDescriptions": {
+                "OEM": "OEM-specific.",
+                "SPDM": "Security Protocol and Data Model (SPDM) protocol.",
+                "TPM": "Trusted Platform Module (TPM)."
+            },
+            "enumLongDescriptions": {
+                "OEM": "This value shall indicate the integrity information is OEM-specific and the OEM section may include additional information.",
+                "SPDM": "This value shall indicate the integrity information is obtained through the Security Protocol and Data Model (SPDM) protocol as defined in DMTF DSP0274.",
+                "TPM": "This value shall indicate the integrity information is related to a Trusted Platform Module (TPM) as defined by the Trusted Computing Group (TCG)."
+            },
+            "type": "string"
+        },
+        "ComponentIntegrityTypeVersion": {
+            "description": "The version of the security technology.",
+            "longDescription": "This value of this property shall contain the version of the security technology indicated by the ComponentIntegrityType property.  If ComponentIntegrityType contains `SPDM`, this property shall contain the negotiated or selected SPDM protocol.  If ComponentIntegrityType contains `TPM`, this property shall contain the version of the TPM.",
+            "readonly": true,
+            "type": "string"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "SPDM": {
+            "description": "Integrity information about the SPDM Responder as reported by an SPDM Requester.",
+            "longDescription": "This property shall contain integrity information about the SPDM Responder identified by the TargetComponentURI property as reported by an SPDM Requester.  This property shall be present if ComponentIntegrityType contains `SPDM` and `ComponentIntegrityEnabled` contains `true`.  For other cases, this property shall be absent.",
+            "additionalProperties": false,
+            "properties": {
+                "IdentityAuthentication": {
+                    "description": "Identity authentication information about the SPDM Requester and SPDM Responder.",
+                    "longDescription": "This property shall contain identity authentication information about the SPDM Requester and SPDM Responder.",
+                    "additionalProperties": false,
+                    "properties": {
+                        "ResponderAuthentication": {
+                            "description": "Authentication information of the identity of the SPDM Responder.",
+                            "longDescription": "This property shall contain authentication information of the identity of the SPDM Responder.",
+                            "additionalProperties": false,
+                            "properties": {
+                                "VerificationStatus": {
+                                    "description": "The status of the verification of the identity of the component.",
+                                    "longDescription": "This property shall contain the status of the verification of the identity of the component referenced by the TargetComponentURI property..",
+                                    "enum": [
+                                        "Success",
+                                        "Failed"
+                                    ],
+                                    "enumDescriptions": {
+                                        "Failed": "Unsuccessful verification.",
+                                        "Success": "Successful verification."
+                                    },
+                                    "readonly": true,
+                                    "type": "string"
+                                }
+                            },
+                            "type": [
+                                "object",
+                                null
+                            ]
+                        }
+                    },
+                    "type": [
+                        "object",
+                        null
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status"
+        },
+        "TargetComponentURI": {
+            "description": "The link to the the component whose integrity that this resource reports.",
+            "longDescription": "This value of this property shall contain a link to the resource whose integrity information is reported in this resource.  If ComponentIntegrityType contains `SPDM`, this property shall contain a URI to the resource that represents the SPDM Responder.  If ComponentIntegrityType contains `TPM`, this property shall contain a URI with RFC6901-defined JSON fragment notation to a member of the TrustedModules array in a ComputerSystem resource that represents the TPM.",
+            "readonly": true,
+            "type": "string"
+        }
+    },
+    "readonly": false,
+    "title": "#ComponentIntegrity.v1_0_0.ComponentIntegrity",
+    "type": "object"
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"27572108\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/78",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "78",
+    "Created": "2023-04-01T13:00:10Z",
+    "EntryType": "Oem",
+    "Message": "Uncorrectable PCI Express Error Detected. Slot 8 (Segment 0x0, Bus 0x82, Device 0x0, Function 0x0).  Uncorrectable Error Status: 0x14000",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 8,
+            "ClassDescription": "PCI Bus",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 488,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0008code0x0002-gen10",
+            "RecommendedAction": "Update the firmware of the failing device. If the issue persists, replace the device. ",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2023-04-01T13:00:10Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

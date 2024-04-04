@@ -1,0 +1,27 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/Baseboard_0_Inlet_3_Temp_0",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "Baseboard_0_Inlet_3_Temp_0",
+    "MaxAllowableOperatingValue": 127,
+    "Name": "Baseboard 0 Inlet 3 Temp 0",
+    "PhysicalContext": "GPUSubsystem",
+    "Reading": 29.05859375,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCritical": {
+            "Reading": 127.0
+        }
+    }
+}

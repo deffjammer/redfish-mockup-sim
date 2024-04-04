@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrityCollection.ComponentIntegrityCollection",
+    "@odata.etag": "W/\"75983E8D\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity",
+    "@odata.type": "#ComponentIntegrityCollection.ComponentIntegrityCollection",
+    "Description": "Collection of SPDM-Oriented Component Integrity Resource Instances",
+    "Name": "SPDM Component Integrity Collection",
+    "Members": [],
+    "Members@odata.count": 0
+}

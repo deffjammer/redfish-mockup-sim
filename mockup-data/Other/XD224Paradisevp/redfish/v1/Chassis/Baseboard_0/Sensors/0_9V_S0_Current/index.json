@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_9V_S0_Current",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "0_9V_S0_Current",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "0 9V S0 Current",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 3.4000000000000004,
+    "ReadingRangeMax": 3276.7000000000003,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 0.0
+        },
+        "LowerCritical": {
+            "Reading": null
+        },
+        "UpperCaution": {
+            "Reading": 9.0
+        },
+        "UpperCritical": {
+            "Reading": 9.5
+        }
+    }
+}

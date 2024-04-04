@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"8AA47F8E\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/101",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "101",
+    "Created": "2024-03-19T16:02:04Z",
+    "EntryType": "Oem",
+    "EventId": "786d082f-0b7a-9b5e-bdbb-65b4ac3d7d52",
+    "EventTimestamp": "2024-03-19T16:02:04Z",
+    "MessageArgs": [
+        "Power Supply",
+        "Power Supply 1"
+    ],
+    "MessageId": "iLOEvents.3.3.PowerFailureRuntime",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Critical"
+}

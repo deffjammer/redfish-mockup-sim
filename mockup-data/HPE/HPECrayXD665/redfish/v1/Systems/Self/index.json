@@ -6,7 +6,7 @@
         }
     },
     "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
-    "@odata.etag": "\"1697474077\"",
+    "@odata.etag": "\"1712175469\"",
     "@odata.id": "/redfish/v1/Systems/Self",
     "@odata.type": "#ComputerSystem.v1_15_0.ComputerSystem",
     "Actions": {
@@ -30,17 +30,15 @@
     "Bios": {
         "@odata.id": "/redfish/v1/Systems/Self/Bios"
     },
-    "BiosVersion": "CA65_5.27_v1.00",
+    "BiosVersion": "CA65_5.27_v1.20",
     "Boot": {
         "BootNext": null,
         "BootOptions": {
             "@odata.id": "/redfish/v1/Systems/Self/BootOptions"
         },
         "BootOrder": [
-            "Boot0002",
-            "Boot0003",
-            "Boot0004",
-            "Boot0000"
+            "Boot0001",
+            "Boot0002"
         ],
         "BootOrderPropertySelection": "BootOrder",
         "BootSourceOverrideEnabled": "Disabled",
@@ -55,9 +53,6 @@
     "Description": "System Self",
     "EthernetInterfaces": {
         "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces"
-    },
-    "GraphicsControllers": {
-        "@odata.id": "/redfish/v1/Systems/Self/GraphicsControllers"
     },
     "HostName": null,
     "HostingRoles": [
@@ -105,7 +100,7 @@
         "TotalSystemPersistentMemoryGiB": null
     },
     "Model": "HPE Cray XD665",
-    "Name": "System",
+    "Name": "HPE Cray XD665",
     "NetworkInterfaces": {
         "@odata.id": "/redfish/v1/Systems/Self/NetworkInterfaces"
     },
@@ -121,16 +116,16 @@
                         "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/Inventory/Crc",
                         "GroupCrcList": [
                             {
-                                "PCIE": 2147407994
+                                "PCIE": 1015624593
                             },
                             {
-                                "CERTIFICATE": 2279264443
+                                "CERTIFICATE": 4009931303
                             },
                             {
-                                "CPU": 472606073
+                                "CPU": 629331264
                             },
                             {
-                                "DIMM": 794391454
+                                "DIMM": 4063597645
                             },
                             {
                                 "SECUREBOOT": 1343837978
@@ -921,7 +916,7 @@
     "Processors": {
         "@odata.id": "/redfish/v1/Systems/Self/Processors"
     },
-    "SKU": "HPE Cray XD665",
+    "SKU": "P52377-B21",
     "SecureBoot": {
         "@odata.id": "/redfish/v1/Systems/Self/SecureBoot"
     },
@@ -955,5 +950,5 @@
     "USBControllers": {
         "@odata.id": "/redfish/v1/Systems/Self/USBControllers"
     },
-    "UUID": "674C96F6-BFDE-11D3-01B0-0174B4F17AB4"
+    "UUID": "68791A36-BFDE-11D3-01B3-7564B4F17AB4"
 }

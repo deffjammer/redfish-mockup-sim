@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/FaultLog",
+    "@odata.type": "#LogService.v1_3_0.LogService",
+    "Actions": {
+        "#LogService.ClearLog": {
+            "target": "/redfish/v1/Systems/system/LogServices/FaultLog/Actions/LogService.ClearLog"
+        }
+    },
+    "DateTime": "2024-04-04T15:26:03+00:00",
+    "DateTimeLocalOffset": "+00:00",
+    "Description": "FaultLog Dump LogService",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Systems/system/LogServices/FaultLog/Entries"
+    },
+    "Id": "FaultLog",
+    "Name": "Dump LogService",
+    "OverWritePolicy": "Unknown"
+}

@@ -1,90 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#SimpleStorage.SimpleStorage",
-    "@odata.etag": "\"1697465673\"",
+    "@odata.etag": "\"1712175473\"",
     "@odata.id": "/redfish/v1/Systems/Self/SimpleStorage/1",
     "@odata.type": "#SimpleStorage.v1_3_0.SimpleStorage",
-    "Devices": [
-        {
-            "CapacityBytes": 2048,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual Cdrom Device",
-            "Name": "USB_Device1_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        },
-        {
-            "CapacityBytes": 65535,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual HDisk Device",
-            "Name": "USB_Device2_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        },
-        {
-            "CapacityBytes": 2048,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual Cdrom Device",
-            "Name": "USB_Device3_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        },
-        {
-            "CapacityBytes": 2048,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual Cdrom Device",
-            "Name": "USB_Device4_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        },
-        {
-            "CapacityBytes": 2048,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual Cdrom Device",
-            "Name": "USB_Device5_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        },
-        {
-            "CapacityBytes": 65535,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual HDisk Device",
-            "Name": "USB_Device6_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        },
-        {
-            "CapacityBytes": 65535,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual HDisk Device",
-            "Name": "USB_Device7_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        },
-        {
-            "CapacityBytes": 65535,
-            "Manufacturer": "American Megatrends Inc.",
-            "Model": "Virtual HDisk Device",
-            "Name": "USB_Device8_Port0",
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            }
-        }
-    ],
     "Id": "1",
     "Links": {
         "Chassis": {
@@ -99,5 +17,5 @@
         "Health": "OK",
         "State": "Enabled"
     },
-    "UefiDevicePath": "PciRoot(0x0)/Pci(0x7,0x1)/Pci(0x0,0x4)"
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x7,0x1)/Pci(0x0,0x4)"
 }

@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#SecureBootDatabaseCollection.SecureBootDatabaseCollection",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712250081\"",
     "@odata.id": "/redfish/v1/Systems/Self/SecureBoot/SecureBootDatabases",
     "@odata.type": "#SecureBootDatabaseCollection.SecureBootDatabaseCollection",
     "Description": "UEFI SecureBoot Database Collection",

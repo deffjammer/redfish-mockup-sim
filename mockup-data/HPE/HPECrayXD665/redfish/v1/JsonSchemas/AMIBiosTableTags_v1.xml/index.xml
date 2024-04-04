@@ -19,7 +19,7 @@
   </edmx:Reference>
   <edmx:DataServices>
     <Schema Namespace="AMIBiosTableTags" xmlns="http://docs.oasis-open.org/odata/ns/edm">
-      <ComplexType Name="AMIBiosTableTags" BaseType="Resource.v1_0_0.Resource">
+      <EntityType Name="AMIBiosTableTags" BaseType="Resource.v1_0_0.Resource">
         <Annotation Term="OData.Description" String="This is the schema definition for BiosTable information."/>
         <Annotation Term="OData.LongDescription" String="This is the schema definition for BiosTable information."/>
         <Annotation Term="Capabilities.InsertRestrictions">
@@ -37,11 +37,11 @@
             <PropertyValue Property="Deletable" Bool="true"/>
           </Record>
         </Annotation>
-      </ComplexType>
+      </EntityType>
     </Schema>
     <Schema Namespace="AMIBiosTableTags.v1_0_0" xmlns="http://docs.oasis-open.org/odata/ns/edm">
       <Annotation Term="Redfish.OwningEntity" String="AMI"/>
-      <ComplexType Name="AMIBiosTableTags" BaseType="AMIBiosTableTags.AMIBiosTableTags">
+      <EntityType Name="AMIBiosTableTags" BaseType="AMIBiosTableTags.AMIBiosTableTags">
         <Annotation Term="OData.Description" String="This is the schema definition for BiosTable information."/>
         <Annotation Term="OData.LongDescription" String="This is the schema definition for BiosTable information."/>
         <Property Name="NumberofTables" Type="Edm.Int64" Nullable="false">
@@ -54,7 +54,7 @@
           <Annotation Term="OData.Description" String="This object contains the TableTags informations."/>
           <Annotation Term="OData.LongDescription" String="This object contains the TableTags informations."/>
         </Property>
-      </ComplexType>
+      </EntityType>
       <ComplexType Name="TableTag">
         <Annotation Term="OData.AdditionalProperties" Bool="false"/>
         <Annotation Term="OData.Description" String="This object contains the TableTag informations."/>

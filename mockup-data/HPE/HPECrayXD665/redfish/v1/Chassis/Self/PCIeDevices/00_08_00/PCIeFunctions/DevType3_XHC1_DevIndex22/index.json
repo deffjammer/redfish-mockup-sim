@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
-    "@odata.etag": "\"1697465671\"",
+    "@odata.etag": "\"1712175471\"",
     "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_08_00/PCIeFunctions/DevType3_XHC1_DevIndex22",
     "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
     "ClassCode": "0x0C0330",
@@ -11,6 +11,9 @@
     "Id": "DevType3_XHC1_DevIndex22",
     "Links": {
         "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device0_Port0"
+            },
             {
                 "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device1_Port0"
             },
@@ -31,9 +34,6 @@
             },
             {
                 "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device7_Port0"
-            },
-            {
-                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0/Drives/USB_Device8_Port0"
             }
         ],
         "Drives@odata.count": 8,
@@ -42,7 +42,7 @@
         },
         "StorageControllers": [
             {
-                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0#/StorageControllers/1"
+                "@odata.id": "/redfish/v1/Systems/Self/Storage/StorageUnit_0#/StorageControllers/0"
             }
         ],
         "StorageControllers@odata.count": 1

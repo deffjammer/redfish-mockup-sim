@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
-    "@odata.etag": "\"1697465671\"",
+    "@odata.etag": "\"1712175472\"",
     "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_60_01/PCIeFunctions/DevType3_D0A0_DevIndex4C",
     "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
     "ClassCode": "0x060400",
@@ -21,6 +21,6 @@
         "State": "Enabled"
     },
     "SubsystemId": "0x0000",
-    "SubsystemVendorId": "0x08C0",
+    "SubsystemVendorId": "0x0200",
     "VendorId": "0x1022"
 }

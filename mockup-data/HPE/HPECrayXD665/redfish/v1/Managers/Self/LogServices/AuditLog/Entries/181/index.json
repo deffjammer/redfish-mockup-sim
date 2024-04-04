@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1294267250\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/181",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2011-01-05T22:40:50+00:00",
+    "Description": "The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+    "EntryType": "Event",
+    "EventTimestamp": "2011-01-05T22:40:50+00:00",
+    "Id": "181",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+        }
+    },
+    "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/Self/Oem/Ami/BiosTable has been successfully created.",
+    "MessageArgs": [
+        "/redfish/v1/Systems/Self/Oem/Ami/BiosTable"
+    ],
+    "MessageId": "Security.1.0.ResourceCreated",
+    "Name": "Audit Log Entry 181",
+    "Severity": "OK"
+}

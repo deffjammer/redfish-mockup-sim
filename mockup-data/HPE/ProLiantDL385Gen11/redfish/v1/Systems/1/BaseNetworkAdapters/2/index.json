@@ -1,0 +1,62 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"ABD4F880\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "2",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "214.0.194.0"
+        }
+    },
+    "Location": "PCI-E Slot 8",
+    "Name": "Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Adapter",
+    "PhysicalPorts": [
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "5c:6f:69:73:0d:e0",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "5c:6f:69:73:0d:e1",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0
+        }
+    ],
+    "SerialNumber": "VNE14508LP",
+    "Status": {
+        "Health": null,
+        "State": null
+    },
+    "StructuredName": "NIC.Slot.8.1",
+    "UEFIDevicePath": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)"
+}

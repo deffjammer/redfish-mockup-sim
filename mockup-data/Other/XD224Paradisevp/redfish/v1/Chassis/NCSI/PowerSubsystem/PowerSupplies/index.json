@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/NCSI/PowerSubsystem/PowerSupplies",
+    "@odata.type": "#PowerSupplyCollection.PowerSupplyCollection",
+    "Description": "The collection of PowerSupply resource instances NCSI",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/NCSI/PowerSubsystem/PowerSupplies/PSU0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/NCSI/PowerSubsystem/PowerSupplies/PSU1"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "Power Supply Collection"
+}

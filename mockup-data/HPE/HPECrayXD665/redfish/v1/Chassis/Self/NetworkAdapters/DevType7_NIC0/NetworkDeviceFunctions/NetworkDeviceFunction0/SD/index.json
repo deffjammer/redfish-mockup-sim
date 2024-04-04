@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunction.NetworkDeviceFunction",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0/NetworkDeviceFunctions/NetworkDeviceFunction0/SD",
     "@odata.type": "#NetworkDeviceFunction.v1_5_0.NetworkDeviceFunction",
     "AssignablePhysicalNetworkPorts": [

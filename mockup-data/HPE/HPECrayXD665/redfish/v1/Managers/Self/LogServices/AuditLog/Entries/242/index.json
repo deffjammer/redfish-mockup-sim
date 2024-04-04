@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1294352697\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/242",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2011-01-06T22:24:57+00:00",
+    "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+    "EntryType": "Event",
+    "EventTimestamp": "2011-01-06T22:24:57+00:00",
+    "Id": "242",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+        }
+    },
+    "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+    "MessageArgs": [
+        "BootComplete",
+        "/redfish/v1/Oem/Ami/InventoryData",
+        "false",
+        "true"
+    ],
+    "MessageId": "Security.1.0.ResourceModified",
+    "Name": "Audit Log Entry 242",
+    "Severity": "OK"
+}

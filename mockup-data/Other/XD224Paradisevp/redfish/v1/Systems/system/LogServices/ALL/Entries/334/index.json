@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/334",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-03-14T19:24:37+00:00",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventId": "334",
+    "EventTimestamp": "2024-03-14T19:24:37+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "334",
+    "Message": "Presence Detected - Asserted",
+    "MessageId": "0x6F00FFFF",
+    "Name": "PSU1_STATUS",
+    "SensorNumber": 81,
+    "SensorType": "Power Supply / Converter",
+    "Severity": "OK"
+}

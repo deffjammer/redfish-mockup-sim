@@ -1,17 +1,14 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Systems/Self/SD",
     "@odata.type": "#ComputerSystem.v1_15_0.ComputerSystem",
     "AssetTag": "123456-123456       ",
     "Boot": {
-        "AliasBootOrder": [],
         "BootNext": null,
         "BootOrder": [
-            "Boot0002",
-            "Boot0003",
-            "Boot0004",
-            "Boot0000"
+            "Boot0001",
+            "Boot0002"
         ],
         "BootOrderPropertySelection": "BootOrder",
         "BootSourceOverrideEnabled": "Disabled",
@@ -48,6 +45,6 @@
     },
     "Description": "System Self",
     "Id": "Self",
-    "Name": "System",
+    "Name": "HPE Cray XD665",
     "SystemType": "Physical"
 }

@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/45",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-02-23T17:47:04+00:00",
+    "EntryCode": "Deassert",
+    "EntryType": "SEL",
+    "EventId": "45",
+    "EventTimestamp": "2024-02-23T17:47:04+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "45",
+    "Message": "Power Cycle - Deasserted",
+    "MessageId": "0xEF01FFFF",
+    "Name": "PSU_REDUNDANT",
+    "SensorNumber": 82,
+    "SensorType": "PowerUnit",
+    "Severity": "OK"
+}

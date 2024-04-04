@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1711397016",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-03-25T20:03:36+00:00",
+    "EntryType": "Event",
+    "EventId": "547cfd4d-d048-44cc-80be-c1c65f522ab8",
+    "Id": "1711397016",
+    "Message": "The requested resource of type PowerSupply named 'PSU0' was not found.",
+    "MessageArgs": [
+        "PowerSupply",
+        "PSU0"
+    ],
+    "MessageId": "Base.1.11.ResourceNotFound",
+    "Name": "Log Entry 1711397016",
+    "Severity": "Critical"
+}

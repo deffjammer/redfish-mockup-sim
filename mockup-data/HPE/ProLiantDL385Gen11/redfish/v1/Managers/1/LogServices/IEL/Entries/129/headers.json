@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Allow": "GET, HEAD",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-type": "application/json; charset=utf-8",
+        "Date": "Thu, 04 Apr 2024 17:36:05 GMT",
+        "ETag": "W/\"F82499C8\"",
+        "Link": "</redfish/v1/SchemaStore/en/LogEntry.json>; rel=describedby",
+        "OData-Version": "4.0",
+        "Transfer-Encoding": "chunked",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "sameorigin",
+        "X-XSS-Protection": "1; mode=block"
+    }
+}

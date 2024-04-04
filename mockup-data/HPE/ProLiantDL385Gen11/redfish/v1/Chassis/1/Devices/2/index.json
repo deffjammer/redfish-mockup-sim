@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"6CC4591C\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/2",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "2",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Unknown",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "N/A"
+        }
+    },
+    "Location": "OCP 3.0 Slot 22",
+    "Manufacturer": "",
+    "Name": "Empty slot 22",
+    "PartNumber": "",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "",
+    "Status": {
+        "Health": "Warning",
+        "State": "Absent"
+    }
+}

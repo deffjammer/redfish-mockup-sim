@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/257",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-03-04T05:39:07+00:00",
+    "EntryCode": "Deassert",
+    "EntryType": "SEL",
+    "EventId": "257",
+    "EventTimestamp": "2024-03-04T05:39:07+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "257",
+    "Message": "Upper Non-critical - going high - Deasserted",
+    "MessageId": "0x81573B3D",
+    "Name": "ProcessorModule_0_CPU_0_TempAvg_0",
+    "SensorNumber": 32,
+    "SensorType": "Temperature",
+    "Severity": "OK"
+}

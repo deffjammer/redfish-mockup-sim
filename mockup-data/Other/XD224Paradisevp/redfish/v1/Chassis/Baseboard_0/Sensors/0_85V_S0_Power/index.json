@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/0_85V_S0_Power",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "0_85V_S0_Power",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "0 85V S0 Power",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 5.0,
+    "ReadingRangeMax": 32767.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 0.0
+        },
+        "LowerCritical": {
+            "Reading": null
+        },
+        "UpperCaution": {
+            "Reading": 29.0
+        },
+        "UpperCritical": {
+            "Reading": 32.0
+        }
+    }
+}

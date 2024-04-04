@@ -1,0 +1,26 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/ProcessorModule_0/Controls/ProcessorModule_0_EDPpPowerNonvolatile_0",
+    "@odata.type": "#Control.v1_0_0.Control",
+    "AllowableMax": 830,
+    "AllowableMin": 60,
+    "ControlMode": "Automatic",
+    "ControlType": "Power",
+    "Id": "ProcessorModule_0_EDPpPowerNonvolatile_0",
+    "Name": "Module Power Control",
+    "PhysicalContext": "CPU",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/ProcessorModule_0"
+        }
+    ],
+    "Sensor": {
+        "DataSourceUri": "/redfish/v1/Chassis/ProcessorModule_0/Sensors/ProcessorModule_0_Power_0",
+        "Reading": 118.39
+    },
+    "SetPoint": 800,
+    "SetPointUnits": "W",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

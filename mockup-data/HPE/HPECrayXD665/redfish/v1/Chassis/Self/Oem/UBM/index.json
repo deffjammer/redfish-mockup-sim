@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ChassisOemUBM.ChassisOemUBM",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712250081\"",
     "@odata.id": "/redfish/v1/Chassis/Self/Oem/UBM",
     "@odata.type": "#ChassisOemUBM.v1_0_0.ChassisOemUBM",
     "Board": {
@@ -17,7 +17,7 @@
         "Version": 0
     },
     "Description": "UBM Data",
-    "FirmwareVersion": "01.00.0000",
+    "FirmwareVersion": "01.04.0000",
     "Id": "UBM",
     "Name": "UBM",
     "Product": {

@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Role.Role",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/AccountService/Roles/Operator",
     "@odata.type": "#Role.v1_2_4.Role",
     "AssignedPrivileges": [

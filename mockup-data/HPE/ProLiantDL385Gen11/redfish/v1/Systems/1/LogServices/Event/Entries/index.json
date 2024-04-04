@@ -1,0 +1,3190 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"1B1AEF14\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Event View",
+    "Name": "Event View",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/1",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "1",
+            "Created": "1970-01-01T00:01:45Z",
+            "EntryType": "Oem",
+            "EventId": "041dc90b-ef8c-c792-1e37-05665c116252",
+            "EventTimestamp": "1970-01-01T00:01:45Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/1/"
+                }
+            },
+            "MessageArgs": [
+                "1.10",
+                "2022-05-27"
+            ],
+            "MessageId": "iLOEvents.3.3.iLORestServicesStarted",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/2",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "2",
+            "Created": "1970-01-01T00:01:49Z",
+            "EntryType": "Oem",
+            "EventId": "349eb867-b9a7-4f88-8208-28f6767c3b98",
+            "EventTimestamp": "1970-01-01T00:01:49Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                " ",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/3",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "3",
+            "Created": "1970-01-01T00:01:50Z",
+            "EntryType": "Oem",
+            "EventId": "84fe06c2-11f6-99d8-b741-7149babd73cb",
+            "EventTimestamp": "1970-01-01T00:01:50Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Initial",
+                "Busy",
+                "Initial"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/4",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "4",
+            "Created": "1970-01-01T00:01:59Z",
+            "EntryType": "Oem",
+            "EventId": "a9e5e57e-aa87-0723-fb61-6e22706cff33",
+            "EventTimestamp": "1970-01-01T00:01:59Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/5",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "5",
+            "Created": "1970-01-01T00:02:09Z",
+            "EntryType": "Oem",
+            "EventId": "08b90bfa-88c1-840c-2cdf-61680b4e58ec",
+            "EventTimestamp": "1970-01-01T00:02:09Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/6",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "6",
+            "Created": "1970-01-01T00:02:09Z",
+            "EntryType": "Oem",
+            "EventId": "d2c761c1-9d43-6443-bed8-9e0a01ae0afb",
+            "EventTimestamp": "1970-01-01T00:02:09Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vAuxDeviceDiscoveryComplete",
+                "Initial"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/7",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "7",
+            "Created": "1970-01-01T00:02:09Z",
+            "EntryType": "Oem",
+            "EventId": "fe78a370-d9e2-96ef-f18c-ba9a1c561398",
+            "EventTimestamp": "1970-01-01T00:02:09Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/8",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "8",
+            "Created": "1970-01-01T00:02:09Z",
+            "EntryType": "Oem",
+            "EventId": "3943fc4a-3be4-1004-81a6-65d2f197f4f1",
+            "EventTimestamp": "1970-01-01T00:02:09Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard"
+                }
+            },
+            "MessageId": "iLOEvents.3.3.OverallSecStateAtRisk",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/9",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "9",
+            "Created": "1970-01-01T00:02:19Z",
+            "EntryType": "Oem",
+            "EventId": "c46fa380-f51a-f04c-6115-585dee350e99",
+            "EventTimestamp": "1970-01-01T00:02:19Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/10",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "10",
+            "Created": "1970-01-01T00:02:19Z",
+            "EntryType": "Oem",
+            "EventId": "71d6bb5c-8c61-fb12-d850-4d035859ff32",
+            "EventTimestamp": "1970-01-01T00:02:19Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vAuxDeviceDiscoveryComplete",
+                "Initial"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/11",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "11",
+            "Created": "1970-01-01T00:02:56Z",
+            "EntryType": "Oem",
+            "EventId": "122ec122-098d-cbb6-2945-167a742c8073",
+            "EventTimestamp": "1970-01-01T00:02:56Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/12",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "12",
+            "Created": "2024-01-23T14:31:32Z",
+            "EntryType": "Oem",
+            "EventId": "262ad114-f583-b691-2229-fe596c036149",
+            "EventTimestamp": "2024-01-23T14:31:32Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerResetDetected",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/13",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "13",
+            "Created": "2024-01-23T14:31:32Z",
+            "EntryType": "Oem",
+            "EventId": "a7150fbf-1d11-a7d9-ab28-4b16968d519c",
+            "EventTimestamp": "2024-01-23T14:31:32Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/14",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "14",
+            "Created": "2024-01-23T14:31:36Z",
+            "EntryType": "Oem",
+            "EventId": "85ad72d5-01b5-f6ec-91cc-c53e7236bccd",
+            "EventTimestamp": "2024-01-23T14:31:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/15",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "15",
+            "Created": "2024-01-23T14:31:36Z",
+            "EntryType": "Oem",
+            "EventId": "eb5f7839-939d-3c99-760f-372197c280ef",
+            "EventTimestamp": "2024-01-23T14:31:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPoweredOn",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/16",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "16",
+            "Created": "2024-01-23T14:31:40Z",
+            "EntryType": "Oem",
+            "EventId": "7b63ccef-bf17-18cf-1712-afe8c0445223",
+            "EventTimestamp": "2024-01-23T14:31:40Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/17",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "17",
+            "Created": "2024-01-23T14:31:44Z",
+            "EntryType": "Oem",
+            "EventId": "fbdc364e-1f73-7217-644a-df0ad75c6535",
+            "EventTimestamp": "2024-01-23T14:31:44Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/18",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "18",
+            "Created": "2024-01-23T14:31:51Z",
+            "EntryType": "Oem",
+            "EventId": "7f72004a-24a3-cb8b-fb1c-c32305b0e4dc",
+            "EventTimestamp": "2024-01-23T14:31:51Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Initial"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/19",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "19",
+            "Created": "2024-01-23T14:33:41Z",
+            "EntryType": "Oem",
+            "EventId": "eb5f7839-939d-3c99-760f-372197c280ef",
+            "EventTimestamp": "2024-01-23T14:33:41Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/20",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "20",
+            "Created": "2024-01-23T14:36:46Z",
+            "EntryType": "Oem",
+            "EventId": "837f3369-68f0-20e9-7d8b-58c0ab5eb79c",
+            "EventTimestamp": "2024-01-23T14:36:46Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/21",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "21",
+            "Created": "2024-01-23T14:36:46Z",
+            "EntryType": "Oem",
+            "EventId": "44723eb6-d399-f806-a9ef-ed8ab7891f33",
+            "EventTimestamp": "2024-01-23T14:36:46Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/22",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "22",
+            "Created": "2024-01-23T14:36:46Z",
+            "EntryType": "Oem",
+            "EventId": "1c52ff7a-7b17-7057-0136-0582b183f1fd",
+            "EventTimestamp": "2024-01-23T14:36:46Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/1"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/23",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "23",
+            "Created": "2024-01-23T14:36:46Z",
+            "EntryType": "Oem",
+            "EventId": "ce437a3d-b5dc-99dc-f38d-d3be527f5acc",
+            "EventTimestamp": "2024-01-23T14:36:46Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/24",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "24",
+            "Created": "2024-01-23T14:36:46Z",
+            "EntryType": "Oem",
+            "EventId": "35eb2409-93c6-910c-38eb-5543f9381fbb",
+            "EventTimestamp": "2024-01-23T14:36:46Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/25",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "25",
+            "Created": "2024-01-23T14:40:07Z",
+            "EntryType": "Oem",
+            "EventId": "bf1607a6-f7ce-5e8c-4bca-d798ecf19ade",
+            "EventTimestamp": "2024-01-23T14:40:07Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                "OK",
+                " ",
+                " ",
+                "Warning",
+                " ",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/26",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "26",
+            "Created": "2024-01-23T14:40:08Z",
+            "EntryType": "Oem",
+            "EventId": "b12b4c07-708b-2d86-7f07-5127b3d1a013",
+            "EventTimestamp": "2024-01-23T14:40:08Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                "Redundant",
+                "OK",
+                " ",
+                " ",
+                "Warning",
+                " ",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/27",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "27",
+            "Created": "2024-01-23T14:40:25Z",
+            "EntryType": "Oem",
+            "EventId": "8e57adb8-55a4-9623-5029-a7b170dee289",
+            "EventTimestamp": "2024-01-23T14:40:25Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Busy"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/28",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "28",
+            "Created": "2024-01-23T14:40:27Z",
+            "EntryType": "Oem",
+            "EventId": "f5b82e61-1584-8327-7375-09331b84a877",
+            "EventTimestamp": "2024-01-23T14:40:27Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Busy"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/29",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "29",
+            "Created": "2024-01-23T14:40:33Z",
+            "EntryType": "Oem",
+            "EventId": "67d8d97f-ceb5-4c78-63cd-f3c41f22db26",
+            "EventTimestamp": "2024-01-23T14:40:33Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/Storage/DE040000"
+                }
+            },
+            "MessageArgs": [
+                "Slot=3"
+            ],
+            "MessageId": "WriteCacheDegraded",
+            "Name": "Event",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "ServiceEvent": "True"
+                }
+            },
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/30",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "30",
+            "Created": "2024-01-23T14:40:33Z",
+            "EntryType": "Oem",
+            "EventId": "9c71fe2a-0264-8a2d-9a82-276966f325e4",
+            "EventTimestamp": "2024-01-23T14:40:33Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/31",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "31",
+            "Created": "2024-01-23T14:40:33Z",
+            "EntryType": "Oem",
+            "EventId": "d404be3c-53fd-5957-f12b-109acd991424",
+            "EventTimestamp": "2024-01-23T14:40:33Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/32",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "32",
+            "Created": "2024-01-23T14:40:33Z",
+            "EntryType": "Oem",
+            "EventId": "48e8432d-d911-e262-944c-bdcc87e8d476",
+            "EventTimestamp": "2024-01-23T14:40:33Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/33",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "33",
+            "Created": "2024-01-23T14:40:33Z",
+            "EntryType": "Oem",
+            "EventId": "48e8432d-d911-e262-944c-bdcc87e8d476",
+            "EventTimestamp": "2024-01-23T14:40:33Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageId": "iLOEvents.3.3.ServerFirmwareInventoryComplete",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/34",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "34",
+            "Created": "2024-01-23T14:40:36Z",
+            "EntryType": "Oem",
+            "EventId": "481cace7-ab19-3bf0-3a43-e82c1c96d3aa",
+            "EventTimestamp": "2024-01-23T14:40:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "Warning",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/35",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "35",
+            "Created": "2024-01-23T14:40:36Z",
+            "EntryType": "Oem",
+            "EventId": "058fae8c-0620-e533-46f2-3021b3e2cc46",
+            "EventTimestamp": "2024-01-23T14:40:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/36",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "36",
+            "Created": "2024-01-23T14:40:36Z",
+            "EntryType": "Oem",
+            "EventId": "a26fc9bc-5d94-8a1b-4c0c-8e9c5fb5bd4b",
+            "EventTimestamp": "2024-01-23T14:40:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/1"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/37",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "37",
+            "Created": "2024-01-23T14:40:37Z",
+            "EntryType": "Oem",
+            "EventId": "c586fdeb-a6e8-e25f-a371-0414d2425403",
+            "EventTimestamp": "2024-01-23T14:40:37Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/38",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "38",
+            "Created": "2024-01-23T14:40:38Z",
+            "EntryType": "Oem",
+            "EventId": "a3b774e6-eaa1-f9ee-82c2-a7345b147f8d",
+            "EventTimestamp": "2024-01-23T14:40:38Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/39",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "39",
+            "Created": "2024-01-23T14:40:40Z",
+            "EntryType": "Oem",
+            "EventId": "7f3d9790-519c-721a-5525-98c28ce6e5a8",
+            "EventTimestamp": "2024-01-23T14:40:40Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/40",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "40",
+            "Created": "2024-01-23T14:40:40Z",
+            "EntryType": "Oem",
+            "EventId": "8cb67de3-11c8-2820-c705-007cb2950031",
+            "EventTimestamp": "2024-01-23T14:40:40Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/41",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "41",
+            "Created": "2024-01-23T14:40:43Z",
+            "EntryType": "Oem",
+            "EventId": "b268b7b5-489a-6cf9-16f4-5f6214797f22",
+            "EventTimestamp": "2024-01-23T14:40:43Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/42",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "42",
+            "Created": "2024-01-23T14:40:43Z",
+            "EntryType": "Oem",
+            "EventId": "6c49b6e4-9f0f-11c5-1c0e-a0dec04c7027",
+            "EventTimestamp": "2024-01-23T14:40:43Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPostDiscoveryComplete",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/43",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "43",
+            "Created": "2024-01-23T14:40:43Z",
+            "EntryType": "Oem",
+            "EventId": "f5b82e61-1584-8327-7375-09331b84a877",
+            "EventTimestamp": "2024-01-23T14:40:43Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/44",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "44",
+            "Created": "2024-01-23T14:40:49Z",
+            "EntryType": "Oem",
+            "EventId": "0ee880b5-8807-2cdd-433c-e6331cc0f4cd",
+            "EventTimestamp": "2024-01-23T14:40:49Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPostComplete",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/45",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "45",
+            "Created": "2024-01-23T14:41:37Z",
+            "EntryType": "Oem",
+            "EventId": "8e57adb8-55a4-9623-5029-a7b170dee289",
+            "EventTimestamp": "2024-01-23T14:41:37Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/46",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "46",
+            "Created": "2024-01-23T14:41:37Z",
+            "EntryType": "Oem",
+            "EventId": "aceed85c-723a-a4c6-6cbd-b353a78d0a29",
+            "EventTimestamp": "2024-01-23T14:41:37Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "16"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionDropped",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/47",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "47",
+            "Created": "2024-01-23T14:41:37Z",
+            "EntryType": "Oem",
+            "EventId": "b7aa538e-5fee-1ae4-3f5a-02604ff13515",
+            "EventTimestamp": "2024-01-23T14:41:37Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/48",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "48",
+            "Created": "2024-01-23T14:41:52Z",
+            "EntryType": "Oem",
+            "EventId": "d4d05582-65f6-01ca-2f50-003a38cf15f1",
+            "EventTimestamp": "2024-01-23T14:41:52Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Warning",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/49",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "49",
+            "Created": "2024-01-23T14:41:52Z",
+            "EntryType": "Oem",
+            "EventId": "f1aa1506-b0f8-d06a-906b-d9f8ba1816be",
+            "EventTimestamp": "2024-01-23T14:41:52Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/50",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "50",
+            "Created": "2024-01-23T14:41:52Z",
+            "EntryType": "Oem",
+            "EventId": "2734d308-fb8a-b993-121e-df3339e14124",
+            "EventTimestamp": "2024-01-23T14:41:52Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Warning",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/51",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "51",
+            "Created": "2024-01-23T14:43:39Z",
+            "EntryType": "Oem",
+            "EventId": "9c71fe2a-0264-8a2d-9a82-276966f325e4",
+            "EventTimestamp": "2024-01-23T14:43:39Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/52",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "52",
+            "Created": "2024-01-23T14:43:39Z",
+            "EntryType": "Oem",
+            "EventId": "766e1f6e-4ed2-1ce2-577d-46acb0449997",
+            "EventTimestamp": "2024-01-23T14:43:39Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "16"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionDropped",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/53",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "53",
+            "Created": "2024-01-23T14:43:39Z",
+            "EntryType": "Oem",
+            "EventId": "99dfbe4c-6f35-b3b4-61cf-ca5ea0940f41",
+            "EventTimestamp": "2024-01-23T14:43:39Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/54",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "54",
+            "Created": "2024-01-23T14:43:54Z",
+            "EntryType": "Oem",
+            "EventId": "5457eb23-049a-c382-ff18-d01821b702e0",
+            "EventTimestamp": "2024-01-23T14:43:54Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Warning",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/55",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "55",
+            "Created": "2024-01-23T14:43:54Z",
+            "EntryType": "Oem",
+            "EventId": "6a1b7778-0649-3bc2-ecce-334315746c12",
+            "EventTimestamp": "2024-01-23T14:43:54Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/56",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "56",
+            "Created": "2024-01-23T14:43:54Z",
+            "EntryType": "Oem",
+            "EventId": "619c68d8-f1bf-2017-cc01-f18dce9c1f34",
+            "EventTimestamp": "2024-01-23T14:43:54Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Warning",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Warning",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/57",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "57",
+            "Created": "2024-02-22T14:16:53Z",
+            "EntryType": "Oem",
+            "EventId": "558165cd-fcb4-152b-d413-10a9e1c53264",
+            "EventTimestamp": "2024-02-22T14:16:53Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/58",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "58",
+            "Created": "2024-02-22T14:16:53Z",
+            "EntryType": "Oem",
+            "EventId": "57b0a53a-7a5f-d114-cd39-460c55660042",
+            "EventTimestamp": "2024-02-22T14:16:53Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/59",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "59",
+            "Created": "2024-02-22T14:16:53Z",
+            "EntryType": "Oem",
+            "EventId": "e14e5c23-897e-1978-55e0-1de05b763ca7",
+            "EventTimestamp": "2024-02-22T14:16:53Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerResetDetected",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/60",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "60",
+            "Created": "2024-02-22T14:17:08Z",
+            "EntryType": "Oem",
+            "EventId": "b58d0739-ee4f-7120-685e-eb351c86b873",
+            "EventTimestamp": "2024-02-22T14:17:08Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/61",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "61",
+            "Created": "2024-02-22T14:17:11Z",
+            "EntryType": "Oem",
+            "EventId": "e885c1a8-356a-38b5-c89a-ebf793f1db5e",
+            "EventTimestamp": "2024-02-22T14:17:11Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vAuxDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/62",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "62",
+            "Created": "2024-02-22T14:17:12Z",
+            "EntryType": "Oem",
+            "EventId": "b392306b-44ad-d78e-faf8-a9fcea78b291",
+            "EventTimestamp": "2024-02-22T14:17:12Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPoweredOff",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/63",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "63",
+            "Created": "2024-02-22T14:17:12Z",
+            "EntryType": "Oem",
+            "EventId": "74853cb7-af56-afaa-4278-3ec6f6bf1a28",
+            "EventTimestamp": "2024-02-22T14:17:12Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/64",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "64",
+            "Created": "2024-02-22T14:17:22Z",
+            "EntryType": "Oem",
+            "EventId": "96840748-26a3-af7d-d7e7-a5f9ef81b290",
+            "EventTimestamp": "2024-02-22T14:17:22Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vAuxDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/65",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "65",
+            "Created": "2024-02-22T14:17:22Z",
+            "EntryType": "Oem",
+            "EventId": "1b19cf08-0a94-c793-0e3a-ed586218575b",
+            "EventTimestamp": "2024-02-22T14:17:22Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/66",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "66",
+            "Created": "2024-02-22T14:17:22Z",
+            "EntryType": "Oem",
+            "EventId": "9c030dd0-1506-9cdb-b33a-56318ca247ae",
+            "EventTimestamp": "2024-02-22T14:17:22Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerResetDetected",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/67",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "67",
+            "Created": "2024-02-22T14:17:26Z",
+            "EntryType": "Oem",
+            "EventId": "47968d3a-796a-fd2d-fb75-9541a2b258a0",
+            "EventTimestamp": "2024-02-22T14:17:26Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/68",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "68",
+            "Created": "2024-02-22T14:17:26Z",
+            "EntryType": "Oem",
+            "EventId": "a669b3b6-5788-7af9-2df4-6c873eb0953c",
+            "EventTimestamp": "2024-02-22T14:17:26Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPoweredOn",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/69",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "69",
+            "Created": "2024-02-22T14:17:41Z",
+            "EntryType": "Oem",
+            "EventId": "b9419562-ed15-dc4e-660a-646c094a26bd",
+            "EventTimestamp": "2024-02-22T14:17:41Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/70",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "70",
+            "Created": "2024-02-22T14:19:35Z",
+            "EntryType": "Oem",
+            "EventId": "72d5bf60-a18e-203e-1194-ac66bcb25399",
+            "EventTimestamp": "2024-02-22T14:19:35Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/71",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "71",
+            "Created": "2024-02-22T14:19:35Z",
+            "EntryType": "Oem",
+            "EventId": "ec83e1c8-5881-59c6-f2ba-0518b414f29a",
+            "EventTimestamp": "2024-02-22T14:19:35Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/72",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "72",
+            "Created": "2024-02-22T14:22:36Z",
+            "EntryType": "Oem",
+            "EventId": "4c017584-338d-7119-5b2f-b5dda12130e4",
+            "EventTimestamp": "2024-02-22T14:22:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/73",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "73",
+            "Created": "2024-02-22T14:22:36Z",
+            "EntryType": "Oem",
+            "EventId": "48bfd9ab-1c1d-df2e-32c8-11df66a85dd4",
+            "EventTimestamp": "2024-02-22T14:22:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/74",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "74",
+            "Created": "2024-02-22T14:22:36Z",
+            "EntryType": "Oem",
+            "EventId": "e5d55d78-46b5-c187-deda-7ebba729692a",
+            "EventTimestamp": "2024-02-22T14:22:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/75",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "75",
+            "Created": "2024-02-22T14:22:36Z",
+            "EntryType": "Oem",
+            "EventId": "10ba0ae6-77b6-8c04-34e7-456512584cd6",
+            "EventTimestamp": "2024-02-22T14:22:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/1"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/76",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "76",
+            "Created": "2024-02-22T14:22:36Z",
+            "EntryType": "Oem",
+            "EventId": "a868d4e6-a0f3-d88c-c69c-2d4d149ea65c",
+            "EventTimestamp": "2024-02-22T14:22:36Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                "Redundant",
+                " ",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                " ",
+                " ",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/77",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "77",
+            "Created": "2024-02-22T14:25:44Z",
+            "EntryType": "Oem",
+            "EventId": "85a450b1-a54a-9276-f827-fb788d52aca8",
+            "EventTimestamp": "2024-02-22T14:25:44Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Busy"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/78",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "78",
+            "Created": "2024-02-22T14:25:44Z",
+            "EntryType": "Oem",
+            "EventId": "9d3d755c-d9f8-b42a-30f8-4c39d406f682",
+            "EventTimestamp": "2024-02-22T14:25:44Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Busy"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/79",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "79",
+            "Created": "2024-02-22T14:25:45Z",
+            "EntryType": "Oem",
+            "EventId": "260593d3-b534-511a-8984-3493871e513f",
+            "EventTimestamp": "2024-02-22T14:25:45Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/80",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "80",
+            "Created": "2024-02-22T14:25:45Z",
+            "EntryType": "Oem",
+            "EventId": "dd546e24-7979-1f6e-56ec-18e66d9348a3",
+            "EventTimestamp": "2024-02-22T14:25:45Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                " "
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/81",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "81",
+            "Created": "2024-02-22T14:25:46Z",
+            "EntryType": "Oem",
+            "EventId": "76bfa444-7449-c7f9-bf1a-34ea2223c9fb",
+            "EventTimestamp": "2024-02-22T14:25:46Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Busy"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/82",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "82",
+            "Created": "2024-02-22T14:25:49Z",
+            "EntryType": "Oem",
+            "EventId": "139fa273-cad9-6bc5-a951-7549cef6ba1d",
+            "EventTimestamp": "2024-02-22T14:25:49Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/83",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "83",
+            "Created": "2024-02-22T14:25:49Z",
+            "EntryType": "Oem",
+            "EventId": "a27f1135-f04c-6115-595e-f036109bac76",
+            "EventTimestamp": "2024-02-22T14:25:49Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageId": "iLOEvents.3.3.ServerFirmwareInventoryComplete",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/84",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "84",
+            "Created": "2024-02-22T14:26:00Z",
+            "EntryType": "Oem",
+            "EventId": "dd546e24-7979-1f6e-56ec-18e66d9348a3",
+            "EventTimestamp": "2024-02-22T14:26:00Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/85",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "85",
+            "Created": "2024-02-22T14:26:01Z",
+            "EntryType": "Oem",
+            "EventId": "5457065b-57ed-320c-a5be-92f61bcc332c",
+            "EventTimestamp": "2024-02-22T14:26:01Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/86",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "86",
+            "Created": "2024-02-22T14:26:03Z",
+            "EntryType": "Oem",
+            "EventId": "f521fc6d-804b-9a94-4f97-7808491191b0",
+            "EventTimestamp": "2024-02-22T14:26:03Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/87",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "87",
+            "Created": "2024-02-22T14:26:03Z",
+            "EntryType": "Oem",
+            "EventId": "af02fb9c-d7c0-3f7c-39b2-ba83d9e482b6",
+            "EventTimestamp": "2024-02-22T14:26:03Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/0"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/88",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "88",
+            "Created": "2024-02-22T14:26:03Z",
+            "EntryType": "Oem",
+            "EventId": "a8f9ef8e-c6ad-2948-1f79-7f469986216e",
+            "EventTimestamp": "2024-02-22T14:26:03Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/89",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "89",
+            "Created": "2024-02-22T14:26:03Z",
+            "EntryType": "Oem",
+            "EventId": "d3df9cfc-f7ae-f5c4-5986-62d4e8b5201b",
+            "EventTimestamp": "2024-02-22T14:26:03Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/9#PhysicalPorts/1"
+                }
+            },
+            "MessageArgs": [
+                ".head-bmc.cm.hpc.amslabs.hpecorp.net",
+                "8"
+            ],
+            "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/90",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "90",
+            "Created": "2024-02-22T14:26:03Z",
+            "EntryType": "Oem",
+            "EventId": "17aed7b2-3065-1e82-8c3e-a68430624cd5",
+            "EventTimestamp": "2024-02-22T14:26:03Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/91",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "91",
+            "Created": "2024-02-22T14:26:03Z",
+            "EntryType": "Oem",
+            "EventId": "6b842984-7110-522f-c8f0-be1843e5554b",
+            "EventTimestamp": "2024-02-22T14:26:03Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/92",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "92",
+            "Created": "2024-02-22T14:26:03Z",
+            "EntryType": "Oem",
+            "EventId": "966ad6f1-be11-1dc7-02fd-85c2921438f8",
+            "EventTimestamp": "2024-02-22T14:26:03Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPostDiscoveryComplete",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/93",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "93",
+            "Created": "2024-02-22T14:26:04Z",
+            "EntryType": "Oem",
+            "EventId": "ec5f5809-3d39-da08-ce60-6b359a9f4fa5",
+            "EventTimestamp": "2024-02-22T14:26:04Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/94",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "94",
+            "Created": "2024-02-22T14:26:07Z",
+            "EntryType": "Oem",
+            "EventId": "0d4731cc-edc7-4064-1284-742e7e70fe2c",
+            "EventTimestamp": "2024-02-22T14:26:07Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/Storage/DE040000"
+                }
+            },
+            "MessageArgs": [
+                "Slot=3"
+            ],
+            "MessageId": "WriteCacheDegraded",
+            "Name": "Event",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "ServiceEvent": "True"
+                }
+            },
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/95",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "95",
+            "Created": "2024-02-22T14:26:07Z",
+            "EntryType": "Oem",
+            "EventId": "18eb4260-0874-5df5-3f2b-b3da910a2be4",
+            "EventTimestamp": "2024-02-22T14:26:07Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/96",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "96",
+            "Created": "2024-02-22T14:26:11Z",
+            "EntryType": "Oem",
+            "EventId": "85a450b1-a54a-9276-f827-fb788d52aca8",
+            "EventTimestamp": "2024-02-22T14:26:11Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPostComplete",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/97",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "97",
+            "Created": "2024-02-22T14:26:13Z",
+            "EntryType": "Oem",
+            "EventId": "068fab5c-ccbc-67be-9e27-6435b7db9cfc",
+            "EventTimestamp": "2024-02-22T14:26:13Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vMainDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/98",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "98",
+            "Created": "2024-03-19T16:02:04Z",
+            "EntryType": "Oem",
+            "EventId": "93e506ad-0cef-99cc-a839-5c168ea25597",
+            "EventTimestamp": "2024-03-19T16:02:04Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/99",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "99",
+            "Created": "2024-03-19T16:02:04Z",
+            "EntryType": "Oem",
+            "EventId": "321a9ec1-73e7-039d-01fb-97cfa7466f24",
+            "EventTimestamp": "2024-03-19T16:02:04Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "OK",
+                "OK",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/100",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "100",
+            "Created": "2024-03-19T16:02:04Z",
+            "EntryType": "Oem",
+            "EventId": "03d6567a-2c92-8b35-826b-10441d9fba67",
+            "EventTimestamp": "2024-03-19T16:02:04Z",
+            "MessageArgs": [
+                "System Board",
+                "AUX/Main EFUSE"
+            ],
+            "MessageId": "iLOEvents.3.3.PowerFailureRuntime",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/101",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "101",
+            "Created": "2024-03-19T16:02:04Z",
+            "EntryType": "Oem",
+            "EventId": "786d082f-0b7a-9b5e-bdbb-65b4ac3d7d52",
+            "EventTimestamp": "2024-03-19T16:02:04Z",
+            "MessageArgs": [
+                "Power Supply",
+                "Power Supply 1"
+            ],
+            "MessageId": "iLOEvents.3.3.PowerFailureRuntime",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/102",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "102",
+            "Created": "2024-03-19T16:02:04Z",
+            "EntryType": "Oem",
+            "EventId": "549aa42c-7e4a-d4fb-dd32-490860670443",
+            "EventTimestamp": "2024-03-19T16:02:04Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/103",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "103",
+            "Created": "2024-03-19T16:02:04Z",
+            "EntryType": "Oem",
+            "EventId": "f2aa01e7-8fc3-ad29-5727-93bb72cfb872",
+            "EventTimestamp": "2024-03-19T16:02:04Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Critical",
+                "Critical",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/104",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "104",
+            "Created": "2024-03-19T16:02:15Z",
+            "EntryType": "Oem",
+            "EventId": "c103f497-c0a1-214d-027c-8f358c861b50",
+            "EventTimestamp": "2024-03-19T16:02:15Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "Busy",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/105",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "105",
+            "Created": "2024-03-19T16:02:19Z",
+            "EntryType": "Oem",
+            "EventId": "2de82e0e-b8dc-bf3d-5b24-778e3f82770e",
+            "EventTimestamp": "2024-03-19T16:02:19Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vAuxDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/106",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "106",
+            "Created": "2024-03-19T16:02:24Z",
+            "EntryType": "Oem",
+            "EventId": "2f2ed734-24a9-eeb2-315c-106d7f247a73",
+            "EventTimestamp": "2024-03-19T16:02:24Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1"
+                }
+            },
+            "MessageId": "iLOResourceEvents.1.1.ServerPoweredOff",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/107",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "107",
+            "Created": "2024-03-19T16:02:24Z",
+            "EntryType": "Oem",
+            "EventId": "770a4425-a0ad-6cce-e784-ccd6509b79ed",
+            "EventTimestamp": "2024-03-19T16:02:24Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Critical",
+                "Critical",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "OK",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/108",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "108",
+            "Created": "2024-03-19T16:02:29Z",
+            "EntryType": "Oem",
+            "EventId": "46d9facf-3750-0c80-781b-6354de16e555",
+            "EventTimestamp": "2024-03-19T16:02:29Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "NoAMS",
+                "vAuxDeviceDiscoveryComplete",
+                "Complete"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.DeviceDiscoveryStatusV2",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/109",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "109",
+            "Created": "2024-03-19T16:04:10Z",
+            "EntryType": "Oem",
+            "EventId": "f19b0ffe-aaf3-f78a-a788-022bea4b6501",
+            "EventTimestamp": "2024-03-19T16:04:10Z",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/1/"
+                }
+            },
+            "MessageArgs": [
+                "Critical",
+                "Critical",
+                " ",
+                "OK",
+                " ",
+                " ",
+                "OK",
+                "Unknown",
+                "OK",
+                "False",
+                " ",
+                "OK",
+                " ",
+                "OK",
+                "OK"
+            ],
+            "MessageId": "iLOResourceEvents.1.1.AggregateHealthStatusChange",
+            "Name": "Event",
+            "OemRecordFormat": "Hpe-Event",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 109
+}

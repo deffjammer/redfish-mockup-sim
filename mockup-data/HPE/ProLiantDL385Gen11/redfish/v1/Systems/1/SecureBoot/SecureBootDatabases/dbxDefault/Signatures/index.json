@@ -1,0 +1,41 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SignatureCollection.SignatureCollection",
+    "@odata.etag": "W/\"21C260DB\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures",
+    "@odata.type": "#SignatureCollection.SignatureCollection",
+    "Description": "Secure Boot Database dbxDefault signature view",
+    "Name": "Secure Boot Database dbxDefault signature view",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/0"
+        }
+    ],
+    "Members@odata.count": 10
+}

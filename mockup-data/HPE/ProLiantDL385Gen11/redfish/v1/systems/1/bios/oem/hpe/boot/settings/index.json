@@ -1,0 +1,110 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"F1FBFCCE6403636363CB692A22FAA9EF\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "0015",
+            "BootString": "Slot 8 Port 1 : Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Adapter (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(5C6F69730DE0,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "Slot 8 Port 1 : Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Adapter (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(5C6F69730DE0,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "Slot 8 Port 1 : Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Adapter (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(5C6F69730DE0,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "Slot 8 Port 1 : Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Adapter (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x6)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(5C6F69730DE0,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Slot 3 : HPE MR416i-p Gen10+ - Logical Drive 239",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.3.1",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x1,0x1)/Pci(0x0,0x0)/Ctrl(0x0)/Scsi(0xEF,0x0)"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "Slot 3",
+            "CorrelatableID": "HD(23,GPT,AF096A1E-47E8-4D55-92C8-EE5A014EBB51,0x1851000,0x4B000)/\\EFI\\redhat\\grubx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.1",
+            "UEFIDevicePath": "HD(23,GPT,AF096A1E-47E8-4D55-92C8-EE5A014EBB51,0x1851000,0x4B000)/\\EFI\\redhat\\grubx64.efi"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "settings",
+    "Name": "Boot Order Pending Settings",
+    "PersistentBootConfigOrder": [
+        "NIC.Slot.8.1.IPv4",
+        "Generic.USB.1.1",
+        "NIC.Slot.8.1.Httpv4",
+        "NIC.Slot.8.1.IPv6",
+        "NIC.Slot.8.1.Httpv6",
+        "HD.Slot.3.1",
+        "Unknown.Unknown.200.1"
+    ]
+}

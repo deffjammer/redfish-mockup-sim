@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Manager.Manager",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Managers/Self",
     "@odata.type": "#Manager.v1_13_0.Manager",
     "Actions": {
@@ -39,19 +39,18 @@
     },
     "CommandShell": {
         "ConnectTypesSupported": [
-            "IPMI",
-            "SSH"
+            "IPMI"
         ],
         "MaxConcurrentSessions": 0,
         "ServiceEnabled": true
     },
-    "DateTime": "2023-10-26T20:21:50+00:00",
+    "DateTime": "2024-04-04T17:00:50+00:00",
     "DateTimeLocalOffset": "+00:00",
     "Description": "BMC",
     "EthernetInterfaces": {
         "@odata.id": "/redfish/v1/Managers/Self/EthernetInterfaces"
     },
-    "FirmwareVersion": "1.00.0",
+    "FirmwareVersion": "1.22.0",
     "GraphicalConsole": {
         "ConnectTypesSupported": [
             "KVMIP"
@@ -111,12 +110,12 @@
     "SerialInterfaces": {
         "@odata.id": "/redfish/v1/Managers/Self/SerialInterfaces"
     },
-    "ServiceEntryPointUUID": "66d96906-bfde-11d3-01b0-0174b4f17ab4",
+    "ServiceEntryPointUUID": "6732f412-bfde-11d3-01b0-7564b4f17ab4",
     "Status": {
         "Health": "OK",
         "State": "Enabled"
     },
-    "UUID": "66d96906-bfde-11d3-01b0-0174b4f17ab4",
+    "UUID": "6732f412-bfde-11d3-01b0-7564b4f17ab4",
     "VirtualMedia": {
         "@odata.id": "/redfish/v1/Managers/Self/VirtualMedia"
     }

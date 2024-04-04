@@ -1,0 +1,30 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/DISK2_TEMP",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "DISK2_TEMP",
+    "Name": "DISK2 TEMP",
+    "Reading": 30.0,
+    "ReadingRangeMax": 127.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 80.0
+        },
+        "UpperCritical": {
+            "Reading": 87.0
+        }
+    }
+}

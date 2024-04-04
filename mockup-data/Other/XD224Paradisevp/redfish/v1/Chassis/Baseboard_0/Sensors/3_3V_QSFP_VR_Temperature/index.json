@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/3_3V_QSFP_VR_Temperature",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "3_3V_QSFP_VR_Temperature",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "3 3V QSFP VR Temperature",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 45.0,
+    "ReadingRangeMax": 150.0,
+    "ReadingRangeMin": -40.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 0.0
+        },
+        "LowerCritical": {
+            "Reading": null
+        },
+        "UpperCaution": {
+            "Reading": 100.0
+        },
+        "UpperCritical": {
+            "Reading": 125.0
+        }
+    }
+}

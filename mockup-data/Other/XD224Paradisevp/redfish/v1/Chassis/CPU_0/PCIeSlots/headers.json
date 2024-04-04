@@ -1,0 +1,19 @@
+{
+    "GET": {
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-Store,no-Cache",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "default-src 'self'; font-src 'self' data:; connect-src 'self' wss://*/websocket_srv wss://*/vm_websocket_srv wss://*/usb wss://*/ikvm wss://*:9096/usbserver wss://*/wsmsgd; frame-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'self'; img-src 'self' data:",
+        "X-Frame-Options": "SAMEORIGIN",
+        "ETag": "\"B171FC61\"",
+        "OData-Version": "4.0",
+        "WWW-Authenticate": "Basic realm=\"Redfish\"",
+        "Content-Type": "application/json",
+        "Link": "<http://redfish.dmtf.org/schemas/PCIeSlots.v1_5_0.json>; rel=describedby",
+        "Allow": "Dummy",
+        "Date": "Thu, 04 Apr 2024 15:42:00 GMT",
+        "Content-Length": "158"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/X550_TEMP",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "X550_TEMP",
+    "Name": "X550 TEMP",
+    "Reading": 29.0,
+    "ReadingRangeMax": 127.0,
+    "ReadingRangeMin": -128.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

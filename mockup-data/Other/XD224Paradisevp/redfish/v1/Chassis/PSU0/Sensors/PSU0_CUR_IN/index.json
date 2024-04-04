@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU0/Sensors/PSU0_CUR_IN",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "PSU0_CUR_IN",
+    "Name": "PSU0 CUR IN",
+    "Reading": 2.914,
+    "ReadingRangeMax": 20.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

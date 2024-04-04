@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1293843167\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/137",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2011-01-01T00:52:47+00:00",
+    "Description": "Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+    "EntryType": "Event",
+    "EventTimestamp": "2011-01-01T00:52:47+00:00",
+    "Id": "137",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Oem/Ami/BiosStaticFiles"
+        }
+    },
+    "Message": "User: in-band-user, IP: 169.254.0.18, Protocol: https - Access to the resource located at /Oem/Ami/BiosStaticFiles was allowed.",
+    "MessageArgs": [
+        "/Oem/Ami/BiosStaticFiles"
+    ],
+    "MessageId": "Security.1.0.AccessAllowed",
+    "Name": "Audit Log Entry 137",
+    "Severity": "OK"
+}

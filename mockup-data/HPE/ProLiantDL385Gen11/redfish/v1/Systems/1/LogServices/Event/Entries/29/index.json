@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"A52E2ED5\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/29",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "29",
+    "Created": "2024-01-23T14:40:33Z",
+    "EntryType": "Oem",
+    "EventId": "67d8d97f-ceb5-4c78-63cd-f3c41f22db26",
+    "EventTimestamp": "2024-01-23T14:40:33Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE040000"
+        }
+    },
+    "MessageArgs": [
+        "Slot=3"
+    ],
+    "MessageId": "WriteCacheDegraded",
+    "Name": "Event",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "ServiceEvent": "True"
+        }
+    },
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Warning"
+}

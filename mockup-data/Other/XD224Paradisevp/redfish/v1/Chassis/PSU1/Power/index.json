@@ -1,0 +1,52 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU1/Power",
+    "@odata.type": "#Power.v1_7_1.Power",
+    "Id": "Power",
+    "Name": "Power",
+    "PowerControl": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Power#/PowerControl/0",
+            "@odata.type": "#Power.v1_7_1.PowerControl",
+            "MemberId": "0",
+            "Name": "Chassis Power Control",
+            "PowerCapacityWatts": null,
+            "PowerConsumedWatts": null,
+            "PowerLimit": {
+                "LimitException": "NoAction",
+                "LimitInWatts": null
+            }
+        }
+    ],
+    "PowerSupplies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Power#/PowerSupplies/0",
+            "EfficiencyPercent": 90,
+            "Manufacturer": "DELTA",
+            "MemberId": "0",
+            "Model": "ECD56020022-N",
+            "Name": "PSU1",
+            "PartNumber": "          ",
+            "PowerOutputWatts": 587.0,
+            "SerialNumber": "THAKN23070017",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Redundancy": [],
+    "Voltages": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PSU1/Power#/Voltages/0",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "MaxReadingRange": 255.0,
+            "MemberId": "0",
+            "MinReadingRange": 0.0,
+            "Name": "PSU1 VOL OUT",
+            "ReadingVolts": 54.201,
+            "Status": {
+                "State": "Enabled"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "@odata.type": "#SUT.v4_0_0.SUT",
+    "Capabilities": [
+        "BundleRuntimeUpdate"
+    ],
+    "HPSUMPID": 0,
+    "ID": "HPSUT",
+    "IsSelfUpdate": false,
+    "LastBootUptime": "none",
+    "LastOperationTime": "2022-07-30T05:07:33Z",
+    "Mode": "AutoStage",
+    "OperationRequestor": "OS Administrator",
+    "PollingIntervalInMinutes": 5,
+    "SUTCompName": "",
+    "SelfUpdateStatus": "none",
+    "ServiceState": "Running",
+    "ServiceVersion": "4.0.0.0",
+    "StagingDirectory": "C:\\Users\\Administrator\\AppData\\Local\\sut\\stagingdirectory",
+    "Verify": "autoVerify"
+}

@@ -16,11 +16,8 @@
         },
         {
             "@odata.id": "/redfish/v1/AccountService/Accounts/5"
-        },
-        {
-            "@odata.id": "/redfish/v1/AccountService/Accounts/6"
         }
     ],
-    "Members@odata.count": 5,
+    "Members@odata.count": 4,
     "Name": "Accounts Collection"
 }

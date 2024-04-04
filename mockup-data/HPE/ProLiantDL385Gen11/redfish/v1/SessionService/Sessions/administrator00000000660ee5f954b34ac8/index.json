@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Session.Session",
+    "@odata.etag": "W/\"76CE548C\"",
+    "@odata.id": "/redfish/v1/SessionService/Sessions/administrator00000000660ee5f954b34ac8",
+    "@odata.type": "#Session.v1_0_0.Session",
+    "Id": "administrator00000000660ee5f954b34ac8",
+    "Description": "Manager User Session",
+    "Name": "User Session",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSession.HpeiLOSession",
+            "@odata.type": "#HpeiLOSession.v2_1_0.HpeiLOSession",
+            "AccessTime": "2024-04-04T17:40:09Z",
+            "LoginTime": "2024-04-04T17:40:09Z",
+            "MySession": false,
+            "UserExpires": "2024-04-04T18:10:09Z",
+            "UserIP": "172.24.0.1",
+            "UserTag": "REST",
+            "UserType": "Local"
+        }
+    },
+    "UserName": "Administrator"
+}

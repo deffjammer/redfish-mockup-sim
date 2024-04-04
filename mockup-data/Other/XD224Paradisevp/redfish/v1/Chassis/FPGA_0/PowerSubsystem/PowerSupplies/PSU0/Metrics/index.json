@@ -1,0 +1,6 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/FPGA_0/PowerSubsystem/PowerSupplies/PSU0/Metrics",
+    "@odata.type": "#PowerSupplyMetrics.v1_0_1.PowerSupplyMetrics",
+    "Id": "PowerSupplyMetrics",
+    "Name": "Chassis Power Metrics"
+}

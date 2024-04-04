@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/PSU1_INLET_TEMP",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "PSU1_INLET_TEMP",
+    "Name": "PSU1 INLET TEMP",
+    "Reading": 34.0,
+    "ReadingRangeMax": 127.0,
+    "ReadingRangeMin": -128.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU0",
+    "@odata.type": "#Chassis.v1_23_0.Chassis",
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/Assembly"
+    },
+    "ChassisType": "RackMount",
+    "Controls": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/Controls"
+    },
+    "Id": "PSU0",
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/system"
+            }
+        ],
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/BMC_0"
+            }
+        ]
+    },
+    "Manufacturer": "DELTA",
+    "Model": "ECD56020022-N",
+    "Name": "PSU0",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/NetworkAdapters"
+    },
+    "Oem": {
+        "InsydeFRUData": {
+            "@odata.type": "#InsydeOEMExtensions.v1_0_0.FRUData",
+            "FRUInfo": [
+                {
+                    "Board": {
+                        "AssetTag": null,
+                        "Extra": [
+                            "",
+                            "MAC1:04:D9:C8:5D:54:FA",
+                            "",
+                            "MAC2:04:D9:C8:5D:54:FB",
+                            "",
+                            "B.3"
+                        ],
+                        "FRUFileId": "F-DC-SCM_U60_DVT.json",
+                        "Manufacturer": "Foxconn",
+                        "ManufacturerDateTime": "2023-08-14T07:00:00+00:00",
+                        "Name": "Falcon BMC Board",
+                        "PartNumber": "753-24352-0005-000",
+                        "Serial": "1644123000015",
+                        "Version": null
+                    },
+                    "FRUDeviceID": "0",
+                    "Language": "English",
+                    "Name": "BMCFRU"
+                },
+                {
+                    "FRUDeviceID": "6",
+                    "Language": "English",
+                    "Name": "Baseboard_0"
+                },
+                {
+                    "Board": {
+                        "AssetTag": null,
+                        "Extra": [
+                            "",
+                            "B.3"
+                        ],
+                        "FRUFileId": "X8-BP_U40_2U4N_DVT.JSON",
+                        "Manufacturer": "NVIDIA",
+                        "ManufacturerDateTime": "2023-08-14T07:00:00+00:00",
+                        "Name": "P4628",
+                        "PartNumber": "753-24628-0001-000",
+                        "Serial": "1234567890123",
+                        "Version": null
+                    },
+                    "Chassis": {
+                        "PartNumber": "670-24628-1000-DVT",
+                        "Serial": "1234567890123",
+                        "Type": "Blade Enclosure"
+                    },
+                    "FRUDeviceID": "4",
+                    "Language": "English",
+                    "Name": "MidplaneFRU",
+                    "Product": {
+                        "AssetTag": "0000000000000000",
+                        "FRUFileId": "v0.1",
+                        "Manufacturer": "Foxconn",
+                        "Name": "HPE Cray Supercomputing XD224",
+                        "PartNumber": "675-24628-1000-DVT",
+                        "Serial": "1234567890123",
+                        "Version": "A.2"
+                    }
+                },
+                {
+                    "Board": {
+                        "AssetTag": null,
+                        "Extra": [
+                            "",
+                            "B.3"
+                        ],
+                        "FRUFileId": "PDB-D-U1_DVT",
+                        "Manufacturer": "NVIDIA",
+                        "ManufacturerDateTime": "2023-08-14T07:00:00+00:00",
+                        "Name": "P4629/P4628",
+                        "PartNumber": "753-24628-0002-000",
+                        "Serial": "1234567890123",
+                        "Version": null
+                    },
+                    "FRUDeviceID": "3",
+                    "Language": "English",
+                    "Name": "PDB_DFRU"
+                },
+                {
+                    "FRUDeviceID": "1",
+                    "Language": "English",
+                    "Name": "PSU1FRU",
+                    "Product": {
+                        "AssetTag": null,
+                        "FRUFileId": null,
+                        "Manufacturer": "DELTA",
+                        "Name": "ECD56020022-N",
+                        "PartNumber": "          ",
+                        "Serial": "THAKN23070083",
+                        "Version": "S1  "
+                    }
+                },
+                {
+                    "FRUDeviceID": "2",
+                    "Language": "English",
+                    "Name": "PSU2FRU",
+                    "Product": {
+                        "AssetTag": null,
+                        "FRUFileId": null,
+                        "Manufacturer": "DELTA",
+                        "Name": "ECD56020022-N",
+                        "PartNumber": "          ",
+                        "Serial": "THAKN23070017",
+                        "Version": "S1  "
+                    }
+                },
+                {
+                    "Board": {
+                        "AssetTag": null,
+                        "FRUFileId": null,
+                        "Manufacturer": "NVIDIA",
+                        "ManufacturerDateTime": "2023-09-23T00:54:00+00:00",
+                        "Name": "PG535",
+                        "PartNumber": "699-2G535-0210-QS2",
+                        "Serial": "1583223650009",
+                        "Version": null
+                    },
+                    "FRUDeviceID": "5",
+                    "Language": "English",
+                    "Name": "ProcMod_0",
+                    "Product": {
+                        "AssetTag": null,
+                        "FRUFileId": "FRU_Ver_0.02",
+                        "Manufacturer": "NVIDIA",
+                        "Name": "C2",
+                        "PartNumber": "900-2G535-0000-000",
+                        "Serial": "1583223650009",
+                        "Version": "B-R00"
+                    }
+                }
+            ]
+        },
+        "Nvidia": {
+            "@odata.type": "#NvidiaChassis.v1_0_0.NvidiaChassis",
+            "PartNumber": "          ",
+            "SerialNumber": "THAKN23070083"
+        }
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/PCIeSlots"
+    },
+    "PartNumber": "          ",
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/Power"
+    },
+    "PowerState": "On",
+    "PowerSubsystem": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/PowerSubsystem"
+    },
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/Sensors"
+    },
+    "SerialNumber": "THAKN23070083",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/Thermal"
+    },
+    "ThermalSubsystem": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/ThermalSubsystem"
+    },
+    "TrustedComponents": {
+        "@odata.id": "/redfish/v1/Chassis/PSU0/TrustedComponents"
+    }
+}

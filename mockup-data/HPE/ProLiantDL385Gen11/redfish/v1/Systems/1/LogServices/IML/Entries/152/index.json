@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"7E838C29\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/152",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "152",
+    "Created": "2023-08-07T19:50:23Z",
+    "EntryType": "Oem",
+    "Message": "Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Ada216.0.333.11 Connectivity status changed to OK for adapter in slot 8, port 2",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 10,
+            "Count": 1,
+            "EventNumber": 562,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2023-08-07T19:50:23Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

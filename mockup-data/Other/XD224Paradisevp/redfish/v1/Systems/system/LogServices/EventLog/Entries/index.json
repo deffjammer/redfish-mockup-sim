@@ -1,0 +1,3454 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of System Event Log Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/1/attachment",
+            "Created": "2024-01-26T16:02:01+00:00",
+            "EntryType": "Event",
+            "Id": "1",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-01-26T16:02:01+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/100",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/100/attachment",
+            "Created": "2024-02-08T17:51:45+00:00",
+            "EntryType": "Event",
+            "Id": "100",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/102",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/102/attachment",
+            "Created": "2024-02-08T17:58:21+00:00",
+            "EntryType": "Event",
+            "Id": "102",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-02-08T17:58:21+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/103",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/103/attachment",
+            "Created": "2024-02-08T17:58:27+00:00",
+            "EntryType": "Event",
+            "Id": "103",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/105",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/105/attachment",
+            "Created": "2024-02-08T17:58:28+00:00",
+            "EntryType": "Event",
+            "Id": "105",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/107",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/107/attachment",
+            "Created": "2024-02-08T18:07:22+00:00",
+            "EntryType": "Event",
+            "Id": "107",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-02-08T18:07:22+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/108",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/108/attachment",
+            "Created": "2024-02-08T18:07:29+00:00",
+            "EntryType": "Event",
+            "Id": "108",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/111",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/111/attachment",
+            "Created": "2024-02-08T18:07:30+00:00",
+            "EntryType": "Event",
+            "Id": "111",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/112",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/112/attachment",
+            "Created": "2024-02-08T18:14:35+00:00",
+            "EntryType": "Event",
+            "Id": "112",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-02-08T18:14:35+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/114",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/114/attachment",
+            "Created": "2024-02-08T18:14:39+00:00",
+            "EntryType": "Event",
+            "Id": "114",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/116",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/116/attachment",
+            "Created": "2024-02-08T18:14:40+00:00",
+            "EntryType": "Event",
+            "Id": "116",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/117",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/117/attachment",
+            "Created": "2024-02-08T18:21:55+00:00",
+            "EntryType": "Event",
+            "Id": "117",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-02-08T18:21:55+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/119",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/119/attachment",
+            "Created": "2024-02-08T18:22:00+00:00",
+            "EntryType": "Event",
+            "Id": "119",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/120",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/120/attachment",
+            "Created": "2024-02-08T18:22:02+00:00",
+            "EntryType": "Event",
+            "Id": "120",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/121",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/121/attachment",
+            "Created": "2024-02-08T18:22:02+00:00",
+            "EntryType": "Event",
+            "Id": "121",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/123",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/123/attachment",
+            "Created": "2024-02-08T18:35:13+00:00",
+            "EntryType": "Event",
+            "Id": "123",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/125",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/125/attachment",
+            "Created": "2024-02-08T18:35:14+00:00",
+            "EntryType": "Event",
+            "Id": "125",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/126",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/126/attachment",
+            "Created": "2024-02-08T18:35:14+00:00",
+            "EntryType": "Event",
+            "Id": "126",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/137",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/137/attachment",
+            "Created": "2024-02-08T18:48:49+00:00",
+            "EntryType": "Event",
+            "Id": "137",
+            "Message": "Update.1.0.TransferFailed",
+            "Modified": "2024-02-08T18:48:49+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/147",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/147/attachment",
+            "Created": "2024-02-08T18:54:52+00:00",
+            "EntryType": "Event",
+            "Id": "147",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-08T18:54:52+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/148",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/148/attachment",
+            "Created": "2024-02-08T18:55:56+00:00",
+            "EntryType": "Event",
+            "Id": "148",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/149",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/149/attachment",
+            "Created": "2024-02-08T18:55:56+00:00",
+            "EntryType": "Event",
+            "Id": "149",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/150",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/150/attachment",
+            "Created": "2024-02-08T18:55:56+00:00",
+            "EntryType": "Event",
+            "Id": "150",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/151",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/151/attachment",
+            "Created": "2024-02-08T18:55:57+00:00",
+            "EntryType": "Event",
+            "Id": "151",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/152",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/152/attachment",
+            "Created": "2024-02-08T19:19:40+00:00",
+            "EntryType": "Event",
+            "Id": "152",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/153",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/153/attachment",
+            "Created": "2024-02-08T19:19:40+00:00",
+            "EntryType": "Event",
+            "Id": "153",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/155",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/155/attachment",
+            "Created": "2024-02-08T19:19:40+00:00",
+            "EntryType": "Event",
+            "Id": "155",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/156",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/156/attachment",
+            "Created": "2024-02-08T19:20:11+00:00",
+            "EntryType": "Event",
+            "Id": "156",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/157",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/157/attachment",
+            "Created": "2024-02-08T19:20:11+00:00",
+            "EntryType": "Event",
+            "Id": "157",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/158",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/158/attachment",
+            "Created": "2024-02-08T19:20:11+00:00",
+            "EntryType": "Event",
+            "Id": "158",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/160",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/160/attachment",
+            "Created": "2024-02-08T19:22:13+00:00",
+            "EntryType": "Event",
+            "Id": "160",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-08T19:22:13+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/162",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/162/attachment",
+            "Created": "2024-02-08T19:24:15+00:00",
+            "EntryType": "Event",
+            "Id": "162",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/164",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/164/attachment",
+            "Created": "2024-02-08T19:24:15+00:00",
+            "EntryType": "Event",
+            "Id": "164",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/165",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/165/attachment",
+            "Created": "2024-02-08T19:30:19+00:00",
+            "EntryType": "Event",
+            "Id": "165",
+            "Message": "Update.1.0.TransferFailed",
+            "Modified": "2024-02-08T19:30:19+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/17",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/17/attachment",
+            "Created": "2024-01-26T16:19:33+00:00",
+            "EntryType": "Event",
+            "Id": "17",
+            "Message": "Baseboard Standby Power ON.",
+            "Modified": "2024-01-26T16:19:33+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/176",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/176/attachment",
+            "Created": "2024-02-08T19:43:34+00:00",
+            "EntryType": "Event",
+            "Id": "176",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/178",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/178/attachment",
+            "Created": "2024-02-08T19:43:34+00:00",
+            "EntryType": "Event",
+            "Id": "178",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/179",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/179/attachment",
+            "Created": "2024-02-08T19:43:34+00:00",
+            "EntryType": "Event",
+            "Id": "179",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/180",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/180/attachment",
+            "Created": "2024-02-09T21:58:35+00:00",
+            "EntryType": "Event",
+            "Id": "180",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-09T21:58:35+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/182",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/182/attachment",
+            "Created": "2024-02-09T21:59:04+00:00",
+            "EntryType": "Event",
+            "Id": "182",
+            "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+            "MessageArgs": [
+                "PCIe Device Enumeration Service",
+                "Discovery Timed Out"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/183",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/183/attachment",
+            "Created": "2024-02-09T21:59:09+00:00",
+            "EntryType": "Event",
+            "Id": "183",
+            "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+            "MessageArgs": [
+                "PCIe Device Enumeration Service",
+                "Discovery Timed Out"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/185",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/185/attachment",
+            "Created": "2024-02-09T21:59:19+00:00",
+            "EntryType": "Event",
+            "Id": "185",
+            "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+            "MessageArgs": [
+                "PCIe Device Enumeration Service",
+                "Discovery Timed Out"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/187",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/187/attachment",
+            "Created": "2024-02-09T21:59:51+00:00",
+            "EntryType": "Event",
+            "Id": "187",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/188",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/188/attachment",
+            "Created": "2024-02-09T21:59:51+00:00",
+            "EntryType": "Event",
+            "Id": "188",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/19",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/19/attachment",
+            "Created": "2024-01-26T16:52:06+00:00",
+            "EntryType": "Event",
+            "Id": "19",
+            "Message": "Baseboard Standby Power ON.",
+            "Modified": "2024-01-26T16:52:06+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/190",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/190/attachment",
+            "Created": "2024-02-09T21:59:52+00:00",
+            "EntryType": "Event",
+            "Id": "190",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/191",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/191/attachment",
+            "Created": "2024-02-12T17:05:55+00:00",
+            "EntryType": "Event",
+            "Id": "191",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-12T17:05:55+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/192",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/192/attachment",
+            "Created": "2024-02-12T17:06:29+00:00",
+            "EntryType": "Event",
+            "Id": "192",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-12T17:06:29+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/194",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/194/attachment",
+            "Created": "2024-02-12T17:07:46+00:00",
+            "EntryType": "Event",
+            "Id": "194",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/196",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/196/attachment",
+            "Created": "2024-02-12T17:07:46+00:00",
+            "EntryType": "Event",
+            "Id": "196",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/197",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/197/attachment",
+            "Created": "2024-02-13T16:47:53+00:00",
+            "EntryType": "Event",
+            "Id": "197",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-13T16:47:53+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/199",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/199/attachment",
+            "Created": "2024-02-13T16:48:54+00:00",
+            "EntryType": "Event",
+            "Id": "199",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/200",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/200/attachment",
+            "Created": "2024-02-13T16:48:54+00:00",
+            "EntryType": "Event",
+            "Id": "200",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/201",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/201/attachment",
+            "Created": "2024-02-13T16:48:54+00:00",
+            "EntryType": "Event",
+            "Id": "201",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/202",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/202/attachment",
+            "Created": "2024-02-13T16:48:54+00:00",
+            "EntryType": "Event",
+            "Id": "202",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/203",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/203/attachment",
+            "Created": "2024-02-14T18:29:02+00:00",
+            "EntryType": "Event",
+            "Id": "203",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-14T18:29:02+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/205",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/205/attachment",
+            "Created": "2024-02-14T18:30:39+00:00",
+            "EntryType": "Event",
+            "Id": "205",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/206",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/206/attachment",
+            "Created": "2024-02-14T18:30:39+00:00",
+            "EntryType": "Event",
+            "Id": "206",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/207",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/207/attachment",
+            "Created": "2024-02-14T18:30:39+00:00",
+            "EntryType": "Event",
+            "Id": "207",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/208",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/208/attachment",
+            "Created": "2024-02-14T18:30:39+00:00",
+            "EntryType": "Event",
+            "Id": "208",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/21",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/21/attachment",
+            "Created": "2024-01-26T16:58:13+00:00",
+            "EntryType": "Event",
+            "Id": "21",
+            "Message": "Update.1.0.TransferFailed",
+            "Modified": "2024-01-26T16:58:13+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/210",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/210/attachment",
+            "Created": "2024-02-14T18:48:25+00:00",
+            "EntryType": "Event",
+            "Id": "210",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-14T18:48:25+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/211",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/211/attachment",
+            "Created": "2024-02-14T18:49:24+00:00",
+            "EntryType": "Event",
+            "Id": "211",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/212",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/212/attachment",
+            "Created": "2024-02-14T18:49:25+00:00",
+            "EntryType": "Event",
+            "Id": "212",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/214",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/214/attachment",
+            "Created": "2024-02-14T18:49:25+00:00",
+            "EntryType": "Event",
+            "Id": "214",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/215",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/215/attachment",
+            "Created": "2024-02-14T20:38:50+00:00",
+            "EntryType": "Event",
+            "Id": "215",
+            "Message": "Baseboard Standby Power ON.",
+            "Modified": "2024-02-14T20:38:50+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/216",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/216/attachment",
+            "Created": "2024-02-14T20:39:10+00:00",
+            "EntryType": "Event",
+            "Id": "216",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-02-14T20:39:10+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/217",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/217/attachment",
+            "Created": "2024-02-14T20:40:21+00:00",
+            "EntryType": "Event",
+            "Id": "217",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-14T20:40:21+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/219",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/219/attachment",
+            "Created": "2024-02-20T17:54:17+00:00",
+            "EntryType": "Event",
+            "Id": "219",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-20T17:54:17+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/220",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/220/attachment",
+            "Created": "2024-02-20T17:56:27+00:00",
+            "EntryType": "Event",
+            "Id": "220",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-02-20T17:56:27+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/221",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/221/attachment",
+            "Created": "2024-02-20T18:02:31+00:00",
+            "EntryType": "Event",
+            "Id": "221",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-20T18:02:31+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/223",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/223/attachment",
+            "Created": "2024-02-20T18:04:07+00:00",
+            "EntryType": "Event",
+            "Id": "223",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/224",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/224/attachment",
+            "Created": "2024-02-20T18:04:08+00:00",
+            "EntryType": "Event",
+            "Id": "224",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/225",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/225/attachment",
+            "Created": "2024-02-20T18:04:08+00:00",
+            "EntryType": "Event",
+            "Id": "225",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/226",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/226/attachment",
+            "Created": "2024-02-20T18:04:08+00:00",
+            "EntryType": "Event",
+            "Id": "226",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/228",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/228/attachment",
+            "Created": "2024-02-21T15:17:52+00:00",
+            "EntryType": "Event",
+            "Id": "228",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/229",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/229/attachment",
+            "Created": "2024-02-21T15:17:52+00:00",
+            "EntryType": "Event",
+            "Id": "229",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/230",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/230/attachment",
+            "Created": "2024-02-21T15:17:52+00:00",
+            "EntryType": "Event",
+            "Id": "230",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/232",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/232/attachment",
+            "Created": "2024-02-21T15:18:23+00:00",
+            "EntryType": "Event",
+            "Id": "232",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/233",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/233/attachment",
+            "Created": "2024-02-21T15:18:23+00:00",
+            "EntryType": "Event",
+            "Id": "233",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/234",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/234/attachment",
+            "Created": "2024-02-21T15:18:23+00:00",
+            "EntryType": "Event",
+            "Id": "234",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/235",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/235/attachment",
+            "Created": "2024-02-23T19:27:33+00:00",
+            "EntryType": "Event",
+            "Id": "235",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-23T19:27:33+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/237",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/237/attachment",
+            "Created": "2024-02-23T19:28:38+00:00",
+            "EntryType": "Event",
+            "Id": "237",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/238",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/238/attachment",
+            "Created": "2024-02-23T19:28:38+00:00",
+            "EntryType": "Event",
+            "Id": "238",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/239",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/239/attachment",
+            "Created": "2024-02-23T19:28:38+00:00",
+            "EntryType": "Event",
+            "Id": "239",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/241",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/241/attachment",
+            "Created": "2024-02-23T19:48:18+00:00",
+            "EntryType": "Event",
+            "Id": "241",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-23T19:48:18+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/242",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/242/attachment",
+            "Created": "2024-02-23T19:48:48+00:00",
+            "EntryType": "Event",
+            "Id": "242",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/243",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/243/attachment",
+            "Created": "2024-02-23T19:48:48+00:00",
+            "EntryType": "Event",
+            "Id": "243",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/244",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/244/attachment",
+            "Created": "2024-02-23T19:48:48+00:00",
+            "EntryType": "Event",
+            "Id": "244",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/246",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/246/attachment",
+            "Created": "2024-02-23T19:48:59+00:00",
+            "EntryType": "Event",
+            "Id": "246",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-23T19:48:59+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/247",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/247/attachment",
+            "Created": "2024-02-23T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "247",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/248",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/248/attachment",
+            "Created": "2024-02-23T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "248",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/249",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/249/attachment",
+            "Created": "2024-02-23T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "249",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/250",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/250/attachment",
+            "Created": "2024-02-23T19:49:54+00:00",
+            "EntryType": "Event",
+            "Id": "250",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/251",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/251/attachment",
+            "Created": "2024-02-24T00:47:04+00:00",
+            "EntryType": "Event",
+            "Id": "251",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-24T00:47:04+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/253",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/253/attachment",
+            "Created": "2024-02-24T00:48:28+00:00",
+            "EntryType": "Event",
+            "Id": "253",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/255",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/255/attachment",
+            "Created": "2024-02-24T00:48:28+00:00",
+            "EntryType": "Event",
+            "Id": "255",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/256",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/256/attachment",
+            "Created": "2024-02-24T00:48:28+00:00",
+            "EntryType": "Event",
+            "Id": "256",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/258",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/258/attachment",
+            "Created": "2024-02-26T15:51:37+00:00",
+            "EntryType": "Event",
+            "Id": "258",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/260",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/260/attachment",
+            "Created": "2024-02-26T15:51:37+00:00",
+            "EntryType": "Event",
+            "Id": "260",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/262",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/262/attachment",
+            "Created": "2024-02-26T16:11:03+00:00",
+            "EntryType": "Event",
+            "Id": "262",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-26T16:11:03+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/263",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/263/attachment",
+            "Created": "2024-02-26T16:13:04+00:00",
+            "EntryType": "Event",
+            "Id": "263",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-26T16:13:04+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/264",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/264/attachment",
+            "Created": "2024-02-26T16:13:58+00:00",
+            "EntryType": "Event",
+            "Id": "264",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/265",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/265/attachment",
+            "Created": "2024-02-26T16:13:58+00:00",
+            "EntryType": "Event",
+            "Id": "265",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/267",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/267/attachment",
+            "Created": "2024-02-26T16:13:58+00:00",
+            "EntryType": "Event",
+            "Id": "267",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/269",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/269/attachment",
+            "Created": "2024-02-29T14:25:03+00:00",
+            "EntryType": "Event",
+            "Id": "269",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-02-29T14:25:03+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/271",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/271/attachment",
+            "Created": "2024-02-29T14:25:57+00:00",
+            "EntryType": "Event",
+            "Id": "271",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/272",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/272/attachment",
+            "Created": "2024-02-29T14:25:57+00:00",
+            "EntryType": "Event",
+            "Id": "272",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/273",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/273/attachment",
+            "Created": "2024-02-29T14:25:57+00:00",
+            "EntryType": "Event",
+            "Id": "273",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/274",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/274/attachment",
+            "Created": "2024-02-29T17:11:56+00:00",
+            "EntryType": "Event",
+            "Id": "274",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-29T17:11:56+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/276",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/276/attachment",
+            "Created": "2024-02-29T17:13:16+00:00",
+            "EntryType": "Event",
+            "Id": "276",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/277",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/277/attachment",
+            "Created": "2024-02-29T17:13:16+00:00",
+            "EntryType": "Event",
+            "Id": "277",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/278",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/278/attachment",
+            "Created": "2024-02-29T17:13:16+00:00",
+            "EntryType": "Event",
+            "Id": "278",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/279",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/279/attachment",
+            "Created": "2024-02-29T17:13:16+00:00",
+            "EntryType": "Event",
+            "Id": "279",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/280",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/280/attachment",
+            "Created": "2024-03-13T15:42:22+00:00",
+            "EntryType": "Event",
+            "Id": "280",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-03-13T15:42:22+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/281",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/281/attachment",
+            "Created": "2024-03-13T15:42:43+00:00",
+            "EntryType": "Event",
+            "Id": "281",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-03-13T15:42:43+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/282",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/282/attachment",
+            "Created": "2024-03-13T15:42:50+00:00",
+            "EntryType": "Event",
+            "Id": "282",
+            "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+            "MessageArgs": [
+                "PCIe Device Enumeration Service",
+                "Discovery Timed Out"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/283",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/283/attachment",
+            "Created": "2024-03-13T15:42:55+00:00",
+            "EntryType": "Event",
+            "Id": "283",
+            "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+            "MessageArgs": [
+                "PCIe Device Enumeration Service",
+                "Discovery Timed Out"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/285",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/285/attachment",
+            "Created": "2024-03-13T15:43:05+00:00",
+            "EntryType": "Event",
+            "Id": "285",
+            "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+            "MessageArgs": [
+                "PCIe Device Enumeration Service",
+                "Discovery Timed Out"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/286",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/286/attachment",
+            "Created": "2024-03-13T15:43:10+00:00",
+            "EntryType": "Event",
+            "Id": "286",
+            "Message": "The resource property PCIe Device Enumeration Service has detected errors of type 'Discovery Timed Out'.",
+            "MessageArgs": [
+                "PCIe Device Enumeration Service",
+                "Discovery Timed Out"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/287",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/287/attachment",
+            "Created": "2024-03-13T15:43:35+00:00",
+            "EntryType": "Event",
+            "Id": "287",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/288",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/288/attachment",
+            "Created": "2024-03-13T15:43:35+00:00",
+            "EntryType": "Event",
+            "Id": "288",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/290",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/290/attachment",
+            "Created": "2024-03-13T15:43:35+00:00",
+            "EntryType": "Event",
+            "Id": "290",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/291",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/291/attachment",
+            "Created": "2024-03-14T18:14:16+00:00",
+            "EntryType": "Event",
+            "Id": "291",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-03-14T18:14:16+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/292",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/292/attachment",
+            "Created": "2024-03-14T18:14:45+00:00",
+            "EntryType": "Event",
+            "Id": "292",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/294",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/294/attachment",
+            "Created": "2024-03-14T18:14:45+00:00",
+            "EntryType": "Event",
+            "Id": "294",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/295",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/295/attachment",
+            "Created": "2024-03-14T18:14:45+00:00",
+            "EntryType": "Event",
+            "Id": "295",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/296",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/296/attachment",
+            "Created": "2024-03-14T18:14:56+00:00",
+            "EntryType": "Event",
+            "Id": "296",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-03-14T18:14:56+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/297",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/297/attachment",
+            "Created": "2024-03-14T18:15:48+00:00",
+            "EntryType": "Event",
+            "Id": "297",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/299",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/299/attachment",
+            "Created": "2024-03-14T18:15:48+00:00",
+            "EntryType": "Event",
+            "Id": "299",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/300",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/300/attachment",
+            "Created": "2024-03-14T18:15:48+00:00",
+            "EntryType": "Event",
+            "Id": "300",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/301",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/301/attachment",
+            "Created": "2024-03-14T18:46:52+00:00",
+            "EntryType": "Event",
+            "Id": "301",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-03-14T18:46:52+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/302",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/302/attachment",
+            "Created": "2024-03-14T18:47:00+00:00",
+            "EntryType": "Event",
+            "Id": "302",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/303",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/303/attachment",
+            "Created": "2024-03-14T18:47:01+00:00",
+            "EntryType": "Event",
+            "Id": "303",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/305",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/305/attachment",
+            "Created": "2024-03-14T18:47:01+00:00",
+            "EntryType": "Event",
+            "Id": "305",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/306",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/306/attachment",
+            "Created": "2024-03-14T18:59:23+00:00",
+            "EntryType": "Event",
+            "Id": "306",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-03-14T18:59:23+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/307",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/307/attachment",
+            "Created": "2024-03-14T18:59:31+00:00",
+            "EntryType": "Event",
+            "Id": "307",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/308",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/308/attachment",
+            "Created": "2024-03-14T18:59:31+00:00",
+            "EntryType": "Event",
+            "Id": "308",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/31",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/31/attachment",
+            "Created": "2024-01-26T17:05:18+00:00",
+            "EntryType": "Event",
+            "Id": "31",
+            "Message": "Baseboard Standby Power ON.",
+            "Modified": "2024-01-26T17:05:18+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/310",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/310/attachment",
+            "Created": "2024-03-14T18:59:31+00:00",
+            "EntryType": "Event",
+            "Id": "310",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/312",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/312/attachment",
+            "Created": "2024-03-14T19:14:27+00:00",
+            "EntryType": "Event",
+            "Id": "312",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/314",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/314/attachment",
+            "Created": "2024-03-14T19:14:28+00:00",
+            "EntryType": "Event",
+            "Id": "314",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/315",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/315/attachment",
+            "Created": "2024-03-14T19:14:28+00:00",
+            "EntryType": "Event",
+            "Id": "315",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/32",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/32/attachment",
+            "Created": "2024-01-26T17:05:37+00:00",
+            "EntryType": "Event",
+            "Id": "32",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-01-26T17:05:37+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/322",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/322/attachment",
+            "Created": "2024-03-14T19:18:06+00:00",
+            "EntryType": "Event",
+            "Id": "322",
+            "Message": "Update.1.0.AwaitToActivate",
+            "Modified": "2024-03-14T19:18:06+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/326",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/326/attachment",
+            "Created": "2024-03-14T19:23:44+00:00",
+            "EntryType": "Event",
+            "Id": "326",
+            "Message": "Baseboard Standby Power ON.",
+            "Modified": "2024-03-14T19:23:44+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/328",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/328/attachment",
+            "Created": "2024-03-14T19:29:29+00:00",
+            "EntryType": "Event",
+            "Id": "328",
+            "Message": "Update.1.0.TransferFailed",
+            "Modified": "2024-03-14T19:29:29+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/329",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/329/attachment",
+            "Created": "2024-03-14T19:29:29+00:00",
+            "EntryType": "Event",
+            "Id": "329",
+            "Message": "Update.1.0.TargetDetermined",
+            "Modified": "2024-03-14T19:29:29+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/330",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/330/attachment",
+            "Created": "2024-03-14T19:29:29+00:00",
+            "EntryType": "Event",
+            "Id": "330",
+            "Message": "Update.1.0.TargetDetermined",
+            "Modified": "2024-03-14T19:29:29+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/331",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/331/attachment",
+            "Created": "2024-03-14T19:29:29+00:00",
+            "EntryType": "Event",
+            "Id": "331",
+            "Message": "Update.1.0.TransferringToComponent",
+            "Modified": "2024-03-14T19:29:29+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/332",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/332/attachment",
+            "Created": "2024-03-14T19:29:29+00:00",
+            "EntryType": "Event",
+            "Id": "332",
+            "Message": "Update.1.0.TransferringToComponent",
+            "Modified": "2024-03-14T19:29:29+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/333",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/333/attachment",
+            "Created": "2024-03-14T19:34:11+00:00",
+            "EntryType": "Event",
+            "Id": "333",
+            "Message": "Update.1.0.UpdateSuccessful",
+            "Modified": "2024-03-14T19:34:11+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/334",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/334/attachment",
+            "Created": "2024-03-14T19:34:11+00:00",
+            "EntryType": "Event",
+            "Id": "334",
+            "Message": "Update.1.0.AwaitToActivate",
+            "Modified": "2024-03-14T19:34:11+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/335",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/335/attachment",
+            "Created": "2024-03-14T19:34:11+00:00",
+            "EntryType": "Event",
+            "Id": "335",
+            "Message": "Update.1.0.UpdateSuccessful",
+            "Modified": "2024-03-14T19:34:11+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/336",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/336/attachment",
+            "Created": "2024-03-14T19:34:11+00:00",
+            "EntryType": "Event",
+            "Id": "336",
+            "Message": "Update.1.0.AwaitToActivate",
+            "Modified": "2024-03-14T19:34:11+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/337",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/337/attachment",
+            "Created": "2024-03-14T19:34:21+00:00",
+            "EntryType": "Event",
+            "Id": "337",
+            "Message": "Update.1.0.AwaitToActivate",
+            "Modified": "2024-03-14T19:34:21+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/338",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/338/attachment",
+            "Created": "2024-03-14T19:46:19+00:00",
+            "EntryType": "Event",
+            "Id": "338",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-03-14T19:46:19+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/34",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/34/attachment",
+            "Created": "2024-01-26T17:07:49+00:00",
+            "EntryType": "Event",
+            "Id": "34",
+            "Message": "PERST bit failed to go high after 60 sec (likely SBIOS failed to boot).",
+            "Modified": "2024-01-26T17:07:49+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/340",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/340/attachment",
+            "Created": "2024-03-14T20:10:48+00:00",
+            "EntryType": "Event",
+            "Id": "340",
+            "Message": "The resource property 5 has detected errors of type ''.",
+            "MessageArgs": [
+                "5",
+                ""
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/341",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/341/attachment",
+            "Created": "2024-04-03T17:35:26+00:00",
+            "EntryType": "Event",
+            "Id": "341",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-04-03T17:35:26+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/342",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/342/attachment",
+            "Created": "2024-04-03T17:36:06+00:00",
+            "EntryType": "Event",
+            "Id": "342",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-04-03T17:36:06+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/344",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/344/attachment",
+            "Created": "2024-04-04T14:56:22+00:00",
+            "EntryType": "Event",
+            "Id": "344",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-04-04T14:56:22+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/345",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/345/attachment",
+            "Created": "2024-04-04T14:56:30+00:00",
+            "EntryType": "Event",
+            "Id": "345",
+            "Message": "The resource property 5 has detected errors of type ''.",
+            "MessageArgs": [
+                "5",
+                ""
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/35",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/35/attachment",
+            "Created": "2024-01-26T17:23:06+00:00",
+            "EntryType": "Event",
+            "Id": "35",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-01-26T17:23:06+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/37",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/37/attachment",
+            "Created": "2024-01-26T17:30:33+00:00",
+            "EntryType": "Event",
+            "Id": "37",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-01-26T17:30:33+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/38",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/38/attachment",
+            "Created": "2024-01-26T17:30:48+00:00",
+            "EntryType": "Event",
+            "Id": "38",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-01-26T17:30:48+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/40",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/40/attachment",
+            "Created": "2024-01-26T21:50:14+00:00",
+            "EntryType": "Event",
+            "Id": "40",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/42",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/42/attachment",
+            "Created": "2024-01-26T21:50:14+00:00",
+            "EntryType": "Event",
+            "Id": "42",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/43",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/43/attachment",
+            "Created": "2024-01-26T21:54:33+00:00",
+            "EntryType": "Event",
+            "Id": "43",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/44",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/44/attachment",
+            "Created": "2024-01-26T21:54:33+00:00",
+            "EntryType": "Event",
+            "Id": "44",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/45",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/45/attachment",
+            "Created": "2024-01-26T21:54:33+00:00",
+            "EntryType": "Event",
+            "Id": "45",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/47",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/47/attachment",
+            "Created": "2024-01-26T21:55:03+00:00",
+            "EntryType": "Event",
+            "Id": "47",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/48",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/48/attachment",
+            "Created": "2024-01-26T21:55:03+00:00",
+            "EntryType": "Event",
+            "Id": "48",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/50",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/50/attachment",
+            "Created": "2024-01-26T21:55:03+00:00",
+            "EntryType": "Event",
+            "Id": "50",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/52",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/52/attachment",
+            "Created": "2024-01-26T22:02:47+00:00",
+            "EntryType": "Event",
+            "Id": "52",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/53",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/53/attachment",
+            "Created": "2024-01-26T22:02:47+00:00",
+            "EntryType": "Event",
+            "Id": "53",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/55",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/55/attachment",
+            "Created": "2024-01-26T22:02:47+00:00",
+            "EntryType": "Event",
+            "Id": "55",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/56",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/56/attachment",
+            "Created": "2024-01-26T22:02:51+00:00",
+            "EntryType": "Event",
+            "Id": "56",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-01-26T22:02:51+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/57",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/57/attachment",
+            "Created": "2024-01-26T22:03:43+00:00",
+            "EntryType": "Event",
+            "Id": "57",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/58",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/58/attachment",
+            "Created": "2024-01-26T22:03:44+00:00",
+            "EntryType": "Event",
+            "Id": "58",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/6",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/6/attachment",
+            "Created": "2024-01-26T16:15:48+00:00",
+            "EntryType": "Event",
+            "Id": "6",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-01-26T16:15:48+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/60",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/60/attachment",
+            "Created": "2024-01-26T22:03:44+00:00",
+            "EntryType": "Event",
+            "Id": "60",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/62",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/62/attachment",
+            "Created": "2024-01-26T22:07:24+00:00",
+            "EntryType": "Event",
+            "Id": "62",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-01-26T22:07:24+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/63",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/63/attachment",
+            "Created": "2024-01-26T22:08:10+00:00",
+            "EntryType": "Event",
+            "Id": "63",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/65",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/65/attachment",
+            "Created": "2024-01-26T22:08:10+00:00",
+            "EntryType": "Event",
+            "Id": "65",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/66",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/66/attachment",
+            "Created": "2024-01-26T22:08:10+00:00",
+            "EntryType": "Event",
+            "Id": "66",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/68",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/68/attachment",
+            "Created": "2024-01-26T22:09:00+00:00",
+            "EntryType": "Event",
+            "Id": "68",
+            "Message": "Host Powered ON.",
+            "Modified": "2024-01-26T22:09:00+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/69",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/69/attachment",
+            "Created": "2024-01-26T22:09:46+00:00",
+            "EntryType": "Event",
+            "Id": "69",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/7",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/7/attachment",
+            "Created": "2024-01-26T16:17:56+00:00",
+            "EntryType": "Event",
+            "Id": "7",
+            "Message": "Update.1.0.TransferFailed",
+            "Modified": "2024-01-26T16:17:56+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/70",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/70/attachment",
+            "Created": "2024-01-26T22:09:46+00:00",
+            "EntryType": "Event",
+            "Id": "70",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/71",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/71/attachment",
+            "Created": "2024-01-26T22:09:46+00:00",
+            "EntryType": "Event",
+            "Id": "71",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/73",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/73/attachment",
+            "Created": "2024-02-05T15:44:03+00:00",
+            "EntryType": "Event",
+            "Id": "73",
+            "Message": "Host Powered OFF.",
+            "Modified": "2024-02-05T15:44:03+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/75",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/75/attachment",
+            "Created": "2024-02-05T15:45:04+00:00",
+            "EntryType": "Event",
+            "Id": "75",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/76",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/76/attachment",
+            "Created": "2024-02-05T15:45:04+00:00",
+            "EntryType": "Event",
+            "Id": "76",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/78",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/78/attachment",
+            "Created": "2024-02-05T15:45:04+00:00",
+            "EntryType": "Event",
+            "Id": "78",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/79",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/79/attachment",
+            "Created": "2024-02-05T15:48:40+00:00",
+            "EntryType": "Event",
+            "Id": "79",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/80",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/80/attachment",
+            "Created": "2024-02-05T15:48:40+00:00",
+            "EntryType": "Event",
+            "Id": "80",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/81",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/81/attachment",
+            "Created": "2024-02-05T15:48:40+00:00",
+            "EntryType": "Event",
+            "Id": "81",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/83",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/83/attachment",
+            "Created": "2024-02-05T16:03:34+00:00",
+            "EntryType": "Event",
+            "Id": "83",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/84",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/84/attachment",
+            "Created": "2024-02-05T16:03:34+00:00",
+            "EntryType": "Event",
+            "Id": "84",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/86",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/86/attachment",
+            "Created": "2024-02-05T16:03:34+00:00",
+            "EntryType": "Event",
+            "Id": "86",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/88",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/88/attachment",
+            "Created": "2024-02-08T17:37:21+00:00",
+            "EntryType": "Event",
+            "Id": "88",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/89",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/89/attachment",
+            "Created": "2024-02-08T17:37:21+00:00",
+            "EntryType": "Event",
+            "Id": "89",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/90",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/90/attachment",
+            "Created": "2024-02-08T17:37:21+00:00",
+            "EntryType": "Event",
+            "Id": "90",
+            "Message": "The resource property ERoT_CPU_0 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_0",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/91",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/91/attachment",
+            "Created": "2024-02-08T17:37:21+00:00",
+            "EntryType": "Event",
+            "Id": "91",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/93",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/93/attachment",
+            "Created": "2024-02-08T17:45:36+00:00",
+            "EntryType": "Event",
+            "Id": "93",
+            "Message": "The resource property 4 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "4",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/94",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/94/attachment",
+            "Created": "2024-02-08T17:45:36+00:00",
+            "EntryType": "Event",
+            "Id": "94",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/96",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/96/attachment",
+            "Created": "2024-02-08T17:45:36+00:00",
+            "EntryType": "Event",
+            "Id": "96",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/97",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/97/attachment",
+            "Created": "2024-02-08T17:51:38+00:00",
+            "EntryType": "Event",
+            "Id": "97",
+            "Message": "Automatic fan control enabled.",
+            "Modified": "2024-02-08T17:51:38+00:00",
+            "Name": "System Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/99",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/99/attachment",
+            "Created": "2024-02-08T17:51:45+00:00",
+            "EntryType": "Event",
+            "Id": "99",
+            "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+            "MessageArgs": [
+                "ERoT_CPU_1",
+                "Add external timestamp failed due to rate limit threshold exceeded"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "System Event Log Entry",
+            "Resolution": "",
+            "Resolved": false,
+            "Severity": "Critical"
+        }
+    ],
+    "Members@odata.count": 210,
+    "Name": "System Event Log Entries"
+}

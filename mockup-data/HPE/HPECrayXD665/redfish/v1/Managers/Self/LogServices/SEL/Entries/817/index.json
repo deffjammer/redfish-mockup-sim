@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712249927\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/817",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2022-01-01T00:01:50+00:00",
+    "Description": "SEL 902",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2022-01-01T00:01:50+00:00",
+    "Id": "817",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Managers/Self"
+        }
+    },
+    "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 241, Sensor_Name : CMOS_Battery, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2022-01-01T00:01:50+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 0, Event_Type : Battery Failed, Record_ID : 902, Sensor_Type : Battery, ",
+    "MessageId": "0x010000",
+    "Name": "SEL 902",
+    "SensorNumber": 241,
+    "SensorType": "Battery",
+    "Severity": "OK"
+}

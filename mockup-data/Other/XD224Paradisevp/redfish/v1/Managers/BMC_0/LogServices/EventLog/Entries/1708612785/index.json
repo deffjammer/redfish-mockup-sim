@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/EventLog/Entries/1708612785",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-02-22T14:39:45+00:00",
+    "EntryType": "Event",
+    "EventId": "30201d53-dc69-4c75-8d8b-6cf6c90c3c77",
+    "Id": "1708612785",
+    "Message": "The requested resource of type Chassis named '1' was not found.",
+    "MessageArgs": [
+        "Chassis",
+        "1"
+    ],
+    "MessageId": "Base.1.11.ResourceNotFound",
+    "Name": "Log Entry 1708612785",
+    "Severity": "Critical"
+}

@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712250081\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/LogServices/Logs/Entries/77",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2011-01-06T20:09:00+00:00",
+    "Description": "LOG 952",
+    "EntryCode": "Upper Critical - going high",
+    "EntryType": "SEL",
+    "EventTimestamp": "2011-01-06T20:09:00+00:00",
+    "Id": "77",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Self/Thermal"
+        }
+    },
+    "Message": "Event_Data_1 : 89, Record_Type : system event record, Sensor_Number : 69, Sensor_Name : Retimer3, Event_Dir : Assertion event, Event_Data_2 : 111, Timestamp : 2011-01-06T20:09:00+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 110, Event_Type : Upper Critical - going high, Record_ID : 952, Sensor_Type : Temperature, ",
+    "MessageId": "0x596F6E",
+    "Name": "LOG 952",
+    "SensorNumber": 69,
+    "SensorType": "Temperature",
+    "Severity": "Critical"
+}

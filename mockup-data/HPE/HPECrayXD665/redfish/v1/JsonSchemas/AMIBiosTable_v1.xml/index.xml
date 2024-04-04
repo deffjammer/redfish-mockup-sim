@@ -19,7 +19,7 @@
   </edmx:Reference>
   <edmx:DataServices>
     <Schema Namespace="AMIBiosTable" xmlns="http://docs.oasis-open.org/odata/ns/edm">
-      <ComplexType Name="AMIBiosTable" BaseType="Resource.v1_0_0.Resource">
+      <EntityType Name="AMIBiosTable" BaseType="Resource.v1_0_0.Resource">
         <Annotation Term="OData.Description" String="This is the schema definition for BiosTableTags information."/>
         <Annotation Term="OData.LongDescription" String="This is the schema definition for BiosTableTags information."/>
         <Annotation Term="Capabilities.InsertRestrictions">
@@ -37,11 +37,11 @@
             <PropertyValue Property="Deletable" Bool="true"/>
           </Record>
         </Annotation>
-      </ComplexType>
+      </EntityType>
     </Schema>
     <Schema Namespace="AMIBiosTable.v1_0_0" xmlns="http://docs.oasis-open.org/odata/ns/edm">
       <Annotation Term="Redfish.OwningEntity" String="AMI"/>
-      <ComplexType Name="AMIBiosTable" BaseType="AMIBiosTable.AMIBiosTable">
+      <EntityType Name="AMIBiosTable" BaseType="AMIBiosTable.AMIBiosTable">
         <Annotation Term="OData.Description" String="This is the schema definition for InventoryData Information and Status of the Systems connected to this Manager."/>
         <Annotation Term="OData.LongDescription" String="This is the schema definition for InventoryData Information and Status of the Systems connected to this Manager."/>
         <Property Name="FilesContent" Type="Edm.String" Nullable="false">
@@ -49,7 +49,7 @@
           <Annotation Term="OData.Description" String="This string contains the contents of the BiosTable file."/>
           <Annotation Term="OData.LongDescription" String="This string contains the contents of the BiosTable file."/>
         </Property>
-      </ComplexType>
+      </EntityType>
     </Schema>
   </edmx:DataServices>
 </edmx:Edmx>

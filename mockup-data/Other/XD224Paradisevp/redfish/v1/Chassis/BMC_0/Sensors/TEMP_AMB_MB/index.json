@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_MB",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "TEMP_AMB_MB",
+    "Name": "TEMP AMB MB",
+    "Reading": 21.125,
+    "ReadingRangeMax": 127.0,
+    "ReadingRangeMin": -128.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"735EFE38\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/9",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "9",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/7"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.5.41"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/7"
+        }
+    },
+    "Location": "PCI-E Slot 7",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "HPE",
+    "Name": "SS11 200Gb 1P NIC PCIE",
+    "PartNumber": "P41345-001",
+    "ProductPartNumber": "R4K46A",
+    "ProductVersion": "",
+    "SerialNumber": "EJ21490105",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

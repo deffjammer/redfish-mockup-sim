@@ -1,10 +1,10 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ManagerNetworkProtocol.ManagerNetworkProtocol",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol",
     "@odata.type": "#ManagerNetworkProtocol.v1_6_0.ManagerNetworkProtocol",
     "Description": "Network Protocol Details",
-    "FQDN": "AMIB47AF1B47401.head-bmc.cm.hpc.amslabs.hpecorp.net",
+    "FQDN": "AMIB47AF1B46475.its.hpecorp.net",
     "HTTPS": {
         "Certificates": {
             "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol/HTTPS/Certificates"
@@ -12,7 +12,7 @@
         "Port": 443,
         "ProtocolEnabled": true
     },
-    "HostName": "AMIB47AF1B47401",
+    "HostName": "AMIB47AF1B46475",
     "IPMI": {
         "Port": 623,
         "ProtocolEnabled": true
@@ -38,7 +38,7 @@
         "EnableSNMPv3": true,
         "EncryptionProtocol": "Account",
         "EngineId": {
-            "ArchitectureId": "80 33 10 8d 61 a6 99 cf 61",
+            "ArchitectureId": "80 fc 4f 68 66 ae 99 cf 61",
             "PrivateEnterpriseId": "80 00 1f 88"
         },
         "Port": 161,

@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#CertificateCollection.CertificateCollection",
+    "@odata.etag": "W/\"08A22FCA\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "Secure Boot Database db Default certificate view",
+    "Name": "Secure Boot Database db Default certificate view",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/0"
+        }
+    ],
+    "Members@odata.count": 5
+}

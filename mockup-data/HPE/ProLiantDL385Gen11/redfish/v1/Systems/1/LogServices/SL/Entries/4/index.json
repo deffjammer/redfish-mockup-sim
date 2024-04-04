@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"C3ED1E29\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/4",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "4",
+    "Created": "2001-01-01T08:18:28Z",
+    "EntryType": "Oem",
+    "Message": "Active Health System log cleared by: System Administrator.",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Maintenance",
+                "Administration"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 6,
+            "Count": 1,
+            "EventNumber": 14,
+            "Severity": "Informational",
+            "Updated": "2001-01-01T08:18:28Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

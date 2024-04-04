@@ -1,0 +1,42 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/CPU_0/Thermal",
+    "@odata.type": "#Thermal.v1_7_1.Thermal",
+    "Fans": [],
+    "Id": "Thermal",
+    "Name": "Thermal",
+    "Redundancy": [],
+    "Temperatures": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/CPU_0/Thermal#/Temperatures/0",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "LowerThresholdNonCritical": 0.254,
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 1028443.341,
+            "MemberId": "0",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": 150.0,
+            "Name": "ProcessorModule 0 CPU 0 TempAvg 0",
+            "PhysicalContext": "CPU",
+            "ReadingCelsius": 37.437,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdNonCritical": 85.0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CPU_0/Thermal#/Temperatures/1",
+            "@odata.type": "#Thermal.v1_7_1.Temperature",
+            "MaxAllowableOperatingValue": -1,
+            "MaxReadingRangeTemp": 1028443.341,
+            "MemberId": "1",
+            "MinAllowableOperatingValue": 1,
+            "MinReadingRangeTemp": 150.0,
+            "Name": "ProcessorModule 0 CPU 0 TempLimit 0",
+            "PhysicalContext": "CPU",
+            "ReadingCelsius": 52.719,
+            "Status": {
+                "State": "Enabled"
+            }
+        }
+    ]
+}

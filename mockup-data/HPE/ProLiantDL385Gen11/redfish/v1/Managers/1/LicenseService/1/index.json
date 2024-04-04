@@ -1,0 +1,63 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
+    "@odata.etag": "W/\"48077EFE\"",
+    "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+    "@odata.type": "#HpeiLOLicense.v2_3_0.HpeiLOLicense",
+    "Id": "1",
+    "Confirmation": {
+        "Code": "",
+        "Message": "",
+        "Service": "www.hpe.com/glis",
+        "Status": false
+    },
+    "ConfirmationRequest": {
+        "EON": {
+            "License": "iLO Advanced",
+            "LicenseKey": "32Q6W-PQWTB-H7XYL-39968-RR53R",
+            "Quantity": 1,
+            "State": "unconfirmed"
+        },
+        "Signer": "iLO",
+        "System": {
+            "ChipId": "92AEDF9F9020AE3F",
+            "Product": "ProLiant DL385 Gen11",
+            "SerialNumber": "DL3x5GEN11"
+        }
+    },
+    "Description": "iLO License View",
+    "License": "iLO Advanced",
+    "LicenseClass": "FQL",
+    "LicenseErr": "",
+    "LicenseExpire": "",
+    "LicenseFeatures": {
+        "AutoCertEnroll": true,
+        "DirectoryAuth": true,
+        "DowngradePolicy": true,
+        "EmailAlert": true,
+        "FWScan": true,
+        "Federation": true,
+        "Jitter": true,
+        "KD": true,
+        "KeyMgr": true,
+        "MURC": true,
+        "ODIM": false,
+        "PowerReg": true,
+        "RC": true,
+        "Recovery": true,
+        "RemoteSyslog": true,
+        "Scrncap": true,
+        "SecureErase": true,
+        "SmartCard": true,
+        "SuiteB": true,
+        "TextCons": true,
+        "VM": true,
+        "VMScript": true,
+        "VSPLogging": true
+    },
+    "LicenseInstallDate": "1 Jan 2001",
+    "LicenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-RR53R",
+    "LicenseSeats": 1,
+    "LicenseTier": "ADV",
+    "LicenseType": "Perpetual",
+    "Name": "iLO License"
+}

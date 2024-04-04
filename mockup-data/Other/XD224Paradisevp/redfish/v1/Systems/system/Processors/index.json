@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ProcessorCollection.ProcessorCollection",
+    "@odata.id": "/redfish/v1/Systems/system/Processors",
+    "@odata.type": "#ProcessorCollection.ProcessorCollection",
+    "Description": "The ProcessorCollection contains a collection of processor instances.",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/FPGA_0"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "Processor Collection"
+}

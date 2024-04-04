@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Allow": "GET, HEAD, POST",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-type": "application/json; charset=utf-8",
+        "Date": "Thu, 04 Apr 2024 17:13:18 GMT",
+        "ETag": "W/\"02B24DC63DA4CBCBCB83A7A61CF56520\"",
+        "Link": "</redfish/v1/schemastore/en/bios.v1_0_4.json>; rel=describedby",
+        "OData-Version": "4.0",
+        "Transfer-Encoding": "chunked",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "sameorigin",
+        "X-XSS-Protection": "1; mode=block"
+    }
+}

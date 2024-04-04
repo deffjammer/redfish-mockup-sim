@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
-    "@odata.etag": "\"1641000295\"",
+    "@odata.etag": "\"1640995216\"",
     "@odata.id": "/redfish/v1/Systems/Self/Memory/DevType2_DIMM16",
     "@odata.type": "#Memory.v1_11_0.Memory",
     "AllowedSpeedsMHz": [

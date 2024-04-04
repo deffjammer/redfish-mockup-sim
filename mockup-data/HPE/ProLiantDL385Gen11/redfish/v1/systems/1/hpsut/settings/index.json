@@ -1,0 +1,45 @@
+{
+    "@odata.type": "#SUT.v4_0_0.SUT",
+    "AdditionalBaseline": "None",
+    "AdditionalMessageIDs": [],
+    "DirectDeploy": false,
+    "EnableiLOQueuedUpdates": true,
+    "IgnoreWarnings": false,
+    "InstallOrStageOccurredViaMode": "none",
+    "InstallSet": [],
+    "InstallationOptions": {
+        "Downgrade": false,
+        "FirmwareOnly": false,
+        "Rewrite": false,
+        "SoftwareOnly": false
+    },
+    "MessageID": "none",
+    "OperationMode": "Online",
+    "OptionalComponents": {
+        "AMS": false,
+        "SNMP": false,
+        "WBEM": false
+    },
+    "RebootAllowed": false,
+    "RebootOptions": {
+        "Action": "IfNeeded",
+        "DelaySeconds": 60,
+        "RebootMessage": "Rebooting this server"
+    },
+    "RequestStatus": "Idle",
+    "SaveLogs": true,
+    "Schedule": {
+        "DateTime": "",
+        "Recurrence": 0,
+        "ScheduleOptions": "",
+        "ScheduleStatus": "",
+        "ScheduleType": ""
+    },
+    "StageRetryCount": 2,
+    "StageRetryDelay": 600,
+    "TpmByPassFlag": true,
+    "UpdateSubOperationAllowed": "Ignore",
+    "UriBaseline": "None",
+    "UriBaselineVersion": "",
+    "WaitTimeInSeconds": 0
+}

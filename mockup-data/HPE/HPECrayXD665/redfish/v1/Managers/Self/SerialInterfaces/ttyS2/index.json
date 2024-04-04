@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#SerialInterface.SerialInterface",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Managers/Self/SerialInterfaces/ttyS2",
     "@odata.type": "#SerialInterface.v1_1_5.SerialInterface",
     "BitRate": "115200",

@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_616",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-02-08T18:24:36+00:00",
+    "EntryType": "Oem",
+    "Id": "1_616",
+    "Message": "172.24.0.1][root][IPMI][CMD]Clear SEL",
+    "Name": "Log Entry 1_616",
+    "Severity": null
+}

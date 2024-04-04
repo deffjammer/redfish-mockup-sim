@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_104",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-29T15:53:10+00:00",
+    "EntryType": "Oem",
+    "Id": "1_104",
+    "Message": "[10.255.255.254][p41aEATo2j0Ci2AS][Redfish][Login]Base login blocked",
+    "Name": "Log Entry 1_104",
+    "Severity": null
+}

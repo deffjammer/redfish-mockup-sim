@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Signature.Signature",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.type": "#Signature.v1_0_0.Signature",
+    "Name": "",
+    "SignatureString": "80B4D96931BF0D02FD91A61E19D14F1DA452E66DB2408CA8604D411F92659F0A",
+    "SignatureType": "EFI_CERT_SHA256_GUID",
+    "SignatureTypeRegistry": "UEFI",
+    "UefiSignatureOwner": ""
+}

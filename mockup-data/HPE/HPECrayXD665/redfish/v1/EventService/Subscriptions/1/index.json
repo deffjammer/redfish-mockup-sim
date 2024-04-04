@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#EventDestination.EventDestination",
-    "@odata.etag": "\"1697164774\"",
+    "@odata.etag": "\"1294265319\"",
     "@odata.id": "/redfish/v1/EventService/Subscriptions/1",
     "@odata.type": "#EventDestination.v1_7_0.EventDestination",
     "Context": "XD2000_Alerts",

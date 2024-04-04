@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.id": "/redfish/v1/Systems/system/BootOptions/Boot0001",
+    "@odata.type": "#BootOption.v1_0_4.BootOption",
+    "Alias": "None",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0001",
+    "Description": "None",
+    "DisplayName": "EFI PXE 0 for IPv4 (04-D9-C8-5D-54-FC) ",
+    "Id": "Boot0001",
+    "Name": "Boot Option",
+    "UefiDevicePath": "EFI PXE 0 for IPv4 (04-D9-C8-5D-54-FC) "
+}

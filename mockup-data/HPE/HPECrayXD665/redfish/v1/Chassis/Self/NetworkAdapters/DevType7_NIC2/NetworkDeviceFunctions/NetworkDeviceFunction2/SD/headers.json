@@ -1,0 +1,17 @@
+{
+    "GET": {
+        "Server": "AMI MegaRAC Redfish Service",
+        "Allow": "GET, PATCH",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Link": "<http://redfish.dmtf.org/schemas/v1/NetworkDeviceFunction.v1_5_0.json>; rel=describedby, </redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC2/NetworkDeviceFunctions/NetworkDeviceFunction2/Ethernet/VLANs>; path=/Ethernet/VLANs, </redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC2/Ports/DevTypeE_Slot0_InstanceF_PORT0>; path=/Links/PhysicalNetworkPortAssignment, </redfish/v1/Chassis/Self/PCIeDevices/00_68_00/PCIeFunctions/DevType3__DevIndex59>; path=/Links/PCIeFunction",
+        "ETag": "\"1712249927\"",
+        "Content-Type": "application/json; charset=UTF-8",
+        "OData-Version": "4.0",
+        "Content-Length": "1354",
+        "Date": "Thu, 04 Apr 2024 17:00:50 GMT"
+    }
+}

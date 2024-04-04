@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#RoleCollection.RoleCollection",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/AccountService/Roles",
     "@odata.type": "#RoleCollection.RoleCollection",
     "Description": "Details of Roles Available",

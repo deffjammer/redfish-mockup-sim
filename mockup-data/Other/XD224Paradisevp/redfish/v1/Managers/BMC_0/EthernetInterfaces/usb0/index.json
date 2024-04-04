@@ -1,0 +1,55 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/EthernetInterfaces/usb0",
+    "@odata.type": "#EthernetInterface.v1_8_0.EthernetInterface",
+    "DHCPv4": {
+        "DHCPEnabled": false,
+        "UseDNSServers": true,
+        "UseDomainName": false,
+        "UseNTPServers": true
+    },
+    "DHCPv6": {
+        "OperatingMode": "Disabled",
+        "UseDNSServers": true,
+        "UseDomainName": false,
+        "UseNTPServers": true
+    },
+    "Description": "Management Network Interface",
+    "FQDN": "BMC000000000000",
+    "HostName": "BMC000000000000",
+    "IPv4Addresses": [
+        {
+            "Address": "10.255.255.253",
+            "AddressOrigin": "Static",
+            "Gateway": "0.0.0.0",
+            "SubnetMask": "255.255.255.252"
+        }
+    ],
+    "IPv4StaticAddresses": [
+        {
+            "Address": "10.255.255.253",
+            "AddressOrigin": "Static",
+            "Gateway": "0.0.0.0",
+            "SubnetMask": "255.255.255.252"
+        }
+    ],
+    "IPv6AddressPolicyTable": [],
+    "IPv6Addresses": [],
+    "IPv6DefaultGateway": "0:0:0:0:0:0:0:0",
+    "IPv6StaticAddresses": [],
+    "Id": "usb0",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "00:00:00:00:00:00",
+    "Name": "Manager Ethernet Interface",
+    "NameServers": [],
+    "SpeedMbps": 0,
+    "StaticNameServers": [],
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "VLANs": {
+        "@odata.id": "/redfish/v1/Managers/BMC_0/EthernetInterfaces/usb0/VLANs"
+    }
+}

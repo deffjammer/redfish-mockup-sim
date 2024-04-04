@@ -1,0 +1,51 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/CPU_1/Power",
+    "@odata.type": "#Power.v1_7_1.Power",
+    "Id": "Power",
+    "Name": "Power",
+    "PowerControl": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/CPU_1/Power#/PowerControl/0",
+            "@odata.type": "#Power.v1_7_1.PowerControl",
+            "MemberId": "0",
+            "Name": "Chassis Power Control",
+            "PowerCapacityWatts": 600,
+            "PowerConsumedWatts": 118.779,
+            "PowerLimit": {
+                "LimitException": "NoAction",
+                "LimitInWatts": null
+            }
+        }
+    ],
+    "Redundancy": [],
+    "Voltages": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/CPU_1/Power#/Voltages/0",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdNonCritical": 0.0,
+            "MaxReadingRange": 1028443.341,
+            "MemberId": "0",
+            "MinReadingRange": 1.3,
+            "Name": "ProcessorModule 0 Vreg 1 CpuVoltage 0",
+            "ReadingVolts": 1.087,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdNonCritical": 0.001
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/CPU_1/Power#/Voltages/1",
+            "@odata.type": "#Power.v1_7_1.Voltage",
+            "LowerThresholdNonCritical": 0.0,
+            "MaxReadingRange": 1028443.341,
+            "MemberId": "1",
+            "MinReadingRange": 1.3,
+            "Name": "ProcessorModule 0 Vreg 1 SocVoltage 0",
+            "ReadingVolts": 0.85,
+            "Status": {
+                "State": "Enabled"
+            },
+            "UpperThresholdNonCritical": 0.001
+        }
+    ]
+}

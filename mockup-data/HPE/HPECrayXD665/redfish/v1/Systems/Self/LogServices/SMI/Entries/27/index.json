@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712249927\"",
+    "@odata.id": "/redfish/v1/Systems/Self/LogServices/SMI/Entries/27",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2022-01-01T00:00:30+00:00",
+    "Description": "SMI 542",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2024-03-14T21:44:23+00:00",
+    "Id": "27",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Managers/Self"
+        }
+    },
+    "Message": "Event_Data_1 : 165, Record_Type : system event record, Sensor_Number : 243, Sensor_Name : PCIe_SEL, Event_Dir : Assertion event, Event_Data_2 : 100, Timestamp : 2024-03-14T21:44:23+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2100, Event_Data_3 : 0, Event_Type : PCI SERR, Record_ID : 542, Sensor_Type : Critical Interrupt, ",
+    "MessageId": "0xA56400",
+    "Name": "SMI 542",
+    "SensorNumber": 243,
+    "SensorType": "Critical Interrupt",
+    "Severity": "Critical"
+}

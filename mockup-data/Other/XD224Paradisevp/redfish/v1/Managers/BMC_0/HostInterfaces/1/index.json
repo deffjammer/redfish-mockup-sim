@@ -1,0 +1,58 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HostInterface.HostInterface",
+    "@odata.id": "/redfish/v1/Managers/BMC_0/HostInterfaces/1",
+    "@odata.type": "#HostInterface.v1_3_0.HostInterface",
+    "Id": "1",
+    "Description": "The properties associated with a Host Interface.",
+    "Name": "Host Interface",
+    "InterfaceEnabled": true,
+    "AuthenticationModes": [
+        "AuthNone",
+        "BasicAuth",
+        "RedfishSessionAuth"
+    ],
+    "ExternallyAccessible": false,
+    "HostInterfaceType": "NetworkHostInterface",
+    "CredentialBootstrapping": {
+        "RoleId": "Administrator",
+        "Enabled": false,
+        "EnableAfterReset": false
+    },
+    "Links": {
+        "ComputerSystems@odata.count": 1,
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/system"
+            }
+        ],
+        "CredentialBootstrappingRole": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Administrator"
+        }
+    },
+    "Oem": {
+        "InsydeUpdateTag": {
+            "BIOSFEATUREVER": "2.0",
+            "BMCFEATUREVER": "2.0",
+            "BIOSSetup": "identical",
+            "SMBIOS": "identical",
+            "PCIE": "identical",
+            "SATA": "identical",
+            "PCIECRC": "",
+            "SATACRC": "",
+            "AEP": "",
+            "SecureBootEnable": "",
+            "SecureBootAction": "",
+            "SecureBootDatabasePKAction": "",
+            "SecureBootDatabaseKEKAction": "",
+            "SecureBootDatabaseDBAction": "",
+            "SecureBootDatabaseDBXAction": "",
+            "ResetBiosToDefaultsPending": "false",
+            "BIOSRegistries": "empty",
+            "BOOTOption": "empty",
+            "BOOTOrder": "empty",
+            "NetworkAdapter": "empty",
+            "OSDeployment": "empty",
+            "@odata.type": "#InsydeOEMExtensions.UpdateTag"
+        }
+    }
+}

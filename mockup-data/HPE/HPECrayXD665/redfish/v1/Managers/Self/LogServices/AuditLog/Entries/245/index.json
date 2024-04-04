@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712249927\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/AuditLog/Entries/245",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2011-01-07T01:42:40+00:00",
+    "Description": "ComputerSystem.Reset - ForceOff action was triggered which requires attention",
+    "EntryCode": "Informational",
+    "EntryType": "Event",
+    "EventTimestamp": "2011-01-07T01:42:40+00:00",
+    "Id": "245",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/Self"
+        }
+    },
+    "Message": "ComputerSystem.Reset - ForceOff action was triggered which requires attention",
+    "MessageArgs": [
+        "ComputerSystem.Reset",
+        "ForceOff"
+    ],
+    "MessageId": "Security.1.0.Alert",
+    "Name": "Log entry 245",
+    "Severity": "OK"
+}

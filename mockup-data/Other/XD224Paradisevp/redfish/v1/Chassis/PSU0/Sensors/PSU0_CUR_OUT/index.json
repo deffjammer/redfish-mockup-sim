@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU0/Sensors/PSU0_CUR_OUT",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "PSU0_CUR_OUT",
+    "Name": "PSU0 CUR OUT",
+    "Reading": 10.515,
+    "ReadingRangeMax": 255.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

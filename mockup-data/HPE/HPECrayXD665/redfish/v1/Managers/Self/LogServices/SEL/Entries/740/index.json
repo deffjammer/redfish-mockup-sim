@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712249927\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/740",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2022-01-01T00:00:29+00:00",
+    "Description": "SEL 816",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2024-03-21T19:00:16+00:00",
+    "Id": "740",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/Self"
+        }
+    },
+    "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 241, Sensor_Name : ACPI_State, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2024-03-21T19:00:16+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0 'Working, Record_ID : 816, Sensor_Type : System ACPI PowerState, ",
+    "MessageId": "0x00FFFF",
+    "Name": "SEL 816",
+    "SensorNumber": 241,
+    "SensorType": "System ACPI PowerState",
+    "Severity": "OK"
+}

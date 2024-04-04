@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"D87E2047\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/162",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "162",
+    "Created": "2023-10-09T21:00:59Z",
+    "EntryType": "Oem",
+    "Message": "Server Critical Fault (Service Information: Runtime Fault, System Board,  AUX/Main EFUSE (10h))         \n",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Other"
+            ],
+            "Class": 20,
+            "ClassDescription": "System Error",
+            "Code": 12,
+            "Count": 1,
+            "EventNumber": 572,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0014code0x000c-gen10",
+            "RecommendedAction": "Gather Active Health System logs and create a support case.\n",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2023-10-09T21:00:59Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/NIC_PCIe_12_0V",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "NIC_PCIe_12_0V",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "NIC PCIe 12 0V",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 12.133000000000001,
+    "ReadingRangeMax": 22.522000000000002,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 10.8
+        },
+        "LowerCritical": {
+            "Reading": 10.200000000000001
+        },
+        "UpperCaution": {
+            "Reading": 12.96
+        },
+        "UpperCritical": {
+            "Reading": 13.200000000000001
+        }
+    }
+}

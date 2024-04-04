@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Managers/Self/EthernetInterfaces/usb0",
     "@odata.type": "#EthernetInterface.v1_6_2.EthernetInterface",
     "Description": "Ethernet Interface usb0",
@@ -12,7 +12,7 @@
     ],
     "Id": "usb0",
     "InterfaceEnabled": true,
-    "MACAddress": "2E:4E:E4:27:12:24",
+    "MACAddress": "0A:DE:B5:96:7A:45",
     "Name": "usb0",
     "Status": {
         "Health": "OK",

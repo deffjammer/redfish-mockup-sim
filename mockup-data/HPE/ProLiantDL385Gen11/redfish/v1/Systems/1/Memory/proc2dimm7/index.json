@@ -1,0 +1,61 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+    "@odata.etag": "W/\"49AA924A\"",
+    "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm7",
+    "@odata.type": "#Memory.v1_14_0.Memory",
+    "Id": "proc2dimm7",
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 80,
+    "CacheSizeMiB": 0,
+    "CapacityMiB": 16384,
+    "DataWidthBits": 64,
+    "DeviceLocator": "PROC 2 DIMM 7",
+    "ErrorCorrection": "MultiBitECC",
+    "LogicalSizeMiB": 0,
+    "Manufacturer": "Hynix",
+    "MemoryDeviceType": "DDR5",
+    "MemoryLocation": {
+        "Channel": 4,
+        "MemoryController": 16,
+        "Slot": 7,
+        "Socket": 2
+    },
+    "MemoryMedia": [
+        "DRAM"
+    ],
+    "MemoryType": "DRAM",
+    "Name": "proc2dimm7",
+    "NonVolatileSizeMiB": 0,
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt",
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt",
+            "Attributes": [
+                "HpeSmartMemory"
+            ],
+            "BaseModuleType": "RDIMM",
+            "DIMMManufacturingDate": "",
+            "DIMMStatus": "GoodInUse",
+            "MaxOperatingSpeedMTs": 4800,
+            "MinimumVoltageVoltsX10": 11,
+            "PartNumber": "Unknown",
+            "VendorName": "SK Hynix"
+        }
+    },
+    "OperatingMemoryModes": [
+        "Volatile"
+    ],
+    "OperatingSpeedMhz": 4800,
+    "PartNumber": "HMCG78AEBRA115N",
+    "PersistentRegionSizeLimitMiB": 0,
+    "RankCount": 1,
+    "SecurityCapabilities": {},
+    "SerialNumber": "13F41378",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VendorID": "44416",
+    "VolatileRegionSizeLimitMiB": 16384,
+    "VolatileSizeMiB": 16384
+}

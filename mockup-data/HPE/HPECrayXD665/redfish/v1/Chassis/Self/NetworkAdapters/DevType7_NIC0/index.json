@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
-    "@odata.etag": "\"1697465670\"",
+    "@odata.etag": "\"1712175470\"",
     "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC0",
     "@odata.type": "#NetworkAdapter.v1_5_0.NetworkAdapter",
     "Controllers": [
@@ -9,7 +9,7 @@
                 "NetworkDeviceFunctionCount": 1,
                 "NetworkPortCount": 1
             },
-            "FirmwarePackageVersion": "1.5.41",
+            "FirmwarePackageVersion": "1.5.47",
             "Links": {
                 "NetworkDeviceFunctions": [
                     {

@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"E68A6918\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/103",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "103",
+    "Created": "2023-04-10T19:07:55Z",
+    "EntryType": "Oem",
+    "Message": "Server Critical Fault (Service Information: Power On Fault, Riser Card Assembly,  Riser 3 (01h))           ",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Other"
+            ],
+            "Class": 20,
+            "ClassDescription": "System Error",
+            "Code": 11,
+            "Count": 1,
+            "EventNumber": 513,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0014code0x000b-gen10",
+            "RecommendedAction": "Gather Active Health System logs and create a support case.\n",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2023-04-10T19:07:55Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

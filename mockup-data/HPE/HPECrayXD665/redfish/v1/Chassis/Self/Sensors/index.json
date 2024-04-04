@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#SensorCollection.SensorCollection",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712250081\"",
     "@odata.id": "/redfish/v1/Chassis/Self/Sensors",
     "@odata.type": "#SensorCollection.SensorCollection",
     "Description": "Resource Collection of Sensor instances",
@@ -16,6 +16,33 @@
         },
         {
             "@odata.id": "/redfish/v1/Chassis/Self/Sensors/114"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/127"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/128"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/129"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/130"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/131"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/132"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/133"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/134"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/135"
         },
         {
             "@odata.id": "/redfish/v1/Chassis/Self/Sensors/241"
@@ -93,24 +120,9 @@
             "@odata.id": "/redfish/v1/Chassis/Self/Sensors/93"
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/94"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/95"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/96"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/97"
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/Self/Sensors/98"
-        },
-        {
             "@odata.id": "/redfish/v1/Chassis/Self/Sensors/99"
         }
     ],
-    "Members@odata.count": 35,
+    "Members@odata.count": 39,
     "Name": "Sensor Collection"
 }

@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/59",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-02-26T15:51:09+00:00",
+    "EntryCode": "Deassert",
+    "EntryType": "SEL",
+    "EventId": "59",
+    "EventTimestamp": "2024-02-26T15:51:09+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "59",
+    "Message": "Lower Non-critical - going high - Deasserted",
+    "MessageId": "0x8101FFFF",
+    "Name": "FAN_1_B_STATUS",
+    "SensorNumber": 84,
+    "SensorType": "Fan",
+    "Severity": "OK"
+}

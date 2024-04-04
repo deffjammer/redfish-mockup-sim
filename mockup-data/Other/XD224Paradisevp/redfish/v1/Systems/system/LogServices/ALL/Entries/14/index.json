@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/14",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-02-13T16:47:53+00:00",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventId": "14",
+    "EventTimestamp": "2024-02-13T16:47:53+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "14",
+    "Message": "Event type 6f, offset 6 - Asserted",
+    "MessageId": "0x6F06FFFF",
+    "Name": "ACPI_PWR",
+    "SensorNumber": 92,
+    "SensorType": "System ACPI PowerState",
+    "Severity": "OK"
+}

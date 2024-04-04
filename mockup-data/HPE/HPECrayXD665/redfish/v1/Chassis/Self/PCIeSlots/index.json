@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#PCIeSlots.PCIeSlots",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712250081\"",
     "@odata.id": "/redfish/v1/Chassis/Self/PCIeSlots",
     "@odata.type": "#PCIeSlots.v1_3_0.PCIeSlots",
     "Description": "PcieSlot_0",
@@ -13,13 +13,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_00"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_63_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -41,13 +38,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_01"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_64_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -57,7 +51,6 @@
                 }
             },
             "PCIeType": "Gen5",
-            "SlotType": "FullLength",
             "Status": {
                 "Health": "OK",
                 "State": "Enabled"
@@ -69,13 +62,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_62_02"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_65_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -97,13 +87,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_00"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_03_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -125,13 +112,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_01"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_04_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -141,7 +125,6 @@
                 }
             },
             "PCIeType": "Gen5",
-            "SlotType": "FullLength",
             "Status": {
                 "Health": "OK",
                 "State": "Enabled"
@@ -153,13 +136,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_02_02"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_05_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -181,13 +161,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_00"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E3_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -209,13 +186,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_01"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E4_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -236,13 +210,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E2_02"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_E5_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -264,13 +235,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_00"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_83_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -292,13 +260,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_01"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_84_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -319,13 +284,10 @@
             "Links": {
                 "PCIeDevice": [
                     {
-                        "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_82_02"
-                    },
-                    {
                         "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_85_00"
                     }
                 ],
-                "PCIeDevice@odata.count": 2
+                "PCIeDevice@odata.count": 1
             },
             "Location": {
                 "PartLocation": {
@@ -400,7 +362,6 @@
                 }
             },
             "PCIeType": "Gen5",
-            "SlotType": "M2",
             "Status": {
                 "State": "Absent"
             }

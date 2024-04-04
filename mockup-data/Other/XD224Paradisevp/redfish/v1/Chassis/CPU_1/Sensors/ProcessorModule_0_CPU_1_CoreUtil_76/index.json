@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/CPU_1/Sensors/ProcessorModule_0_CPU_1_CoreUtil_76",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "ProcessorModule_0_CPU_1_CoreUtil_76",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "ProcessorModule 0 CPU 1 CoreUtil 76",
+    "PhysicalContext": "CPU",
+    "Reading": 0.0,
+    "ReadingRangeMax": 10284433.41,
+    "ReadingRangeMin": 100.0,
+    "ReadingType": "Percent",
+    "ReadingUnits": "%",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

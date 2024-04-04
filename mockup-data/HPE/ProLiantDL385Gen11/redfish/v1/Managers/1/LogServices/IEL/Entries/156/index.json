@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"9068461E\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/156",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "156",
+    "Created": "2024-04-04T06:00:02Z",
+    "EntryType": "Oem",
+    "Message": "IPMI/RMCP logout: Administrator - 172.24.0.1(DNS name not found).",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 6",
+            "Code": 1024,
+            "Count": 1984,
+            "EventNumber": 536779,
+            "Severity": "Informational",
+            "Updated": "2024-04-04T06:59:58Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

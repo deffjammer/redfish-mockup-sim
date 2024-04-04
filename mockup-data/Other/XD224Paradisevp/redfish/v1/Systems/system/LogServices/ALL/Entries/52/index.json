@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/52",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-02-24T00:47:05+00:00",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventId": "52",
+    "EventTimestamp": "2024-02-24T00:47:05+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "52",
+    "Message": "Lower Non-critical - going high - Asserted",
+    "MessageId": "0x0101FFFF",
+    "Name": "FAN_1_B_STATUS",
+    "SensorNumber": 84,
+    "SensorType": "Fan",
+    "Severity": "OK"
+}

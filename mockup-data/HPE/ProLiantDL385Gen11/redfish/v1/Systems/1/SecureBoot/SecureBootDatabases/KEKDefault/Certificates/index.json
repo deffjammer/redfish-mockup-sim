@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#CertificateCollection.CertificateCollection",
+    "@odata.etag": "W/\"570254F2\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "Secure Boot Database KEK Default certificate view",
+    "Name": "Secure Boot Database KEK Default certificate view",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates/0"
+        }
+    ],
+    "Members@odata.count": 2
+}

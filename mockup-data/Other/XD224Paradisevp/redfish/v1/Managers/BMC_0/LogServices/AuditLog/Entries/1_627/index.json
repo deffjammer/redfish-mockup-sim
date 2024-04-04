@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_627",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-02-08T19:17:38+00:00",
+    "EntryType": "Oem",
+    "Id": "1_627",
+    "Message": "172.24.0.1][root][IPMI][CMD]BMC network changes on Destination type",
+    "Name": "Log Entry 1_627",
+    "Severity": null
+}

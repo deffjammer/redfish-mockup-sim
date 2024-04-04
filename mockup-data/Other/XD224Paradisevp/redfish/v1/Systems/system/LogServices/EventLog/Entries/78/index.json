@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/78",
+    "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/EventLog/Entries/78/attachment",
+    "Created": "2024-02-05T15:45:04+00:00",
+    "EntryType": "Event",
+    "Id": "78",
+    "Message": "The resource property ERoT_CPU_1 has detected errors of type 'Add external timestamp failed due to rate limit threshold exceeded'.",
+    "MessageArgs": [
+        "ERoT_CPU_1",
+        "Add external timestamp failed due to rate limit threshold exceeded"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "",
+    "Resolved": false,
+    "Severity": "Critical"
+}

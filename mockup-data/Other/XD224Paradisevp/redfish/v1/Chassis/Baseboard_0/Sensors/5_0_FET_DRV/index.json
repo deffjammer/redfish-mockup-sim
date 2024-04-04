@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/5_0_FET_DRV",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "5_0_FET_DRV",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "5 0 FET DRV",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 4.977,
+    "ReadingRangeMax": 6.3580000000000005,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 4.75
+        },
+        "LowerCritical": {
+            "Reading": 4.5
+        },
+        "UpperCaution": {
+            "Reading": 5.25
+        },
+        "UpperCritical": {
+            "Reading": 5.5
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/QSFP_Internal_Temperature",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "QSFP_Internal_Temperature",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "QSFP Internal Temperature",
+    "PhysicalContext": "SystemBoard",
+    "Reading": null,
+    "ReadingRangeMax": 125.0,
+    "ReadingRangeMin": -40.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 0.0
+        },
+        "LowerCritical": {
+            "Reading": null
+        },
+        "UpperCaution": {
+            "Reading": 60.0
+        },
+        "UpperCritical": {
+            "Reading": 70.0
+        }
+    }
+}

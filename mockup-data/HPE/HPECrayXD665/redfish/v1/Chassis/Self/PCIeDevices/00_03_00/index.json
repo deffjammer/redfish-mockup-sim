@@ -1,10 +1,10 @@
 {
     "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
-    "@odata.etag": "\"1697465670\"",
+    "@odata.etag": "\"1712175471\"",
     "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices/00_03_00",
     "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
     "DeviceType": "SingleFunction",
-    "FirmwareVersion": "1.5.41",
+    "FirmwareVersion": "1.5.47",
     "Id": "00_03_00",
     "Manufacturer": "Cray Inc",
     "Name": "00_03_00",

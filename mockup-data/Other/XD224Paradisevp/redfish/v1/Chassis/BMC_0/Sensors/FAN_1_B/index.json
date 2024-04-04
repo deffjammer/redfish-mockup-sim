@@ -1,0 +1,27 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_1_B",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "FAN_1_B",
+    "Name": "FAN 1 B",
+    "Reading": 32768.0,
+    "ReadingRangeMax": 32000.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Rotational",
+    "ReadingUnits": "RPM",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCritical": {
+            "Reading": 3200.0
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/DebugTokenService",
+    "@odata.type": "#LogService.v1_3_0.LogService",
+    "Actions": {
+        "#LogService.CollectDiagnosticData": {
+            "target": "/redfish/v1/Systems/system/LogServices/DebugTokenService/CollectDiagnosticData"
+        }
+    },
+    "DateTime": "2024-04-04T15:29:01+00:00",
+    "DateTimeLocalOffset": "+00:00",
+    "Description": "Debug token service",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Systems/system/LogServices/DebugTokenService/Entries"
+    },
+    "Id": "DebugTokenService",
+    "Name": "Debug token service"
+}

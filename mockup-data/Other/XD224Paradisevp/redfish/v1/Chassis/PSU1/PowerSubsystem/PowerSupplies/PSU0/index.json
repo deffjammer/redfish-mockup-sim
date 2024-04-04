@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/PSU1/PowerSubsystem/PowerSupplies/PSU0",
+    "@odata.type": "#PowerSupply.v1_4_0.PowerSupply",
+    "EfficiencyRatings": [
+        {
+            "EfficiencyPercent": 90
+        }
+    ],
+    "Id": "PSU0",
+    "Manufacturer": "DELTA",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/PSU1/PowerSubsystem/PowerSupplies/PSU0/Metrics"
+    },
+    "Model": "ECD56020022-N",
+    "Name": "PSU0",
+    "PartNumber": "          ",
+    "SerialNumber": "THAKN23070083",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

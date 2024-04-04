@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1FBAE773\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/62",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "62",
+    "Created": "2023-03-31T22:02:00Z",
+    "EntryType": "Oem",
+    "Message": "Slot 3 Storage - Controller write cache status changed to Degraded (Error Code: Missing Energy Pack)",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 6452,
+            "Count": 1,
+            "EventNumber": 472,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x1934-gen10",
+            "RecommendedAction": "1. Install energy pack\n2. Reseat energy pack cable\n3. Match energy pack to loads",
+            "Repaired": false,
+            "Severity": "Caution",
+            "Updated": "2023-03-31T22:02:00Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Warning"
+}

@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/314",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-03-14T18:48:04+00:00",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventId": "314",
+    "EventTimestamp": "2024-03-14T18:48:04+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "314",
+    "Message": "Event type 6f, offset 2 - Asserted",
+    "MessageId": "0x6F02FFFF",
+    "Name": "BMC_BOOT_UP",
+    "SensorNumber": 95,
+    "SensorType": "SystemBoot/Restart",
+    "Severity": "OK"
+}

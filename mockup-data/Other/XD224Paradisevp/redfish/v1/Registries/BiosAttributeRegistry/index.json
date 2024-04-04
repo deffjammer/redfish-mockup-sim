@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Registries/BiosAttributeRegistry",
+    "@odata.type": "#MessageRegistryFile.v1_1_3.MessageRegistryFile",
+    "Description": "Insyde BIOS Attribute Description",
+    "Id": "BiosAttributeRegistry",
+    "Languages": [],
+    "Location": [],
+    "Name": "BIOS Message Registry File",
+    "Registry": "BIOS Registry"
+}

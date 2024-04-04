@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"6934815C\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/134",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "134",
+    "Created": "2023-05-04T02:16:19Z",
+    "EntryType": "Oem",
+    "Message": "Unrecoverable I/O Error has occurred. System Firmware will log additional details in a separate IML message entry if possible.",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 20,
+            "ClassDescription": "System Error",
+            "Code": 5,
+            "Count": 2,
+            "EventNumber": 544,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0014code0x0005-gen10",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2023-05-04T02:16:25Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

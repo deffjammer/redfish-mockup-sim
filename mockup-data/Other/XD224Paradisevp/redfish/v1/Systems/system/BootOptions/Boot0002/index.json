@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.id": "/redfish/v1/Systems/system/BootOptions/Boot0002",
+    "@odata.type": "#BootOption.v1_0_4.BootOption",
+    "Alias": "None",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0002",
+    "Description": "None",
+    "DisplayName": "EFI HTTP[IPv4](04-D9-C8-5D-54-FC) ",
+    "Id": "Boot0002",
+    "Name": "Boot Option",
+    "UefiDevicePath": "EFI HTTP[IPv4](04-D9-C8-5D-54-FC) "
+}

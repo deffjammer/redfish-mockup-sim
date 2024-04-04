@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StoragePool.StoragePool",
+    "@odata.id": "/redfish/v1/StorageServices/1/StoragePools/SATAPool3",
+    "@odata.type": "#StoragePool.v1_3_1.StoragePool",
+    "Id": "SATAPool3",
+    "Name": "SATAPool3",
+    "Description": "A container of data storage.",
+    "Capacity": {
+        "Data": {
+            "AllocatedBytes": 0
+        }
+    },
+    "Links": {
+        "DedicatedSpareDrives": [
+            {
+                "@odata.id": "/redfish/v1/StorageServices/1/Drives/Sata3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/Baseboard_0/Sensors/3_3V_QSFP_Current",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "3_3V_QSFP_Current",
+    "MaxAllowableOperatingValue": -1,
+    "MinAllowableOperatingValue": 1,
+    "Name": "3 3V QSFP Current",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 0.0,
+    "ReadingRangeMax": 10.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 0.0
+        },
+        "LowerCritical": {
+            "Reading": null
+        },
+        "UpperCaution": {
+            "Reading": 3.0
+        },
+        "UpperCritical": {
+            "Reading": 3.15
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_3.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_0/Settings"
+        }
+    },
+    "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_0",
+    "@odata.type": "#Processor.v1_14_0.Processor",
+    "EnvironmentMetrics": {
+        "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_0/EnvironmentMetrics"
+    },
+    "Id": "CPU_0",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/ProcessorModule_0"
+        }
+    },
+    "Location": {
+        "PartLocation": {
+            "ServiceLabel": "G1:0.0"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "MaxSpeedMHz": 0,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_0/ProcessorMetrics"
+    },
+    "Name": "Processor",
+    "PartNumber": "900-2G535-0000-000",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Systems/system/Processors/CPU_0/Ports"
+    },
+    "ProcessorId": {
+        "EffectiveFamily": "Unknown Processor Family",
+        "EffectiveModel": "0",
+        "IdentificationRegisters": "0x2036b0241",
+        "MicrocodeInfo": "0",
+        "Step": "0"
+    },
+    "ProcessorType": "CPU",
+    "SerialNumber": "0x00000001780991C51C0000000FFF0100",
+    "Socket": "G1:0.0",
+    "SparePartNumber": "",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "TotalCores": 72,
+    "TotalThreads": 72,
+    "Version": "Grace A02"
+}

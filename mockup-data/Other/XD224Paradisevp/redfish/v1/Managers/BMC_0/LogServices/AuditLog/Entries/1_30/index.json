@@ -1,0 +1,10 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_30",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2024-01-26T18:48:55+00:00",
+    "EntryType": "Oem",
+    "Id": "1_30",
+    "Message": "system][INBAND][IPMI][CMD]Set username -- User ID: 2",
+    "Name": "Log Entry 1_30",
+    "Severity": null
+}

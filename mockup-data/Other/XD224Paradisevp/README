@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.2.0
+Created: 2024-04-04 10:12:55
+Service: https://paradisevp2001-bmc:443
+User: root
+Description: XD224-Paradisevp1
+Total response time: 2082.309719324112
+Average response time: 0.38568433401076346
+Minimum response time: 0.00787353515625, /redfish/v1/JsonSchemas/Privileges
+Maximum response time: 23.553398847579956, /redfish/v1/Managers/BMC_0/LogServices/AuditLog/Entries/1_97

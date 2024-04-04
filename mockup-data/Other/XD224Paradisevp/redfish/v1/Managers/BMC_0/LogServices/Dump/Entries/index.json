@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/Dump/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of BMC Dump Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC_0/LogServices/Dump/Entries/28",
+            "@odata.type": "#LogEntry.v1_15_1.LogEntry",
+            "AdditionalDataSizeBytes": 923240,
+            "AdditionalDataURI": "/redfish/v1/Managers/BMC_0/LogServices/Dump/Entries/28/attachment",
+            "Created": "1970-05-01T01:11:32+00:00",
+            "DiagnosticDataType": "Manager",
+            "EntryType": "Event",
+            "Id": "28",
+            "Message": null,
+            "Name": "BMC Dump Entry",
+            "Severity": null
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "BMC Dump Entries"
+}

@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/239",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Id": "239",
+    "FirmwareVersion": "214.0.194.0",
+    "Manufacturer": "",
+    "Model": "P26264-001",
+    "Name": "Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Adapter",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/239/PCIeFunctions"
+    },
+    "PartNumber": "P26264-001",
+    "SKU": "",
+    "SerialNumber": "VNE14508LP",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

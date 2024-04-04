@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/PostCodes/Entries/B26-6",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "AdditionalDataURI": "/redfish/v1/Systems/system/LogServices/PostCodes/Entries/B26-6/attachment",
+    "Created": "2024-01-26T22:02:52+00:00",
+    "EntryType": "Event",
+    "Id": "B26-6",
+    "Message": "Boot Count: 26; Time Stamp Offset: 0.3319 seconds; POST Code: 0x01000000000001c140",
+    "MessageArgs": [
+        "26",
+        "0.3319",
+        "0x01000000000001c140"
+    ],
+    "MessageId": "OpenBMC.0.2.BIOSPOSTCode",
+    "Name": "POST Code Log Entry",
+    "Severity": "OK"
+}

@@ -1,0 +1,36 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"978D7700\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/10",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "10",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/8"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "214.0.194.0"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/8"
+        }
+    },
+    "Location": "PCI-E Slot 8",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "",
+    "Name": "Broadcom P225p NetXtreme-E Dual-port 10Gb/25Gb Ethernet PCIe Adapter",
+    "PartNumber": "",
+    "ProductPartNumber": "P26264-001",
+    "ProductVersion": "",
+    "SerialNumber": "VNE14508LP",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

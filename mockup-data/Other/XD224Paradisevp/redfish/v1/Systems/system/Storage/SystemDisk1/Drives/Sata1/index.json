@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.id": "/redfish/v1/Systems/system/Storage/SystemDisk1/Drives/Sata1",
+    "@odata.type": "#Drive.v1_13_0.Drive",
+    "Id": "Sata1",
+    "Name": "Drive Sata1",
+    "Description": "The Drive schema represents a single physical drive for a system.",
+    "Protocol": "SATA",
+    "MediaType": "NVME",
+    "Model": "SAMSUNG MZ1L21T9HCLS-00A07",
+    "CapacityBytes": 1920383410176,
+    "SerialNumber": "S666NG0TA05245",
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": 0,
+            "LocationType": "Socket"
+        }
+    },
+    "RotationSpeedRPM": null,
+    "Revision": "GDC7402Q",
+    "Oem": {
+        "InsydeDrives": {
+            "@odata.type": "#InsydeOEMExtensions.Drive",
+            "Controller": ""
+        }
+    }
+}

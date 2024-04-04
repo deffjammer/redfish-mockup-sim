@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/system/LogServices/ALL/Entries/299",
+    "@odata.type": "#LogEntry.v1_8_0.LogEntry",
+    "Created": "2024-03-14T18:44:26+00:00",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventId": "299",
+    "EventTimestamp": "2024-03-14T18:44:26+00:00",
+    "GeneratorId": "0x0020",
+    "Id": "299",
+    "Message": "PEF Action Alert - Asserted",
+    "MessageId": "0x6FC401FF",
+    "Name": "System_Event",
+    "SensorNumber": 254,
+    "SensorType": "System Event",
+    "Severity": "OK"
+}

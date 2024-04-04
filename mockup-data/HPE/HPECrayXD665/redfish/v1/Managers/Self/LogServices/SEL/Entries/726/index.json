@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712249927\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/726",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2022-01-01T00:00:29+00:00",
+    "Description": "SEL 802",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "1970-01-01T00:00:15+00:00",
+    "Id": "726",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "Event_Data_1 : 37, Record_Type : system event record, Sensor_Number : 251, Sensor_Name : PFR_Event, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 1970-01-01T00:00:15+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : PFR Event. Authenticate Backup BMC (Image#1) Passed, Record_ID : 802, Sensor_Type : OEM, ",
+    "MessageId": "0x25FFFF",
+    "Name": "SEL 802",
+    "SensorNumber": 251,
+    "SensorType": "OEM",
+    "Severity": "OK"
+}

@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#PCIeDeviceCollection.PCIeDeviceCollection",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712250081\"",
     "@odata.id": "/redfish/v1/Chassis/Self/PCIeDevices",
     "@odata.type": "#PCIeDeviceCollection.PCIeDeviceCollection",
     "Description": "The Collection of PCIeDevices",

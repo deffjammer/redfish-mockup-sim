@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1712250081\"",
+    "@odata.id": "/redfish/v1/Chassis/Self/Sensors/129",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "129",
+    "Name": "NVME2_State",
+    "Reading": 0,
+    "Status": {
+        "State": "Disabled"
+    }
+}

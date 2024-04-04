@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ServiceRoot.ServiceRoot",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1",
     "@odata.type": "#ServiceRoot.v1_7_0.ServiceRoot",
     "AccountService": {
@@ -79,7 +79,7 @@
     "TelemetryService": {
         "@odata.id": "/redfish/v1/TelemetryService"
     },
-    "UUID": "66d96906-bfde-11d3-01b0-0174b4f17ab4",
+    "UUID": "6732f412-bfde-11d3-01b0-7564b4f17ab4",
     "UpdateService": {
         "@odata.id": "/redfish/v1/UpdateService"
     },

@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOptionCollection.BootOptionCollection",
+    "@odata.id": "/redfish/v1/Systems/system/BootOptions",
+    "@odata.type": "#BootOptionCollection.BootOptionCollection",
+    "Description": "Boot Option Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system/BootOptions/Boot0001"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/BootOptions/Boot0002"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/BootOptions/Boot0005"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/system/BootOptions/Boot0000"
+        }
+    ],
+    "Members@odata.count": 4,
+    "Name": "Boot Option Collection"
+}

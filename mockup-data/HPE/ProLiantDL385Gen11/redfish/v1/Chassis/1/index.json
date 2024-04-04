@@ -1,0 +1,107 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "W/\"B49AB879\"",
+    "@odata.id": "/redfish/v1/Chassis/1",
+    "@odata.type": "#Chassis.v1_10_2.Chassis",
+    "Id": "1",
+    "AssetTag": "",
+    "ChassisType": "RackMount",
+    "EnvironmentalClass": "A2",
+    "IndicatorLED": "Off",
+    "Links": {
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1"
+            }
+        ],
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/1"
+            }
+        ]
+    },
+    "Manufacturer": "HPE",
+    "Model": "ProLiant DL385 Gen11",
+    "Name": "Computer System Chassis",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+    },
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
+            "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
+            "Actions": {
+                "#HpeServerChassis.DisableMCTPOnServer": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.DisableMCTPOnServer"
+                },
+                "#HpeServerChassis.FactoryResetMCTP": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.FactoryResetMCTP"
+                }
+            },
+            "ElConfigOverride": false,
+            "Firmware": {
+                "PlatformDefinitionTable": {
+                    "Current": {
+                        "VersionString": "3.1.0 Build 27"
+                    }
+                },
+                "PowerManagementController": {
+                    "Current": {
+                        "VersionString": "1.0.0"
+                    }
+                },
+                "PowerManagementControllerBootloader": {
+                    "Current": {
+                        "Family": "25",
+                        "VersionString": "1.1"
+                    }
+                },
+                "SystemProgrammableLogicDevice": {
+                    "Current": {
+                        "VersionString": "0x05 (bootleg 0x40)"
+                    }
+                }
+            },
+            "Links": {
+                "Devices": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Devices"
+                }
+            },
+            "MCTPEnabledOnServer": true,
+            "SystemMaintenanceSwitches": {
+                "Sw1": "Off",
+                "Sw10": "Off",
+                "Sw11": "Off",
+                "Sw12": "Off",
+                "Sw2": "Off",
+                "Sw3": "Off",
+                "Sw4": "Off",
+                "Sw5": "Off",
+                "Sw6": "Off",
+                "Sw7": "Off",
+                "Sw8": "Off",
+                "Sw9": "Off"
+            },
+            "TelcoModeEnabled": null
+        }
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    "PowerState": "Off",
+    "SKU": "G11",
+    "SerialNumber": "DL3x5GEN11",
+    "Status": {
+        "Health": "Critical",
+        "State": "Disabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+    }
+}

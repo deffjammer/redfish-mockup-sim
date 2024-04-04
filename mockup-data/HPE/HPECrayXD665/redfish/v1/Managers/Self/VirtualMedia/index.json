@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#VirtualMediaCollection.VirtualMediaCollection",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Managers/Self/VirtualMedia",
     "@odata.type": "#VirtualMediaCollection.VirtualMediaCollection",
     "Description": "Collection of Virtual Media redirected to host via this Manager",

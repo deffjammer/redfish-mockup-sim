@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ActionInfo.ActionInfo",
-    "@odata.etag": "\"1698351702\"",
+    "@odata.etag": "\"1712249927\"",
     "@odata.id": "/redfish/v1/Managers/Self/NetworkProtocol/HTTPS/Certificates/1/Certificate.RenewActionInfo",
     "@odata.type": "#ActionInfo.v1_1_2.ActionInfo",
     "Description": "This action generates a certificate signing request by using the existing information and key-pair of the certificate.",

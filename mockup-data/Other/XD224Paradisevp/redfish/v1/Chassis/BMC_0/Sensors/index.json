@@ -1,0 +1,69 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Collection of Sensors for this Chassis",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_DUTY_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_DUTY_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_DUTY_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_1_A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_1_B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_2_A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_2_B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_3_A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/FAN_3_B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/DISK1_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/DISK2_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/M2_0_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/M2_1_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/PDB_PWR_BK_TEMP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_FIO"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_MB"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/TEMP_AMB_MB01"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/VRM_TEMP_PDBBTM"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/VRM_TEMP_PDBTOP"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/X550_TEMP"
+        }
+    ],
+    "Members@odata.count": 20,
+    "Name": "Sensors"
+}

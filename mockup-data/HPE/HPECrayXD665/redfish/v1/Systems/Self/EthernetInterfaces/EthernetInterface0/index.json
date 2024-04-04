@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
-    "@odata.etag": "\"1697465673\"",
+    "@odata.etag": "\"1712175473\"",
     "@odata.id": "/redfish/v1/Systems/Self/EthernetInterfaces/EthernetInterface0",
     "@odata.type": "#EthernetInterface.v1_6_2.EthernetInterface",
     "DHCPv4": {
@@ -16,8 +16,8 @@
     ],
     "IPv6Addresses": [
         {
-            "Address": "FE80::B67A:F1FF:FEB4:7400",
-            "AddressOrigin": "DHCPv6",
+            "Address": "FE80::B67A:F1FF:FEB4:6474",
+            "AddressOrigin": "Static",
             "PrefixLength": 64
         }
     ],
@@ -33,10 +33,10 @@
             "@odata.id": "/redfish/v1/Chassis/Self/NetworkAdapters/DevType7_NIC2/NetworkDeviceFunctions/NetworkDeviceFunction2"
         }
     },
-    "MACAddress": "B4:7A:F1:B4:74:00",
+    "MACAddress": "B4:7A:F1:B4:64:74",
     "MTUSize": 1500,
     "Name": "EthernetInterface0",
-    "PermanentMACAddress": "B4:7A:F1:B4:74:00",
+    "PermanentMACAddress": "B4:7A:F1:B4:64:74",
     "Status": {
         "Health": "OK",
         "State": "Enabled"

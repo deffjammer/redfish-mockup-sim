@@ -4,8 +4,7 @@
     "@odata.id": "/redfish/v1/AccountService/Accounts/4",
     "@odata.type": "#ManagerAccount.v1_5_0.ManagerAccount",
     "AccountTypes": [
-        "Redfish",
-        "SNMP"
+        "Redfish"
     ],
     "Certificates": {
         "@odata.id": "/redfish/v1/AccountService/Accounts/4/Certificates"
@@ -20,21 +19,8 @@
     },
     "Locked": false,
     "Name": "admin",
-    "Oem": {
-        "Ami": {
-            "SNMP": {
-                "Access": "ReadWrite",
-                "AuthenticationProtocol": "SHA256",
-                "EncryptionProtocol": "DES"
-            }
-        }
-    },
     "Password": null,
     "PasswordChangeRequired": false,
     "RoleId": "Administrator",
-    "SNMP": {
-        "AuthenticationKeySet": false,
-        "EncryptionKeySet": false
-    },
     "UserName": "admin"
 }

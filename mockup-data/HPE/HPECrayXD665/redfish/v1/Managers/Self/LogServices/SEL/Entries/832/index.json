@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1712249927\"",
+    "@odata.id": "/redfish/v1/Managers/Self/LogServices/SEL/Entries/832",
+    "@odata.type": "#LogEntry.v1_4_3.LogEntry",
+    "Created": "2011-01-06T20:06:49+00:00",
+    "Description": "SEL 949",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2011-01-06T20:06:49+00:00",
+    "Id": "832",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 242, Sensor_Name : Power_Action, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2011-01-06T20:06:49+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Chassis Power On by Redfish, Record_ID : 949, Sensor_Type : OEM, ",
+    "MessageId": "0x00FFFF",
+    "Name": "SEL 949",
+    "SensorNumber": 242,
+    "SensorType": "OEM",
+    "Severity": "OK"
+}

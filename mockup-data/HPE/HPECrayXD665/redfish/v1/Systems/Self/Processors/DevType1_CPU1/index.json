@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
-    "@odata.etag": "\"1698351709\"",
+    "@odata.etag": "\"1712250081\"",
     "@odata.id": "/redfish/v1/Systems/Self/Processors/DevType1_CPU1",
     "@odata.type": "#Processor.v1_10_0.Processor",
     "AccelerationFunctions": {
@@ -179,13 +179,13 @@
             "MemoryType": "L2Cache"
         },
         {
-            "CapacityMiB": 512,
+            "CapacityMiB": 256,
             "IntegratedMemory": true,
             "MemoryType": "L3Cache"
         }
     ],
     "ProcessorType": "CPU",
-    "SerialNumber": "9LR3498U20070",
+    "SerialNumber": "9LR3498U20084",
     "Socket": "CPU2",
     "Status": {
         "Health": "OK",

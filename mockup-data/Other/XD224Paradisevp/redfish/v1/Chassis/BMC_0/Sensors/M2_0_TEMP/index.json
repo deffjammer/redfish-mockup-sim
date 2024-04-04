@@ -1,0 +1,30 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/BMC_0/Sensors/M2_0_TEMP",
+    "@odata.type": "#Sensor.v1_5_0.Sensor",
+    "Id": "M2_0_TEMP",
+    "Name": "M2 0 TEMP",
+    "Reading": 32.0,
+    "ReadingRangeMax": 127.0,
+    "ReadingRangeMin": 0.0,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/system"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 77.0
+        },
+        "UpperCritical": {
+            "Reading": 84.0
+        }
+    }
+}
