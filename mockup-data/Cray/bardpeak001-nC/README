@@ -1,9 +1,0 @@
-Redfish service captured by the Redfish Mockup Creator, Version 1.1.1
-Created: 2022-03-08 12:46:11
-Service: https://x9000c1s0b0
-User: root
-Description: 
-Total response time: 65.07403492927551
-Average response time: 0.1442883257855333
-Minimum response time: 0.0016322135925292969, /redfish
-Maximum response time: 15.134291887283325, /redfish/v1/TaskService
