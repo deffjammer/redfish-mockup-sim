@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1712242846\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisMemorySubsystem0OutputEnergy",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisMemorySubsystem0OutputEnergy",
+    "Name": "Aggregate Memory",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Chassis"
+    },
+    "PhysicalContext": "MemorySubsystem",
+    "PhysicalSubContext": "Output",
+    "ReadingType": "EnergyJoules",
+    "ReadingUnits": "J"
+}

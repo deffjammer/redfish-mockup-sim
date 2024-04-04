@@ -1,0 +1,42 @@
+{
+    "@odata.etag": "W/\"1712242846\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPUSubsystemVoltageRegulator4OutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPUSubsystemVoltageRegulator4OutputVoltage",
+    "Name": "CPUS VDD_5V0_S5",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "CPUSubsystem",
+        "ReferenceDesignator": "U6011"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 4.56
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 4.32
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 4.08
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 5.46
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 5.72
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 6.24
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@odata.etag": "W/\"1712242846\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU0VoltageRegulator3InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator3InputVoltage",
+    "Name": "CPU0 FIVRA S0",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U1010"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 10.8
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 10.2
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 10
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 12.6
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 12.84
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 15.16
+        }
+    }
+}

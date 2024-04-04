@@ -1,0 +1,16 @@
+{
+    "GET": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "X-Auth-Token",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Expose-Headers": "X-Auth-Token",
+        "Allow": "GET, PATCH",
+        "Cache-Control": "no-cache, must-revalidate",
+        "Content-Length": "248",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Tue, 19 Jan 2038 03:14:07 GMT",
+        "Link": "</redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates>; path=/Members",
+        "Odata-Version": "4.0",
+        "Server": "Cray Embedded Software Redfish Service"
+    }
+}

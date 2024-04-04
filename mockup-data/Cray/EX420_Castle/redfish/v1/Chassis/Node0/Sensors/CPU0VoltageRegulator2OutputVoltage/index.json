@@ -1,0 +1,43 @@
+{
+    "@odata.etag": "W/\"1712242846\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU0VoltageRegulator2OutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator2OutputVoltage",
+    "Name": "CPU0 VCCIN",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U1001"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 1.52
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 1.44
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 1.36
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 1.9215
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 2.013
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 2.196
+        }
+    }
+}

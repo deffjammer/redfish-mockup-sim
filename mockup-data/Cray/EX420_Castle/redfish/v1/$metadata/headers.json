@@ -1,0 +1,13 @@
+{
+    "GET": {
+        "Access-Control-Allow-Origin": "*",
+        "Allow": "GET",
+        "Cache-Control": "private",
+        "Content-Length": "0",
+        "Content-Type": "application/xml",
+        "Date": "Tue, 19 Jan 2038 03:14:07 GMT",
+        "Link": "/redfish/v1/$metadata",
+        "Odata-Version": "4.0",
+        "Server": "Cray Embedded Software Redfish Service"
+    }
+}

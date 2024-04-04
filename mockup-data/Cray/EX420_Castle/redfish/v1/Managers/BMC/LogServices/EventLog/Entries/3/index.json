@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"1712242870\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/3",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2024-03-29T19:29:33+00:00",
+    "EntryType": "Event",
+    "Id": "3",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisVoltageRegulator1InputVoltage"
+        }
+    },
+    "Message": "Sensor 'SIVOC CTLR Voltage' reading of 655.4 (V) is above the 410 upper critical threshold.",
+    "MessageArgs": [
+        "SIVOC CTLR Voltage",
+        "655.4",
+        "V",
+        "410"
+    ],
+    "MessageId": "SensorEvent.ReadingAboveUpperCriticalThreshold",
+    "Name": "Log entry 3",
+    "Severity": "Critical"
+}

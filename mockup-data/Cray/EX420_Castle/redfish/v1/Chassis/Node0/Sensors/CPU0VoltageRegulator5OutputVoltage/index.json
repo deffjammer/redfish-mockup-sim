@@ -1,0 +1,43 @@
+{
+    "@odata.etag": "W/\"1712242846\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU0VoltageRegulator5OutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator5OutputVoltage",
+    "Name": "CPU0 VCCINFAON S0",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U1016"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 0.8835
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 0.837
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.7905
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 1.134
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 1.188
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 1.296
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "@odata.etag": "W/\"1712242870\"",
+    "@odata.id": "/redfish/v1/Systems/Node1/BootOptions/1",
+    "@odata.type": "#BootOption.v1_0_0.BootOption",
+    "Alias": "None",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0002",
+    "DisplayName": "UEFI: Built-in EFI Shell",
+    "Id": "1",
+    "Name": "Boot0002",
+    "UefiDevicePath": "VenMedia(5023B95C-DB26-429B-A648-BD47664C8012)"
+}

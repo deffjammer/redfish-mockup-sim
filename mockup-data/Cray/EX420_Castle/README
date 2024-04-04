@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.2.0
+Created: 2024-04-04 15:00:40
+Service: https://x1000c7s3b1:443
+User: root
+Description: HPE Cray EX420 Caslte
+Total response time: 100.05018448829651
+Average response time: 0.1692896522644611
+Minimum response time: 0.004577159881591797, /redfish
+Maximum response time: 15.138983011245728, /redfish/v1/TaskService

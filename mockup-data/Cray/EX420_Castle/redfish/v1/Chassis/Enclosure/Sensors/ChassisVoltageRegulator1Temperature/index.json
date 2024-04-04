@@ -1,0 +1,27 @@
+{
+    "@odata.etag": "W/\"1711740522\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisVoltageRegulator1Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator1Temperature",
+    "Name": "SIVOC CTLR",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "P7"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 22,
+    "ReadingTime": "2024-04-04T15:00:43.318591723Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 90
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 99
+        }
+    }
+}
