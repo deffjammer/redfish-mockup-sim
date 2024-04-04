@@ -1,0 +1,29 @@
+{
+    "@odata.etag": "W/\"1706113064\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Node0.BIOS",
+    "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
+    "Description": "Node0.BIOS",
+    "Id": "Node0.BIOS",
+    "Name": "Node0.BIOS",
+    "SoftwareId": "bios.ex254n.*",
+    "Status": {
+        "Conditions": [
+            {
+                "LogEntry": {
+                    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/31"
+                },
+                "Message": "Failed to write image to rc=255 for cpu1.",
+                "MessageArgs": [
+                    "rc=255 for cpu0"
+                ],
+                "MessageId": "HPEFirmwareUpdate.1.0.FailedWritingImageToDevice",
+                "Severity": "Warning",
+                "Timestamp": "2024-02-05T19:21:11+00:00"
+            }
+        ],
+        "Health": "Warning",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "ex254n.bios-1.1.5"
+}

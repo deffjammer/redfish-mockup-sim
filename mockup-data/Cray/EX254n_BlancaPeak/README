@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.2.0
+Created: 2024-04-04 09:11:39
+Service: https://x9000c1s6b1:443
+User: root
+Description: HPE Cray EX254n
+Total response time: 135.73086500167847
+Average response time: 0.19171026130180574
+Minimum response time: 0.0033702850341796875, /redfish
+Maximum response time: 5.725906848907471, /redfish/v1/Managers/BMC/LogServices/EventLog/Entries

@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/555",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2024-03-13T15:22:25+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2024-03-13T15:22:25+00:00",
+    "Id": "555",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator1InputVoltage"
+        }
+    },
+    "Message": "The resource property CG1 Module 0 ECB Voltage has cleared the warning threshold of value 42.",
+    "MessageArgs": [
+        "CG1 Module 0 ECB Voltage",
+        "42"
+    ],
+    "MessageId": "ResourceEvent.ResourceWarningThresholdCleared",
+    "Name": "Log entry 555",
+    "Severity": "OK"
+}

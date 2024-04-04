@@ -1,0 +1,20 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/LogServices/DiagnosticLog/Entries/16",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2024-03-14T17:29:41+00:00",
+    "DiagnosticData": "AQAoAUNQRVIBAf////8BAAIAAAAAAAAAKAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAyAAAAGAAAAAAAAEAAAAAAPJEUm0SJ+wRvqfLP9uVx4ZKM0/MY8Xr\nEY+In3rHbG8MAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARFJBTS1DSEFOTkVMUwAAABgHAAADAAQA\nAAAAAAAAAAAEvgIEAAAAAP///z8AAAAABL4CBAAQAAD///8/AAAAAAS+AgQAIAAA+///fwAAAAAE\nvgIEADAAAP///z8AAAAA\n",
+    "DiagnosticDataType": "CPER",
+    "EntryType": "Event",
+    "EventTimestamp": "2024-03-14T17:29:41+00:00",
+    "Id": "16",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/Node0"
+        }
+    },
+    "Message": "A fatal error was detected and a crashdump (CPER) file was created. For more details please see associated 'DiagnosticData'.",
+    "MessageId": "HPENodeAlarms.SystemErrorWithDumpFileDetected",
+    "Name": "Log entry 16",
+    "Severity": "Critical"
+}

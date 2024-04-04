@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Board3Power",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Board3Power",
+    "Name": "CG1_3",
+    "Oem": {
+        "Index": 3
+    },
+    "PhysicalContext": "Board",
+    "Reading": 0,
+    "ReadingTime": "2024-04-04T14:12:01.713105084Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

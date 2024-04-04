@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/463",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2024-02-14T19:10:38+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2024-02-14T19:10:38+00:00",
+    "Id": "463",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/Node0"
+        }
+    },
+    "Message": "PCIe device GPU 4 is missing or failed to train.",
+    "MessageArgs": [
+        "GPU 4"
+    ],
+    "MessageId": "CrayUefi.NonFatalUefiMissingPcieDeviceError",
+    "Name": "Log entry 463",
+    "Severity": "Critical"
+}

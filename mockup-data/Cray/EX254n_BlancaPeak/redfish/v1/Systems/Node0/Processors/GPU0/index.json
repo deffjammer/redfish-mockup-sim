@@ -1,0 +1,15 @@
+{
+    "@odata.etag": "W/\"1711545588\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Processors/GPU0",
+    "@odata.type": "#Processor.v1_7_0.Processor",
+    "Id": "GPU0",
+    "Manufacturer": "NVIDIA",
+    "Model": "TBD",
+    "Name": "GPU 0",
+    "PartNumber": "237E-ES",
+    "ProcessorType": "GPU",
+    "SerialNumber": "1640723000094",
+    "Status": {
+        "Health": "OK"
+    }
+}

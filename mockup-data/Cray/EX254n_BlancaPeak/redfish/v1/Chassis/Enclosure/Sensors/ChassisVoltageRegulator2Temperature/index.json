@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1711545588\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisVoltageRegulator2Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator2Temperature",
+    "Name": "3V3_STBY_HSS",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U254"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 48,
+    "ReadingTime": "2024-04-04T14:11:48.209280117Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

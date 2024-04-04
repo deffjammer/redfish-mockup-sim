@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/GPUMemory3Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "GPUMemory3Temperature",
+    "Name": "gpumemory3",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "GPU"
+    },
+    "PhysicalContext": "Memory",
+    "Reading": 32,
+    "ReadingTime": "2024-04-04T14:12:17.408440896Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

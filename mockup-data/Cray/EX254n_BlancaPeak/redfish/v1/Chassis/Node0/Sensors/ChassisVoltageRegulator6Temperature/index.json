@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator6Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator6Temperature",
+    "Name": "48V->12V Converter",
+    "Oem": {
+        "Index": 6,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "VRM1"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 33,
+    "ReadingTime": "2024-04-04T14:12:14.818909920Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

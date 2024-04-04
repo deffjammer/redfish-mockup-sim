@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"1705598612\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Recovery",
+    "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
+    "Description": "System Recovery Image",
+    "Id": "Recovery",
+    "Name": "Recovery",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "nc.0.0-collumb-dev.arm.2023-03-08T23:16:19+00:00.097ca1a1-dirty"
+}

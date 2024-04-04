@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/556",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2024-03-13T15:22:25+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2024-03-13T15:22:25+00:00",
+    "Id": "556",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator1OutputVoltage"
+        }
+    },
+    "Message": "All hardware reported near fatal faults have been cleared for CG1 Module 0 ECB Voltage.",
+    "MessageArgs": [
+        "CG1 Module 0 ECB Voltage"
+    ],
+    "MessageId": "CrayAlerts.HardwareFatalFaultCleared",
+    "Name": "Log entry 556",
+    "Severity": "OK"
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator3OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator3OutputCurrent",
+    "Name": "CG1 Module 2 ECB",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U82"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 3.5054,
+    "ReadingTime": "2024-04-04T14:12:12.305639493Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 30
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 35
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 40
+        }
+    }
+}

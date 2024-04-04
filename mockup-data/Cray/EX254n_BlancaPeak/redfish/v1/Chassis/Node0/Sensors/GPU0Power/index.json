@@ -1,0 +1,14 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/GPU0Power",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "GPU0Power",
+    "Name": "gpupower0",
+    "Oem": {
+        "Index": 0
+    },
+    "PhysicalContext": "GPU",
+    "ReadingTime": "2024-02-07T19:21:28.189219807Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

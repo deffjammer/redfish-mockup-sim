@@ -1,0 +1,11 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/PowerSubsystem/PowerSupplies/PowerSupply0",
+    "@odata.type": "#PowerSupply.v1_4_0.PowerSupply",
+    "Name": "PowerSupply",
+    "SerialNumber": ">\u00b6\u0004",
+    "Status": {
+        "Health": "OK"
+    },
+    "Version": "4.08"
+}

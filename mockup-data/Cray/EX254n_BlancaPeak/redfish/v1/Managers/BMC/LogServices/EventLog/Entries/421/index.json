@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/421",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2024-02-13T16:36:07+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2024-02-13T16:36:07+00:00",
+    "Id": "421",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/Node0"
+        }
+    },
+    "Message": "UEFI error detected: Minor error code 0xC101A000",
+    "MessageArgs": [
+        "Minor error code 0xC101A000"
+    ],
+    "MessageId": "CrayUefi.GeneralUefiError",
+    "Name": "Log entry 421",
+    "Severity": "OK"
+}

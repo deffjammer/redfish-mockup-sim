@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"1711545588\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors/ChassisVoltageRegulator2OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator2OutputCurrent",
+    "Name": "3V3_STBY_HSS",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U254"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 2.4375,
+    "ReadingTime": "2024-04-04T14:11:48.301589917Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A"
+}

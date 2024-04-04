@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Processors/CPU0",
+    "@odata.type": "#Processor.v1_7_0.Processor",
+    "Id": "CPU0",
+    "Manufacturer": "NVIDIA",
+    "MaxSpeedMHz": 0,
+    "MaxTDPWatts": 0,
+    "Model": "Grace A01",
+    "Name": "Processor",
+    "ProcessorId": {
+        "EffectiveFamily": "ARMv8",
+        "EffectiveModel": "0x00",
+        "Step": "0x0",
+        "VendorId": "NVIDIA"
+    },
+    "ProcessorType": "CPU",
+    "SerialNumber": "0x000000017820B1C614000000170201C0",
+    "Socket": "CPU0",
+    "Status": {
+        "Health": "OK"
+    },
+    "TDPWatts": 0,
+    "TotalCores": 72,
+    "TotalThreads": 72
+}

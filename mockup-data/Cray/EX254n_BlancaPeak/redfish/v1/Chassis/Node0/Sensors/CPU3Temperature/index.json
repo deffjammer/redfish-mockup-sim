@@ -1,0 +1,27 @@
+{
+    "@odata.etag": "W/\"1712239920\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU3Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU3Temperature",
+    "Name": "CPU3",
+    "Oem": {
+        "Index": 3
+    },
+    "PhysicalContext": "CPU",
+    "Reading": 33.531,
+    "ReadingRangeMax": -1,
+    "ReadingRangeMin": -1,
+    "ReadingTime": "2024-04-04T14:12:08.699416514Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 90
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": -1
+        }
+    }
+}

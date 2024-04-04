@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"1705598612\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure",
+    "@odata.type": "#Chassis.v1_5_1.Chassis",
+    "ChassisType": "Enclosure",
+    "Description": "BlancaPeakNC",
+    "Id": "Enclosure",
+    "Manufacturer": "HPE",
+    "Model": "BlancaPeakNC",
+    "Name": "Enclosure",
+    "Oem": {
+        "Alarms": {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms"
+        },
+        "TriggeredAlarms": []
+    },
+    "PartNumber": "P52291-002.B",
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors"
+    },
+    "SerialNumber": "FP23080017",
+    "Status": {
+        "Health": "Critical",
+        "State": "Enabled"
+    }
+}
