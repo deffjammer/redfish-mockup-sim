@@ -1,9 +1,0 @@
-{
-    "@odata.context": "/redfish/v1/$metadata#MetricReportCollection.MetricReportCollection",
-    "@odata.etag": "\"1701279012\"",
-    "@odata.id": "/redfish/v1/TelemetryService/MetricReports",
-    "@odata.type": "#MetricReportCollection.MetricReportCollection",
-    "Members": [],
-    "Members@odata.count": 0,
-    "Name": "MetricReports"
-}

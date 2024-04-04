@@ -1,9 +1,0 @@
-{
-    "@odata.context": "/redfish/v1/$metadata#ActionInfo.ActionInfo",
-    "@odata.etag": "\"1711483707\"",
-    "@odata.id": "/redfish/v1/UpdateService/UploadFirmwareImageActionInfo",
-    "@odata.type": "#ActionInfo.v1_1_2.ActionInfo",
-    "Description": "This action is used to upload the BMC firmware image in multipart/form-data request body providing key name as image_file and type as File.",
-    "Id": "UploadFirmwareImageActionInfo",
-    "Name": "UploadFirmwareImageActionInfo"
-}
