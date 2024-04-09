@@ -16,3 +16,6 @@
 [submodule "Redfish-Interop-Validator"]
 	path = Redfish-Interop-Validator
 	url = https://github.com/DMTF/Redfish-Interop-Validator.git
+[submodule "csm-redfish-interface-emulator"]
+	path = csm-redfish-interface-emulator
+	url = https://github.com/Cray-HPE/csm-redfish-interface-emulator.git
