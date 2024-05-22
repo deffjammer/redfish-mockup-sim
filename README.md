@@ -64,7 +64,7 @@ Running against MockupServer
 
 # This is run in the Redfish-Interop-Validator directory created from redfish-validator-profiles steps in redfish-validator-profiles/README.md
  python3 RedfishInteropValidator.py -c config/CSM.ini -i http://0.0.0.0:443 ../redfish-validator-profiles/profiles/CSMRedfishProfile.v1_2_0.json -p initial0
-
+ python3 RedfishInteropValidator.py -c config/HPCM.ini -i https://10.14.56.16 ./HPCMRedfishProfile.v1_0_0.json -u root -p 0penBmc
 ```
 
 Results are in logs/
